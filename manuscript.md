@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-05" />
   <meta name="citation_publication_date" content="2023-10-05" />
   <meta property="article:published_time" content="2023-10-05" />
-  <meta name="dc.modified" content="2023-10-05T18:03:51+00:00" />
-  <meta property="article:modified_time" content="2023-10-05T18:03:51+00:00" />
+  <meta name="dc.modified" content="2023-10-05T18:23:11+00:00" />
+  <meta property="article:modified_time" content="2023-10-05T18:23:11+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/b5205709950e647545f6337adf8de41bde31726a/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/b5205709950e647545f6337adf8de41bde31726a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/b5205709950e647545f6337adf8de41bde31726a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/6d5e5ec0beaae0a2b41e95f4fd9093c72cc27511/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/6d5e5ec0beaae0a2b41e95f4fd9093c72cc27511/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/6d5e5ec0beaae0a2b41e95f4fd9093c72cc27511/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -53,8 +53,8 @@ manubot-clear-requests-cache: false
 ...
 
 ---
-title: Documento de Arquitectura Migración Funcional PGN SIU
-subtitle: OP 078-2023 - Fase 2, PGN Migración Funcional SIU
+title: Documento de Arquitectura Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva
+subtitle: Mi Mutual Coomeva - Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva
 geometry:
   - top=1in
   - bottom=1in
@@ -77,11 +77,11 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.b520570 de 05 Oct 2023
+| **Versión** del producto 1.6d5e5ec de 05 Oct 2023
 
 | **Presentado a**
 
-| Procuraduría General de la Nación (PGN)
+| STEF - Coomeva
 
 |
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, Migración Funcional SIU, Contrato 078-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/b5205709950e647545f6337adf8de41bde31726a/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/6d5e5ec0beaae0a2b41e95f4fd9093c72cc27511/))
 están basados en el resultado de la Fase 1 del proyecto PGN SIU del 2022,
-[Sharepoint Softgic@b520570](http://softgic.sharepoint.com)
+[Sharepoint Softgic@6d5e5ec](http://softgic.sharepoint.com)
 del October 5, 2023.
 </em></small>
 
@@ -138,9 +138,9 @@ del October 5, 2023.
 
 <small><em>
 This manuscript
-([permalink](https://hwong23.github.io/stef-arqcomv/v/b5205709950e647545f6337adf8de41bde31726a/))
+([permalink](https://hwong23.github.io/stef-arqcomv/v/6d5e5ec0beaae0a2b41e95f4fd9093c72cc27511/))
 was automatically generated
-from [hwong23/stef-arqcomv@b520570](https://github.com/hwong23/stef-arqcomv/tree/b5205709950e647545f6337adf8de41bde31726a)
+from [hwong23/stef-arqcomv@6d5e5ec](https://github.com/hwong23/stef-arqcomv/tree/6d5e5ec0beaae0a2b41e95f4fd9093c72cc27511)
 on October 5, 2023.
 </em></small>
 
@@ -176,12 +176,12 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 <br>
 
 ##  Control de Cambios {.page_break_before}
-| Tema           | OP 078-2023 Fase 2, PGN Migración Funcional SIU      |
+| Tema           | Mi Mutual Coomeva Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva      |
 |----------------|----------------------------|
 | Palabras clave | SIU, Softgic, PGN, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.b520570 del 05 Oct 2023 |
+| Versión        | 1.6d5e5ec del 05 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
@@ -207,7 +207,7 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 # Introducción
 
 ## Propósito
-Este documento tiene como propósito presentar la arquitectura del aplicativo Sistema Único de Información (SUI) para Procuraduría General de la Nación (PGN). según los requerimientos definidos durante la etapa de preventa y luego detallados en las historias de usuario.
+Este documento tiene como propósito presentar la arquitectura del aplicativo Mi Mutual para STEF - Coomeva. según los requerimientos definidos durante la etapa de preventa y luego detallados en las historias de usuario.
 
 La arquitectura será una guía para que el diseño y la implementación de los componentes que conforman la solución sean cobijados bajo lineamientos y premisas bien definidos, permitiendo a los elementos del sistema interactuar entre sí de forma coherente. La arquitectura será tomada como un diseño estratégico que establece restricciones globales para el diseño, define un marco inicial de trabajo para la implementación de los requerimientos funcionales y no funcionales.
 
@@ -229,7 +229,7 @@ Lista de restricciones de la migración SUI, 2023.
 
 1. Restricciones de hardware o software en servidores. Los equipos de infraestructura del proyecto actual a tener en cuenta en los diseños de la solución de esta Fase 2 serán los mismos de la anterior Fase 1. Esto es, los que están descritos en el anexo técnico del contrato del proyecto.
 1. Disponibilidad de recursos. Los recursos de implementación y validación de calidad de esta Fase del proyecto son los mismos a tener en cuenta en los diseños de la solución de esta Fase 2. Otros recursos a considerar son los descritos en el anexo técnico del contrato del proyecto.
-1. Estándares. Los estándares seleccionados por la solución de este proyecto, (Fase 2, PGN Migración Funcional SIU, están determinados por el uso de las plataformas específicas determinadas por la implementación (desarrollo del software).
+1. Estándares. Los estándares seleccionados por la solución de este proyecto, (Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva, están determinados por el uso de las plataformas específicas determinadas por la implementación (desarrollo del software).
 1. Requerimientos de interoperabilidad. Los recursos de interoperabilidad y colaboración entre sistemas, módulos, submódulos y aplicaciones de terceros relacionados con esta Fase del proyecto son los mismos a tener en cuenta en los diseños de la solución de esta Fase 2. Otros recursos a considerar son los descritos en el anexo técnico del contrato del proyecto.
 1. Requerimientos de protocolos o interfaces. Los recursos de red, y protocolos de comunicación o transporte de esta Fase del proyecto a tener en cuenta en los diseños de la solución de esta Fase 2 parten de la base de los considerados en la anterior Fase 1. Otros recursos a considerar son los descritos en el anexo técnico del contrato del proyecto.
 1. Seguridad. Las restricciones de seguridad del proyecto actual a tener en cuenta en los diseños de la solución de esta Fase 2 parten de la base de las de la anterior Fase 1. Esto es, los que están descritos en el anexo técnico del contrato del proyecto.
@@ -247,7 +247,7 @@ Otras restricciones a detallar.
 
 
 # Requisitos de Arquitectura (no funcional)
-Entendemos como requisitos de arquitectura aquellos requerimientos no visibles pero estructurales, medibles, y que impactan al funcionamiento, desarrollo y mantenimiento de la solución migración SUI, objeto de este proyecto, OP 078-2023.
+Entendemos como requisitos de arquitectura aquellos requerimientos no visibles pero estructurales, medibles, y que impactan al funcionamiento, desarrollo y mantenimiento de la solución migración SUI, objeto de este proyecto, Mi Mutual Coomeva.
  
 Definiremos estos requisitos de la solución a tener en cuenta al momento del desarrollo.
 
@@ -1441,7 +1441,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 
 ---
 title: Documento de Arquitectura Migración Funcional PGN SIU
-subtitle: OP 078-2023 - Fase 2, PGN Migración Funcional SIU
+subtitle: Mi Mutual Coomeva - Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva
 geometry:
   - top=1in
   - bottom=1in
@@ -1466,11 +1466,11 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.b520570 de 05 Oct 2023
+| **Versión** del producto 1.6d5e5ec de 05 Oct 2023
 
 | **Presentado a**
 
-| Procuraduría General de la Nación (PGN)
+| STEF - Coomeva
 
 |
 
@@ -1490,12 +1490,12 @@ Descripción de los productos del trabajo de infraestructura del proyecto Migrac
 <br>
 
 ##  Control de Cambios {.page_break_before}
-| Tema           | OP 078-2023 Fase 2, PGN Migración Funcional SIU      |
+| Tema           | Mi Mutual Coomeva Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva      |
 |----------------|----------------------------|
 | Palabras clave | SIU, Softgic, PGN, Análisis de brecha, GAP, Infraestrctura, PasS |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.b520570 del 05 Oct 2023 |
+| Versión        | 1.6d5e5ec del 05 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
@@ -1659,7 +1659,7 @@ Con una arquitectura orientada a servicios SUI recopila:
 
 ---
 title: Documento de Arquitectura Migración Funcional PGN SIU
-subtitle: OP 078-2023 - Fase 2, PGN Migración Funcional SIU
+subtitle: Mi Mutual Coomeva - Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva
 geometry:
   - top=1in
   - bottom=1in
@@ -1684,11 +1684,11 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.b520570 de 05 Oct 2023
+| **Versión** del producto 1.6d5e5ec de 05 Oct 2023
 
 | **Presentado a**
 
-| Procuraduría General de la Nación (PGN)
+| STEF - Coomeva
 
 |
 
@@ -1709,12 +1709,12 @@ Descripción de los productos de trabajo de la arquitectura de datos del proyect
 <br>
 
 ##  Control de Cambios {.page_break_before}
-| Tema           | OP 078-2023 Fase 2, PGN Migración Funcional SIU      |
+| Tema           | Mi Mutual Coomeva Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva      |
 |----------------|----------------------------|
 | Palabras clave | SIU, Softgic, PGN, Análisis de brecha, GAP, Entidades, Datos  |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.b520570 del 05 Oct 2023 |
+| Versión        | 1.6d5e5ec del 05 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
