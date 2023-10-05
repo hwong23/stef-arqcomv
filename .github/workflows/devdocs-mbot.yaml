@@ -1,4 +1,4 @@
-name: pgn-078
+name: stef-cmmva
 on:
   push:
     branches:
@@ -36,7 +36,7 @@ on:
         default: true
 jobs:
   devdocs:
-    name: pgn078-arq
+    name: stef-cmmva-arq
     runs-on: ubuntu-latest
     env:
       GITHUB_PULL_REQUEST_SHA: ${{ github.event.pull_request.head.sha }}
@@ -70,10 +70,10 @@ jobs:
           echo "DEFAULT_BRANCH_REF=refs/heads/$DEFAULT_BRANCH" >> $GITHUB_ENV
           echo "DEFAULT_BRANCH=$DEFAULT_BRANCH"
           echo "COMPILATION_DATE=$(date +'%d %b %Y')" >> $GITHUB_ENV
-          echo "PROYECTO=OP 078-2023" >> $GITHUB_ENV
-          echo "PROY_DESCR=Fase 2, PGN Migración Funcional SIU" >> $GITHUB_ENV
-          echo "APLICATIVO=Sistema Único de Información (SUI)" >> $GITHUB_ENV
-          echo "CLIENTE=Procuraduría General de la Nación (PGN)" >> $GITHUB_ENV
+          echo "PROYECTO=Mi Mutual Coomeva" >> $GITHUB_ENV
+          echo "PROY_DESCR=Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva" >> $GITHUB_ENV
+          echo "APLICATIVO=Mi Mutual" >> $GITHUB_ENV
+          echo "CLIENTE=STEF - Coomeva" >> $GITHUB_ENV
           
       - name: Cache
         uses: actions/cache@v3
