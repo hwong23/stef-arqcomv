@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-05" />
   <meta name="citation_publication_date" content="2023-10-05" />
   <meta property="article:published_time" content="2023-10-05" />
-  <meta name="dc.modified" content="2023-10-05T18:23:11+00:00" />
-  <meta property="article:modified_time" content="2023-10-05T18:23:11+00:00" />
+  <meta name="dc.modified" content="2023-10-05T18:32:19+00:00" />
+  <meta property="article:modified_time" content="2023-10-05T18:32:19+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/6d5e5ec0beaae0a2b41e95f4fd9093c72cc27511/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/6d5e5ec0beaae0a2b41e95f4fd9093c72cc27511/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/6d5e5ec0beaae0a2b41e95f4fd9093c72cc27511/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/03959732e0a433289bd948c90d551c510e17a51a/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/03959732e0a433289bd948c90d551c510e17a51a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/03959732e0a433289bd948c90d551c510e17a51a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -53,7 +53,7 @@ manubot-clear-requests-cache: false
 ...
 
 ---
-title: Documento de Arquitectura Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva
+title: Documento de Arquitectura Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva, STEF - Coomeva
 subtitle: Mi Mutual Coomeva - Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva
 geometry:
   - top=1in
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.6d5e5ec de 05 Oct 2023
+| **Versión** del producto 1.0395973 de 05 Oct 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, Migración Funcional SIU, Contrato 078-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/6d5e5ec0beaae0a2b41e95f4fd9093c72cc27511/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/03959732e0a433289bd948c90d551c510e17a51a/))
 están basados en el resultado de la Fase 1 del proyecto PGN SIU del 2022,
-[Sharepoint Softgic@6d5e5ec](http://softgic.sharepoint.com)
+[Sharepoint Softgic@0395973](http://softgic.sharepoint.com)
 del October 5, 2023.
 </em></small>
 
@@ -138,9 +138,9 @@ del October 5, 2023.
 
 <small><em>
 This manuscript
-([permalink](https://hwong23.github.io/stef-arqcomv/v/6d5e5ec0beaae0a2b41e95f4fd9093c72cc27511/))
+([permalink](https://hwong23.github.io/stef-arqcomv/v/03959732e0a433289bd948c90d551c510e17a51a/))
 was automatically generated
-from [hwong23/stef-arqcomv@6d5e5ec](https://github.com/hwong23/stef-arqcomv/tree/6d5e5ec0beaae0a2b41e95f4fd9093c72cc27511)
+from [hwong23/stef-arqcomv@0395973](https://github.com/hwong23/stef-arqcomv/tree/03959732e0a433289bd948c90d551c510e17a51a)
 on October 5, 2023.
 </em></small>
 
@@ -181,7 +181,7 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | Palabras clave | SIU, Softgic, PGN, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.6d5e5ec del 05 Oct 2023 |
+| Versión        | 1.0395973 del 05 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
@@ -225,7 +225,7 @@ Uno de los principales propósitos de este documento es hacer una representació
 # Restricciones Principales
 Informamos de las restricciones que hacen parte del proyecto, y por tanto, a considera en el ejercicio de arquitectura del presente proyecto.
 
-Lista de restricciones de la migración SUI, 2023.
+Lista de restricciones de la migración Mi Mutual, 2023.
 
 1. Restricciones de hardware o software en servidores. Los equipos de infraestructura del proyecto actual a tener en cuenta en los diseños de la solución de esta Fase 2 serán los mismos de la anterior Fase 1. Esto es, los que están descritos en el anexo técnico del contrato del proyecto.
 1. Disponibilidad de recursos. Los recursos de implementación y validación de calidad de esta Fase del proyecto son los mismos a tener en cuenta en los diseños de la solución de esta Fase 2. Otros recursos a considerar son los descritos en el anexo técnico del contrato del proyecto.
@@ -247,13 +247,13 @@ Otras restricciones a detallar.
 
 
 # Requisitos de Arquitectura (no funcional)
-Entendemos como requisitos de arquitectura aquellos requerimientos no visibles pero estructurales, medibles, y que impactan al funcionamiento, desarrollo y mantenimiento de la solución migración SUI, objeto de este proyecto, Mi Mutual Coomeva.
+Entendemos como requisitos de arquitectura aquellos requerimientos no visibles pero estructurales, medibles, y que impactan al funcionamiento, desarrollo y mantenimiento de la solución migración Mi Mutual, objeto de este proyecto, Mi Mutual Coomeva.
  
 Definiremos estos requisitos de la solución a tener en cuenta al momento del desarrollo.
 
 ## Requerimientos generales
 1. **Parametrización**. Crear desarrollos parametrizables necesarios para permitir la administración de la información de uso general.
-1. **Interoperabilidad**. Crear desarrollos de SUI interoperables con otros sistemas de información de la entidad según requerimientos de los procesos.
+1. **Interoperabilidad**. Crear desarrollos de Mi Mutual interoperables con otros sistemas de información de la entidad según requerimientos de los procesos.
 1. **Diseño**. Los desarrollos complementarios deben responder a los criterios de bajo acoplamiento y alta cohesión.
 1. **Reglas de negocio**. Las soluciones deben disponer de todas las validaciones y controles que garanticen la calidad, seguridad y unicidad de la información.
 1. Para los casos que aplique, la solución debe contar con una integración con el servicio de correo de la Entidad.
@@ -265,338 +265,41 @@ Definiremos estos requisitos de la solución a tener en cuenta al momento del de
 
 ## Requisitos Particulares de Arquitectura (no funcional) 
 
-### Consistencia SUI (lógica)
+### Consistencia Mi Mutual (lógica)
 
-| Requisito      | Extensibilidad SUI |
+| Requisito      | Extensibilidad Mi Mutual |
 |----------------|--------------------|
-| Descripción | Unifica las entidades de negocio PGN, entre las que se incluyen a conciliaciones, publicaciones de relatoría, resoluciones, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del SUI, estarán concentradas en un único artefacto correspondiente. |
-| Calidad sistémica | La consistencia persigue que el resultado de la lógica de negocio sea la misma entre los módulos del SUI migrado. Esto redunda a mantenibilidad y gestión: tiende a tener un solo punto de cambio y dificulta la transferencia de dependencias implícitas a otros procesos. |
+| Descripción | Unifica las entidades de negocio PGN, entre las que se incluyen a conciliaciones, publicaciones de relatoría, resoluciones, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del Mi Mutual, estarán concentradas en un único artefacto correspondiente. |
+| Calidad sistémica | La consistencia persigue que el resultado de la lógica de negocio sea la misma entre los módulos del Mi Mutual migrado. Esto redunda a mantenibilidad y gestión: tiende a tener un solo punto de cambio y dificulta la transferencia de dependencias implícitas a otros procesos. |
 
-Table: Requisito no. 1, Migración SUI, Consistencia. {#tbl:requisito1-id}
+Table: Requisito no. 1, Migración Mi Mutual, Consistencia. {#tbl:requisito1-id}
 
-### Mantenibilidad SUI
+### Mantenibilidad Mi Mutual
 
-| Requisito      | Mantenibilidad SUI |
+| Requisito      | Mantenibilidad Mi Mutual |
 |----------------|--------------------|
-| Descripción | Evitar las dependencia transitivas de los módulos misionales del SUI a componentes y sistemas de terceros o submódulos no misionales.  |
-| Calidad sistémica | La mantenibilidad por control de dependencias que optimiza el diseño Migración SUI está dada por el control de cambios no programados sobre los componentes misionales del SUI (corrupción de componentes). Ver Patrón de Diseño Migración SUI, más adelante en el documento. |
+| Descripción | Evitar las dependencia transitivas de los módulos misionales del Mi Mutual a componentes y sistemas de terceros o submódulos no misionales.  |
+| Calidad sistémica | La mantenibilidad por control de dependencias que optimiza el diseño Migración Mi Mutual está dada por el control de cambios no programados sobre los componentes misionales del Mi Mutual (corrupción de componentes). Ver Patrón de Diseño Migración Mi Mutual, más adelante en el documento. |
 
-Table: Requisito no. 2, Mantenibilidad SUI. {#tbl:requisito2-id}
+Table: Requisito no. 2, Mantenibilidad Mi Mutual. {#tbl:requisito2-id}
 
-### Extensibilidad SUI
+### Extensibilidad Mi Mutual
 
-| Requisito      | Extensibilidad SUI |
+| Requisito      | Extensibilidad Mi Mutual |
 |----------------|--------------------|
-| Descripción | Concentración de los componentes de negocio, misionales, del SUI protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Migración SUI, más adelante en el documento. |
-| Calidad sistémica | La extensibilidad que optimiza el diseño Migración SUI está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege. |
+| Descripción | Concentración de los componentes de negocio, misionales, del Mi Mutual protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Migración Mi Mutual, más adelante en el documento. |
+| Calidad sistémica | La extensibilidad que optimiza el diseño Migración Mi Mutual está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege. |
 
-Table: Requisito no. 3, Migración SUI, Flexibilidad. {#tbl:requisito3-id}
+Table: Requisito no. 3, Migración Mi Mutual, Flexibilidad. {#tbl:requisito3-id}
 
 
-This manuscript is a template (aka "rootstock") for [Manubot](https://manubot.org/ "Manubot"), a tool for writing scholarly manuscripts.
-Use this template as a starting point for your manuscript.
-
-The rest of this document is a full list of formatting elements/features supported by Manubot.
-Compare the input (`.md` files in the `/content` directory) to the output you see below.
-
-## Basic formatting
-
-**Bold** __text__
-
-[Semi-bold text]{.semibold}
-
-[Centered text]{.center}
-
-[Right-aligned text]{.right}
-
-*Italic* _text_
-
-Combined *italics and __bold__*
-
-~~Strikethrough~~
-
-1. Ordered list item
-2. Ordered list item
-    a. Sub-item
-    b. Sub-item
-        i. Sub-sub-item
-3. Ordered list item
-    a. Sub-item
-
-- List item
-- List item
-- List item
-
-subscript: H~2~O is a liquid
-
-superscript: 2^10^ is 1024.
-
-[unicode superscripts](https://www.google.com/search?q=superscript+generator)⁰¹²³⁴⁵⁶⁷⁸⁹
-
-[unicode subscripts](https://www.google.com/search?q=superscript+generator)₀₁₂₃₄₅₆₇₈₉
-
-A long paragraph of text.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Putting each sentence on its own line has numerous benefits with regard to [editing](https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line) and [version control](https://rhodesmill.org/brandon/2012/one-sentence-per-line/).
-
-Line break without starting a new paragraph by putting  
-two spaces at end of line.
-
-## Document organization
-
-Document section headings:
-
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-### A heading centered on its own printed page{.center .page_center}
-
-<!-- an arbitrary comment. visible in input, but not visible in output. -->
-
-Horizontal rule:
-
----
-
-`Heading 1`'s are recommended to be reserved for the title of the manuscript.
-
-`Heading 2`'s are recommended for broad sections such as *Abstract*, *Methods*, *Conclusion*, etc.
-
-`Heading 3`'s and `Heading 4`'s are recommended for sub-sections.
-
-## Links
-
-Bare URL link: <https://manubot.org>
-
-[Long link with lots of words and stuff and junk and bleep and blah and stuff and other stuff and more stuff yeah](https://manubot.org)
-
-[Link with text](https://manubot.org)
-
-[Link with hover text](https://manubot.org "Manubot Homepage")
-
-[Link by reference][manubot homepage]
-
-[Manubot Homepage]: https://manubot.org
-
-## Citations
-
-Citation by DOI [@doi:10.7554/eLife.32822].
-
-Citation by PubMed Central ID [@pmc:PMC6103790].
-
-Citation by PubMed ID [@pubmed:30718888].
-
-Citation by Wikidata ID [@wikidata:Q56458321].
-
-Citation by ISBN [@isbn:9780262517638].
-
-Citation by URL [@{https://greenelab.github.io/meta-review/}].
-
-Citation by alias [@deep-review].
-
-Multiple citations can be put inside the same set of brackets [@doi:10.7554/eLife.32822; @deep-review; @isbn:9780262517638].
-Manubot plugins provide easier, more convenient visualization of and navigation between citations [@doi:10.1371/journal.pcbi.1007128; @pubmed:30718888; @pmc:PMC6103790; @deep-review].
-
-Citation tags (i.e. aliases) can be defined in their own paragraphs using Markdown's reference link syntax:
-
-[@deep-review]: doi:10.1098/rsif.2017.0387
-
-## Referencing figures, tables, equations
-
-Figure @fig:square-image
-
-Figure @fig:wide-image
-
-Figure @fig:tall-image
-
-Figure @fig:vector-image
-
-Table @tbl:bowling-scores
-
-Equation @eq:regular-equation
-
-Equation @eq:long-equation
-
-## Quotes and code
-
-> Quoted text
-
-> Quoted block of text
->
-> Two roads diverged in a wood, and I—  
-> I took the one less traveled by,  
-> And that has made all the difference.
-
-Code `in the middle` of normal text, aka `inline code`.
-
-Code block with Python syntax highlighting:
-
-```python
-from manubot.cite.doi import expand_short_doi
-
-def test_expand_short_doi():
-    doi = expand_short_doi("10/c3bp")
-    # a string too long to fit within page:
-    assert doi == "10.25313/2524-2695-2018-3-vliyanie-enhansera-copia-i-insulyatora-gypsy-na-sintez-ernk-modifikatsii-hromatina-i-svyazyvanie-insulyatornyh-belkov-vtransfetsirovannyh-geneticheskih-konstruktsiyah"
-```
-
-Code block with no syntax highlighting:
-
-```
-Exporting HTML manuscript
-Exporting DOCX manuscript
-Exporting PDF manuscript
-```
-
-## Figures
-
-![
-**A square image at actual size and with a bottom caption.**
-Loaded from the latest version of image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/square.png "Square image"){#fig:square-image}
-
-![
-**An image too wide to fit within page at full size.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/wide.png "Wide image"){#fig:wide-image}
-
-![
-**A tall image with a specified height.**
-Loaded from a specific (hashed) version of the image on GitHub.
-](https://github.com/manubot/resources/raw/15493970f8882fce22bef829619d3fb37a613ba5/test/tall.png "Tall image"){#fig:tall-image height=3in}
-
-![
-**A vector `.svg` image loaded from GitHub.**
-The parameter `sanitize=true` is necessary to properly load SVGs hosted via GitHub URLs.
-White background specified to serve as a backdrop for transparent sections of the image.
-Note that if you want to export to Word (`.docx`), you need to download the image and reference it locally (e.g. `content/images/vector.svg`) instead of using a URL.
-](https://raw.githubusercontent.com/manubot/resources/main/test/vector.svg?sanitize=true "Vector image"){#fig:vector-image height=2.5in .white}
-
-## Tables
-
-| *Bowling Scores* | Jane          | John          | Alice         | Bob           |
-|:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
-| Game 1 | 150 | 187 | 210 | 105 |
-| Game 2 |  98 | 202 | 197 | 102 |
-| Game 3 | 123 | 180 | 238 | 134 |
-
-Table: A table with a top caption and specified relative column widths.
-{#tbl:bowling-scores}
-
-|         | Digits 1-33                        | Digits 34-66                      | Digits 67-99                      | Ref.                                                        |
-|:--------|:-----------------------------------|:----------------------------------|:----------------------------------|:------------------------------------------------------------|
-| pi      | 3.14159265358979323846264338327950 | 288419716939937510582097494459230 | 781640628620899862803482534211706 | [`piday.org`](https://www.piday.org/million/)               |
-| e       | 2.71828182845904523536028747135266 | 249775724709369995957496696762772 | 407663035354759457138217852516642 | [`nasa.gov`](https://apod.nasa.gov/htmltest/gifcity/e.2mil) |
-
-Table: A table too wide to fit within page.
-{#tbl:constant-digits}
-
-|          | **Colors** <!-- ="2" --> |                      |
-|:--------:|:--------------------------------:|:--------------------:|
-| **Size** | **Text Color**                   | **Background Color** |
-| big      | blue                             | orange               |
-| small    | black                            | white                |
-
-Table: A table with merged cells using the `attributes` plugin.
-{#tbl: merged-cells}
-
-## Equations
-
-A LaTeX equation:
-
-$$\int_0^\infty e^{-x^2} dx=\frac{\sqrt{\pi}}{2}$$ {#eq:regular-equation}
-
-An equation too long to fit within page:
-
-$ = a + b + c + d + e + f + g + h + i + j + k + l + m + n + o + p + q + r + s + t + u + v + w + x + y + z + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9$$ {#eq:long-equation}
-
-## Special
-
-<i class="fas fa-exclamation-triangle"></i> [WARNING]{.semibold} _The following features are only supported and intended for `.html` and `.pdf` exports._
-_Journals are not likely to support them, and they may not display correctly when converted to other formats such as `.docx`._
-
-[Link styled as a button](https://manubot.org "Manubot Homepage"){.button}
-
-Adding arbitrary HTML attributes to an element using Pandoc's attribute syntax:
-
-::: {#some_id_1 .some_class style="background: #ad1457; color: white; margin-left: 40px;" title="a paragraph of text" data-color="white" disabled="true"}
-Manubot Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot.
-Manubot Manubot.
-Manubot.
-:::
-
-Adding arbitrary HTML attributes to an element with the Manubot `attributes` plugin (more flexible than Pandoc's method in terms of which elements you can add attributes to):
-
-Manubot Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot Manubot.
-Manubot Manubot Manubot.
-Manubot Manubot.
-Manubot.
-<!-- ="element_id" class="some_class" ="color: #ad1457; margin-left: 40px;" ="true" ="a paragraph of text" -color="red" -->
-
-Available background colors for text, images, code, banners, etc:  
-
-`white`{.white}
-`lightgrey`{.lightgrey}
-`grey`{.grey}
-`darkgrey`{.darkgrey}
-`black`{.black}
-`lightred`{.lightred}
-`lightyellow`{.lightyellow}
-`lightgreen`{.lightgreen}
-`lightblue`{.lightblue}
-`lightpurple`{.lightpurple}
-`red`{.red}
-`orange`{.orange}
-`yellow`{.yellow}
-`green`{.green}
-`blue`{.blue}
-`purple`{.purple}
-
-Using the [Font Awesome](https://fontawesome.com/) icon set:
-
-<!-- include the Font Awesome library, per: https://fontawesome.com/start -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-
-<i class="fas fa-check"></i> <i class="fas fa-question"></i> <i class="fas fa-star"></i> <i class="fas fa-bell"></i> <i class="fas fa-times-circle"></i> <i class="fas fa-ellipsis-h"></i>
-
-[
-<i class="fas fa-scroll fa-lg"></i> **Light Grey Banner**<br>
-useful for *general information* - [manubot.org](https://manubot.org/)
-]{.banner .lightgrey}
-
-[
-<i class="fas fa-info-circle fa-lg"></i> **Blue Banner**<br>
-useful for *important information* - [manubot.org](https://manubot.org/)
-]{.banner .lightblue}
-
-[
-<i class="fas fa-ban fa-lg"></i> **Light Red Banner**<br>
-useful for *warnings* - [manubot.org](https://manubot.org/)
-]{.banner .lightred}
-
-
-# Doc.3.Migración Funcional SUI
-* [Patrón de Diseño Línea Base SUI PGN](#patrón-de-diseño-línea-base-sui-pgn)
+# Doc.3.Migración Funcional Mi Mutual
+* [Patrón de Diseño Línea Base Mi Mutual PGN](#patrón-de-diseño-línea-base-Mi Mutual-pgn)
 	* [Lineabase.0.SIU applicación](#lineabase.0.siu-applicación)
 	* [Lineabase.1.SIU componente](#lineabase.1.siu-componente)
 	* [Lineabase.1a.SIU componentes. infraestrcutura](#lineabase.1a.siu-componentes.-infraestrcutura)
 	* [Linebase.2.Portal](#linebase.2.portal)
-* [Patrón de Diseño Migración SUI PGN](#patrón-de-diseño-migración-sui-pgn)
+* [Patrón de Diseño Migración Mi Mutual PGN](#patrón-de-diseño-migración-Mi Mutual-pgn)
 	* [Migracion.1a.SIU módulos](#migracion.1a.siu-módulos)
 	* [Migracion.1b.SIU módulos componentes](#migracion.1b.siu-módulos-componentes)
 	* [Migracion.1c.SIU modulos colaboración](#migracion.1c.siu-modulos-colaboración)
@@ -606,7 +309,7 @@ useful for *warnings* - [manubot.org](https://manubot.org/)
 	* [Organización. 2n.1a. Mapa producto PGN. Conciliacion](#organización.-2n.1a.-mapa-producto-pgn.-conciliacion)
 	* [Organización. 4n.1. Mapa producto PGN. Estratego](#organización.-4n.1.-mapa-producto-pgn.-estratego)
 	* [Organización. 3n.1. Mapa producto PGN. SIAF](#organización.-3n.1.-mapa-producto-pgn.-siaf)
-* [Arquitectura de Seguridad, SUI Migración](#arquitectura-de-seguridad,-sui-migración)
+* [Arquitectura de Seguridad, Mi Mutual Migración](#arquitectura-de-seguridad,-Mi Mutual-migración)
 	* [Seguridad. 1. Requerimientos](#seguridad.-1.-requerimientos)
 	* [Seguridad. Linebase.2.Portal](#seguridad.-linebase.2.portal)
 * [Análisis de Productos](#análisis-de-productos)
@@ -618,15 +321,15 @@ useful for *warnings* - [manubot.org](https://manubot.org/)
 <div style="page-break-before: always;"></div>
 \newpage
 
-# Patrón de Diseño Línea Base SUI PGN
+# Patrón de Diseño Línea Base Mi Mutual PGN
 ## Lineabase.0.SIU applicación
 ![Diagram: Lineabase.0.SIU applicación](images/Lineabase.0.SIUapplicación.png){#fig:Lineabase.0.SIUapplicación width=}
 
-Procuraduría General de la Nación, proyecto Migración SIU, 2023, Fase II. Línea base del sistema único de información (SUI en adelante) de la PGN. Presentación de componentes de software  originales implementados en la Fase I del presente proyecto.
+Procuraduría General de la Nación, proyecto Migración SIU, 2023, Fase II. Línea base del sistema único de información (Mi Mutual en adelante) de la PGN. Presentación de componentes de software  originales implementados en la Fase I del presente proyecto.
 
 
 ## Representación Arquitectónica
-Con una arquitectura orientada a servicios SUI recopila:
+Con una arquitectura orientada a servicios Mi Mutual recopila:
 
 1. Runtime: Es el servicio que interactúa con el usuario final (GUI) elaborado en Angular 11
 1. API Tx: Servicio api rest base node encargado de realizar las transacciones básicas CRUD
@@ -653,7 +356,7 @@ Con una arquitectura orientada a servicios SUI recopila:
 ## Lineabase.1.SIU componente
 ![Diagram: Lineabase.1.SIU componente](images/Lineabase.1.SIUcomponente.png){#fig:Lineabase.1.SIUcomponente width=5.89in}
 
-Distribución de los servicios y paquetes que integran la aplicación de SUI. 
+Distribución de los servicios y paquetes que integran la aplicación de Mi Mutual. 
 
 Cuatro paquetes con tecnologías respectivas
 
@@ -704,20 +407,20 @@ Asuntos de la Migración:
 |**Interfaz de datos 3**|application-service|||
 |**ccccc Proveedores contenidos**|application-service|||
 |**Mensaje: JSON**|data-object|||
-|**PGN SIU**|grouping|El objetivo principal de la arquitectura del SUI de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la PGN.<br>Los objetivos secundarios de esta arquitectura SUI de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br>||
+|**PGN SIU**|grouping|El objetivo principal de la arquitectura del Mi Mutual de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la PGN.<br>Los objetivos secundarios de esta arquitectura Mi Mutual de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br>||
 |**RQR. Administrativos**|requirement|||
 |**RQR. Funcionales**|requirement|||
 |**RQR. Ingeniería**|requirement|||
-|**RQR. Seguridad**|requirement|Requerimientos de seguridad, SUI, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br>||
+|**RQR. Seguridad**|requirement|Requerimientos de seguridad, Mi Mutual, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br>||
 
 ## Lineabase.1a.SIU componentes. infraestrcutura
 ![Diagram: Lineabase.1a.SIU componentes. infraestrcutura](images/Lineabase.1a.SIUcomponentes.infraestrcutura.png){#fig:Lineabase.1a.SIUcomponentes.infraestrcutura width=}
 
-Dependencias de infraestructura entre los servicios que integran el modelo de aplicación de SUI, Migración. 
+Dependencias de infraestructura entre los servicios que integran el modelo de aplicación de Mi Mutual, Migración. 
 
 * Servidor de Canales (App PGN web y móvil)
-* Servidor Web App (App SUI)
-* Servidor Lappiz (Config SUI)
+* Servidor Web App (App Mi Mutual)
+* Servidor Lappiz (Config Mi Mutual)
 * Servidor BDD App (Transaccional)
 * Servidor BDD Config (Configuración)
 
@@ -755,8 +458,8 @@ Dependencias de infraestructura entre los servicios que integran el modelo de ap
 |**Interfaz de datos 3**|application-service|||
 |**ccccc Proveedores contenidos**|application-service|||
 |**Mensaje: JSON**|data-object|||
-|**Infraestructura SUI**|grouping|Soporte de infraestructura a los componentes del SUI Migración. Servidores y ambientes de cómputo para la ejecución del software base de los componentes misionales del SUI de PGN.<br>||
-|**PGN SIU**|grouping|El objetivo principal de la arquitectura del SUI de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la PGN.<br>Los objetivos secundarios de esta arquitectura SUI de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br>||
+|**Infraestructura Mi Mutual**|grouping|Soporte de infraestructura a los componentes del Mi Mutual Migración. Servidores y ambientes de cómputo para la ejecución del software base de los componentes misionales del Mi Mutual de PGN.<br>||
+|**PGN SIU**|grouping|El objetivo principal de la arquitectura del Mi Mutual de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la PGN.<br>Los objetivos secundarios de esta arquitectura Mi Mutual de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br>||
 |**Servidor BDD App**|node|Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz<br>Discos	SO C: 126 GB, Backup E: 511 GB, SQL Data F: 510 GB, SQL Log   G: 510 GB, TempDB  G: 63.6 GB.<br>||
 |**Servidor BDD Config**|node|Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz<br>Discos	SO C: 80 GB, Backup E: 250 GB, SQL Data F: 250 GB, SQL Log G: 250 GB, TempDB  G: 30 GB.<br>||
 |**Servidor Web App**|node|Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM	8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos	SO C: 126 GB. SO D: 16 GB.<br>||
@@ -783,19 +486,19 @@ El portal es el conjunto de los elementos físicos y lógicos necesarios para la
 <div style="page-break-before: always;"></div>
 \newpage
 
-# Patrón de Diseño Migración SUI PGN
+# Patrón de Diseño Migración Mi Mutual PGN
 ## Migracion.1a.SIU módulos
 ![Diagram: Migracion.1a.SIU módulos](images/Migracion.1a.SIUmódulos.png){#fig:Migracion.1a.SIUmódulos width=}
 
-Identificación de submódulos del Sistema Único de Información (SUI) de la PGN. 
+Identificación de submódulos del Sistema Único de Información (Mi Mutual) de la PGN. 
 
-Todos los sistemas de información del SUI deben seguir la directiva de separar a los componentes misionales de los utilitarios: el SUI de PGN estará constituidos por submódulos dispuestos en relación de utilitarios (que sirven) a los componentes misionales del SUI, ubicados en el centro en la diagrama.
+Todos los sistemas de información del Mi Mutual deben seguir la directiva de separar a los componentes misionales de los utilitarios: el Mi Mutual de PGN estará constituidos por submódulos dispuestos en relación de utilitarios (que sirven) a los componentes misionales del Mi Mutual, ubicados en el centro en la diagrama.
 
-Los submódulos del SUI, tal como están presentados, reúnen a las partes por el mismo rol en favor de la coherencia. Por ejemplo, los servicios de aplicación, en la imagen, contiene a todos aquellos utilitarios que prestan alguna utilidad momentánea al SUI migrado. Organizados así, estos submódulos utilitarios pueden ser intercambiados o ampliados sin perjuicio de los componentes misionales dell SUI (centro del diagrama) gracias a las _interfaces de unión_ en favor de la extensibilidad.
+Los submódulos del Mi Mutual, tal como están presentados, reúnen a las partes por el mismo rol en favor de la coherencia. Por ejemplo, los servicios de aplicación, en la imagen, contiene a todos aquellos utilitarios que prestan alguna utilidad momentánea al Mi Mutual migrado. Organizados así, estos submódulos utilitarios pueden ser intercambiados o ampliados sin perjuicio de los componentes misionales dell Mi Mutual (centro del diagrama) gracias a las _interfaces de unión_ en favor de la extensibilidad.
 
-Las interfaces de unión indicadas arriba obligan a los submódulos a cumplir las exigencias de los componentes misionales del SUI.
+Las interfaces de unión indicadas arriba obligan a los submódulos a cumplir las exigencias de los componentes misionales del Mi Mutual.
 
-Los submódulos identificados tienen los siguientes roles para el SUI migrado:
+Los submódulos identificados tienen los siguientes roles para el Mi Mutual migrado:
 
 1. cc:Presentación
 1. cc:Servicios de aplicación
@@ -804,7 +507,7 @@ Los submódulos identificados tienen los siguientes roles para el SUI migrado:
 1. cc:Almacenamiento
 
 ### Requerimientos Asociados a los Submódulos
-La disposición de los módulos y submódulos presentada, denominada SUI Migración en adelante, facilita la focalización de los requerimientos encontrados en el levantamiento realizado en el actual proyecto. Así, por ejemplo, los requerimientos funcionales se encuentran concentrados en el submódulo de presentación (ver imagen).
+La disposición de los módulos y submódulos presentada, denominada Mi Mutual Migración en adelante, facilita la focalización de los requerimientos encontrados en el levantamiento realizado en el actual proyecto. Así, por ejemplo, los requerimientos funcionales se encuentran concentrados en el submódulo de presentación (ver imagen).
 
 
 ### Catálogo de Elementos
@@ -812,10 +515,10 @@ La disposición de los módulos y submódulos presentada, denominada SUI Migraci
 |:--------|:--------|:--------|:--------|
 |**cc:Administración**|application-collaboration|||
 |**cc:Almacenamiento**|application-collaboration|||
-|**cc:PGN SUI (misional)**|application-collaboration|||
-|**cc:Portales y canales**|application-collaboration|Submódulo de portales internos de la PGN a donde llega el SUI. Interfaz web que usa al SUI para llegar a direcciones y subdirecciones de la PGN. La plataforma principal de portales en este contexto es Sharepoint de Microsoft.<br>||
-|**cc:Presentación**|application-collaboration|Submódulo de presentación del SUI. interfaz gráfica, interfaz web visible a los usuarios clientes y funcionarios de la PGN. ||
-|**cc:Servicios de aplicación**|application-collaboration|Submódulo de servicios utilitarios que sirven al SUI. Servicios variados que cumplen roles facilitadores de las actividades misionales del SUI. Ejemplos de estos servicios son los de gestión documental, implementado por Doku en el contexto de PGN.<br>||
+|**cc:PGN Mi Mutual (misional)**|application-collaboration|||
+|**cc:Portales y canales**|application-collaboration|Submódulo de portales internos de la PGN a donde llega el Mi Mutual. Interfaz web que usa al Mi Mutual para llegar a direcciones y subdirecciones de la PGN. La plataforma principal de portales en este contexto es Sharepoint de Microsoft.<br>||
+|**cc:Presentación**|application-collaboration|Submódulo de presentación del Mi Mutual. interfaz gráfica, interfaz web visible a los usuarios clientes y funcionarios de la PGN. ||
+|**cc:Servicios de aplicación**|application-collaboration|Submódulo de servicios utilitarios que sirven al Mi Mutual. Servicios variados que cumplen roles facilitadores de las actividades misionales del Mi Mutual. Ejemplos de estos servicios son los de gestión documental, implementado por Doku en el contexto de PGN.<br>||
 |**interfaz**|application-interface|||
 |**interfaz**|application-interface|||
 |**interfaz**|application-interface|||
@@ -823,31 +526,31 @@ La disposición de los módulos y submódulos presentada, denominada SUI Migraci
 |**interfaz**|application-interface|||
 |**Cliente PGN**|business-actor|||
 |**Funcionario PGN**|business-actor|||
-|**ARQ01. Consistencia SUI**|constraint|Unifica las entidades de negocio PGN, entre las que se incluyen a conciliaciones, publicaciones de relatoría, resoluciones, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del SUI, estarán concentradas en un único artefacto correspondiente. Calidad sistémica: la consistencia persigue que el resultado de la lógica de negocio sea la misma entre los módulos del SUI migrado. Esto redunda a mantenibilidad y gestión: tiende a tener un solo punto de cambio y dificulta la transferencia de dependencias implícitas a otros procesos.||
-|**ARQ02. Mantenibilidad SUI**|constraint|Evitar las dependencia transitivas de los módulos misionales del SUI a componentes y sistemas de terceros o submódulos no misionales.  Calidad sistémica: la mantenibilidad por control de dependencias que optimiza el diseño Migración SUI está dada por el control de cambios no programados sobre los componentes misionales del SUI (corrupción de componentes). Ver Patrón de Diseño Migración SUI, más adelante en el documento.||
-|**ARQ03. Extensibilidad SUI**|constraint|Concentración de los componentes de negocio, misionales, del SUI protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Migración SUI, más adelante en el documento. Calidad sistémica: la extensibilidad que optimiza el diseño Migración SUI está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege.||
+|**ARQ01. Consistencia Mi Mutual**|constraint|Unifica las entidades de negocio PGN, entre las que se incluyen a conciliaciones, publicaciones de relatoría, resoluciones, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del Mi Mutual, estarán concentradas en un único artefacto correspondiente. Calidad sistémica: la consistencia persigue que el resultado de la lógica de negocio sea la misma entre los módulos del Mi Mutual migrado. Esto redunda a mantenibilidad y gestión: tiende a tener un solo punto de cambio y dificulta la transferencia de dependencias implícitas a otros procesos.||
+|**ARQ02. Mantenibilidad Mi Mutual**|constraint|Evitar las dependencia transitivas de los módulos misionales del Mi Mutual a componentes y sistemas de terceros o submódulos no misionales.  Calidad sistémica: la mantenibilidad por control de dependencias que optimiza el diseño Migración Mi Mutual está dada por el control de cambios no programados sobre los componentes misionales del Mi Mutual (corrupción de componentes). Ver Patrón de Diseño Migración Mi Mutual, más adelante en el documento.||
+|**ARQ03. Extensibilidad Mi Mutual**|constraint|Concentración de los componentes de negocio, misionales, del Mi Mutual protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Migración Mi Mutual, más adelante en el documento. Calidad sistémica: la extensibilidad que optimiza el diseño Migración Mi Mutual está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege.||
 |**RQR. Administrativos**|requirement|||
 |**RQR. Funcionales**|requirement|||
 |**RQR. Ingeniería**|requirement|||
 |**RQR. Misionales**|requirement|||
-|**RQR. Seguridad**|requirement|Requerimientos de seguridad, SUI, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br>||
-|**RQR. Seguridad**|requirement|Requerimientos de seguridad, SUI, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br>||
+|**RQR. Seguridad**|requirement|Requerimientos de seguridad, Mi Mutual, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br>||
+|**RQR. Seguridad**|requirement|Requerimientos de seguridad, Mi Mutual, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br>||
 
 ## Migracion.1b.SIU módulos componentes
 ![Diagram: Migracion.1b.SIU módulos componentes](images/Migracion.1b.SIUmóduloscomponentes.png){#fig:Migracion.1b.SIUmóduloscomponentes width=}
 
-Presentación de los componentes internos de los submódulos del sistema único de información migración PGN. Organización intena de los servicios y paquetes que integran cada submódulo del SUI. Todos los sistemas de información del SUI siguen esta directiva: estarán constituídos por submódulos dispuestos en relación de utilitarios (que sirven) a los componentes misionales del SUI, ubicados en el centro en la diagrama. 
+Presentación de los componentes internos de los submódulos del sistema único de información migración PGN. Organización intena de los servicios y paquetes que integran cada submódulo del Mi Mutual. Todos los sistemas de información del Mi Mutual siguen esta directiva: estarán constituídos por submódulos dispuestos en relación de utilitarios (que sirven) a los componentes misionales del Mi Mutual, ubicados en el centro en la diagrama. 
 
-La organización de componentes de migración SUI facilita focalizar la selección de tecnologeias. Los componentes internos y tecnologías elegidas son las siguientes
+La organización de componentes de migración Mi Mutual facilita focalizar la selección de tecnologeias. Los componentes internos y tecnologías elegidas son las siguientes
 
 1. Presentación: Angular 11 (Web)
-1. PGN SUI: API Transaccional (Node Js)
+1. PGN Mi Mutual: API Transaccional (Node Js)
 1. Administración: API Config (C#)
 1. Persistencia: (SQL)
 
-Los submódulos del SUI, tal como están presentados, reúnen a las partes que tienen el mismo rol en favor de la coherencia. Así mismo, estos pueden ser intercambiados o ampliados sin perjuicio del SUI gracias a las interfaces de unión (en favor de la extensibilidad).
+Los submódulos del Mi Mutual, tal como están presentados, reúnen a las partes que tienen el mismo rol en favor de la coherencia. Así mismo, estos pueden ser intercambiados o ampliados sin perjuicio del Mi Mutual gracias a las interfaces de unión (en favor de la extensibilidad).
 
-Las interfaces de unión indicadas arriba obligan a los submódulos a cumplir las exigencias de los componentes misionales del SUI.
+Las interfaces de unión indicadas arriba obligan a los submódulos a cumplir las exigencias de los componentes misionales del Mi Mutual.
 
 
 
@@ -889,25 +592,25 @@ Las interfaces de unión indicadas arriba obligan a los submódulos a cumplir la
 |**Mensaje: JSON**|data-object|||
 |**Administración**|grouping|||
 |**Almacenamiento**|grouping|||
-|**PGN SIU**|grouping|El objetivo principal de la arquitectura del SUI de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la PGN.<br>Los objetivos secundarios de esta arquitectura SUI de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br>||
-|**Portales**|grouping|Submódulo de portales internos de la PGN a donde llega el SUI. Interfaz web que usa al SUI para llegar a direcciones y subdirecciones de la PGN. La plataforma principal de portales en este contexto es Sharepoint de Microsoft.<br>||
-|**Presentación**|grouping|Submódulo de presentación del SUI. interfaz gráfica, interfaz web visible a los usuarios clientes y funcionarios de la PGN. ||
-|**Servicios de aplicación**|grouping|Submódulo de servicios utilitarios que sirven al SUI. Servicios variados que cumplen roles facilitadores de las actividades misionales del SUI. Ejemplos de estos servicios son los de gestión documental, implementado por Doku en el contexto de PGN.<br>||
+|**PGN SIU**|grouping|El objetivo principal de la arquitectura del Mi Mutual de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la PGN.<br>Los objetivos secundarios de esta arquitectura Mi Mutual de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br>||
+|**Portales**|grouping|Submódulo de portales internos de la PGN a donde llega el Mi Mutual. Interfaz web que usa al Mi Mutual para llegar a direcciones y subdirecciones de la PGN. La plataforma principal de portales en este contexto es Sharepoint de Microsoft.<br>||
+|**Presentación**|grouping|Submódulo de presentación del Mi Mutual. interfaz gráfica, interfaz web visible a los usuarios clientes y funcionarios de la PGN. ||
+|**Servicios de aplicación**|grouping|Submódulo de servicios utilitarios que sirven al Mi Mutual. Servicios variados que cumplen roles facilitadores de las actividades misionales del Mi Mutual. Ejemplos de estos servicios son los de gestión documental, implementado por Doku en el contexto de PGN.<br>||
 |**RQR. Administrativos**|requirement|||
 |**RQR. Funcionales**|requirement|||
 |**RQR. Ingeniería**|requirement|||
 |**RQR. Misionales**|requirement|||
-|**RQR. Seguridad**|requirement|Requerimientos de seguridad, SUI, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br>||
-|**RQR. Seguridad**|requirement|Requerimientos de seguridad, SUI, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br>||
+|**RQR. Seguridad**|requirement|Requerimientos de seguridad, Mi Mutual, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br>||
+|**RQR. Seguridad**|requirement|Requerimientos de seguridad, Mi Mutual, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br>||
 
 ## Migracion.1c.SIU modulos colaboración
 ![Diagram: Migracion.1c.SIU modulos colaboración](images/Migracion.1c.SIUmoduloscolaboración.png){#fig:Migracion.1c.SIUmoduloscolaboración width=}
 
-Patrón de Distribución y Colaboración estándar para el SUI.
+Patrón de Distribución y Colaboración estándar para el Mi Mutual.
 
-La colaboración y comunicación de los componentes internos del SUI (grupo PFN SUI, en el diagrama) está mediada por interfaces. Estas son provistas por el grupo de componentes misionales, PGN SUI, hacia los submódulos externos. La intención es mantener reducido y controlado el número de interfaces.
+La colaboración y comunicación de los componentes internos del Mi Mutual (grupo PFN Mi Mutual, en el diagrama) está mediada por interfaces. Estas son provistas por el grupo de componentes misionales, PGN Mi Mutual, hacia los submódulos externos. La intención es mantener reducido y controlado el número de interfaces.
 
-La colaboración entre el SUI Migración con sistemas externos puede darse mediante buses de datos empresarial, sin perjuicio del patrón de comunicación estadar descrito en el diagrama.
+La colaboración entre el Mi Mutual Migración con sistemas externos puede darse mediante buses de datos empresarial, sin perjuicio del patrón de comunicación estadar descrito en el diagrama.
 
 
 ### Catálogo de Elementos
@@ -915,10 +618,10 @@ La colaboración entre el SUI Migración con sistemas externos puede darse media
 |:--------|:--------|:--------|:--------|
 |**cc:Almacenamiento**|application-collaboration|||
 |**cc:Almacenamiento**|application-collaboration|||
-|**cc:PGN SUI (misional)**|application-collaboration|||
-|**cc:PGN SUI (misional)**|application-collaboration|||
-|**cc:Portales y canales**|application-collaboration|Submódulo de portales internos de la PGN a donde llega el SUI. Interfaz web que usa al SUI para llegar a direcciones y subdirecciones de la PGN. La plataforma principal de portales en este contexto es Sharepoint de Microsoft.<br>||
-|**cc:Portales y canales**|application-collaboration|Submódulo de portales internos de la PGN a donde llega el SUI. Interfaz web que usa al SUI para llegar a direcciones y subdirecciones de la PGN. La plataforma principal de portales en este contexto es Sharepoint de Microsoft.<br>||
+|**cc:PGN Mi Mutual (misional)**|application-collaboration|||
+|**cc:PGN Mi Mutual (misional)**|application-collaboration|||
+|**cc:Portales y canales**|application-collaboration|Submódulo de portales internos de la PGN a donde llega el Mi Mutual. Interfaz web que usa al Mi Mutual para llegar a direcciones y subdirecciones de la PGN. La plataforma principal de portales en este contexto es Sharepoint de Microsoft.<br>||
+|**cc:Portales y canales**|application-collaboration|Submódulo de portales internos de la PGN a donde llega el Mi Mutual. Interfaz web que usa al Mi Mutual para llegar a direcciones y subdirecciones de la PGN. La plataforma principal de portales en este contexto es Sharepoint de Microsoft.<br>||
 |**interfaz**|application-interface|||
 |**interfaz**|application-interface|||
 |**interfaz**|application-interface|||
@@ -1146,7 +849,7 @@ La colaboración entre el SUI Migración con sistemas externos puede darse media
 <div style="page-break-before: always;"></div>
 \newpage
 
-# Arquitectura de Seguridad, SUI Migración
+# Arquitectura de Seguridad, Mi Mutual Migración
 ## Seguridad. 1. Requerimientos
 ![Diagram: Seguridad. 1. Requerimientos](images/Seguridad.1.Requerimientos.png){#fig:Seguridad.1.Requerimientos width=}
 
@@ -1154,12 +857,12 @@ La colaboración entre el SUI Migración con sistemas externos puede darse media
 | Name| Type| Description| Properties
 |:--------|:--------|:--------|:--------|
 |**cc:Administración**|application-collaboration|||
-|**cc:PGN SUI (misional)**|application-collaboration|||
+|**cc:PGN Mi Mutual (misional)**|application-collaboration|||
 |**interfaz**|application-interface|||
 |**interfaz**|application-interface|||
 |**interfaz**|application-interface|||
 |**interfaz**|application-interface|||
-|**RQR. Seguridad**|requirement|Requerimientos de seguridad, SUI, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br>||
+|**RQR. Seguridad**|requirement|Requerimientos de seguridad, Mi Mutual, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br>||
 |**RQRSEG1**|requirement|1. Las soluciones deben dar cumplimiento a las políticas institucionales del sistema de gestión de seguridad de la información establecidas por la entidad que busca garantizar la confidencialidad, integridad y disponibilidad de la información que se genera, procesa, almacena y/o transmite en los sistemas de Información de la Entidad.||
 |**RQRSEG10**|requirement|1. Debe incluir un mecanismo de cifrado de los datos que se transportan entre los diferentes componentes tecnológicos y los datos sensibles de la base de datos que representen un alto nivel de confidencialidad.||
 |**RQRSEG12**|requirement|1. Debe contemplar el cumplimiento de la normatividad vigente en cuanto a protección de datos personales y debe permitir el manejo de excepciones.||
@@ -1351,17 +1054,17 @@ Riesgos de la migración funcional:
 ### Catálogo de Elementos
 | Name| Type| Description| Properties
 |:--------|:--------|:--------|:--------|
-|**RSG1. Estrategia CMS central**|constraint|Establecer desde el principio el gestor de contenidos compartido que los módulos del SUI migrados van a usar.<br>||
-|**RSG10. Validación decisiones de arquitectura**|constraint|Discutir la arquitectura de referencia de SUI Migración PGN. La arquitectura de referencia SUI informa de todas las fortalezas y consideraciones estructurales y de sistema, como extensibilidad, rendimiento y seguridad, que regirán a todos los módulos del SUI migrado.<br>||
-|**RSG2. Motor de búsqueda compartido**|constraint|Establecer desde el principio el motor de búsqueda de conteidos compartido para los módulos del SUI migrados.<br>||
+|**RSG1. Estrategia CMS central**|constraint|Establecer desde el principio el gestor de contenidos compartido que los módulos del Mi Mutual migrados van a usar.<br>||
+|**RSG10. Validación decisiones de arquitectura**|constraint|Discutir la arquitectura de referencia de Mi Mutual Migración PGN. La arquitectura de referencia Mi Mutual informa de todas las fortalezas y consideraciones estructurales y de sistema, como extensibilidad, rendimiento y seguridad, que regirán a todos los módulos del Mi Mutual migrado.<br>||
+|**RSG2. Motor de búsqueda compartido**|constraint|Establecer desde el principio el motor de búsqueda de conteidos compartido para los módulos del Mi Mutual migrados.<br>||
 |**RSG3. Estatego como BI**|constraint|Definir la arquitectura de Estratego migrado: puede ser una solución de BI simple, o puede ser una aplicación web tradicional.<br>||
 |**RSG4. Conciliación y gestión documental (Doku)**|constraint|Definir la ubicación de los componentes misionales de Conciliación Administrativa (SIU). Debe estar fuera de Doku.<br>||
-|**RSG5. Gestión de sesiones / caducidad**|constraint|Establecer desde el principio el motor de búsqueda de conteidos compartido para los módulos del SUI migrados.<br>||
-|**RSG6. Componentes de negocio**|constraint|Incluir el esfuerzo de creación de componentes estrcturales y comunes a los módulos del SUI migrado requeridos por la arquitectura de referencia SUI. <br>Algunos componentes requeridos son:<br>* Administración de autorizaciones (integrado con el directorio PGN)<br>* Motor de flujos de trabajo para diseño y organización del trabajo (Conciliación)<br>* Componente de ruteo de documentos (Relatoría)<br>||
+|**RSG5. Gestión de sesiones / caducidad**|constraint|Establecer desde el principio el motor de búsqueda de conteidos compartido para los módulos del Mi Mutual migrados.<br>||
+|**RSG6. Componentes de negocio**|constraint|Incluir el esfuerzo de creación de componentes estrcturales y comunes a los módulos del Mi Mutual migrado requeridos por la arquitectura de referencia Mi Mutual. <br>Algunos componentes requeridos son:<br>* Administración de autorizaciones (integrado con el directorio PGN)<br>* Motor de flujos de trabajo para diseño y organización del trabajo (Conciliación)<br>* Componente de ruteo de documentos (Relatoría)<br>||
 |**RSG7. Asignación de roles y permisos de Acceso **|constraint|RSG7. Asignación de roles y permisos de Acceso<br>Los riesgos de autenticación como el Single Sign On (SSO), permite que si las credenciales de usuario se ven comprometidas, pueden dar permiso a un atacante acceder a todos o la mayoría de recursos y aplicaciones en la red. <br>Se ha propuesto controlar los accesos a partir de la documentación que identifica la metodología de clasificación y gestión de usuarios roles y procesos de autenticación, a partir del control de acceso basado en roles RBAC (Identidades y autenticación), que permite tener una reacción más oportuna para controlar los accesos a diferentes módulos de los diferentes sistemas de Información.  Los inicios de sesión de los usuarios asociados a cuenta de dominio de Active Directory deben tener en cuenta la asignación de roles de ingreso al servidor o roles de ingreso al motor de bases de datos. Las cuentas de usuario no deben ser creadas de administrador local (administrador), es una puerta de entrada para los ataques de fuerza bruta.<br>||
 |**RSG8. Intentos de accesos no autorizados**|constraint|RSG8. Intentos de accesos no autorizados<br>Los intentos no autorizados son una de las técnicas más comunes utilizadas en la actualidad, los diferentes tipos de amenazas de intrusiones SQL Injections, Denegaciones de Servicios, riesgos de Ransomware, Ingeniería social, malware y otras amenazas, permite que se proponga implementación de soluciones de Seguridad perimetral a partir de la implementación de WAF para controlar las peticiones externas y evaluación de vulnerabilidades y escaneo para conocer puertos abiertos y establecer medidas.<br>||
 |**RSG9. Alteración de datos negocio**|constraint|RSG9. Alteración de datos almacenados en Base de Datos.<br>Se deberán asignar usuarios para la conexión de cada base de datos.<br>Se debe proporcionar seguridad a nivel de filas y columnas (ofuscamiento) para proteger los datos confidenciales en el nivel de columnas y filas RLS ((seguridad de nivel de fila). <br>Algunos de los métodos y características que se deben tener en cuenta a implementar es a partir del Alway encrypted, para cifrar los datos que se encuentran almacenados. <br>||
-|**Riesgos Migración Funcional SIU**|constraint|Conjunto de riesgos técnicos y arquitectura. Proyecto Migración SUI 2023, PGN.<br>||
+|**Riesgos Migración Funcional SIU**|constraint|Conjunto de riesgos técnicos y arquitectura. Proyecto Migración Mi Mutual 2023, PGN.<br>||
 
 ## Riesgos.2. Modelo Riesgo RSG10
 ![Diagram: Riesgos.2. Modelo Riesgo RSG10](images/Riesgos.2.ModeloRiesgoRSG10.png){#fig:Riesgos.2.ModeloRiesgoRSG10 width=}
@@ -1370,12 +1073,12 @@ Para mitigar el riesgo 10, RSG10. Validación decisiones de arquitectura, que ti
 
 ### Valoración del Riesgo
 
-| Requisito      | Extensibilidad SUI |
+| Requisito      | Extensibilidad Mi Mutual |
 |:-------------|:------------------|
-| Descripción | Concentración de los componentes de negocio, misionales, del SUI protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Migración SUI, más adelante en el documento. |
-| Calidad sistémica | La extensibilidad que optimiza el diseño Migración SUI está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege. |
+| Descripción | Concentración de los componentes de negocio, misionales, del Mi Mutual protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Migración Mi Mutual, más adelante en el documento. |
+| Calidad sistémica | La extensibilidad que optimiza el diseño Migración Mi Mutual está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege. |
 
-Table: Valoración del riesgo RSG10. Validación decisiones de arquitectura. Migración SUI. {#tbl:requisito1-id}
+Table: Valoración del riesgo RSG10. Validación decisiones de arquitectura. Migración Mi Mutual. {#tbl:requisito1-id}
 
 
 ### Catálogo de Elementos
@@ -1384,9 +1087,9 @@ Table: Valoración del riesgo RSG10. Validación decisiones de arquitectura. Mig
 |**Impacto**|assessment|||
 |**Agente de riesgo PGN**|business-actor|Arquitecto PGN||
 |**Agente de riesgo Softgic**|business-actor|Arquitecto Softgic||
-|**Desconocimiento arq. de referencia SUI**|business-event|||
-|**RSG10. Validación decisiones de arquitectura**|constraint|Discutir la arquitectura de referencia de SUI Migración PGN. La arquitectura de referencia SUI informa de todas las fortalezas y consideraciones estructurales y de sistema, como extensibilidad, rendimiento y seguridad, que regirán a todos los módulos del SUI migrado.<br>||
-|**Evaluación  arquitectura de referencia SUI**|course-of-action|La frecuencia del proceso de evaluación de la arquitectura es eventual, mínimo una vez cada dos semanas.<br>||
+|**Desconocimiento arq. de referencia Mi Mutual**|business-event|||
+|**RSG10. Validación decisiones de arquitectura**|constraint|Discutir la arquitectura de referencia de Mi Mutual Migración PGN. La arquitectura de referencia Mi Mutual informa de todas las fortalezas y consideraciones estructurales y de sistema, como extensibilidad, rendimiento y seguridad, que regirán a todos los módulos del Mi Mutual migrado.<br>||
+|**Evaluación  arquitectura de referencia Mi Mutual**|course-of-action|La frecuencia del proceso de evaluación de la arquitectura es eventual, mínimo una vez cada dos semanas.<br>||
 |**Sesión semanal validación arquitectura**|requirement|||
 |**Supervisor contrato 078-2023**|stakeholder|||
 
@@ -1440,7 +1143,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 
 
 ---
-title: Documento de Arquitectura Migración Funcional PGN SIU
+title: Documento de Arquitectura Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva, STEF - Coomeva
 subtitle: Mi Mutual Coomeva - Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva
 geometry:
   - top=1in
@@ -1466,7 +1169,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.6d5e5ec de 05 Oct 2023
+| **Versión** del producto 1.0395973 de 05 Oct 2023
 
 | **Presentado a**
 
@@ -1482,10 +1185,10 @@ tablenos-caption-name: Tabla
 <div style="page-break-before: always;"></div>
 \newpage
 
-# Descripción de Infraestructura Migración SUI PGN
+# Descripción de Mi Mutual de STEF - Coomeva
 
 ## Objetivo del Documento
-Descripción de los productos del trabajo de infraestructura del proyecto Migración SUI, Fase 2, de la Procuraduría General de la Nación (PGN en adelante), Contrato 078-2023. El principal propósito de este documento es informar de las decisiones sobre la disposición física de las ítems de hardware, redes y cómputo (procesamiento, comunicación y almacenamiento) del sistema SUI Migración. Por tanto, el documento contiene información estratégica para la toma de decisiones de plataforma y servicios de infraestructura, no un diseño detallado. Puntualmente, refleja decisiones sobre la plataforma tecnológica seleccionada, así como consideraciones importantes para el diseño y desarrollo, con procura de garantizar una solución técnicamente viable y óptima para el proyecto.
+Descripción de los productos del trabajo de infraestructura del proyecto Migración Mi Mutual, Fase 2, de Cooperativas STEF - Coomeva (STEF - Coomeva en adelante), Contrato XYZ-2023. El principal propósito de este documento es informar de las decisiones sobre la disposición física de las ítems de hardware, redes y cómputo (procesamiento, comunicación y almacenamiento) del sistema Mi Mutual Migración. Por tanto, el documento contiene información estratégica para la toma de decisiones de plataforma y servicios de infraestructura, no un diseño detallado. Puntualmente, refleja decisiones sobre la plataforma tecnológica seleccionada, así como consideraciones importantes para el diseño y desarrollo, con procura de garantizar una solución técnicamente viable y óptima para el proyecto.
 
 <br>
 
@@ -1495,7 +1198,7 @@ Descripción de los productos del trabajo de infraestructura del proyecto Migrac
 | Palabras clave | SIU, Softgic, PGN, Análisis de brecha, GAP, Infraestrctura, PasS |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.6d5e5ec del 05 Oct 2023 |
+| Versión        | 1.0395973 del 05 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
@@ -1507,8 +1210,8 @@ Descripción de los productos del trabajo de infraestructura del proyecto Migrac
 
 
 
-# Documento de Arquitectura Infraestructura SUI PGN
-* [Descripción de Infraestructura Migración SUI PGN](#descripción-de-infraestructura-migración-sui-pgn)
+# Documento de Arquitectura Infraestructura Mi Mutual PGN
+* [Descripción de Infraestructura Migración Mi Mutual PGN](#descripción-de-infraestructura-migración-Mi Mutual-pgn)
 	* [Lineabase.1a.SIU componentes. infraestrcutura](#lineabase.1a.siu-componentes.-infraestrcutura)
 	* [Lineabase.0.SIU applicación. física](#lineabase.0.siu-applicación.-física)
 	* [Seguridad. Lineabase.0.SIU applicación](#seguridad.-lineabase.0.siu-applicación)
@@ -1516,15 +1219,15 @@ Descripción de los productos del trabajo de infraestructura del proyecto Migrac
 <div style="page-break-before: always;"></div>
 \newpage
 
-# Descripción de Infraestructura Migración SUI PGN
+# Descripción de Infraestructura Migración Mi Mutual PGN
 ## Lineabase.1a.SIU componentes. infraestrcutura
 ![Diagram: Lineabase.1a.SIU componentes. infraestrcutura](images/Lineabase.1a.SIUcomponentes.infraestrcutura.png){#fig:Lineabase.1a.SIUcomponentes.infraestrcutura width=}
 
-Dependencias de infraestructura entre los servicios que integran el modelo de aplicación de SUI, Migración. 
+Dependencias de infraestructura entre los servicios que integran el modelo de aplicación de Mi Mutual, Migración. 
 
 * Servidor de Canales (App PGN web y móvil)
-* Servidor Web App (App SUI)
-* Servidor Lappiz (Config SUI)
+* Servidor Web App (App Mi Mutual)
+* Servidor Lappiz (Config Mi Mutual)
 * Servidor BDD App (Transaccional)
 * Servidor BDD Config (Configuración)
 
@@ -1562,8 +1265,8 @@ Dependencias de infraestructura entre los servicios que integran el modelo de ap
 |**Interfaz de datos 3**|application-service|||
 |**ccccc Proveedores contenidos**|application-service|||
 |**Mensaje: JSON**|data-object|||
-|**Infraestructura SUI**|grouping|Soporte de infraestructura a los componentes del SUI Migración. Servidores y ambientes de cómputo para la ejecución del software base de los componentes misionales del SUI de PGN.<br>||
-|**PGN SIU**|grouping|El objetivo principal de la arquitectura del SUI de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la PGN.<br>Los objetivos secundarios de esta arquitectura SUI de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br>||
+|**Infraestructura Mi Mutual**|grouping|Soporte de infraestructura a los componentes del Mi Mutual Migración. Servidores y ambientes de cómputo para la ejecución del software base de los componentes misionales del Mi Mutual de PGN.<br>||
+|**PGN SIU**|grouping|El objetivo principal de la arquitectura del Mi Mutual de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la PGN.<br>Los objetivos secundarios de esta arquitectura Mi Mutual de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br>||
 |**Servidor BDD App**|node|||
 |**Servidor BDD Config**|node|||
 |**Servidor Lappiz **|node|||
@@ -1574,7 +1277,7 @@ Dependencias de infraestructura entre los servicios que integran el modelo de ap
 ![Diagram: Lineabase.0.SIU applicación. física](images/Lineabase.0.SIUapplicación.física.png){#fig:Lineabase.0.SIUapplicación.física width=}
 
 ## Representación Arquitectónica
-Con una arquitectura orientada a servicios SUI recopila:
+Con una arquitectura orientada a servicios Mi Mutual recopila:
 
 1. Runtime: Es el servicio que interactúa con el usuario final (GUI) elaborado en Angular 11
 1. API Tx: Servicio api rest base node encargado de realizar las transacciones básicas CRUD
@@ -1611,7 +1314,7 @@ Con una arquitectura orientada a servicios SUI recopila:
 ![Diagram: Seguridad. Lineabase.0.SIU applicación](images/Seguridad.Lineabase.0.SIUapplicación.png){#fig:Seguridad.Lineabase.0.SIUapplicación width=}
 
 ## Representación Arquitectónica
-Con una arquitectura orientada a servicios SUI recopila:
+Con una arquitectura orientada a servicios Mi Mutual recopila:
 
 1. Runtime: Es el servicio que interactúa con el usuario final (GUI) elaborado en Angular 11
 1. API Tx: Servicio api rest base node encargado de realizar las transacciones básicas CRUD
@@ -1658,7 +1361,7 @@ Con una arquitectura orientada a servicios SUI recopila:
 ``Generated on: Wed Sep 13 2023 17:07:58 GMT-0500 (COT)``
 
 ---
-title: Documento de Arquitectura Migración Funcional PGN SIU
+title: Documento de Arquitectura Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva, STEF - Coomeva
 subtitle: Mi Mutual Coomeva - Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva
 geometry:
   - top=1in
@@ -1684,7 +1387,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.6d5e5ec de 05 Oct 2023
+| **Versión** del producto 1.0395973 de 05 Oct 2023
 
 | **Presentado a**
 
@@ -1700,10 +1403,10 @@ tablenos-caption-name: Tabla
 <div style="page-break-before: always;"></div>
 \newpage
 
-# Documento de Descripción de Entidades de Datos. Migración SUI PGN
+# Documento de Descripción de Entidades de Datos. Mi Mutual STEF - Coomeva
 
 ## Objetivo del Documento
-Descripción de los productos de trabajo de la arquitectura de datos del proyecto Migración SUI, Fase 2, de la Procuraduría General de la Nación (PGN en adelante), Contrato 078-2023. El principal propósito de este documento es informar de las decisiones sobre la disposición lógica y física de las componentes de datos relevantes a la arquitectura del sistema SUI Migración. Por tanto, el documento contiene información estratégica para la toma de decisiones en cuanto al transporte, organización y mantenimiento de los entidades de datos de negocio, no un diseño detallado. Puntualmente, refleja decisiones sobre la plataforma tecnológica seleccionada, así como consideraciones importantes para el diseño y desarrollo, con procura de garantizar una solución técnicamente viable y óptima para el proyecto.
+Descripción de los productos de trabajo de la arquitectura de datos del proyecto Migración Mi Mutual, Fase 2, de la Procuraduría General de la Nación (PGN en adelante), Contrato 078-2023. El principal propósito de este documento es informar de las decisiones sobre la disposición lógica y física de las componentes de datos relevantes a la arquitectura del sistema Mi Mutual Migración. Por tanto, el documento contiene información estratégica para la toma de decisiones en cuanto al transporte, organización y mantenimiento de los entidades de datos de negocio, no un diseño detallado. Puntualmente, refleja decisiones sobre la plataforma tecnológica seleccionada, así como consideraciones importantes para el diseño y desarrollo, con procura de garantizar una solución técnicamente viable y óptima para el proyecto.
 
 
 <br>
@@ -1714,7 +1417,7 @@ Descripción de los productos de trabajo de la arquitectura de datos del proyect
 | Palabras clave | SIU, Softgic, PGN, Análisis de brecha, GAP, Entidades, Datos  |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.6d5e5ec del 05 Oct 2023 |
+| Versión        | 1.0395973 del 05 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
@@ -1727,8 +1430,8 @@ Descripción de los productos de trabajo de la arquitectura de datos del proyect
 
 
 
-# Documento de Arquitectura Datos SUI
-* [Descripción de Entidades de Datos Migración SUI PGN](#descripción-de-entidades-de-datos-migración-sui-pgn)
+# Documento de Arquitectura Datos Mi Mutual
+* [Descripción de Entidades de Datos Migración Mi Mutual PGN](#descripción-de-entidades-de-datos-migración-Mi Mutual-pgn)
 	* [Migracion.2. datos](#migracion.2.-datos)
 	* [Migracion.2a. datos Hominis](#migracion.2a.-datos-hominis)
 	* [Migracion.2c. datos Control interno](#migracion.2c.-datos-control-interno)
@@ -1738,13 +1441,13 @@ Descripción de los productos de trabajo de la arquitectura de datos del proyect
 <div style="page-break-before: always;"></div>
 \newpage
 
-# Descripción de Entidades de Datos Migración SUI PGN
+# Descripción de Entidades de Datos Migración Mi Mutual PGN
 ## Migracion.2. datos
 ![Diagram: Migracion.2. datos](images/Migracion.2.datos.png){#fig:Migracion.2.datos width=5.32in}
 
-Modelo de acceso y procesamiento a datos de negocio del SUI. Presentamos la organización de los ítems de datos de negocio necesarios para que los módulos del SUI puedan recolectar, procesar, integrar y almacenarlos de forma organizada y escalable.
+Modelo de acceso y procesamiento a datos de negocio del Mi Mutual. Presentamos la organización de los ítems de datos de negocio necesarios para que los módulos del Mi Mutual puedan recolectar, procesar, integrar y almacenarlos de forma organizada y escalable.
 
-Mediante esta organización, los datos de negocio son transportados desde sus respectivas fuentes mediante interfaces (por principio de extensión y mantenibilidad). Los datos externos, entendidos como los de otros proveedores, son obtenidos mediante un intermediario: el bus de datos del SUI.
+Mediante esta organización, los datos de negocio son transportados desde sus respectivas fuentes mediante interfaces (por principio de extensión y mantenibilidad). Los datos externos, entendidos como los de otros proveedores, son obtenidos mediante un intermediario: el bus de datos del Mi Mutual.
 
 Consideramos tres tipos datos: datos transaccionales, históricos y externos, y presentamos una manera distinta de tratarlos y transportarlos.
 
@@ -1752,17 +1455,17 @@ Consideramos tres tipos datos: datos transaccionales, históricos y externos, y 
 ### Catálogo de Elementos
 | Name| Type| Description| Properties
 |:--------|:--------|:--------|:--------|
-|**cc:PGN SUI (misional)**|application-collaboration|||
-|**APP1.Relatoría**|application-component|Módulo del SUI. Relatoría pública. Publicación de información de referencia para funcionarios y personas naturales, cientes de la PGN.<br> ||
+|**cc:PGN Mi Mutual (misional)**|application-collaboration|||
+|**APP1.Relatoría**|application-component|Módulo del Mi Mutual. Relatoría pública. Publicación de información de referencia para funcionarios y personas naturales, cientes de la PGN.<br> ||
 |**APP2.SIRI**|application-component|||
 |**APP3.Control interno**|application-component|||
-|**APP4.Hominis**|application-component|Módulo del SUI. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la PGN.<br>||
+|**APP4.Hominis**|application-component|Módulo del Mi Mutual. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la PGN.<br>||
 |**APP5.SIM**|application-component|||
 |**APP6.Estratego**|application-component|||
-|**Interfaz de Acceso Proveedores**|application-interface|Interfaz de acceso a los tipos de datos externos al SUI.<br>||
-|**Interfaz de Almacenaniento**|application-interface|Interfaz de acceso a los repositorio, base de datos relacionales y no jerárquicas. Tipos de datos transaccionales, internos, del SUI.<br>||
-|**Procesamiento batch PGN**|application-process|Los procesos de lotes, que requieren volumenes de datos altos, deben hacer parte de la arquitectura de datos del SUI.<br>||
-|**Bus de datos**|application-service|El patrón de bus de datos tiene el rol de unir y referir a los datos externos al SUI de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
+|**Interfaz de Acceso Proveedores**|application-interface|Interfaz de acceso a los tipos de datos externos al Mi Mutual.<br>||
+|**Interfaz de Almacenaniento**|application-interface|Interfaz de acceso a los repositorio, base de datos relacionales y no jerárquicas. Tipos de datos transaccionales, internos, del Mi Mutual.<br>||
+|**Procesamiento batch PGN**|application-process|Los procesos de lotes, que requieren volumenes de datos altos, deben hacer parte de la arquitectura de datos del Mi Mutual.<br>||
+|**Bus de datos**|application-service|El patrón de bus de datos tiene el rol de unir y referir a los datos externos al Mi Mutual de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
 |**Datos externos**|data-object|||
 |**Datos históricos**|data-object|||
 |**Datos transaccionales**|data-object|||
@@ -1770,15 +1473,15 @@ Consideramos tres tipos datos: datos transaccionales, históricos y externos, y 
 ## Migracion.2a. datos Hominis
 ![Diagram: Migracion.2a. datos Hominis](images/Migracion.2a.datosHominis.png){#fig:Migracion.2a.datosHominis width=5.32in}
 
-Identificación de entidades de datos de negocio relacionadas al módulo de gestión de capital del SUI, Hominis.
+Identificación de entidades de datos de negocio relacionadas al módulo de gestión de capital del Mi Mutual, Hominis.
 
-Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del SUI y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo.
+Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del Mi Mutual y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo.
 
 
 ### Catálogo de Elementos
 | Name| Type| Description| Properties
 |:--------|:--------|:--------|:--------|
-|**APP4.Hominis**|application-component|Módulo del SUI. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la PGN.<br>||
+|**APP4.Hominis**|application-component|Módulo del Mi Mutual. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la PGN.<br>||
 |**DAT.Cargo**|business-object|||
 |**DAT.Código Actuación**|business-object|||
 |**DAT.Código Jurisdicción**|business-object|||
@@ -1802,9 +1505,9 @@ Estas entidades de datos de negocio son los que llamamos los tipos de datos inte
 ## Migracion.2c. datos Control interno
 ![Diagram: Migracion.2c. datos Control interno](images/Migracion.2c.datosControlinterno.png){#fig:Migracion.2c.datosControlinterno width=}
 
-Identificación de entidades de datos de negocio relacionadas al módulo de seguimiento del desempeño de la PGN del SUI, Control Interno.
+Identificación de entidades de datos de negocio relacionadas al módulo de seguimiento del desempeño de la PGN del Mi Mutual, Control Interno.
 
-Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del SUI y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo. 
+Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del Mi Mutual y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo. 
 
 
 ### Catálogo de Elementos
@@ -1819,9 +1522,9 @@ Estas entidades de datos de negocio son los que llamamos los tipos de datos inte
 ## Migracion.2d. datos SIRI
 ![Diagram: Migracion.2d. datos SIRI](images/Migracion.2d.datosSIRI.png){#fig:Migracion.2d.datosSIRI width=}
 
-Identificación de entidades de datos de negocio relacionadas al módulo del SUI, SIRI.
+Identificación de entidades de datos de negocio relacionadas al módulo del Mi Mutual, SIRI.
 
-Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del SUI y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo. 
+Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del Mi Mutual y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo. 
 
 
 ### Catálogo de Elementos
@@ -1833,9 +1536,9 @@ Estas entidades de datos de negocio son los que llamamos los tipos de datos inte
 ## Migracion.2b. datos SIM
 ![Diagram: Migracion.2b. datos SIM](images/Migracion.2b.datosSIM.png){#fig:Migracion.2b.datosSIM width=}
 
-Identificación de entidades de datos de negocio relacionadas al módulo de SUI, SIM.
+Identificación de entidades de datos de negocio relacionadas al módulo de Mi Mutual, SIM.
 
-Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del SUI y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo. 
+Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del Mi Mutual y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo. 
 
 
 ### Catálogo de Elementos
