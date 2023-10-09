@@ -1,6 +1,6 @@
 git checkout output
 git pull
-cp PGN*.docx ~/Downloads/tmpr
+cp CMV*.docx ~/Downloads/tmpr
 
 f="`ls -t ~/Downloads/tmpr/*.docx | head -1`"
 basedocxFILE=${f##*/};
