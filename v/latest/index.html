@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Harry Wong, ing." />
   <meta name="dcterms.date" content="2023-10-09" />
-  <meta name="keywords" content="SOA, madurez, gobierno, PGN" />
+  <meta name="keywords" content="SOA, madurez, gobierno, Coomeva" />
   <title>Documento de Arquitectura Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva, STEF - Coomeva</title>
   <style>
     code{white-space: pre-wrap;}
@@ -49,8 +49,8 @@
   <meta name="dc.date" content="2023-10-09" />
   <meta name="citation_publication_date" content="2023-10-09" />
   <meta property="article:published_time" content="2023-10-09" />
-  <meta name="dc.modified" content="2023-10-09T17:57:32+00:00" />
-  <meta property="article:modified_time" content="2023-10-09T17:57:32+00:00" />
+  <meta name="dc.modified" content="2023-10-09T18:04:06+00:00" />
+  <meta property="article:modified_time" content="2023-10-09T18:04:06+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,16 +58,16 @@
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Harry Wong, ing." />
-  <meta name="citation_author_institution" content="Arquitecto, Softgic" />
+  <meta name="citation_author_institution" content="Arquitecto, Stefanini" />
   <link rel="canonical" href="https://hwong23.github.io/stef-arqcomv/" />
   <meta property="og:url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta property="twitter:url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/90e5162a574000620e0076931f022c5e1f3af712/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/90e5162a574000620e0076931f022c5e1f3af712/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/90e5162a574000620e0076931f022c5e1f3af712/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -89,7 +89,7 @@
 <p><br></p>
 <p><br></p>
 <p><br></p>
-<div class="line-block"><strong>Versión</strong> del producto 1.90e5162 de 09 Oct 2023</div>
+<div class="line-block"><strong>Versión</strong> del producto 1.f3eb458 de 09 Oct 2023</div>
 <div class="line-block"><strong>Presentado a</strong></div>
 <div class="line-block">STEF - Coomeva</div>
 <div class="line-block"></div>
@@ -99,9 +99,9 @@
 
 </div>
 <p><small><em>Los productos de esta etapa, Migración Funcional SIU, Contrato 078-2023,
-(<a href="https://hwong23.github.io/stef-arqcomv/v/90e5162a574000620e0076931f022c5e1f3af712/">Web</a>)
-están basados en el resultado de la Fase 1 del proyecto PGN SIU del 2022,
-<a href="http://softgic.sharepoint.com">Sharepoint Softgic@90e5162</a>
+(<a href="https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/">Web</a>)
+están basados en el resultado de la Fase 1 del proyecto Coomeva SIU del 2022,
+<a href="http://stefanini.sharepoint.com">Sharepoint STEF@f3eb458</a>
 del October 9, 2023.
 </em></small></p>
 <p><br></p>
@@ -113,38 +113,15 @@ del October 9, 2023.
 <a href="https://github.com/e_hwong">e_hwong</a>
 <br>
 <small>
-Arquitecto, Softgic
+Arquitecto, Stefanini
 </small></li>
 </ul>
 <div id="correspondence">
-<p>✉ — Enviar mensajes a Harry Wong, ing. &lt;harry.wong@softgic.co&gt;.</p>
+<p>✉ — Enviar mensajes a Harry Wong, ing. &lt;e_hwong@stefanini.com&gt;.</p>
 </div>
 <p><br></p>
-<p><small><em>
-This manuscript
-(<a href="https://hwong23.github.io/stef-arqcomv/v/90e5162a574000620e0076931f022c5e1f3af712/">permalink</a>)
-was automatically generated
-from <a href="https://github.com/hwong23/stef-arqcomv/tree/90e5162a574000620e0076931f022c5e1f3af712">hwong23/stef-arqcomv@90e5162</a>
-on October 9, 2023.
-</em></small></p>
-<h2 id="authors">Authors</h2>
-<ul>
-<li><strong>Harry Wong, ing.</strong>
-<br>
-· <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
-<a href="https://github.com/e_hwong">e_hwong</a>
-<br>
-<small>
-Arquitecto, Softgic
-</small></li>
-</ul>
-<div id="correspondence">
-<p>✉ — Correspondence possible via <a href="https://github.com/hwong23/stef-arqcomv/issues">GitHub Issues</a>
-or email to
-Harry Wong, ing. &lt;harry.wong@softgic.co&gt;.</p>
-</div>
 <h2 id="objetivo-del-documento">Objetivo del Documento</h2>
-<p>Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto Migración Funcional SIU de la Procuraduría General de la Nación (PGN en adelante), Contrato 078-2023. El principal propósito de este documento es informar de las decisiones sobre la disposición lógica y física de las partes del sistema. Por tanto, el documento contiene información estratégica, no un diseño detallado. Puntualmente, refleja decisiones sobre la plataforma tecnológica seleccionada, así como consideraciones importantes para el diseño y desarrollo, con procura de garantizar una solución técnicamente viable y óptima para el proyecto.</p>
+<p>Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto Migración Funcional SIU de la Procuraduría General de la Nación (Coomeva en adelante), Contrato 078-2023. El principal propósito de este documento es informar de las decisiones sobre la disposición lógica y física de las partes del sistema. Por tanto, el documento contiene información estratégica, no un diseño detallado. Puntualmente, refleja decisiones sobre la plataforma tecnológica seleccionada, así como consideraciones importantes para el diseño y desarrollo, con procura de garantizar una solución técnicamente viable y óptima para el proyecto.</p>
 <p><br></p>
 <h2 class="page_break_before" id="control-de-cambios">Control de Cambios</h2>
 <table>
@@ -161,7 +138,7 @@ Harry Wong, ing. &lt;harry.wong@softgic.co&gt;.</p>
 <tbody>
 <tr class="odd">
 <td>Palabras clave</td>
-<td>SIU, Softgic, PGN, Análisis de brecha, GAP, Comparativa</td>
+<td>SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa</td>
 </tr>
 <tr class="even">
 <td>Autor</td>
@@ -173,11 +150,11 @@ Harry Wong, ing. &lt;harry.wong@softgic.co&gt;.</p>
 </tr>
 <tr class="even">
 <td>Versión</td>
-<td>1.90e5162 del 09 Oct 2023</td>
+<td>1.f3eb458 del 09 Oct 2023</td>
 </tr>
 <tr class="odd">
 <td>Vínculos</td>
-<td><a href="N03a%a20Vsta%20aSegenta%20SOA%20PGN.md">N003a Vista Segmento PGN SIU</a></td>
+<td><a href="N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md">N003a Vista Segmento Coomeva SIU</a></td>
 </tr>
 </tbody>
 </table>
@@ -255,7 +232,7 @@ Harry Wong, ing. &lt;harry.wong@softgic.co&gt;.</p>
 <tbody>
 <tr class="odd">
 <td>Descripción</td>
-<td>Unifica las entidades de negocio PGN, entre las que se incluyen a conciliaciones, publicaciones de relatoría, resoluciones, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del Mi Mutual, estarán concentradas en un único artefacto correspondiente.</td>
+<td>Unifica las entidades de negocio Coomeva, entre las que se incluyen a conciliaciones, publicaciones de relatoría, resoluciones, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del Mi Mutual, estarán concentradas en un único artefacto correspondiente.</td>
 </tr>
 <tr class="even">
 <td>Calidad sistémica</td>
@@ -1608,7 +1585,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <p><br></p>
 <p><br></p>
 <p><br></p>
-<div class="line-block"><strong>Versión</strong> del producto 1.90e5162 de 09 Oct 2023</div>
+<div class="line-block"><strong>Versión</strong> del producto 1.f3eb458 de 09 Oct 2023</div>
 <div class="line-block"><strong>Presentado a</strong></div>
 <div class="line-block">STEF - Coomeva</div>
 <div class="line-block"></div>
@@ -1636,7 +1613,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <tbody>
 <tr class="odd">
 <td>Palabras clave</td>
-<td>SIU, Softgic, PGN, Análisis de brecha, GAP, Infraestrctura, PasS</td>
+<td>SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Infraestrctura, PasS</td>
 </tr>
 <tr class="even">
 <td>Autor</td>
@@ -1648,11 +1625,11 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 </tr>
 <tr class="even">
 <td>Versión</td>
-<td>1.90e5162 del 09 Oct 2023</td>
+<td>1.f3eb458 del 09 Oct 2023</td>
 </tr>
 <tr class="odd">
 <td>Vínculos</td>
-<td><a href="N03a%a20Vsta%20aSegenta%20SOA%20PGN.md">N003a Vista Segmento PGN SIU</a></td>
+<td><a href="N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md">N003a Vista Segmento Coomeva SIU</a></td>
 </tr>
 </tbody>
 </table>
@@ -1661,9 +1638,9 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <div style="page-break-before: always;">
 
 </div>
-<h1 id="documento-de-arquitectura-infraestructura-mi-mutual-pgn">Documento de Arquitectura Infraestructura Mi Mutual PGN</h1>
+<h1 id="documento-de-arquitectura-infraestructura-mi-mutual-coomeva">Documento de Arquitectura Infraestructura Mi Mutual Coomeva</h1>
 <ul>
-<li><a href="#descripción-de-infraestructura-migración-Mi%20Mutual-pgn">Descripción de Infraestructura Migración Mi Mutual PGN</a>
+<li><a href="#descripción-de-infraestructura-migración-Mi%20Mutual-Coomeva">Descripción de Infraestructura Migración Mi Mutual Coomeva</a>
 <ul>
 <li><a href="#lineabase.1a.siu-componentes.-infraestrcutura">Lineabase.1a.SIU componentes. infraestrcutura</a></li>
 <li><a href="#lineabase.0.siu-applicación.-física">Lineabase.0.SIU applicación. física</a></li>
@@ -1673,7 +1650,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <div style="page-break-before: always;">
 
 </div>
-<h1 id="descripción-de-infraestructura-migración-mi-mutual-pgn">Descripción de Infraestructura Migración Mi Mutual PGN</h1>
+<h1 id="descripción-de-infraestructura-migración-mi-mutual-coomeva">Descripción de Infraestructura Migración Mi Mutual Coomeva</h1>
 <h2 id="lineabase.1a.siu-componentes.-infraestrcutura">Lineabase.1a.SIU componentes. infraestrcutura</h2>
 <div id="fig:Lineabase.1a.SIUcomponentes.infraestrcutura" class="fignos">
 <figure>
@@ -1683,7 +1660,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 </div>
 <p>Dependencias de infraestructura entre los servicios que integran el modelo de aplicación de Mi Mutual, Migración.</p>
 <ul>
-<li>Servidor de Canales (App PGN web y móvil)</li>
+<li>Servidor de Canales (App Coomeva web y móvil)</li>
 <li>Servidor Web App (App Mi Mutual)</li>
 <li>Servidor Lappiz (Config Mi Mutual)</li>
 <li>Servidor BDD App (Transaccional)</li>
@@ -1719,13 +1696,13 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <td style="text-align: left;"><em>plataforma:</em> node Js<br></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>App PGN Móvil</strong></td>
+<td style="text-align: left;"><strong>App Coomeva Móvil</strong></td>
 <td style="text-align: left;">application-component</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>App PGN Web</strong></td>
+<td style="text-align: left;"><strong>App Coomeva Web</strong></td>
 <td style="text-align: left;">application-component</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"><em>plataforma:</em> angular 11<br></td>
@@ -1883,13 +1860,13 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <tr class="even">
 <td style="text-align: left;"><strong>Infraestructura Mi Mutual</strong></td>
 <td style="text-align: left;">grouping</td>
-<td style="text-align: left;">Soporte de infraestructura a los componentes del Mi Mutual Migración. Servidores y ambientes de cómputo para la ejecución del software base de los componentes misionales del Mi Mutual de PGN.<br></td>
+<td style="text-align: left;">Soporte de infraestructura a los componentes del Mi Mutual Migración. Servidores y ambientes de cómputo para la ejecución del software base de los componentes misionales del Mi Mutual de Coomeva.<br></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>PGN SIU</strong></td>
+<td style="text-align: left;"><strong>Coomeva SIU</strong></td>
 <td style="text-align: left;">grouping</td>
-<td style="text-align: left;">El objetivo principal de la arquitectura del Mi Mutual de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la PGN.<br>Los objetivos secundarios de esta arquitectura Mi Mutual de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br></td>
+<td style="text-align: left;">El objetivo principal de la arquitectura del Mi Mutual de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la Coomeva.<br>Los objetivos secundarios de esta arquitectura Mi Mutual de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
@@ -1974,13 +1951,13 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <td style="text-align: left;"><em>plataforma:</em> node Js<br></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>App PGN Móvil</strong></td>
+<td style="text-align: left;"><strong>App Coomeva Móvil</strong></td>
 <td style="text-align: left;">application-component</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>App PGN Web</strong></td>
+<td style="text-align: left;"><strong>App Coomeva Web</strong></td>
 <td style="text-align: left;">application-component</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"><em>plataforma:</em> angular 11<br></td>
@@ -2070,7 +2047,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>www pgn com</strong></td>
+<td style="text-align: left;"><strong>www Coomeva com</strong></td>
 <td style="text-align: left;">technology-interface</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -2127,13 +2104,13 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <td style="text-align: left;"><em>plataforma:</em> node Js<br></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>App PGN Móvil</strong></td>
+<td style="text-align: left;"><strong>App Coomeva Móvil</strong></td>
 <td style="text-align: left;">application-component</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>App PGN Web</strong></td>
+<td style="text-align: left;"><strong>App Coomeva Web</strong></td>
 <td style="text-align: left;">application-component</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"><em>plataforma:</em> angular 11<br></td>
@@ -2253,7 +2230,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>www pgn com</strong></td>
+<td style="text-align: left;"><strong>www Coomeva com</strong></td>
 <td style="text-align: left;">technology-interface</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -2300,7 +2277,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <p><br></p>
 <p><br></p>
 <p><br></p>
-<div class="line-block"><strong>Versión</strong> del producto 1.90e5162 de 09 Oct 2023</div>
+<div class="line-block"><strong>Versión</strong> del producto 1.f3eb458 de 09 Oct 2023</div>
 <div class="line-block"><strong>Presentado a</strong></div>
 <div class="line-block">STEF - Coomeva</div>
 <div class="line-block"></div>
@@ -2311,7 +2288,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 </div>
 <h1 id="documento-de-descripción-de-entidades-de-datos.-mi-mutual-stef---coomeva">Documento de Descripción de Entidades de Datos. Mi Mutual STEF - Coomeva</h1>
 <h2 id="objetivo-del-documento-2">Objetivo del Documento</h2>
-<p>Descripción de los productos de trabajo de la arquitectura de datos del proyecto Migración Mi Mutual, Fase 2, de la Procuraduría General de la Nación (PGN en adelante), Contrato 078-2023. El principal propósito de este documento es informar de las decisiones sobre la disposición lógica y física de las componentes de datos relevantes a la arquitectura del sistema Mi Mutual Migración. Por tanto, el documento contiene información estratégica para la toma de decisiones en cuanto al transporte, organización y mantenimiento de los entidades de datos de negocio, no un diseño detallado. Puntualmente, refleja decisiones sobre la plataforma tecnológica seleccionada, así como consideraciones importantes para el diseño y desarrollo, con procura de garantizar una solución técnicamente viable y óptima para el proyecto.</p>
+<p>Descripción de los productos de trabajo de la arquitectura de datos del proyecto Migración Mi Mutual, Fase 2, de la Procuraduría General de la Nación (Coomeva en adelante), Contrato 078-2023. El principal propósito de este documento es informar de las decisiones sobre la disposición lógica y física de las componentes de datos relevantes a la arquitectura del sistema Mi Mutual Migración. Por tanto, el documento contiene información estratégica para la toma de decisiones en cuanto al transporte, organización y mantenimiento de los entidades de datos de negocio, no un diseño detallado. Puntualmente, refleja decisiones sobre la plataforma tecnológica seleccionada, así como consideraciones importantes para el diseño y desarrollo, con procura de garantizar una solución técnicamente viable y óptima para el proyecto.</p>
 <p><br></p>
 <h2 class="page_break_before" id="control-de-cambios-2">Control de Cambios</h2>
 <table>
@@ -2328,7 +2305,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <tbody>
 <tr class="odd">
 <td>Palabras clave</td>
-<td>SIU, Softgic, PGN, Análisis de brecha, GAP, Entidades, Datos</td>
+<td>SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Entidades, Datos</td>
 </tr>
 <tr class="even">
 <td>Autor</td>
@@ -2340,11 +2317,11 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 </tr>
 <tr class="even">
 <td>Versión</td>
-<td>1.90e5162 del 09 Oct 2023</td>
+<td>1.f3eb458 del 09 Oct 2023</td>
 </tr>
 <tr class="odd">
 <td>Vínculos</td>
-<td><a href="N03a%a20Vsta%20aSegenta%20SOA%20PGN.md">N003a Vista Segmento PGN SIU</a></td>
+<td><a href="N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md">N003a Vista Segmento Coomeva SIU</a></td>
 </tr>
 </tbody>
 </table>
@@ -2355,7 +2332,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 </div>
 <h1 id="documento-de-arquitectura-datos-mi-mutual">Documento de Arquitectura Datos Mi Mutual</h1>
 <ul>
-<li><a href="#descripción-de-entidades-de-datos-migración-Mi%20Mutual-pgn">Descripción de Entidades de Datos Migración Mi Mutual PGN</a>
+<li><a href="#descripción-de-entidades-de-datos-migración-Mi%20Mutual-Coomeva">Descripción de Entidades de Datos Migración Mi Mutual Coomeva</a>
 <ul>
 <li><a href="#migracion.2.-datos">Migracion.2. datos</a></li>
 <li><a href="#migracion.2a.-datos-hominis">Migracion.2a. datos Hominis</a></li>
@@ -2367,7 +2344,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <div style="page-break-before: always;">
 
 </div>
-<h1 id="descripción-de-entidades-de-datos-migración-mi-mutual-pgn">Descripción de Entidades de Datos Migración Mi Mutual PGN</h1>
+<h1 id="descripción-de-entidades-de-datos-migración-mi-mutual-coomeva">Descripción de Entidades de Datos Migración Mi Mutual Coomeva</h1>
 <h2 id="migracion.2.-datos">Migracion.2. datos</h2>
 <div id="fig:Migracion.2.datos" class="fignos">
 <figure>
@@ -2396,7 +2373,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>cc:PGN Mi Mutual (misional)</strong></td>
+<td style="text-align: left;"><strong>cc:Coomeva Mi Mutual (misional)</strong></td>
 <td style="text-align: left;">application-collaboration</td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;"></td>
@@ -2404,7 +2381,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <tr class="even">
 <td style="text-align: left;"><strong>APP1.Relatoría</strong></td>
 <td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Módulo del Mi Mutual. Relatoría pública. Publicación de información de referencia para funcionarios y personas naturales, cientes de la PGN.<br></td>
+<td style="text-align: left;">Módulo del Mi Mutual. Relatoría pública. Publicación de información de referencia para funcionarios y personas naturales, cientes de la Coomeva.<br></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
@@ -2422,7 +2399,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <tr class="odd">
 <td style="text-align: left;"><strong>APP4.Hominis</strong></td>
 <td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Módulo del Mi Mutual. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la PGN.<br></td>
+<td style="text-align: left;">Módulo del Mi Mutual. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la Coomeva.<br></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
@@ -2450,7 +2427,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Procesamiento batch PGN</strong></td>
+<td style="text-align: left;"><strong>Procesamiento batch Coomeva</strong></td>
 <td style="text-align: left;">application-process</td>
 <td style="text-align: left;">Los procesos de lotes, que requieren volumenes de datos altos, deben hacer parte de la arquitectura de datos del Mi Mutual.<br></td>
 <td style="text-align: left;"></td>
@@ -2510,7 +2487,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <tr class="odd">
 <td style="text-align: left;"><strong>APP4.Hominis</strong></td>
 <td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Módulo del Mi Mutual. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la PGN.<br></td>
+<td style="text-align: left;">Módulo del Mi Mutual. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la Coomeva.<br></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
@@ -2636,7 +2613,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <figcaption aria-hidden="true"><span>Imagen 15:</span> Diagram: Migracion.2c. datos Control interno</figcaption>
 </figure>
 </div>
-<p>Identificación de entidades de datos de negocio relacionadas al módulo de seguimiento del desempeño de la PGN del Mi Mutual, Control Interno.</p>
+<p>Identificación de entidades de datos de negocio relacionadas al módulo de seguimiento del desempeño de la Coomeva del Mi Mutual, Control Interno.</p>
 <p>Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del Mi Mutual y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo.</p>
 <h3 id="catálogo-de-elementos-14">Catálogo de Elementos</h3>
 <table>
@@ -2772,13 +2749,13 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
 <div id="ref-19ZPD5YjC" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Softgic. Proyecto de mejoramiento SIU de PGN. Fase i</strong> <div class="csl-block">Softgic, PGN</div> (2022-06) <a href="https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/">https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/</a></div>
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Stefanini. Proyecto de mejoramiento SIU de coomeva. Fase i</strong> <div class="csl-block">Stefanini, Coomeva</div> (2022-06) <a href="https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/">https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/</a></div>
 </div>
 <div id="ref-hQTPO0iI" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>Procuraduría general de la nación. Anexo - especificaciones técnicas 19-05-2023</strong> <div class="csl-block">PGN</div> (2023-05) <a href="https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/">https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/</a></div>
+<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>Procuraduría general de la nación. Anexo - especificaciones técnicas 19-05-2023</strong> <div class="csl-block">Coomeva</div> (2023-05) <a href="https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/">https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/</a></div>
 </div>
 <div id="ref-l0mriBft" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>PGN manual técnico sharepoint, versión 1</strong> <div class="csl-block">Softgic, PGN</div> (2022-05) <a href="https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/">https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/</a></div>
+<div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>Coomeva manual técnico sharepoint, versión 1</strong> <div class="csl-block">Stefanini, Coomeva</div> (2022-05) <a href="https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/">https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/</a></div>
 </div>
 </div>
 <div style="page-break-before: always;">
@@ -2789,13 +2766,13 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
 <p><span class="citation" data-cites="19ZPD5YjC">[<a href="#ref-19ZPD5YjC" role="doc-biblioref">1</a>]</span> <span class="citation" data-cites="hQTPO0iI">[<a href="#ref-hQTPO0iI" role="doc-biblioref">2</a>]</span> <span class="citation" data-cites="l0mriBft">[<a href="#ref-l0mriBft" role="doc-biblioref">3</a>]</span> <span class="citation" data-cites="eservices5-23">[<a href="#ref-eservices5-23" role="doc-biblioref"><strong>eservices5-23?</strong></a>]</span> <span class="citation" data-cites="eservices6-12">[<a href="#ref-eservices6-12" role="doc-biblioref"><strong>eservices6-12?</strong></a>]</span> <span class="citation" data-cites="eservices7-23">[<a href="#ref-eservices7-23" role="doc-biblioref"><strong>eservices7-23?</strong></a>]</span> <span class="citation" data-cites="bptrends07">[<a href="#ref-bptrends07" role="doc-biblioref"><strong>bptrends07?</strong></a>]</span></p>
 <div id="ref-19ZPD5YjC" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Softgic. Proyecto de mejoramiento SIU de PGN. Fase i</strong> <div class="csl-block">Softgic, PGN</div> (2022-06) <a href="https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/">https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/</a></div>
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Stefanini. Proyecto de mejoramiento SIU de coomeva. Fase i</strong> <div class="csl-block">Stefanini, Coomeva</div> (2022-06) <a href="https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/">https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/</a></div>
 </div>
 <div id="ref-hQTPO0iI" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>Procuraduría general de la nación. Anexo - especificaciones técnicas 19-05-2023</strong> <div class="csl-block">PGN</div> (2023-05) <a href="https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/">https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/</a></div>
+<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>Procuraduría general de la nación. Anexo - especificaciones técnicas 19-05-2023</strong> <div class="csl-block">Coomeva</div> (2023-05) <a href="https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/">https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/</a></div>
 </div>
 <div id="ref-l0mriBft" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>PGN manual técnico sharepoint, versión 1</strong> <div class="csl-block">Softgic, PGN</div> (2022-05) <a href="https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/">https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/</a></div>
+<div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>Coomeva manual técnico sharepoint, versión 1</strong> <div class="csl-block">Stefanini, Coomeva</div> (2022-05) <a href="https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/">https://hwong23.github.io/fna-devdoc-f1/v/6497aef0f15c3591f0728e4c42cb2c26c13b43aa/</a></div>
 </div>
 </div>
 <section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
