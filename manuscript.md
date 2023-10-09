@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-09" />
   <meta name="citation_publication_date" content="2023-10-09" />
   <meta property="article:published_time" content="2023-10-09" />
-  <meta name="dc.modified" content="2023-10-09T17:39:56+00:00" />
-  <meta property="article:modified_time" content="2023-10-09T17:39:56+00:00" />
+  <meta name="dc.modified" content="2023-10-09T17:54:15+00:00" />
+  <meta property="article:modified_time" content="2023-10-09T17:54:15+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/66064c945ed834cb5fabdba69f64cf4b8e3bb3dc/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/66064c945ed834cb5fabdba69f64cf4b8e3bb3dc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/66064c945ed834cb5fabdba69f64cf4b8e3bb3dc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/f6f8133435234257e4c6150b67bbd579f6e307b4/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/f6f8133435234257e4c6150b67bbd579f6e307b4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/f6f8133435234257e4c6150b67bbd579f6e307b4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.66064c9 de 09 Oct 2023
+| **Versión** del producto 1.f6f8133 de 09 Oct 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, Migración Funcional SIU, Contrato 078-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/66064c945ed834cb5fabdba69f64cf4b8e3bb3dc/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/f6f8133435234257e4c6150b67bbd579f6e307b4/))
 están basados en el resultado de la Fase 1 del proyecto PGN SIU del 2022,
-[Sharepoint Softgic@66064c9](http://softgic.sharepoint.com)
+[Sharepoint Softgic@f6f8133](http://softgic.sharepoint.com)
 del October 9, 2023.
 </em></small>
 
@@ -138,9 +138,9 @@ del October 9, 2023.
 
 <small><em>
 This manuscript
-([permalink](https://hwong23.github.io/stef-arqcomv/v/66064c945ed834cb5fabdba69f64cf4b8e3bb3dc/))
+([permalink](https://hwong23.github.io/stef-arqcomv/v/f6f8133435234257e4c6150b67bbd579f6e307b4/))
 was automatically generated
-from [hwong23/stef-arqcomv@66064c9](https://github.com/hwong23/stef-arqcomv/tree/66064c945ed834cb5fabdba69f64cf4b8e3bb3dc)
+from [hwong23/stef-arqcomv@f6f8133](https://github.com/hwong23/stef-arqcomv/tree/f6f8133435234257e4c6150b67bbd579f6e307b4)
 on October 9, 2023.
 </em></small>
 
@@ -181,7 +181,7 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | Palabras clave | SIU, Softgic, PGN, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.66064c9 del 09 Oct 2023 |
+| Versión        | 1.f6f8133 del 09 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
@@ -299,10 +299,9 @@ Table: Requisito no. 3, Migración Mi Mutual, Flexibilidad. {#tbl:requisito3-id}
 	* [Arq Mi Mutual. 2. Contenedores](#arq-mi-mutual.-2.-contenedores)
 	* [Arq Mi Mutual. 3. Dominios](#arq-mi-mutual.-3.-dominios)
 	* [Arq Mi Mutual. 4. Aplicación](#arq-mi-mutual.-4.-aplicación)
-	* [Arq Mi Mutual. 4a1. Referencia](#arq-mi-mutual.-4a1.-referencia)
-	* [Arq Mi Mutual. 4a2. Infraestructura](#arq-mi-mutual.-4a2.-infraestructura)
 	* [Arq Mi Mutual. 4a3. Dependencias](#arq-mi-mutual.-4a3.-dependencias)
-	* [Arq Mi Mutual. 6. Físico](#arq-mi-mutual.-6.-físico)
+	* [Arq Mi Mutual. 5. Físico](#arq-mi-mutual.-5.-físico)
+	* [Arq Mi Mutual. 6. Infraestructura](#arq-mi-mutual.-6.-infraestructura)
 * [Cotizador Web](#cotizador-web)
 	* [ArqCotizador. 1. Contexto](#arqcotizador.-1.-contexto)
 	* [ArqCotizador. 2. Dependencias](#arqcotizador.-2.-dependencias)
@@ -426,48 +425,6 @@ La división por dominios busca facilitar la administración los servicios de la
 |**Servicio de Red**|technology-service|||
 |**Servicio de archivos**|technology-service|||
 
-## Arq Mi Mutual. 4a1. Referencia
-![Diagram: Arq Mi Mutual. 4a1. Referencia](images/ArqMiMutual.4a1.Referencia.png){#fig:ArqMiMutual.4a1.Referencia width=}
-
-### Catálogo de Elementos
-| Name| Type| Description| Properties
-|:--------|:--------|:--------|:--------|
-|**Componentes Spring Boot**|application-component|||
-|**Api Rest**|application-function|||
-|**Autenticación (filtro)**|application-function|||
-|**Nivel de Integración**|application-function|||
-|**Nivel de datos**|application-function|||
-|**Seguridad**|application-function|||
-|**Service Agents**|application-function|||
-|**Cofiguración**|application-process|||
-|**Servicios**|application-process|||
-|**Almacenamiento y Repositorio**|application-service|||
-|**BPMS**|application-service|||
-|**BUC**|application-service|||
-|**DDSEGUROS**|application-service|||
-|**ESB/WS**|application-service|||
-|**Nivel de Negocio**|application-service|||
-|**RULES**|application-service|||
-|**Repositorio**|application-service|||
-|**SIPASDB**|application-service|||
-|**SISPRO**|application-service|||
-|**Servicios Backend**|application-service|||
-
-## Arq Mi Mutual. 4a2. Infraestructura
-![Diagram: Arq Mi Mutual. 4a2. Infraestructura](images/ArqMiMutual.4a2.Infraestructura.png){#fig:ArqMiMutual.4a2.Infraestructura width=}
-
-### Catálogo de Elementos
-| Name| Type| Description| Properties
-|:--------|:--------|:--------|:--------|
-|**Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.||
-|**Spring cloud security**|node|Se implementará Spring Boot Security y Spring Boot Oauth2 las cuales proveen una capa básica de seguridad entre Vista (Angular 2) y Controlador, obligando a que únicamente permita el acceso si se está autenticado si lo requiere, además para realizar el proceso de autenticación se utilizara la aplicación SISPRO (Coomeva) la cual funciona como un servidor de autenticación.<br>La validación de roles se realizará a nivel de peticiones en el api rest según corresponda, siempre y cuando sea necesario, también se tendrán en cuenta otras validaciones como:<br>• Las credenciales que proporcionó no son válidas.<br>• El usuario esta deshabilitado.<br>• Las credenciales de usuario han caducado.<br>• La cuenta de usuario ha caducado.<br>• La cuenta de usuario está bloqueada.||
-|**DB2 AS400: SIPASDB**|system-software|Las bases de datos a utilizar son: <br>* DB2 AS400: SIPASDB<br>* Sql Server (...)<br>* Oracle (...)<br>||
-|**Oracle DB: (...)**|system-software|Las bases de datos a utilizar son: <br>* DB2 AS400: SIPASDB<br>* Sql Server (...)<br>* Oracle (...)<br>||
-|**SQL Server: (...)**|system-software|Las bases de datos a utilizar son: <br>* DB2 AS400: SIPASDB<br>* SQL Server (...)<br>* Oracle (...)<br>||
-|**Servicio de Almacenamiento de Datos**|technology-service|||
-|**Servicio de Red**|technology-service|||
-|**Servicio de archivos**|technology-service|||
-
 ## Arq Mi Mutual. 4a3. Dependencias
 ![Diagram: Arq Mi Mutual. 4a3. Dependencias](images/ArqMiMutual.4a3.Dependencias.png){#fig:ArqMiMutual.4a3.Dependencias width=}
 
@@ -515,8 +472,8 @@ El código fuente está alojado en un repositorio de Coomeva.
 |**pkg: Util**|application-component|util: Almacenan todas las clases de utilería para la aplicación.||
 |**pkg: Web**|application-component|dto: Almacenan todas las clases (pojos) para manejo de datos.||
 
-## Arq Mi Mutual. 6. Físico
-![Diagram: Arq Mi Mutual. 6. Físico](images/ArqMiMutual.6.Físico.png){#fig:ArqMiMutual.6.Físico width=}
+## Arq Mi Mutual. 5. Físico
+![Diagram: Arq Mi Mutual. 5. Físico](images/ArqMiMutual.5.Físico.png){#fig:ArqMiMutual.5.Físico width=}
 
 Especificaciones de despliegue Mi Mutual, 2023, componente central.
 
@@ -545,6 +502,21 @@ Especificaciones de despliegue Mi Mutual, 2023, componente central.
 |**Identidad: spring cloud security**|system-software|||
 |**Secuencias: zipking: tomcat**|system-software|||
 |**Servicios: tomcat**|system-software|||
+
+## Arq Mi Mutual. 6. Infraestructura
+![Diagram: Arq Mi Mutual. 6. Infraestructura](images/ArqMiMutual.6.Infraestructura.png){#fig:ArqMiMutual.6.Infraestructura width=}
+
+### Catálogo de Elementos
+| Name| Type| Description| Properties
+|:--------|:--------|:--------|:--------|
+|**Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.||
+|**Spring cloud security**|node|Se implementará Spring Boot Security y Spring Boot Oauth2 las cuales proveen una capa básica de seguridad entre Vista (Angular 2) y Controlador, obligando a que únicamente permita el acceso si se está autenticado si lo requiere, además para realizar el proceso de autenticación se utilizara la aplicación SISPRO (Coomeva) la cual funciona como un servidor de autenticación.<br>La validación de roles se realizará a nivel de peticiones en el api rest según corresponda, siempre y cuando sea necesario, también se tendrán en cuenta otras validaciones como:<br>• Las credenciales que proporcionó no son válidas.<br>• El usuario esta deshabilitado.<br>• Las credenciales de usuario han caducado.<br>• La cuenta de usuario ha caducado.<br>• La cuenta de usuario está bloqueada.||
+|**DB2 AS400: SIPASDB**|system-software|Las bases de datos a utilizar son: <br>* DB2 AS400: SIPASDB<br>* Sql Server (...)<br>* Oracle (...)<br>||
+|**Oracle DB: (...)**|system-software|Las bases de datos a utilizar son: <br>* DB2 AS400: SIPASDB<br>* Sql Server (...)<br>* Oracle (...)<br>||
+|**SQL Server: (...)**|system-software|Las bases de datos a utilizar son: <br>* DB2 AS400: SIPASDB<br>* SQL Server (...)<br>* Oracle (...)<br>||
+|**Servicio de Almacenamiento de Datos**|technology-service|||
+|**Servicio de Red**|technology-service|||
+|**Servicio de archivos**|technology-service|||
 <div style="page-break-before: always;"></div>
 \newpage
 
@@ -652,7 +624,7 @@ La estructura por módulos actual apunta a la escalabilidad y mantenimiento del 
 |**admin Servicios**|application-function|||
 
 
-``Generated on: Mon Oct 09 2023 12:32:43 GMT-0500 (COT)``
+``Generated on: Mon Oct 09 2023 12:51:24 GMT-0500 (COT)``
 
 ## Requerimientos de Administración
 1.	Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
@@ -727,7 +699,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.66064c9 de 09 Oct 2023
+| **Versión** del producto 1.f6f8133 de 09 Oct 2023
 
 | **Presentado a**
 
@@ -756,7 +728,7 @@ Descripción de los productos del trabajo de infraestructura del proyecto Migrac
 | Palabras clave | SIU, Softgic, PGN, Análisis de brecha, GAP, Infraestrctura, PasS |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.66064c9 del 09 Oct 2023 |
+| Versión        | 1.f6f8133 del 09 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
@@ -945,7 +917,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.66064c9 de 09 Oct 2023
+| **Versión** del producto 1.f6f8133 de 09 Oct 2023
 
 | **Presentado a**
 
@@ -975,7 +947,7 @@ Descripción de los productos de trabajo de la arquitectura de datos del proyect
 | Palabras clave | SIU, Softgic, PGN, Análisis de brecha, GAP, Entidades, Datos  |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.66064c9 del 09 Oct 2023 |
+| Versión        | 1.f6f8133 del 09 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
