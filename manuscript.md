@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-09" />
   <meta name="citation_publication_date" content="2023-10-09" />
   <meta property="article:published_time" content="2023-10-09" />
-  <meta name="dc.modified" content="2023-10-09T17:36:51+00:00" />
-  <meta property="article:modified_time" content="2023-10-09T17:36:51+00:00" />
+  <meta name="dc.modified" content="2023-10-09T17:39:56+00:00" />
+  <meta property="article:modified_time" content="2023-10-09T17:39:56+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/7a1378b1a10b3d44d7e630bd6aee3164add0a222/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/7a1378b1a10b3d44d7e630bd6aee3164add0a222/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/7a1378b1a10b3d44d7e630bd6aee3164add0a222/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/66064c945ed834cb5fabdba69f64cf4b8e3bb3dc/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/66064c945ed834cb5fabdba69f64cf4b8e3bb3dc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/66064c945ed834cb5fabdba69f64cf4b8e3bb3dc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.7a1378b de 09 Oct 2023
+| **Versión** del producto 1.66064c9 de 09 Oct 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, Migración Funcional SIU, Contrato 078-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/7a1378b1a10b3d44d7e630bd6aee3164add0a222/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/66064c945ed834cb5fabdba69f64cf4b8e3bb3dc/))
 están basados en el resultado de la Fase 1 del proyecto PGN SIU del 2022,
-[Sharepoint Softgic@7a1378b](http://softgic.sharepoint.com)
+[Sharepoint Softgic@66064c9](http://softgic.sharepoint.com)
 del October 9, 2023.
 </em></small>
 
@@ -138,9 +138,9 @@ del October 9, 2023.
 
 <small><em>
 This manuscript
-([permalink](https://hwong23.github.io/stef-arqcomv/v/7a1378b1a10b3d44d7e630bd6aee3164add0a222/))
+([permalink](https://hwong23.github.io/stef-arqcomv/v/66064c945ed834cb5fabdba69f64cf4b8e3bb3dc/))
 was automatically generated
-from [hwong23/stef-arqcomv@7a1378b](https://github.com/hwong23/stef-arqcomv/tree/7a1378b1a10b3d44d7e630bd6aee3164add0a222)
+from [hwong23/stef-arqcomv@66064c9](https://github.com/hwong23/stef-arqcomv/tree/66064c945ed834cb5fabdba69f64cf4b8e3bb3dc)
 on October 9, 2023.
 </em></small>
 
@@ -181,7 +181,7 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | Palabras clave | SIU, Softgic, PGN, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.7a1378b del 09 Oct 2023 |
+| Versión        | 1.66064c9 del 09 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
@@ -727,7 +727,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.7a1378b de 09 Oct 2023
+| **Versión** del producto 1.66064c9 de 09 Oct 2023
 
 | **Presentado a**
 
@@ -756,7 +756,7 @@ Descripción de los productos del trabajo de infraestructura del proyecto Migrac
 | Palabras clave | SIU, Softgic, PGN, Análisis de brecha, GAP, Infraestrctura, PasS |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.7a1378b del 09 Oct 2023 |
+| Versión        | 1.66064c9 del 09 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
@@ -945,7 +945,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.7a1378b de 09 Oct 2023
+| **Versión** del producto 1.66064c9 de 09 Oct 2023
 
 | **Presentado a**
 
@@ -975,7 +975,7 @@ Descripción de los productos de trabajo de la arquitectura de datos del proyect
 | Palabras clave | SIU, Softgic, PGN, Análisis de brecha, GAP, Entidades, Datos  |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.7a1378b del 09 Oct 2023 |
+| Versión        | 1.66064c9 del 09 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
 
 <br>
