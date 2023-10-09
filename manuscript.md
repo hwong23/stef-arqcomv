@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-09" />
   <meta name="citation_publication_date" content="2023-10-09" />
   <meta property="article:published_time" content="2023-10-09" />
-  <meta name="dc.modified" content="2023-10-09T18:04:06+00:00" />
-  <meta property="article:modified_time" content="2023-10-09T18:04:06+00:00" />
+  <meta name="dc.modified" content="2023-10-09T18:11:46+00:00" />
+  <meta property="article:modified_time" content="2023-10-09T18:11:46+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/e32c85dd2f7e91bfe0d8bf5f2282f6e490b6a134/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/e32c85dd2f7e91bfe0d8bf5f2282f6e490b6a134/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/e32c85dd2f7e91bfe0d8bf5f2282f6e490b6a134/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.f3eb458 de 09 Oct 2023
+| **Versión** del producto 1.e32c85d de 09 Oct 2023
 
 | **Presentado a**
 
@@ -94,10 +94,10 @@ tablenos-caption-name: Tabla
 \newpage
 
 
-<small><em>Los productos de esta etapa, Migración Funcional SIU, Contrato 078-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/))
-están basados en el resultado de la Fase 1 del proyecto Coomeva SIU del 2022,
-[Sharepoint STEF@f3eb458](http://stefanini.sharepoint.com)
+<small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
+([Web](https://hwong23.github.io/stef-arqcomv/v/e32c85dd2f7e91bfe0d8bf5f2282f6e490b6a134/))
+están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
+[Sharepoint STEF@e32c85d](http://stefanini.sharepoint.com)
 del October 9, 2023.
 </em></small>
 
@@ -143,7 +143,7 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.f3eb458 del 09 Oct 2023 |
+| Versión        | 1.e32c85d del 09 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -661,7 +661,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.f3eb458 de 09 Oct 2023
+| **Versión** del producto 1.e32c85d de 09 Oct 2023
 
 | **Presentado a**
 
@@ -690,7 +690,7 @@ Descripción de los productos del trabajo de infraestructura del proyecto Migrac
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Infraestrctura, PasS |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.f3eb458 del 09 Oct 2023 |
+| Versión        | 1.e32c85d del 09 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -879,7 +879,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.f3eb458 de 09 Oct 2023
+| **Versión** del producto 1.e32c85d de 09 Oct 2023
 
 | **Presentado a**
 
@@ -909,7 +909,7 @@ Descripción de los productos de trabajo de la arquitectura de datos del proyect
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Entidades, Datos  |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.f3eb458 del 09 Oct 2023 |
+| Versión        | 1.e32c85d del 09 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>

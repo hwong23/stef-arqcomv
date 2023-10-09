@@ -11,7 +11,7 @@
     "author-meta": [
       "Harry Wong, ing."
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta name=\"dc.date\" content=\"2023-10-09\" />\n<meta name=\"citation_publication_date\" content=\"2023-10-09\" />\n<meta property=\"article:published_time\" content=\"2023-10-09\" />\n<meta name=\"dc.modified\" content=\"2023-10-09T18:04:06+00:00\" />\n<meta property=\"article:modified_time\" content=\"2023-10-09T18:04:06+00:00\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Harry Wong, ing.\" />\n<meta name=\"citation_author_institution\" content=\"Arquitecto, Stefanini\" />\n<link rel=\"canonical\" href=\"https://hwong23.github.io/stef-arqcomv/\" />\n<meta property=\"og:url\" content=\"https://hwong23.github.io/stef-arqcomv/\" />\n<meta property=\"twitter:url\" content=\"https://hwong23.github.io/stef-arqcomv/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://hwong23.github.io/stef-arqcomv/\" />\n<meta name=\"citation_pdf_url\" content=\"https://hwong23.github.io/stef-arqcomv/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://hwong23.github.io/stef-arqcomv/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->\n",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta name=\"dc.date\" content=\"2023-10-09\" />\n<meta name=\"citation_publication_date\" content=\"2023-10-09\" />\n<meta property=\"article:published_time\" content=\"2023-10-09\" />\n<meta name=\"dc.modified\" content=\"2023-10-09T18:11:46+00:00\" />\n<meta property=\"article:modified_time\" content=\"2023-10-09T18:11:46+00:00\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Harry Wong, ing.\" />\n<meta name=\"citation_author_institution\" content=\"Arquitecto, Stefanini\" />\n<link rel=\"canonical\" href=\"https://hwong23.github.io/stef-arqcomv/\" />\n<meta property=\"og:url\" content=\"https://hwong23.github.io/stef-arqcomv/\" />\n<meta property=\"twitter:url\" content=\"https://hwong23.github.io/stef-arqcomv/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://hwong23.github.io/stef-arqcomv/\" />\n<meta name=\"citation_pdf_url\" content=\"https://hwong23.github.io/stef-arqcomv/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://hwong23.github.io/stef-arqcomv/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://hwong23.github.io/stef-arqcomv/v/e32c85dd2f7e91bfe0d8bf5f2282f6e490b6a134/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://hwong23.github.io/stef-arqcomv/v/e32c85dd2f7e91bfe0d8bf5f2282f6e490b6a134/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://hwong23.github.io/stef-arqcomv/v/e32c85dd2f7e91bfe0d8bf5f2282f6e490b6a134/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->\n",
     "bibliography": [
       "content/manual-references.bib",
       "content/manual-references.json"
@@ -24,7 +24,7 @@
   "manubot": {
     "date": "2023-10-09",
     "date_long": "October 9, 2023",
-    "generated": "2023-10-09T18:04:06+00:00",
+    "generated": "2023-10-09T18:11:46+00:00",
     "generated_date_long": "October 9, 2023",
     "randomize_author_order": false,
     "authors": [
@@ -53,19 +53,19 @@
       "repo_slug": "hwong23/stef-arqcomv",
       "repo_owner": "hwong23",
       "repo_name": "stef-arqcomv",
-      "commit": "f3eb4586816783a9fa2316561858670003672c92",
-      "triggering_commit": "f3eb4586816783a9fa2316561858670003672c92",
-      "build_url": "https://github.com/hwong23/stef-arqcomv/commit/f3eb4586816783a9fa2316561858670003672c92/checks",
-      "job_url": "https://github.com/hwong23/stef-arqcomv/actions/runs/6460158961"
+      "commit": "e32c85dd2f7e91bfe0d8bf5f2282f6e490b6a134",
+      "triggering_commit": "e32c85dd2f7e91bfe0d8bf5f2282f6e490b6a134",
+      "build_url": "https://github.com/hwong23/stef-arqcomv/commit/e32c85dd2f7e91bfe0d8bf5f2282f6e490b6a134/checks",
+      "job_url": "https://github.com/hwong23/stef-arqcomv/actions/runs/6460235460"
     },
     "html_url": "https://hwong23.github.io/stef-arqcomv/",
     "pdf_url": "https://hwong23.github.io/stef-arqcomv/manuscript.pdf",
-    "html_url_versioned": "https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/",
-    "pdf_url_versioned": "https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/manuscript.pdf",
+    "html_url_versioned": "https://hwong23.github.io/stef-arqcomv/v/e32c85dd2f7e91bfe0d8bf5f2282f6e490b6a134/",
+    "pdf_url_versioned": "https://hwong23.github.io/stef-arqcomv/v/e32c85dd2f7e91bfe0d8bf5f2282f6e490b6a134/manuscript.pdf",
     "manubot_version": "0.5.5",
     "rootstock_commit": "48c7d75849f6fa24b2c2d6a529edc028f1b2d029",
     "manuscript_stats": {
-      "word_count": 8913
+      "word_count": 8916
     }
   }
 }
