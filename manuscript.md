@@ -3,7 +3,7 @@ keywords:
 - SOA
 - madurez
 - gobierno
-- PGN
+- Coomeva
 lang: en-US
 date-meta: '2023-10-09'
 author-meta:
@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-09" />
   <meta name="citation_publication_date" content="2023-10-09" />
   <meta property="article:published_time" content="2023-10-09" />
-  <meta name="dc.modified" content="2023-10-09T17:57:32+00:00" />
-  <meta property="article:modified_time" content="2023-10-09T17:57:32+00:00" />
+  <meta name="dc.modified" content="2023-10-09T18:04:06+00:00" />
+  <meta property="article:modified_time" content="2023-10-09T18:04:06+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -27,16 +27,16 @@ header-includes: |
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Harry Wong, ing." />
-  <meta name="citation_author_institution" content="Arquitecto, Softgic" />
+  <meta name="citation_author_institution" content="Arquitecto, Stefanini" />
   <link rel="canonical" href="https://hwong23.github.io/stef-arqcomv/" />
   <meta property="og:url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta property="twitter:url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/90e5162a574000620e0076931f022c5e1f3af712/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/90e5162a574000620e0076931f022c5e1f3af712/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/90e5162a574000620e0076931f022c5e1f3af712/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.90e5162 de 09 Oct 2023
+| **Versión** del producto 1.f3eb458 de 09 Oct 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, Migración Funcional SIU, Contrato 078-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/90e5162a574000620e0076931f022c5e1f3af712/))
-están basados en el resultado de la Fase 1 del proyecto PGN SIU del 2022,
-[Sharepoint Softgic@90e5162](http://softgic.sharepoint.com)
+([Web](https://hwong23.github.io/stef-arqcomv/v/f3eb4586816783a9fa2316561858670003672c92/))
+están basados en el resultado de la Fase 1 del proyecto Coomeva SIU del 2022,
+[Sharepoint STEF@f3eb458](http://stefanini.sharepoint.com)
 del October 9, 2023.
 </em></small>
 
@@ -117,12 +117,12 @@ del October 9, 2023.
     [e_hwong](https://github.com/e_hwong)
     <br>
   <small>
-     Arquitecto, Softgic
+     Arquitecto, Stefanini
   </small>
 
 
 ::: {#correspondence}
-✉ — Enviar mensajes a Harry Wong, ing. \<harry.wong@softgic.co\>.
+✉ — Enviar mensajes a Harry Wong, ing. \<e_hwong@stefanini.com\>.
 
 
 :::
@@ -131,46 +131,8 @@ del October 9, 2023.
 
 
 
-
-
-
-
-
-<small><em>
-This manuscript
-([permalink](https://hwong23.github.io/stef-arqcomv/v/90e5162a574000620e0076931f022c5e1f3af712/))
-was automatically generated
-from [hwong23/stef-arqcomv@90e5162](https://github.com/hwong23/stef-arqcomv/tree/90e5162a574000620e0076931f022c5e1f3af712)
-on October 9, 2023.
-</em></small>
-
-
-
-## Authors
-
-
-
-+ **Harry Wong, ing.**
-  <br>
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [e_hwong](https://github.com/e_hwong)
-    <br>
-  <small>
-     Arquitecto, Softgic
-  </small>
-
-
-::: {#correspondence}
-✉ — Correspondence possible via [GitHub Issues](https://github.com/hwong23/stef-arqcomv/issues)
-or email to
-Harry Wong, ing. \<harry.wong@softgic.co\>.
-
-
-:::
-
-
 ## Objetivo del Documento
-Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto Migración Funcional SIU de la Procuraduría General de la Nación (PGN en adelante), Contrato 078-2023. El principal propósito de este documento es informar de las decisiones sobre la disposición lógica y física de las partes del sistema. Por tanto, el documento contiene información estratégica, no un diseño detallado. Puntualmente, refleja decisiones sobre la plataforma tecnológica seleccionada, así como consideraciones importantes para el diseño y desarrollo, con procura de garantizar una solución técnicamente viable y óptima para el proyecto.
+Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto Migración Funcional SIU de la Procuraduría General de la Nación (Coomeva en adelante), Contrato 078-2023. El principal propósito de este documento es informar de las decisiones sobre la disposición lógica y física de las partes del sistema. Por tanto, el documento contiene información estratégica, no un diseño detallado. Puntualmente, refleja decisiones sobre la plataforma tecnológica seleccionada, así como consideraciones importantes para el diseño y desarrollo, con procura de garantizar una solución técnicamente viable y óptima para el proyecto.
 
 
 <br>
@@ -178,11 +140,11 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 ##  Control de Cambios {.page_break_before}
 | Tema           | Mi Mutual Coomeva Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva      |
 |----------------|----------------------------|
-| Palabras clave | SIU, Softgic, PGN, Análisis de brecha, GAP, Comparativa              |
+| Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.90e5162 del 09 Oct 2023 |
-| Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
+| Versión        | 1.f3eb458 del 09 Oct 2023 |
+| Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
 
@@ -269,7 +231,7 @@ Definiremos estos requisitos de la solución a tener en cuenta al momento del de
 
 | Requisito      | Extensibilidad Mi Mutual |
 |----------------|--------------------|
-| Descripción | Unifica las entidades de negocio PGN, entre las que se incluyen a conciliaciones, publicaciones de relatoría, resoluciones, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del Mi Mutual, estarán concentradas en un único artefacto correspondiente. |
+| Descripción | Unifica las entidades de negocio Coomeva, entre las que se incluyen a conciliaciones, publicaciones de relatoría, resoluciones, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del Mi Mutual, estarán concentradas en un único artefacto correspondiente. |
 | Calidad sistémica | La consistencia persigue que el resultado de la lógica de negocio sea la misma entre los módulos del Mi Mutual migrado. Esto redunda a mantenibilidad y gestión: tiende a tener un solo punto de cambio y dificulta la transferencia de dependencias implícitas a otros procesos. |
 
 Table: Requisito no. 1, Migración Mi Mutual, Consistencia. {#tbl:requisito1-id}
@@ -699,7 +661,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.90e5162 de 09 Oct 2023
+| **Versión** del producto 1.f3eb458 de 09 Oct 2023
 
 | **Presentado a**
 
@@ -725,11 +687,11 @@ Descripción de los productos del trabajo de infraestructura del proyecto Migrac
 ##  Control de Cambios {.page_break_before}
 | Tema           | Mi Mutual Coomeva Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva      |
 |----------------|----------------------------|
-| Palabras clave | SIU, Softgic, PGN, Análisis de brecha, GAP, Infraestrctura, PasS |
+| Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Infraestrctura, PasS |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.90e5162 del 09 Oct 2023 |
-| Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
+| Versión        | 1.f3eb458 del 09 Oct 2023 |
+| Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
 
@@ -740,8 +702,8 @@ Descripción de los productos del trabajo de infraestructura del proyecto Migrac
 
 
 
-# Documento de Arquitectura Infraestructura Mi Mutual PGN
-* [Descripción de Infraestructura Migración Mi Mutual PGN](#descripción-de-infraestructura-migración-Mi Mutual-pgn)
+# Documento de Arquitectura Infraestructura Mi Mutual Coomeva
+* [Descripción de Infraestructura Migración Mi Mutual Coomeva](#descripción-de-infraestructura-migración-Mi Mutual-Coomeva)
 	* [Lineabase.1a.SIU componentes. infraestrcutura](#lineabase.1a.siu-componentes.-infraestrcutura)
 	* [Lineabase.0.SIU applicación. física](#lineabase.0.siu-applicación.-física)
 	* [Seguridad. Lineabase.0.SIU applicación](#seguridad.-lineabase.0.siu-applicación)
@@ -749,13 +711,13 @@ Descripción de los productos del trabajo de infraestructura del proyecto Migrac
 <div style="page-break-before: always;"></div>
 \newpage
 
-# Descripción de Infraestructura Migración Mi Mutual PGN
+# Descripción de Infraestructura Migración Mi Mutual Coomeva
 ## Lineabase.1a.SIU componentes. infraestrcutura
 ![Diagram: Lineabase.1a.SIU componentes. infraestrcutura](images/Lineabase.1a.SIUcomponentes.infraestrcutura.png){#fig:Lineabase.1a.SIUcomponentes.infraestrcutura width=}
 
 Dependencias de infraestructura entre los servicios que integran el modelo de aplicación de Mi Mutual, Migración. 
 
-* Servidor de Canales (App PGN web y móvil)
+* Servidor de Canales (App Coomeva web y móvil)
 * Servidor Web App (App Mi Mutual)
 * Servidor Lappiz (Config Mi Mutual)
 * Servidor BDD App (Transaccional)
@@ -768,8 +730,8 @@ Dependencias de infraestructura entre los servicios que integran el modelo de ap
 |:--------|:--------|:--------|:--------|
 |**Persistencia**|application-collaboration|||
 |**App**|application-component||*plataforma:* node Js<br>|
-|**App PGN Móvil**|application-component|||
-|**App PGN Web**|application-component||*plataforma:* angular 11<br>|
+|**App Coomeva Móvil**|application-component|||
+|**App Coomeva Web**|application-component||*plataforma:* angular 11<br>|
 |**Config**|application-component||*plataforma:* cs<br>|
 |**Controlador admin**|application-component||*plataforma:* cs<br>|
 |**Controlador frontal mvl**|application-component||*plataforma:* js<br>|
@@ -795,8 +757,8 @@ Dependencias de infraestructura entre los servicios que integran el modelo de ap
 |**Interfaz de datos 3**|application-service|||
 |**ccccc Proveedores contenidos**|application-service|||
 |**Mensaje: JSON**|data-object|||
-|**Infraestructura Mi Mutual**|grouping|Soporte de infraestructura a los componentes del Mi Mutual Migración. Servidores y ambientes de cómputo para la ejecución del software base de los componentes misionales del Mi Mutual de PGN.<br>||
-|**PGN SIU**|grouping|El objetivo principal de la arquitectura del Mi Mutual de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la PGN.<br>Los objetivos secundarios de esta arquitectura Mi Mutual de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br>||
+|**Infraestructura Mi Mutual**|grouping|Soporte de infraestructura a los componentes del Mi Mutual Migración. Servidores y ambientes de cómputo para la ejecución del software base de los componentes misionales del Mi Mutual de Coomeva.<br>||
+|**Coomeva SIU**|grouping|El objetivo principal de la arquitectura del Mi Mutual de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la Coomeva.<br>Los objetivos secundarios de esta arquitectura Mi Mutual de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br>||
 |**Servidor BDD App**|node|||
 |**Servidor BDD Config**|node|||
 |**Servidor Lappiz **|node|||
@@ -822,8 +784,8 @@ Con una arquitectura orientada a servicios Mi Mutual recopila:
 |**Application Collaboration**|application-collaboration|||
 |**Application Collaboration**|application-collaboration|||
 |**App**|application-component||*plataforma:* node Js<br>|
-|**App PGN Móvil**|application-component|||
-|**App PGN Web**|application-component||*plataforma:* angular 11<br>|
+|**App Coomeva Móvil**|application-component|||
+|**App Coomeva Web**|application-component||*plataforma:* angular 11<br>|
 |**Config**|application-component||*plataforma:* cs<br>|
 |**Punto acceso público**|application-interface|URL tipo C<br>HTTP||
 |**Application Service (NLB)**|application-service||*plataforma:* angular 11<br>|
@@ -838,7 +800,7 @@ Con una arquitectura orientada a servicios Mi Mutual recopila:
 |**Servidor Lappiz **|node|||
 |**Servidor Web App**|node|||
 |**Servidor Web Canales**|node|Nombre físico<br>IP LAN<br>IP Pública<br>||
-|**www pgn com**|technology-interface|||
+|**www Coomeva com**|technology-interface|||
 
 ## Seguridad. Lineabase.0.SIU applicación
 ![Diagram: Seguridad. Lineabase.0.SIU applicación](images/Seguridad.Lineabase.0.SIUapplicación.png){#fig:Seguridad.Lineabase.0.SIUapplicación width=}
@@ -859,8 +821,8 @@ Con una arquitectura orientada a servicios Mi Mutual recopila:
 |**Application Collaboration**|application-collaboration|||
 |**Application Collaboration**|application-collaboration|||
 |**App**|application-component||*plataforma:* node Js<br>|
-|**App PGN Móvil**|application-component|||
-|**App PGN Web**|application-component||*plataforma:* angular 11<br>|
+|**App Coomeva Móvil**|application-component|||
+|**App Coomeva Web**|application-component||*plataforma:* angular 11<br>|
 |**Config**|application-component||*plataforma:* cs<br>|
 |**Punto acceso público**|application-interface|URL tipo C<br>HTTP||
 |**Application Service (NLB)**|application-service||*plataforma:* angular 11<br>|
@@ -880,7 +842,7 @@ Con una arquitectura orientada a servicios Mi Mutual recopila:
 |**Sistema de Seguridad (LDAP) 1**|node|Sistema de Seguridad (LDAP) 1. Control de acceso internet<br>||
 |**Sistema de Seguridad (LDAP) 2**|node|Sistema de Seguridad (LDAP) 2. Control de acceso a datos||
 |**Analizador de acceso a la red. SIEM- EDR**|resource|||
-|**www pgn com**|technology-interface|||
+|**www Coomeva com**|technology-interface|||
 |**Asignación de Tokens**|value-stream|||
 |**HTTPS, TLS, SSL**|value-stream|||
 |**Requiere 2 MFA**|value-stream|||
@@ -917,7 +879,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.90e5162 de 09 Oct 2023
+| **Versión** del producto 1.f3eb458 de 09 Oct 2023
 
 | **Presentado a**
 
@@ -936,7 +898,7 @@ tablenos-caption-name: Tabla
 # Documento de Descripción de Entidades de Datos. Mi Mutual STEF - Coomeva
 
 ## Objetivo del Documento
-Descripción de los productos de trabajo de la arquitectura de datos del proyecto Migración Mi Mutual, Fase 2, de la Procuraduría General de la Nación (PGN en adelante), Contrato 078-2023. El principal propósito de este documento es informar de las decisiones sobre la disposición lógica y física de las componentes de datos relevantes a la arquitectura del sistema Mi Mutual Migración. Por tanto, el documento contiene información estratégica para la toma de decisiones en cuanto al transporte, organización y mantenimiento de los entidades de datos de negocio, no un diseño detallado. Puntualmente, refleja decisiones sobre la plataforma tecnológica seleccionada, así como consideraciones importantes para el diseño y desarrollo, con procura de garantizar una solución técnicamente viable y óptima para el proyecto.
+Descripción de los productos de trabajo de la arquitectura de datos del proyecto Migración Mi Mutual, Fase 2, de la Procuraduría General de la Nación (Coomeva en adelante), Contrato 078-2023. El principal propósito de este documento es informar de las decisiones sobre la disposición lógica y física de las componentes de datos relevantes a la arquitectura del sistema Mi Mutual Migración. Por tanto, el documento contiene información estratégica para la toma de decisiones en cuanto al transporte, organización y mantenimiento de los entidades de datos de negocio, no un diseño detallado. Puntualmente, refleja decisiones sobre la plataforma tecnológica seleccionada, así como consideraciones importantes para el diseño y desarrollo, con procura de garantizar una solución técnicamente viable y óptima para el proyecto.
 
 
 <br>
@@ -944,11 +906,11 @@ Descripción de los productos de trabajo de la arquitectura de datos del proyect
 ##  Control de Cambios {.page_break_before}
 | Tema           | Mi Mutual Coomeva Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva      |
 |----------------|----------------------------|
-| Palabras clave | SIU, Softgic, PGN, Análisis de brecha, GAP, Entidades, Datos  |
+| Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Entidades, Datos  |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.90e5162 del 09 Oct 2023 |
-| Vínculos       | [N003a Vista Segmento PGN SIU](N03a%a20Vsta%20aSegenta%20SOA%20PGN.md) |
+| Versión        | 1.f3eb458 del 09 Oct 2023 |
+| Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
 
@@ -961,7 +923,7 @@ Descripción de los productos de trabajo de la arquitectura de datos del proyect
 
 
 # Documento de Arquitectura Datos Mi Mutual
-* [Descripción de Entidades de Datos Migración Mi Mutual PGN](#descripción-de-entidades-de-datos-migración-Mi Mutual-pgn)
+* [Descripción de Entidades de Datos Migración Mi Mutual Coomeva](#descripción-de-entidades-de-datos-migración-Mi Mutual-Coomeva)
 	* [Migracion.2. datos](#migracion.2.-datos)
 	* [Migracion.2a. datos Hominis](#migracion.2a.-datos-hominis)
 	* [Migracion.2c. datos Control interno](#migracion.2c.-datos-control-interno)
@@ -971,7 +933,7 @@ Descripción de los productos de trabajo de la arquitectura de datos del proyect
 <div style="page-break-before: always;"></div>
 \newpage
 
-# Descripción de Entidades de Datos Migración Mi Mutual PGN
+# Descripción de Entidades de Datos Migración Mi Mutual Coomeva
 ## Migracion.2. datos
 ![Diagram: Migracion.2. datos](images/Migracion.2.datos.png){#fig:Migracion.2.datos width=5.32in}
 
@@ -985,16 +947,16 @@ Consideramos tres tipos datos: datos transaccionales, históricos y externos, y 
 ### Catálogo de Elementos
 | Name| Type| Description| Properties
 |:--------|:--------|:--------|:--------|
-|**cc:PGN Mi Mutual (misional)**|application-collaboration|||
-|**APP1.Relatoría**|application-component|Módulo del Mi Mutual. Relatoría pública. Publicación de información de referencia para funcionarios y personas naturales, cientes de la PGN.<br> ||
+|**cc:Coomeva Mi Mutual (misional)**|application-collaboration|||
+|**APP1.Relatoría**|application-component|Módulo del Mi Mutual. Relatoría pública. Publicación de información de referencia para funcionarios y personas naturales, cientes de la Coomeva.<br> ||
 |**APP2.SIRI**|application-component|||
 |**APP3.Control interno**|application-component|||
-|**APP4.Hominis**|application-component|Módulo del Mi Mutual. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la PGN.<br>||
+|**APP4.Hominis**|application-component|Módulo del Mi Mutual. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la Coomeva.<br>||
 |**APP5.SIM**|application-component|||
 |**APP6.Estratego**|application-component|||
 |**Interfaz de Acceso Proveedores**|application-interface|Interfaz de acceso a los tipos de datos externos al Mi Mutual.<br>||
 |**Interfaz de Almacenaniento**|application-interface|Interfaz de acceso a los repositorio, base de datos relacionales y no jerárquicas. Tipos de datos transaccionales, internos, del Mi Mutual.<br>||
-|**Procesamiento batch PGN**|application-process|Los procesos de lotes, que requieren volumenes de datos altos, deben hacer parte de la arquitectura de datos del Mi Mutual.<br>||
+|**Procesamiento batch Coomeva**|application-process|Los procesos de lotes, que requieren volumenes de datos altos, deben hacer parte de la arquitectura de datos del Mi Mutual.<br>||
 |**Bus de datos**|application-service|El patrón de bus de datos tiene el rol de unir y referir a los datos externos al Mi Mutual de tal manera que hace transparente la localización y el formato de este tipo de datos.<br>||
 |**Datos externos**|data-object|||
 |**Datos históricos**|data-object|||
@@ -1011,7 +973,7 @@ Estas entidades de datos de negocio son los que llamamos los tipos de datos inte
 ### Catálogo de Elementos
 | Name| Type| Description| Properties
 |:--------|:--------|:--------|:--------|
-|**APP4.Hominis**|application-component|Módulo del Mi Mutual. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la PGN.<br>||
+|**APP4.Hominis**|application-component|Módulo del Mi Mutual. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la Coomeva.<br>||
 |**DAT.Cargo**|business-object|||
 |**DAT.Código Actuación**|business-object|||
 |**DAT.Código Jurisdicción**|business-object|||
@@ -1035,7 +997,7 @@ Estas entidades de datos de negocio son los que llamamos los tipos de datos inte
 ## Migracion.2c. datos Control interno
 ![Diagram: Migracion.2c. datos Control interno](images/Migracion.2c.datosControlinterno.png){#fig:Migracion.2c.datosControlinterno width=}
 
-Identificación de entidades de datos de negocio relacionadas al módulo de seguimiento del desempeño de la PGN del Mi Mutual, Control Interno.
+Identificación de entidades de datos de negocio relacionadas al módulo de seguimiento del desempeño de la Coomeva del Mi Mutual, Control Interno.
 
 Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del Mi Mutual y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo. 
 
