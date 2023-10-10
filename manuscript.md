@@ -5,9 +5,9 @@ keywords:
 - gobierno
 - Coomeva
 lang: en-US
-date-meta: '2023-10-09'
+date-meta: '2023-10-10'
 author-meta:
-- Harry Wong, ing.
+- Equipo arquitectura STEF-COOMV.
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -15,18 +15,18 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-10-09" />
-  <meta name="citation_publication_date" content="2023-10-09" />
-  <meta property="article:published_time" content="2023-10-09" />
-  <meta name="dc.modified" content="2023-10-09T21:22:43+00:00" />
-  <meta property="article:modified_time" content="2023-10-09T21:22:43+00:00" />
+  <meta name="dc.date" content="2023-10-10" />
+  <meta name="citation_publication_date" content="2023-10-10" />
+  <meta property="article:published_time" content="2023-10-10" />
+  <meta name="dc.modified" content="2023-10-10T19:25:49+00:00" />
+  <meta property="article:modified_time" content="2023-10-10T19:25:49+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="Harry Wong, ing." />
+  <meta name="citation_author" content="Equipo arquitectura STEF-COOMV." />
   <meta name="citation_author_institution" content="Arquitecto, Stefanini" />
   <link rel="canonical" href="https://hwong23.github.io/stef-arqcomv/" />
   <meta property="og:url" content="https://hwong23.github.io/stef-arqcomv/" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/becc219cd87b0c85e404a51ea4779e45f59302f2/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/becc219cd87b0c85e404a51ea4779e45f59302f2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/becc219cd87b0c85e404a51ea4779e45f59302f2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/11e7996f8b2fcf824d20930c425d1f268f7d9d15/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/11e7996f8b2fcf824d20930c425d1f268f7d9d15/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/11e7996f8b2fcf824d20930c425d1f268f7d9d15/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.becc219 de 09 Oct 2023
+| **Versión** del producto 1.11e7996 de 10 Oct 2023
 
 | **Presentado a**
 
@@ -87,7 +87,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 09 Oct 2023
+| 10 Oct 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -95,10 +95,10 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/becc219cd87b0c85e404a51ea4779e45f59302f2/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/11e7996f8b2fcf824d20930c425d1f268f7d9d15/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@becc219](http://stefanini.sharepoint.com)
-del October 9, 2023.
+[Sharepoint STEF@11e7996](http://stefanini.sharepoint.com)
+del October 10, 2023.
 </em></small>
 
 
@@ -111,7 +111,7 @@ del October 9, 2023.
 
 
 
-+ **Harry Wong, ing.**
++ **Equipo arquitectura STEF-COOMV.**
   <br>
     · ![Usuario](images/github.svg){.inline_icon width=16 height=16}
     [e_hwong](https://github.com/e_hwong)
@@ -122,7 +122,7 @@ del October 9, 2023.
 
 
 ::: {#correspondence}
-✉ — Enviar mensajes a Harry Wong, ing. \<e_hwong@stefanini.com\>.
+✉ — Enviar mensajes a Equipo arquitectura STEF-COOMV. \<e_hwong@stefanini.com\>.
 
 
 :::
@@ -132,8 +132,7 @@ del October 9, 2023.
 
 
 ## Objetivo del Documento
-Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto Migración Funcional SIU de la Procuraduría General de la Nación (Coomeva en adelante), Contrato 078-2023. El principal propósito de este documento es informar de las decisiones sobre la disposición lógica y física de las partes del sistema. Por tanto, el documento contiene información estratégica, no un diseño detallado. Puntualmente, refleja decisiones sobre la plataforma tecnológica seleccionada, así como consideraciones importantes para el diseño y desarrollo, con procura de garantizar una solución técnicamente viable y óptima para el proyecto.
-
+Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL de la Coomeva, Contrato XXX-2023. El principal propósito de este documento es informar de las decisiones sobre la disposición lógica y física de las partes del sistema. Por tanto, el documento contiene información estratégica, siendo en algunos casos el diseño detallado. Puntualmente, el documento refleja decisiones sobre la plataforma tecnológica seleccionada, así como consideraciones importantes para el diseño y desarrollo, con procura de garantizar una solución técnicamente viable y óptima para el proyecto.
 
 <br>
 
@@ -143,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura de la Fase 2, proyecto
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.becc219 del 09 Oct 2023 |
+| Versión        | 1.11e7996 del 10 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -184,17 +183,20 @@ Uno de los principales propósitos de este documento es hacer una representació
 
 
 
-# Restricciones Principales
-Informamos de las restricciones que hacen parte del proyecto, y por tanto, a considera en el ejercicio de arquitectura del presente proyecto.
+# Restricciones Principales de Arquitectura
+Informamos de las restricciones que hacen parte de Mi Mutual, y por tanto, a considerar en el ejercicio de arquitectura del presente proyecto.
 
-Lista de restricciones de la migración Mi Mutual, 2023.
+Lista de restricciones de Mi Mutual, 2023.
 
-1. Restricciones de hardware o software en servidores. Los equipos de infraestructura del proyecto actual a tener en cuenta en los diseños de la solución de esta Fase 2 serán los mismos de la anterior Fase 1. Esto es, los que están descritos en el anexo técnico del contrato del proyecto.
-1. Disponibilidad de recursos. Los recursos de implementación y validación de calidad de esta Fase del proyecto son los mismos a tener en cuenta en los diseños de la solución de esta Fase 2. Otros recursos a considerar son los descritos en el anexo técnico del contrato del proyecto.
+1. Disponibilidad. Se requiere que el sistema esté disponible 7 X 24, el servicio prestado al cliente no se limita a horarios de oficina pues las compras pueden darse en cualquier momento
+1. Escalabilidad. Se requiere que el sistema pueda llegar a atender hasta 1.000 clientes, para esto se requiere que el sistema se pueda extender horizontalmente de tal manera que pueda tener instalado en varios servidores para atender esta cantidad de usuarios. Todas las aplicaciones desarrolladas podrán ser escaladas horizontalmente para atender la demanda relacionada con el crecimiento de la empresa.
+1. Reutilización. Se requiere que el sistema permita reutilizar sus componentes para prestar el mismo servicio a otras aplicaciones de la compañía. Para esto se va a desarrollar la aplicación utilizando servicios, separados y con asignación de responsabilidades, propias, de tal manera de que, si se requiere exponer servicios web sobre estas funcionalidades, no requiere cambios en la aplicación.
+1. Autenticación. Autenticación es el proceso para determinar que alguien o un sistema es quien dice ser. Uso de estándar Oauth2 y JSON Web Token – JWT, para gestión de autenticación de servicios de la aplicación.
+1. Autorización. Autorización se refiere a la validación que realiza un sistema para determinar si un usuario puede usar cierta funcionalidad. Uso de API de seguridad de Spring (spring-security) + Oauth2
+1. Interoperabilidad – Movilidad. Interoperabilidad se refiere a la habilidad de un sistema de interactuar y comunicarse con sistemas heterogéneos a través de interfaces completamente definidas. Uso de estándar de web services REST + JSON.
+1. Facilidad de Uso. Se refiere a la facilidad con que las personas pueden utilizar el sistema porque facilitan la lectura de los textos, descargan rápidamente la información y presentan funciones y menús sencillos, por lo que el usuario encuentra satisfechas sus consultas y cómodo su uso.
+1. Verificación (QA). Es la capacidad del producto software que hace posible que el software modificado sea probado.
 1. Estándares. Los estándares seleccionados por la solución de este proyecto, (Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva, están determinados por el uso de las plataformas específicas determinadas por la implementación (desarrollo del software).
-1. Requerimientos de interoperabilidad. Los recursos de interoperabilidad y colaboración entre sistemas, módulos, submódulos y aplicaciones de terceros relacionados con esta Fase del proyecto son los mismos a tener en cuenta en los diseños de la solución de esta Fase 2. Otros recursos a considerar son los descritos en el anexo técnico del contrato del proyecto.
-1. Requerimientos de protocolos o interfaces. Los recursos de red, y protocolos de comunicación o transporte de esta Fase del proyecto a tener en cuenta en los diseños de la solución de esta Fase 2 parten de la base de los considerados en la anterior Fase 1. Otros recursos a considerar son los descritos en el anexo técnico del contrato del proyecto.
-1. Seguridad. Las restricciones de seguridad del proyecto actual a tener en cuenta en los diseños de la solución de esta Fase 2 parten de la base de las de la anterior Fase 1. Esto es, los que están descritos en el anexo técnico del contrato del proyecto.
 
 <br>
 
@@ -666,7 +668,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.becc219 de 09 Oct 2023
+| **Versión** del producto 1.11e7996 de 10 Oct 2023
 
 | **Presentado a**
 
@@ -676,7 +678,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 09 Oct 2023
+| 10 Oct 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -695,7 +697,7 @@ Descripción de los productos del trabajo de infraestructura del proyecto Migrac
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Infraestrctura, PasS |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.becc219 del 09 Oct 2023 |
+| Versión        | 1.11e7996 del 10 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -884,7 +886,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.becc219 de 09 Oct 2023
+| **Versión** del producto 1.11e7996 de 10 Oct 2023
 
 | **Presentado a**
 
@@ -894,7 +896,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 09 Oct 2023
+| 10 Oct 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -914,7 +916,7 @@ Descripción de los productos de trabajo de la arquitectura de datos del proyect
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Entidades, Datos  |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.becc219 del 09 Oct 2023 |
+| Versión        | 1.11e7996 del 10 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -1049,12 +1051,6 @@ Estas entidades de datos de negocio son los que llamamos los tipos de datos inte
 
 
 ``Generated on: Wed Sep 13 2023 12:45:59 GMT-0500 (COT)``
-
-## References {.page_break_before}
-
-<!-- Explicitly insert bibliography here -->
-<div id="refs"></div>
-
 
 <div style="page-break-before: always;"></div>
 \newpage
