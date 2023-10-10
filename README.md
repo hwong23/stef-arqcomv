@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/hwong23/stef-arqcomv/tree/gh-pages) branch hosts the contents of this directory at <https://hwong23.github.io/stef-arqcomv/>.
-The permalink for this webpage version is <https://hwong23.github.io/stef-arqcomv/v/becc219cd87b0c85e404a51ea4779e45f59302f2/>.
+The permalink for this webpage version is <https://hwong23.github.io/stef-arqcomv/v/11e7996f8b2fcf824d20930c425d1f268f7d9d15/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://hwong23.github.io/stef-arqcomv/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`becc219cd87b0c85e404a51ea4779e45f59302f2`](https://github.com/hwong23/stef-arqcomv/commit/becc219cd87b0c85e404a51ea4779e45f59302f2).
+[`11e7996f8b2fcf824d20930c425d1f268f7d9d15`](https://github.com/hwong23/stef-arqcomv/commit/11e7996f8b2fcf824d20930c425d1f268f7d9d15).
