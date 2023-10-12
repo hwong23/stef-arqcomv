@@ -49,8 +49,8 @@
   <meta name="dc.date" content="2023-10-12" />
   <meta name="citation_publication_date" content="2023-10-12" />
   <meta property="article:published_time" content="2023-10-12" />
-  <meta name="dc.modified" content="2023-10-12T15:59:01+00:00" />
-  <meta property="article:modified_time" content="2023-10-12T15:59:01+00:00" />
+  <meta name="dc.modified" content="2023-10-12T16:12:10+00:00" />
+  <meta property="article:modified_time" content="2023-10-12T16:12:10+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -65,9 +65,9 @@
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/86bdc0ad140b8391f7f4ab5832ec6673f9b256b4/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/86bdc0ad140b8391f7f4ab5832ec6673f9b256b4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/86bdc0ad140b8391f7f4ab5832ec6673f9b256b4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/435c20edf97cc78e4ddcae62d29f2d90fbc173f8/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/435c20edf97cc78e4ddcae62d29f2d90fbc173f8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/435c20edf97cc78e4ddcae62d29f2d90fbc173f8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -89,7 +89,7 @@
 <p><br></p>
 <p><br></p>
 <p><br></p>
-<div class="line-block"><strong>Versión</strong> del producto 1.86bdc0a de 12 Oct 2023</div>
+<div class="line-block"><strong>Versión</strong> del producto 1.435c20e de 12 Oct 2023</div>
 <div class="line-block"><strong>Presentado a</strong></div>
 <div class="line-block">STEF - Coomeva</div>
 <div class="line-block"></div>
@@ -99,9 +99,9 @@
 
 </div>
 <p><small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023,
-(<a href="https://hwong23.github.io/stef-arqcomv/v/86bdc0ad140b8391f7f4ab5832ec6673f9b256b4/">Web</a>)
+(<a href="https://hwong23.github.io/stef-arqcomv/v/435c20edf97cc78e4ddcae62d29f2d90fbc173f8/">Web</a>)
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-<a href="http://stefanini.sharepoint.com">Sharepoint STEF@86bdc0a</a>
+<a href="http://stefanini.sharepoint.com">Sharepoint STEF@435c20e</a>
 del October 12, 2023.
 </em></small></p>
 <p><br></p>
@@ -150,7 +150,7 @@ Arquitecto, Stefanini
 </tr>
 <tr class="even">
 <td>Versión</td>
-<td>1.86bdc0a del 12 Oct 2023</td>
+<td>1.435c20e del 12 Oct 2023</td>
 </tr>
 <tr class="odd">
 <td>Vínculos</td>
@@ -317,7 +317,9 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
 <p><br></p>
 <h3 id="catálogo-de-elementos">Catálogo de Elementos</h3>
-<table>
+<div id="tbl:tblelement-ArqMiMutual.1.Contexto-id" class="tablenos">
+<table id="tbl:tblelement-ArqMiMutual.1.Contexto-id">
+<caption><span>Tabla 4:</span> Elementos de la vista. </caption>
 <colgroup>
 <col style="width: 47%" />
 <col style="width: 17%" />
@@ -420,26 +422,72 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <tr class="odd">
 <td>Gestión de Productos</td>
 <td>Application Service</td>
-<td>Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas:</td>
+<td>Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Gestión de Reclamos</td>
+<td>Application Service</td>
+<td>Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Gestión de Usuarios</td>
+<td>Application Service</td>
+<td>Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Gestión fondo mutual y auxilio funerario</td>
+<td>Application Function</td>
+<td>Gestión de productos del fondo mutual y auxilio funerario que involucran a sus coberturas<br></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Interoperabilidad entre sistemas Coomeva</td>
+<td>Application Function</td>
+<td>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.<br></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Restricciones de Arquitectura</td>
+<td>Constraint</td>
+<td>## Restricciones de Arquitectura (Atributos)<br><br>1. Disponibilidad. Se requiere que el sistema esté disponible 7 X 24, el servicio prestado al cliente no se limita a horarios de oficina pues las compras pueden darse en cualquier momento<br>1. Escalabilidad. Se requiere que el sistema pueda llegar a atender hasta 1.000 clientes, para esto se requiere que el sistema se pueda extender horizontalmente de tal manera que pueda tener instalado en varios servidores para atender esta cantidad de usuarios. Todas las aplicaciones desarrolladas podrán ser escaladas horizontalmente para atender la demanda relacionada con el crecimiento de la empresa.<br>1. Reutilización. Se requiere que el sistema permita reutilizar sus componentes para prestar el mismo servicio a otras aplicaciones de la compañía. Para esto se va a desarrollar la aplicación utilizando servicios, separados y con asignación de responsabilidades, propias, de tal manera de que, si se requiere exponer servicios web sobre estas funcionalidades, no requiere cambios en la aplicación.<br>1. Autenticación. Autenticación es el proceso para determinar que alguien o un sistema es quien dice ser. Uso de estándar Oauth2 y JSON Web Token – JWT, para gestión de autenticación de servicios de la aplicación.<br>1. Autorización. Autorización se refiere a la validación que realiza un sistema para determinar si un usuario puede usar cierta funcionalidad. Uso de API de seguridad de Spring (spring-security) + Oauth2<br>1. Interoperabilidad – Movilidad. Interoperabilidad se refiere a la habilidad de un sistema de interactuar y comunicarse con sistemas heterogéneos a través de interfaces completamente definidas. Uso de estándar de web services REST + JSON.<br>1. Facilidad de Uso. Se refiere a la facilidad con que las personas pueden utilizar el sistema porque facilitan la lectura de los textos, descargan rápidamente la información y presentan funciones y menús sencillos, por lo que el usuario encuentra satisfechas sus consultas y cómodo su uso.<br>1. Verificación (QA). Es la capacidad del producto software que hace posible que el software modificado sea probado.<br></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Seguridad</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Simuladores</td>
+<td>Application Function</td>
+<td>Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.<br></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Simuladores</td>
+<td>Application Service</td>
+<td>Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Unidad de Solidaridad y Seguros</td>
+<td>Business Function</td>
+<td>Unidad de Solidaridad y Seguros de la Cooperativa</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>app: Mi Mutual Central</td>
+<td>Application Component</td>
+<td>Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<p><br>
-<br>• Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias.
-<br>
-<br>• Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado | |
-| Gestión de Reclamos | Application Service | Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado | |
-| Gestión de Usuarios | Application Service | Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema. | |
-| Gestión fondo mutual y auxilio funerario | Application Function | Gestión de productos del fondo mutual y auxilio funerario que involucran a sus coberturas<br> | |
-| Interoperabilidad entre sistemas Coomeva | Application Function | Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.<br> | |
-| Restricciones de Arquitectura | Constraint | ## Restricciones de Arquitectura (Atributos)<br><br>1. Disponibilidad. Se requiere que el sistema esté disponible 7 X 24, el servicio prestado al cliente no se limita a horarios de oficina pues las compras pueden darse en cualquier momento<br>1. Escalabilidad. Se requiere que el sistema pueda llegar a atender hasta 1.000 clientes, para esto se requiere que el sistema se pueda extender horizontalmente de tal manera que pueda tener instalado en varios servidores para atender esta cantidad de usuarios. Todas las aplicaciones desarrolladas podrán ser escaladas horizontalmente para atender la demanda relacionada con el crecimiento de la empresa.<br>1. Reutilización. Se requiere que el sistema permita reutilizar sus componentes para prestar el mismo servicio a otras aplicaciones de la compañía. Para esto se va a desarrollar la aplicación utilizando servicios, separados y con asignación de responsabilidades, propias, de tal manera de que, si se requiere exponer servicios web sobre estas funcionalidades, no requiere cambios en la aplicación.<br>1. Autenticación. Autenticación es el proceso para determinar que alguien o un sistema es quien dice ser. Uso de estándar Oauth2 y JSON Web Token – JWT, para gestión de autenticación de servicios de la aplicación.<br>1. Autorización. Autorización se refiere a la validación que realiza un sistema para determinar si un usuario puede usar cierta funcionalidad. Uso de API de seguridad de Spring (spring-security) + Oauth2<br>1. Interoperabilidad – Movilidad. Interoperabilidad se refiere a la habilidad de un sistema de interactuar y comunicarse con sistemas heterogéneos a través de interfaces completamente definidas. Uso de estándar de web services REST + JSON.<br>1. Facilidad de Uso. Se refiere a la facilidad con que las personas pueden utilizar el sistema porque facilitan la lectura de los textos, descargan rápidamente la información y presentan funciones y menús sencillos, por lo que el usuario encuentra satisfechas sus consultas y cómodo su uso.<br>1. Verificación (QA). Es la capacidad del producto software que hace posible que el software modificado sea probado.<br> | |
-| Seguridad | Application Function | | |
-| Simuladores | Application Function | Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.<br> | |
-| Simuladores | Application Service | Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado. | |
-| Unidad de Solidaridad y Seguros | Business Function | Unidad de Solidaridad y Seguros de la Cooperativa | |
-| app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. | |</p>
-<p>Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.1.Contexto-id}</p>
+</div>
 <h2 id="arq-mi-mutual.-2.-contenedores">Arq Mi Mutual. 2. Contenedores</h2>
 <p>Mi Mutual. Coomeva, 2023.</p>
 <p>Estructura de componentes principales, Mi Mutual Central. Roles de componentes, separación responsabilidades.</p>
@@ -458,7 +506,7 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <h3 id="catálogo-de-elementos-1">Catálogo de Elementos</h3>
 <div id="tbl:tblelement-ArqMiMutual.2.Contenedores-id" class="tablenos">
 <table id="tbl:tblelement-ArqMiMutual.2.Contenedores-id">
-<caption><span>Tabla 4:</span> Elementos de la vista. </caption>
+<caption><span>Tabla 5:</span> Elementos de la vista. </caption>
 <colgroup>
 <col style="width: 47%" />
 <col style="width: 17%" />
@@ -541,7 +589,7 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <h3 id="catálogo-de-elementos-2">Catálogo de Elementos</h3>
 <div id="tbl:tblelement-ArqMiMutual.3.Dominios-id" class="tablenos">
 <table id="tbl:tblelement-ArqMiMutual.3.Dominios-id">
-<caption><span>Tabla 5:</span> Elementos de la vista. </caption>
+<caption><span>Tabla 6:</span> Elementos de la vista. </caption>
 <colgroup>
 <col style="width: 47%" />
 <col style="width: 17%" />
@@ -663,7 +711,9 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
 <p><br></p>
 <h3 id="catálogo-de-elementos-3">Catálogo de Elementos</h3>
-<table>
+<div id="tbl:tblelement-ArqMiMutual.4.Aplicación-id" class="tablenos">
+<table id="tbl:tblelement-ArqMiMutual.4.Aplicación-id">
+<caption><span>Tabla 7:</span> Elementos de la vista. </caption>
 <colgroup>
 <col style="width: 47%" />
 <col style="width: 17%" />
@@ -748,33 +798,114 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <tr class="even">
 <td>Gestión de Productos</td>
 <td>Application Service</td>
-<td>Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas:</td>
+<td>Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Gestión de Reclamos</td>
+<td>Application Service</td>
+<td>Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Gestión de Usuarios</td>
+<td>Application Service</td>
+<td>Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Integración</td>
+<td>Application Interface</td>
+<td>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Mi Mutual Presentación</td>
+<td>Application Component</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Profundización</td>
+<td>Business Role</td>
+<td>Ejecutivos de Profundización</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Repositorio Mi Mutual</td>
+<td>Application Component</td>
+<td>Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Servicio de Almacenamiento de Datos</td>
+<td>Technology Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Servicio de Red</td>
+<td>Technology Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Servicio de archivos</td>
+<td>Technology Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Simulador</td>
+<td>Application Component</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Simuladores</td>
+<td>Application Service</td>
+<td>Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Unidad de Solidaridad y Seguros</td>
+<td>Grouping</td>
+<td>La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Vinculación</td>
+<td>Application Component</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>app: Cotización y Ventas</td>
+<td>Application Component</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>app: Cotizador Web</td>
+<td>Application Component</td>
+<td>pkg: MiMutualWeb</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>app: Implementación de Servicios</td>
+<td>Application Component</td>
+<td>Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>app: Mi Mutual Central</td>
+<td>Application Component</td>
+<td>Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<p><br>
-<br>• Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias.
-<br>
-<br>• Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado | |
-| Gestión de Reclamos | Application Service | Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado | |
-| Gestión de Usuarios | Application Service | Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema. | |
-| Integración | Application Interface | Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados. | |
-| Mi Mutual Presentación | Application Component | | |
-| Profundización | Business Role | Ejecutivos de Profundización | |
-| Repositorio Mi Mutual | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br> | |
-| Servicio de Almacenamiento de Datos | Technology Service | | |
-| Servicio de Red | Technology Service | | |
-| Servicio de archivos | Technology Service | | |
-| Simulador | Application Component | | |
-| Simuladores | Application Service | Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado. | |
-| Unidad de Solidaridad y Seguros | Grouping | La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad) | |
-| Vinculación | Application Component | | |
-| app: Cotización y Ventas | Application Component | | |
-| app: Cotizador Web | Application Component | pkg: MiMutualWeb | |
-| app: Implementación de Servicios | Application Component | Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br> | |
-| app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. | |</p>
-<p>Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.4.Aplicación-id}</p>
+</div>
 <h2 id="arq-mi-mutual.-4a1.-referencia">Arq Mi Mutual. 4a1. Referencia</h2>
 <p>Mi Mutual. Coomeva, 2023.</p>
 <p>Esquema de componentes Spring Boot</p>
@@ -790,7 +921,7 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <h3 id="catálogo-de-elementos-4">Catálogo de Elementos</h3>
 <div id="tbl:tblelement-ArqMiMutual.4a1.Referencia-id" class="tablenos">
 <table id="tbl:tblelement-ArqMiMutual.4a1.Referencia-id">
-<caption><span>Tabla 6:</span> Elementos de la vista. </caption>
+<caption><span>Tabla 8:</span> Elementos de la vista. </caption>
 <thead>
 <tr class="header">
 <th>Nombre</th>
@@ -959,7 +1090,7 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <h3 id="catálogo-de-elementos-5">Catálogo de Elementos</h3>
 <div id="tbl:tblelement-ArqMiMutual.4a3.Dependencias-id" class="tablenos">
 <table id="tbl:tblelement-ArqMiMutual.4a3.Dependencias-id">
-<caption><span>Tabla 7:</span> Elementos de la vista. </caption>
+<caption><span>Tabla 9:</span> Elementos de la vista. </caption>
 <colgroup>
 <col style="width: 47%" />
 <col style="width: 17%" />
@@ -1082,7 +1213,7 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <h3 id="catálogo-de-elementos-6">Catálogo de Elementos</h3>
 <div id="tbl:tblelement-ArqMiMutual.5.Físico(despliegue)-id" class="tablenos">
 <table id="tbl:tblelement-ArqMiMutual.5.Físico(despliegue)-id">
-<caption><span>Tabla 8:</span> Elementos de la vista. </caption>
+<caption><span>Tabla 10:</span> Elementos de la vista. </caption>
 <colgroup>
 <col style="width: 47%" />
 <col style="width: 17%" />
@@ -1280,7 +1411,7 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <h3 id="catálogo-de-elementos-8">Catálogo de Elementos</h3>
 <div id="tbl:tblelement-ArqMiMutual.7.Datos.Negocio-id" class="tablenos">
 <table id="tbl:tblelement-ArqMiMutual.7.Datos.Negocio-id">
-<caption><span>Tabla 9:</span> Elementos de la vista. </caption>
+<caption><span>Tabla 11:</span> Elementos de la vista. </caption>
 <colgroup>
 <col style="width: 47%" />
 <col style="width: 17%" />
@@ -1363,7 +1494,7 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <h3 id="catálogo-de-elementos-9">Catálogo de Elementos</h3>
 <div id="tbl:tblelement-ArqMiMutual.7a.Datos.Aplicación-id" class="tablenos">
 <table id="tbl:tblelement-ArqMiMutual.7a.Datos.Aplicación-id">
-<caption><span>Tabla 10:</span> Elementos de la vista. </caption>
+<caption><span>Tabla 12:</span> Elementos de la vista. </caption>
 <thead>
 <tr class="header">
 <th>Nombre</th>
@@ -1980,7 +2111,7 @@ Documentación: https://github.com/auth0/angular2-jwt</li>
 <h3 id="catálogo-de-elementos-10">Catálogo de Elementos</h3>
 <div id="tbl:tblelement-ArqCotizador.1.Contexto-id" class="tablenos">
 <table id="tbl:tblelement-ArqCotizador.1.Contexto-id">
-<caption><span>Tabla 11:</span> Elementos de la vista. </caption>
+<caption><span>Tabla 13:</span> Elementos de la vista. </caption>
 <colgroup>
 <col style="width: 47%" />
 <col style="width: 17%" />
@@ -2098,7 +2229,7 @@ Documentación: https://github.com/auth0/angular2-jwt</li>
 <h3 id="catálogo-de-elementos-11">Catálogo de Elementos</h3>
 <div id="tbl:tblelement-ArqCotizador.2.Contenedores-id" class="tablenos">
 <table id="tbl:tblelement-ArqCotizador.2.Contenedores-id">
-<caption><span>Tabla 12:</span> Elementos de la vista. </caption>
+<caption><span>Tabla 14:</span> Elementos de la vista. </caption>
 <colgroup>
 <col style="width: 47%" />
 <col style="width: 17%" />
@@ -2141,7 +2272,7 @@ Documentación: https://github.com/auth0/angular2-jwt</li>
 </tbody>
 </table>
 </div>
-<h2 id="arqcotizador.-2.-dependencias">ArqCotizador. 2. Dependencias</h2>
+<h2 id="arqcotizador.-4a.-dependencias">ArqCotizador. 4a. Dependencias</h2>
 <p>Mi Mutual. Coomeva, 2023.</p>
 <p>Mi Mutual Web. Paquetes: dependencias, roles, implementación funciones de aplicación.</p>
 <p>versión 0.1</p>
@@ -2151,16 +2282,16 @@ Documentación: https://github.com/auth0/angular2-jwt</li>
 <p>La estructura por módulos actual apunta a la escalabilidad y mantenimiento del Cotizador en términos de: organizar las partes de la aplicación, organización los bloques, extender la aplicación con libreras externas, proporcionar un entorno de resolución de plantillas y además, distribuir las cargas de los componentes y servicios que usa la aplicación.</p>
 <div id="fig:id-id-3bc899b013be4bb0818e8856b07c2b50" class="fignos">
 <figure>
-<img src="images/ArqCotizador.2.Dependencias.png" alt="Imagen 12: ArqCotizador. 2. Dependencias" />
-<figcaption aria-hidden="true"><span>Imagen 12:</span> ArqCotizador. 2. Dependencias</figcaption>
+<img src="images/ArqCotizador.4a.Dependencias.png" alt="Imagen 12: ArqCotizador. 4a. Dependencias" />
+<figcaption aria-hidden="true"><span>Imagen 12:</span> ArqCotizador. 4a. Dependencias</figcaption>
 </figure>
 </div>
 <p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
 <p><br></p>
 <h3 id="catálogo-de-elementos-12">Catálogo de Elementos</h3>
-<div id="tbl:tblelement-ArqCotizador.2.Dependencias-id" class="tablenos">
-<table id="tbl:tblelement-ArqCotizador.2.Dependencias-id">
-<caption><span>Tabla 13:</span> Elementos de la vista. </caption>
+<div id="tbl:tblelement-ArqCotizador.4a.Dependencias-id" class="tablenos">
+<table id="tbl:tblelement-ArqCotizador.4a.Dependencias-id">
+<caption><span>Tabla 15:</span> Elementos de la vista. </caption>
 <colgroup>
 <col style="width: 47%" />
 <col style="width: 17%" />
@@ -2374,7 +2505,7 @@ Documentación: https://github.com/auth0/angular2-jwt</li>
 <h3 id="catálogo-de-elementos-13">Catálogo de Elementos</h3>
 <div id="tbl:tblelement-ArqCotizador.5.Físico(despliegue)-id" class="tablenos">
 <table id="tbl:tblelement-ArqCotizador.5.Físico(despliegue)-id">
-<caption><span>Tabla 14:</span> Elementos de la vista. </caption>
+<caption><span>Tabla 16:</span> Elementos de la vista. </caption>
 <colgroup>
 <col style="width: 47%" />
 <col style="width: 17%" />
@@ -2562,7 +2693,7 @@ Documentación: https://github.com/auth0/angular2-jwt</li>
 <h3 id="catálogo-de-elementos-14">Catálogo de Elementos</h3>
 <div id="tbl:tblelement-VistasdeArquitecturaMiMutual-id" class="tablenos">
 <table id="tbl:tblelement-VistasdeArquitecturaMiMutual-id">
-<caption><span>Tabla 15:</span> Elementos de la vista. </caption>
+<caption><span>Tabla 17:</span> Elementos de la vista. </caption>
 <thead>
 <tr class="header">
 <th>Nombre</th>
@@ -2640,7 +2771,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <p><br></p>
 <p><br></p>
 <p><br></p>
-<div class="line-block"><strong>Versión</strong> del producto 1.86bdc0a de 12 Oct 2023</div>
+<div class="line-block"><strong>Versión</strong> del producto 1.435c20e de 12 Oct 2023</div>
 <div class="line-block"><strong>Presentado a</strong></div>
 <div class="line-block">STEF - Coomeva</div>
 <div class="line-block"></div>
@@ -2680,7 +2811,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 </tr>
 <tr class="even">
 <td>Versión</td>
-<td>1.86bdc0a del 12 Oct 2023</td>
+<td>1.435c20e del 12 Oct 2023</td>
 </tr>
 <tr class="odd">
 <td>Vínculos</td>
@@ -3332,7 +3463,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <p><br></p>
 <p><br></p>
 <p><br></p>
-<div class="line-block"><strong>Versión</strong> del producto 1.86bdc0a de 12 Oct 2023</div>
+<div class="line-block"><strong>Versión</strong> del producto 1.435c20e de 12 Oct 2023</div>
 <div class="line-block"><strong>Presentado a</strong></div>
 <div class="line-block">STEF - Coomeva</div>
 <div class="line-block"></div>
@@ -3372,7 +3503,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 </tr>
 <tr class="even">
 <td>Versión</td>
-<td>1.86bdc0a del 12 Oct 2023</td>
+<td>1.435c20e del 12 Oct 2023</td>
 </tr>
 <tr class="odd">
 <td>Vínculos</td>
