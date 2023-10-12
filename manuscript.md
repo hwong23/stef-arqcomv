@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-12" />
   <meta name="citation_publication_date" content="2023-10-12" />
   <meta property="article:published_time" content="2023-10-12" />
-  <meta name="dc.modified" content="2023-10-12T18:08:16+00:00" />
-  <meta property="article:modified_time" content="2023-10-12T18:08:16+00:00" />
+  <meta name="dc.modified" content="2023-10-12T18:41:47+00:00" />
+  <meta property="article:modified_time" content="2023-10-12T18:41:47+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/d7423c08affd04932056052e9c9c3fb085356c2b/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/d7423c08affd04932056052e9c9c3fb085356c2b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/d7423c08affd04932056052e9c9c3fb085356c2b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/495d065f370dca19feb4a29f26b7f3e7e6983d1d/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/495d065f370dca19feb4a29f26b7f3e7e6983d1d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/495d065f370dca19feb4a29f26b7f3e7e6983d1d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.d7423c0 de 12 Oct 2023
+| **Versión** del producto 1.495d065 de 12 Oct 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/d7423c08affd04932056052e9c9c3fb085356c2b/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/495d065f370dca19feb4a29f26b7f3e7e6983d1d/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@d7423c0](http://stefanini.sharepoint.com)
+[Sharepoint STEF@495d065](http://stefanini.sharepoint.com)
 del October 12, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.d7423c0 del 12 Oct 2023 |
+| Versión        | 1.495d065 del 12 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -701,6 +701,7 @@ versión 0.1
 
 
 ## Entidades de Negocio Mi Mutual
+Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.
 
 * Configuración (caracterización de productos, plan)
 * Plan (producto pólizas seguros)
@@ -730,25 +731,6 @@ _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 | DAT00.Parametros globales (catálogos) | Business Object |  |  |
 | DAT00.Plan (producto pólizas seguros) | Business Object |  |  |
 | DAT00.Portafolios de asociados | Business Object |  |  |
-| DAT01.ADICIONAL PLAN COBERTURA | Data Object |  |  |
-| DAT01.ASISTENCIA PLAN COBERTURA | Data Object |  |  |
-| DAT01.ASISTENCIA PLAN COBERTURA DETALLE | Data Object |  |  |
-| DAT01.CAMPANA RELACION PLAN COBERTURA | Data Object |  |  |
-| DAT01.CANAL | Data Object |  |  |
-| DAT01.CANAL EVENTO | Data Object |  |  |
-| DAT01.CANAL VENTA EXCLUSION | Data Object |  |  |
-| DAT01.CUMULOS PLAN COBERTURA | Data Object |  |  |
-| DAT01.DEDUCIBLE | Data Object |  |  |
-| DAT01.DESMEMBRACION ACCIDENTE | Data Object |  |  |
-| DAT01.DESMEMBRACION ACCIDENTE PLAN COBERTURA | Data Object |  |  |
-| DAT01.DOCUMENTO REQUISITO | Data Object |  |  |
-| DAT01.ENFERMEDAD GRAVE | Data Object |  |  |
-| DAT01.ENFERMEDAD GRAVE PLAN COBERTURA | Data Object |  |  |
-| DAT01.ESTADO ASOCIADO | Data Object |  |  |
-| DAT01.PERSONA | Data Object |  |  |
-| DAT01.SUBLIMITE COBERTURA | Data Object |  |  |
-| DAT01.TIPO MOVIMIENTO | Data Object |  |  |
-| DAT01.TIPO PROCESO CUMULO | Data Object |  |  |
 
 Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.7.Datos.Negocio-id}
 
@@ -765,9 +747,9 @@ Mi Mutual Central. Físico. Entidades: Estructuras, objeto, relaciones con entid
 versión 0.1
 
 
+Estructuras de datos específicas a la plataforma. Modelo de negocio para las aplicaciones. 
+
 Modelo físico facilitadas por Coomeva, corte del 2 de mayo de 2022. Contiene las estructuras de configuración de fondo, cliente, planes, cobertura y planes de coberturas.
-
-
 
 ![Arq Mi Mutual. 7a. Datos. Aplicación](images/ArqMiMutual.7a.Datos.Aplicación.png){#fig:id-id-c4ed2d8934fd40eea1d71556b08da65e width=}
 
@@ -875,6 +857,71 @@ _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 | DAT01.VALOR RESCATE | Data Object |  |  |
 
 Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.7a.Datos.Aplicación-id}
+
+<br>
+
+
+
+## Arq Mi Mutual. 7b. Datos. Relaciones
+
+Mi Mutual. Coomeva, 2023.
+
+Mi Mutual Central. Entidades: Estructuras, objeto, relaciones con aplicación.
+
+versión 0.2.3
+
+
+## Entidades de Negocio Mi Mutual
+
+* Configuración (caracterización de productos, plan)
+* Plan (producto pólizas seguros)
+* Canal (medios del tomador/asociado)
+* Parametros globales (catálogos)
+* Portafolio de asociado
+* Asociado
+* Facturación
+* Beneficiario
+
+![Arq Mi Mutual. 7b. Datos. Relaciones](images/ArqMiMutual.7b.Datos.Relaciones.png){#fig:id-id-4c251568d38049f89d4963e7439861ac width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| DAT00.Asociado | Business Object |  |  |
+| DAT00.Beneficiario | Business Object |  |  |
+| DAT00.Canal (medios del tomador/asociado) | Business Object |  |  |
+| DAT00.Configuración (caracterización) | Business Object | Caracterización de productos, planes, parámetros<br> |  |
+| DAT00.Facturación | Business Object |  |  |
+| DAT00.Parametros globales (catálogos) | Business Object |  |  |
+| DAT00.Plan (producto pólizas seguros) | Business Object |  |  |
+| DAT00.Portafolios de asociados | Business Object |  |  |
+| DAT01.ADICIONAL PLAN COBERTURA | Data Object |  |  |
+| DAT01.ASISTENCIA PLAN COBERTURA | Data Object |  |  |
+| DAT01.ASISTENCIA PLAN COBERTURA DETALLE | Data Object |  |  |
+| DAT01.CAMPANA RELACION PLAN COBERTURA | Data Object |  |  |
+| DAT01.CANAL | Data Object |  |  |
+| DAT01.CANAL EVENTO | Data Object |  |  |
+| DAT01.CANAL VENTA EXCLUSION | Data Object |  |  |
+| DAT01.CUMULOS PLAN COBERTURA | Data Object |  |  |
+| DAT01.DEDUCIBLE | Data Object |  |  |
+| DAT01.DESMEMBRACION ACCIDENTE | Data Object |  |  |
+| DAT01.DESMEMBRACION ACCIDENTE PLAN COBERTURA | Data Object |  |  |
+| DAT01.DOCUMENTO REQUISITO | Data Object |  |  |
+| DAT01.ENFERMEDAD GRAVE | Data Object |  |  |
+| DAT01.ENFERMEDAD GRAVE PLAN COBERTURA | Data Object |  |  |
+| DAT01.ESTADO ASOCIADO | Data Object |  |  |
+| DAT01.PERSONA | Data Object |  |  |
+| DAT01.SUBLIMITE COBERTURA | Data Object |  |  |
+| DAT01.TIPO MOVIMIENTO | Data Object |  |  |
+| DAT01.TIPO PROCESO CUMULO | Data Object |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.7b.Datos.Relaciones-id}
 
 <br>
 
@@ -1107,6 +1154,51 @@ Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.5.Físico(despliegue
 
 
 
+## ArqCotizador. 7. Datos. Negocio
+
+Mi Mutual. Coomeva, 2023.
+
+Mi Mutual Web. Entidades: Estructuras, objeto, relaciones con aplicación.
+
+versión 0.1
+
+
+## Entidades de Negocio Mi Mutual
+Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.
+
+* Configuración (caracterización de productos, plan)
+* Plan (producto pólizas seguros)
+* Canal (medios del tomador/asociado)
+* Parametros globales (catálogos)
+* Portafolio de asociado
+* Asociado
+* Facturación
+* Beneficiario
+
+![ArqCotizador. 7. Datos. Negocio](images/ArqCotizador.7.Datos.Negocio.png){#fig:id-id-59beffe958dd4af68af3a4d2251241ec width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| DAT00.Asociado | Business Object |  |  |
+| DAT00.Beneficiario | Business Object |  |  |
+| DAT00.Canal (medios del tomador/asociado) | Business Object |  |  |
+| DAT00.Configuración (caracterización) | Business Object | Caracterización de productos, planes, parámetros<br> |  |
+| DAT00.Plan (producto pólizas seguros) | Business Object |  |  |
+| DAT01. Cotización | Business Object |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.7.Datos.Negocio-id}
+
+<br>
+
+
+
 ## Vistas de Arquitectura Mi Mutual
 
 undefined
@@ -1209,7 +1301,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.d7423c0 de 12 Oct 2023
+| **Versión** del producto 1.495d065 de 12 Oct 2023
 
 | **Presentado a**
 
@@ -1238,7 +1330,7 @@ Descripción de los productos del trabajo de infraestructura del proyecto Migrac
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Infraestrctura, PasS |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.d7423c0 del 12 Oct 2023 |
+| Versión        | 1.495d065 del 12 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -1427,7 +1519,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.d7423c0 de 12 Oct 2023
+| **Versión** del producto 1.495d065 de 12 Oct 2023
 
 | **Presentado a**
 
@@ -1457,7 +1549,7 @@ Descripción de los productos de trabajo de la arquitectura de datos del proyect
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Entidades, Datos  |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.d7423c0 del 12 Oct 2023 |
+| Versión        | 1.495d065 del 12 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
