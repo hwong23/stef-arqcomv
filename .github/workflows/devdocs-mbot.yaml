@@ -1,4 +1,4 @@
-name: stef-cmmva
+name: stef-mimutual
 on:
   push:
     branches:
@@ -36,7 +36,7 @@ on:
         default: true
 jobs:
   devdocs:
-    name: stef-cmmva-arq
+    name: stef-cmmva
     runs-on: ubuntu-latest
     env:
       GITHUB_PULL_REQUEST_SHA: ${{ github.event.pull_request.head.sha }}
