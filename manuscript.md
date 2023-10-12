@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-12" />
   <meta name="citation_publication_date" content="2023-10-12" />
   <meta property="article:published_time" content="2023-10-12" />
-  <meta name="dc.modified" content="2023-10-12T03:28:52+00:00" />
-  <meta property="article:modified_time" content="2023-10-12T03:28:52+00:00" />
+  <meta name="dc.modified" content="2023-10-12T15:59:01+00:00" />
+  <meta property="article:modified_time" content="2023-10-12T15:59:01+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/a521fc27c8462acb3facfc32238fd0418e97fcda/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a521fc27c8462acb3facfc32238fd0418e97fcda/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a521fc27c8462acb3facfc32238fd0418e97fcda/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/86bdc0ad140b8391f7f4ab5832ec6673f9b256b4/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/86bdc0ad140b8391f7f4ab5832ec6673f9b256b4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/86bdc0ad140b8391f7f4ab5832ec6673f9b256b4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.a521fc2 de 12 Oct 2023
+| **Versión** del producto 1.86bdc0a de 12 Oct 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/a521fc27c8462acb3facfc32238fd0418e97fcda/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/86bdc0ad140b8391f7f4ab5832ec6673f9b256b4/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@a521fc2](http://stefanini.sharepoint.com)
+[Sharepoint STEF@86bdc0a](http://stefanini.sharepoint.com)
 del October 12, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.a521fc2 del 12 Oct 2023 |
+| Versión        | 1.86bdc0a del 12 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -262,58 +262,78 @@ Table: Requisito no. 3, Migración Mi Mutual, Flexibilidad. {#tbl:requisito3-id}
 
 
 
-# Vistas de Arquitectura Mi Mutual
-* [Mi Mutual Central](#mi-mutual-central)
-	* [Arq Mi Mutual. 1. Contexto](#arq-mi-mutual.-1.-contexto)
-	* [Arq Mi Mutual. 2. Contenedores](#arq-mi-mutual.-2.-contenedores)
-	* [Arq Mi Mutual. 3. Dominios](#arq-mi-mutual.-3.-dominios)
-	* [Arq Mi Mutual. 4. Aplicación](#arq-mi-mutual.-4.-aplicación)
-	* [Arq Mi Mutual. 4a3. Dependencias](#arq-mi-mutual.-4a3.-dependencias)
-	* [Arq Mi Mutual. 5. Físico](#arq-mi-mutual.-5.-físico)
-	* [Arq Mi Mutual. 6. Infraestructura](#arq-mi-mutual.-6.-infraestructura)
-* [Cotizador Web](#cotizador-web)
-	* [ArqCotizador. 1. Contexto](#arqcotizador.-1.-contexto)
-	* [ArqCotizador. 2. Dependencias](#arqcotizador.-2.-dependencias)
+<!--
+Single-page HTML Export
 
-<div style="page-break-before: always;"></div>
-\newpage
+Created with Archi (https://www.archimatetool.com) and the following jArchi script:
+https://github.com/archi-contribs/jarchi-single-page-html-export
 
-# Mi Mutual Central
+Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
+-->
+STEF-CMMV
+
 ## Arq Mi Mutual. 1. Contexto
-![Diagram: Arq Mi Mutual. 1. Contexto](images/ArqMiMutual.1.Contexto.png){#fig:ArqMiMutual.1.Contexto width=}
 
-Spring Boot Security y Spring Boot Oauth2 las cuales proveen una capa básica de seguridad entre Vista (Angular 2) y Controlador, obligando a que únicamente permita el acceso si se está autenticado si lo requiere, además para realizar el proceso de autenticación se utilizara la aplicación SISPRO (Coomeva) la cual funciona como un servidor de autenticación.
+Mi Mutual. Coomeva, 2023.
+
+Contexto Mi Mutual: Áreas negocio, componente central Mi Mutual, servicios y funciones.
+
+versión 0.1
+
+
+Spring Boot Security y Spring Boot Oauth2 proveen características de seguridad entre Vista (Angular 2) y Controlador. Estas son responsables de que únicamente permita el acceso si se está autenticado. Además, para realizar el proceso de autenticación se delega a la aplicación SISPRO (Coomeva) que funciona como un servidor de autenticación.
+![Arq Mi Mutual. 1. Contexto](images/ArqMiMutual.1.Contexto.png){#fig:id-id-919c1deee57b4c78a03abff98e0db161 width=}
+
+_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+
+<br>
+
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
-|:--------|:--------|:--------|:--------|
-|**Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.||
-|**Administración facturación y recaudo**|application-function|Administración de la facturación y recaudo diario de los productos<br>||
-|**Autorizaciones**|application-function|Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones mediante el servicio del flujo de procesos||
-|**Certificados**|application-function|Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.<br>||
-|**Configuración factores cálculos, contribuciones**|application-function|1. Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br>||
-|**Gestión Beneficiarios**|application-function|Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación.<br>||
-|**Gestión Reclamaciones**|application-function|Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado.<br>||
-|**Gestión Usuarios**|application-function|Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.<br>||
-|**Gestión fondo mutual y auxilio funerario**|application-function|Gestión de productos del fondo mutual y auxilio funerario que involucran a sus coberturas<br>||
-|**Interoperabilidad entre sistemas Coomeva**|application-function|Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.<br>||
-|**Seguridad**|application-function|||
-|**Simuladores**|application-function|Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.<br>||
-|**Autorizaciones**|application-service|Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones usando el servicio del flujo de procesos.||
-|**Certificados**|application-service|Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.||
-|**Configuración**|application-service|Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.||
-|**Facturación y Recaudo**|application-service|Administración de la facturación y recaudo diario de los productos||
-|**Gestión de Beneficiarios**|application-service|Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación<br>||
-|**Gestión de Productos**|application-service|Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas:<br>• Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias.<br>• Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado||
-|**Gestión de Reclamos**|application-service|Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado||
-|**Gestión de Usuarios**|application-service|Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.||
-|**Simuladores**|application-service|Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.||
-|**Unidad de Solidaridad y Seguros**|business-function|Unidad de Solidaridad y Seguros de la Cooperativa||
-|**Restricciones de Arquitectura**|constraint|## Restricciones de Arquitectura (Atributos)<br>1. Disponibilidad. Se requiere que el sistema esté disponible 7 X 24, el servicio prestado al cliente no se limita a horarios de oficina pues las compras pueden darse en cualquier momento<br>1. Escalabilidad. Se requiere que el sistema pueda llegar a atender hasta 1.000 clientes, para esto se requiere que el sistema se pueda extender horizontalmente de tal manera que pueda tener instalado en varios servidores para atender esta cantidad de usuarios. Todas las aplicaciones desarrolladas podrán ser escaladas horizontalmente para atender la demanda relacionada con el crecimiento de la empresa.<br>1. Reutilización. Se requiere que el sistema permita reutilizar sus componentes para prestar el mismo servicio a otras aplicaciones de la compañía. Para esto se va a desarrollar la aplicación utilizando servicios, separados y con asignación de responsabilidades, propias, de tal manera de que, si se requiere exponer servicios web sobre estas funcionalidades, no requiere cambios en la aplicación.<br>1. Autenticación. Autenticación es el proceso para determinar que alguien o un sistema es quien dice ser. Uso de estándar Oauth2 y JSON Web Token – JWT, para gestión de autenticación de servicios de la aplicación.<br>1. Autorización. Autorización se refiere a la validación que realiza un sistema para determinar si un usuario puede usar cierta funcionalidad. Uso de API de seguridad de Spring (spring-security) + Oauth2<br>1. Interoperabilidad – Movilidad. Interoperabilidad se refiere a la habilidad de un sistema de interactuar y comunicarse con sistemas heterogéneos a través de interfaces completamente definidas. Uso de estándar de web services REST + JSON.<br>1. Facilidad de Uso. Se refiere a la facilidad con que las personas pueden utilizar el sistema porque facilitan la lectura de los textos, descargan rápidamente la información y presentan funciones y menús sencillos, por lo que el usuario encuentra satisfechas sus consultas y cómodo su uso.<br>1. Verificación (QA). Es la capacidad del producto software que hace posible que el software modificado sea probado.<br>||
-|**Características Funcionales**|requirement|## Características Funcionales  Mi Mutual<br>1. Gestión de productos del fondo mutual y auxilio funerario que involucran a sus coberturas<br>1. Administración de la facturación y recaudo diario de los productos<br>1. Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado.<br>1. Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación.<br>1. Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.<br>1. Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.<br>1. Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br>||
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Administración facturación y recaudo | Application Function | Administración de la facturación y recaudo diario de los productos<br> |  |
+| Autorizaciones | Application Function | Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones mediante el servicio del flujo de procesos |  |
+| Autorizaciones | Application Service | Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones usando el servicio del flujo de procesos. |  |
+| Características Funcionales | Requirement | ## Características Funcionales Mi Mutual<br><br>1. Gestión de productos del fondo mutual y auxilio funerario que involucran a sus coberturas<br>1. Administración de la facturación y recaudo diario de los productos<br>1. Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado.<br>1. Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación.<br>1. Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.<br>1. Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.<br>1. Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br> |  |
+| Certificados | Application Function | Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.<br> |  |
+| Certificados | Application Service | Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario. |  |
+| Configuración | Application Service | Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos. |  |
+| Configuración factores cálculos, contribuciones | Application Function | 1. Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br> |  |
+| Facturación y Recaudo | Application Service | Administración de la facturación y recaudo diario de los productos |  |
+| Gestión Beneficiarios | Application Function | Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación.<br> |  |
+| Gestión Reclamaciones | Application Function | Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado.<br> |  |
+| Gestión Usuarios | Application Function | Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.<br> |  |
+| Gestión de Beneficiarios | Application Service | Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación
+<br> |  |
+| Gestión de Productos | Application Service | Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas:
+<br>
+<br>• Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias.
+<br>
+<br>• Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado |  |
+| Gestión de Reclamos | Application Service | Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado |  |
+| Gestión de Usuarios | Application Service | Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema. |  |
+| Gestión fondo mutual y auxilio funerario | Application Function | Gestión de productos del fondo mutual y auxilio funerario que involucran a sus coberturas<br> |  |
+| Interoperabilidad entre sistemas Coomeva | Application Function | Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.<br> |  |
+| Restricciones de Arquitectura | Constraint | ## Restricciones de Arquitectura (Atributos)<br><br>1. Disponibilidad. Se requiere que el sistema esté disponible 7 X 24, el servicio prestado al cliente no se limita a horarios de oficina pues las compras pueden darse en cualquier momento<br>1. Escalabilidad. Se requiere que el sistema pueda llegar a atender hasta 1.000 clientes, para esto se requiere que el sistema se pueda extender horizontalmente de tal manera que pueda tener instalado en varios servidores para atender esta cantidad de usuarios. Todas las aplicaciones desarrolladas podrán ser escaladas horizontalmente para atender la demanda relacionada con el crecimiento de la empresa.<br>1. Reutilización. Se requiere que el sistema permita reutilizar sus componentes para prestar el mismo servicio a otras aplicaciones de la compañía. Para esto se va a desarrollar la aplicación utilizando servicios, separados y con asignación de responsabilidades, propias, de tal manera de que, si se requiere exponer servicios web sobre estas funcionalidades, no requiere cambios en la aplicación.<br>1. Autenticación. Autenticación es el proceso para determinar que alguien o un sistema es quien dice ser. Uso de estándar Oauth2 y JSON Web Token – JWT, para gestión de autenticación de servicios de la aplicación.<br>1. Autorización. Autorización se refiere a la validación que realiza un sistema para determinar si un usuario puede usar cierta funcionalidad. Uso de API de seguridad de Spring (spring-security) + Oauth2<br>1. Interoperabilidad – Movilidad. Interoperabilidad se refiere a la habilidad de un sistema de interactuar y comunicarse con sistemas heterogéneos a través de interfaces completamente definidas. Uso de estándar de web services REST + JSON.<br>1. Facilidad de Uso. Se refiere a la facilidad con que las personas pueden utilizar el sistema porque facilitan la lectura de los textos, descargan rápidamente la información y presentan funciones y menús sencillos, por lo que el usuario encuentra satisfechas sus consultas y cómodo su uso.<br>1. Verificación (QA). Es la capacidad del producto software que hace posible que el software modificado sea probado.<br> |  |
+| Seguridad | Application Function |  |  |
+| Simuladores | Application Function | Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.<br> |  |
+| Simuladores | Application Service | Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado. |  |
+| Unidad de Solidaridad y Seguros | Business Function | Unidad de Solidaridad y Seguros de la Cooperativa |  |
+| app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.1.Contexto-id}
+
 
 ## Arq Mi Mutual. 2. Contenedores
-![Diagram: Arq Mi Mutual. 2. Contenedores](images/ArqMiMutual.2.Contenedores.png){#fig:ArqMiMutual.2.Contenedores width=}
+
+Mi Mutual. Coomeva, 2023.
+
+Estructura de componentes principales, Mi Mutual Central. Roles de componentes, separación responsabilidades.
+
+versión 0.4.1
+
 
 ## Organización de Componentes Mi Mutual
 
@@ -321,81 +341,182 @@ La organización de componentes utilizada Mi Mutual, impulsada por Spring Web, a
 
 Esta decisión de organización de los componentes de Mi Mutual, incluyendo al misional del mismo nomnbre, permite estructurar la aplicación de una manera ordenada y, en línea con las restricciones de arquitectura exigidas al sistema, facilita la efectividad de las extensiones y el mantenimiento.
 
+![Arq Mi Mutual. 2. Contenedores](images/ArqMiMutual.2.Contenedores.png){#fig:id-id-5fe59b86833c4bf8a7be4069e0b798a8 width=}
+
+_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+
+<br>
+
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
-|:--------|:--------|:--------|:--------|
-|**Controlador**|application-component|Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.||
-|**Cotizador Web**|application-component|||
-|**Implementación de Servicios**|application-component|Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br>||
-|**Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.||
-|**Registro Servicios: eureka**|application-component|Eureka: Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.<br>||
-|**Repositorio**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br>||
-|**Ruteador (proxy): gateway**|application-component|Gateway: Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.<br>||
-|**API Mi Mutual**|application-interface|||
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| API Mi Mutual | Application Interface |  |  |
+| Controlador Mi Mutual | Application Component | Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos. |  |
+| Registro Servicios: eureka | Application Component | Eureka: Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.<br> |  |
+| Repositorio Mi Mutual | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br> |  |
+| Ruteador (proxy): gateway | Application Component | Gateway: Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.<br> |  |
+| app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
+| app: Implementación de Servicios | Application Component | Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br> |  |
+| app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.2.Contenedores-id}
+
 
 ## Arq Mi Mutual. 3. Dominios
-![Diagram: Arq Mi Mutual. 3. Dominios](images/ArqMiMutual.3.Dominios.png){#fig:ArqMiMutual.3.Dominios width=}
+
+Mi Mutual. Coomeva, 2023.
+
+Servicios trasversales Mi Mutual. Estado Actual.
+
+versión 0.1
+
 
 La división por dominios busca facilitar la administración los servicios de la plataforma Mi Mutual que son comunes entre aplicaciones de Mi Mutual, tales como Asociados, Reclamaciones, Protecciones y otros servicios trasversales como Utilidades, Reglas de negocio, Procesos de negocio (BPM), Auditoria, Flujos de trabajo:flowable.
 
+![Arq Mi Mutual. 3. Dominios](images/ArqMiMutual.3.Dominios.png){#fig:id-id-dec3e8d41fed4da6b7bc317e01485518 width=}
+
+_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+
+<br>
+
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
-|:--------|:--------|:--------|:--------|
-|**Asociados**|application-component|Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.||
-|**Auditoria**|application-component|Contiene todas las funcionalidades relacionadas con el almacenamiento de la auditoria de las peticiones de la aplicación.||
-|**Eureka admin**|application-component|Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.||
-|**Flujo Trabajo: flowable**|application-component|Contiene todas las funcionalidades relacionadas con el motor de BPM Flowable, como gestión de tareas, instancias de nuevas procesos y asignación de tareas.||
-|**Gateway**|application-component|Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.||
-|**Identidades**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de los archivos de propiedades de los microservicios (Esta en construcción y no se ha integrado).||
-|**Integración**|application-component|Contiene todas las funcionalidades relacionadas con integraciones a otros servicios y otras bases de datos.||
-|**Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.||
-|**Procesos negocio**|application-component|Contiene todas las funcionalidades relacionadas con los flujos de JBPM, actualmente se hace solo para acceso a datos de la base de datos de JBPM.||
-|**Protecciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.||
-|**Reclamaciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos.||
-|**Reglas negocio**|application-component|Contiene todas las funcionalidades relacionadas con la validación de reglas usadas en otros microservicios.||
-|**Secuencias: zipkin**|application-component|Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs.||
-|**Sispro**|application-component|Contiene todas las funcionalidades relacionadas con la autenticación y autorización al sistema Mi mutual (Este componente se adopta a la arquitectura de microservicios de MiMutual)||
-|**Utilidades**|application-component|Contiene todas las funcionalidades útiles y trasversales a los microservicios, como envió de correos, generación de archivos Excel, PDF desde Jasper y consulta de parámetros.||
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Flujo Trabajo: flowable | Application Component | Contiene todas las funcionalidades relacionadas con el motor de BPM Flowable, como gestión de tareas, instancias de nuevas procesos y asignación de tareas. |  |
+| Integración | Application Component | Contiene todas las funcionalidades relacionadas con integraciones a otros servicios y otras bases de datos. |  |
+| Procesos negocio | Application Component | Contiene todas las funcionalidades relacionadas con los flujos de JBPM, actualmente se hace solo para acceso a datos de la base de datos de JBPM. |  |
+| Reglas negocio | Application Component | Contiene todas las funcionalidades relacionadas con la validación de reglas usadas en otros microservicios. |  |
+| SISPRO | Application Component | Contiene todas las funcionalidades relacionadas con la autenticación y autorización al sistema Mi mutual (Este componente se adopta a la arquitectura de microservicios de MiMutual) |  |
+| Utilidades | Application Component | Contiene todas las funcionalidades útiles y trasversales a los microservicios, como envió de correos, generación de archivos Excel, PDF desde Jasper y consulta de parámetros. |  |
+| app: Asociados | Application Component | Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios. |  |
+| app: Auditoria | Application Component | Contiene todas las funcionalidades relacionadas con el almacenamiento de la auditoria de las peticiones de la aplicación. |  |
+| app: Eureka admin | Application Component | Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos. |  |
+| app: Gateway | Application Component | Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios. |  |
+| app: Identidades | Application Component | Contiene todas las funcionalidades relacionadas con la gestión de los archivos de propiedades de los microservicios (Esta en construcción y no se ha integrado). |  |
+| app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. |  |
+| app: Protecciones | Application Component | Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones. |  |
+| app: Reclamaciones | Application Component | Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos. |  |
+| app: Secuencias: zipkin | Application Component | Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs. |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.3.Dominios-id}
+
 
 ## Arq Mi Mutual. 4. Aplicación
-![Diagram: Arq Mi Mutual. 4. Aplicación](images/ArqMiMutual.4.Aplicación.png){#fig:ArqMiMutual.4.Aplicación width=}
+
+Mi Mutual. Coomeva, 2023.
+
+Organización de componentes de aplicación Mi Mutual. Estado Actual. Segmentos (1) frontal, (2) servicios, (3) central/negocio Mi Mutual, (4) infraestructura.
+
+versión 0.3
+
+
+
+
+![Arq Mi Mutual. 4. Aplicación](images/ArqMiMutual.4.Aplicación.png){#fig:id-id-27bcd4f7a1c2454295b001008ee42aaa width=}
+
+_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+
+<br>
+
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
-|:--------|:--------|:--------|:--------|
-|**Controlador**|application-component|Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.||
-|**Cotización y Ventas**|application-component|||
-|**Cotizador Web**|application-component|||
-|**Implementación de Servicios**|application-component|Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br>||
-|**Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.||
-|**Mi Mutual Presentación**|application-component|||
-|**Repositorio**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br>||
-|**Simulador**|application-component|||
-|**Vinculación**|application-component|||
-|**Integración**|application-interface|Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.||
-|**Autorizaciones**|application-service|Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones usando el servicio del flujo de procesos.||
-|**Certificados**|application-service|Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.||
-|**Configuración**|application-service|Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.||
-|**Facturación y Recaudo**|application-service|Administración de la facturación y recaudo diario de los productos||
-|**Gestión de Beneficiarios**|application-service|Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación<br>||
-|**Gestión de Productos**|application-service|Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas:<br>• Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias.<br>• Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado||
-|**Gestión de Reclamos**|application-service|Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado||
-|**Gestión de Usuarios**|application-service|Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.||
-|**Simuladores**|application-service|Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.||
-|**Analistas**|business-role|Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.||
-|**Asesores**|business-role|Asesores integrales||
-|**Auxiliares servicio**|business-role|Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.||
-|**Fidelización**|business-role|Ejecutivos de Fidelización||
-|**Profundización**|business-role|Ejecutivos de Profundización||
-|**Unidad de Solidaridad y Seguros**|grouping|La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad)||
-|**Servicio de Almacenamiento de Datos**|technology-service|||
-|**Servicio de Red**|technology-service|||
-|**Servicio de archivos**|technology-service|||
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Analistas | Business Role | Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes. |  |
+| Asesores | Business Role | Asesores integrales |  |
+| Autorizaciones | Application Service | Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones usando el servicio del flujo de procesos. |  |
+| Auxiliares servicio | Business Role | Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes. |  |
+| Certificados | Application Service | Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario. |  |
+| Configuración | Application Service | Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos. |  |
+| Controlador Mi Mutual | Application Component | Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos. |  |
+| Facturación y Recaudo | Application Service | Administración de la facturación y recaudo diario de los productos |  |
+| Fidelización | Business Role | Ejecutivos de Fidelización |  |
+| Gestión de Beneficiarios | Application Service | Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación
+<br> |  |
+| Gestión de Productos | Application Service | Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas:
+<br>
+<br>• Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias.
+<br>
+<br>• Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado |  |
+| Gestión de Reclamos | Application Service | Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado |  |
+| Gestión de Usuarios | Application Service | Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema. |  |
+| Integración | Application Interface | Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados. |  |
+| Mi Mutual Presentación | Application Component |  |  |
+| Profundización | Business Role | Ejecutivos de Profundización |  |
+| Repositorio Mi Mutual | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br> |  |
+| Servicio de Almacenamiento de Datos | Technology Service |  |  |
+| Servicio de Red | Technology Service |  |  |
+| Servicio de archivos | Technology Service |  |  |
+| Simulador | Application Component |  |  |
+| Simuladores | Application Service | Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado. |  |
+| Unidad de Solidaridad y Seguros | Grouping | La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad) |  |
+| Vinculación | Application Component |  |  |
+| app: Cotización y Ventas | Application Component |  |  |
+| app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
+| app: Implementación de Servicios | Application Component | Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br> |  |
+| app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.4.Aplicación-id}
+
+
+## Arq Mi Mutual. 4a1. Referencia
+
+Mi Mutual. Coomeva, 2023.
+
+Esquema de componentes Spring Boot
+
+versión 0.1
+
+
+
+![Arq Mi Mutual. 4a1. Referencia](images/ArqMiMutual.4a1.Referencia.png){#fig:id-id-ecda07ca4d5a48479f53c13bf96290c7 width=}
+
+_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Almacenamiento y Repositorio | Application Service |  |  |
+| Api Rest | Application Function |  |  |
+| Autenticación (filtro) | Application Function |  |  |
+| BPMS | Application Service |  |  |
+| BUC | Application Service |  |  |
+| Cofiguración | Application Process |  |  |
+| Componentes Spring Boot | Application Component |  |  |
+| DDSEGUROS | Application Service |  |  |
+| ESB/WS | Application Service |  |  |
+| Nivel de Integración | Application Function |  |  |
+| Nivel de Negocio | Application Service |  |  |
+| Nivel de datos | Application Function |  |  |
+| RULES | Application Service |  |  |
+| Repositorio | Application Service |  |  |
+| SIPASDB | Application Service |  |  |
+| SISPRO | Application Service |  |  |
+| Seguridad | Application Function |  |  |
+| Service Agents | Application Function |  |  |
+| Servicios | Application Process |  |  |
+| Servicios Backend | Application Service |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.4a1.Referencia-id}
+
 
 ## Arq Mi Mutual. 4a3. Dependencias
-![Diagram: Arq Mi Mutual. 4a3. Dependencias](images/ArqMiMutual.4a3.Dependencias.png){#fig:ArqMiMutual.4a3.Dependencias width=}
+
+Mi Mutual. Coomeva, 2023.
+
+Mi Mutual Central. Paquetes: dependencias, roles, implementación funciones de aplicación.
+
+versión 0.1
+
 
 ## Paquetes y Dependencias Mi Mutual
 La estructura está basada en spring boot y lenguaje de programación JAVA 8, conformada por componentes de aplicación y administración del ciclo de vida de los objetos.
@@ -411,10 +532,10 @@ Nombrado de paquetes para los servicios
 * MiMutualReglas
 * MiMutualIntegraciones
 * MiMutualAuditoria
-* Mi<utualFLowable
+* Mi&lt;utualFLowable
 * MiMutualSpringCloud
 
-<br>
+&lt;br&gt;
 
 ## Entorno de Desarrollo
 Para la etapa de desarrollo la aplicación estará configurada para levantar un servidor Tomcat embebido el cual se encuentra configurado el pom.xml y el cual permite trabajar de forma mucho más ágil.
@@ -423,26 +544,42 @@ Para el despliegue entre ambientes se manejará maven profiles con el fin de agr
 
 El código fuente está alojado en un repositorio de Coomeva.
 
+![Arq Mi Mutual. 4a3. Dependencias](images/ArqMiMutual.4a3.Dependencias.png){#fig:id-id-cd7711359fb64153aacc8f016b0e85e8 width=}
+
+_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+
+<br>
+
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
-|:--------|:--------|:--------|:--------|
-|**Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.||
-|**pkg: Config**|application-component|config: Almacenan todas las clases para la configuración del proyecto Spring.||
-|**pkg: Controller**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: DTO**|application-component|dto: Almacenan todas las clases (pojos) para manejo de datos.||
-|**pkg: Model**|application-component|model: Almacenan todas las clases (entities) que constituyen el modelo de datos.<br>||
-|**pkg: Reglas**|application-component|dto: Almacenan todas las clases (pojos) para manejo de datos.||
-|**pkg: Repository**|application-component|repository: Almacenan todas las interfaces y clases que constituyen el acceso a<br>datos.<br>||
-|**pkg: Security**|application-component|security: Almacenan todas las clases que permiten la configuración de seguridad de la aplicación.<br>||
-|**pkg: Service**|application-component|service: Almacenan todas las interfaces que constituyen la lógica de negocio.||
-|**pkg: Service Impl**|application-component|service.impl: Almacenan todas las clases que implementan la funcionalidad de las interfaces de service que constituyen la lógica de negocio.||
-|**pkg: Spring Cloud**|application-component|dto: Almacenan todas las clases (pojos) para manejo de datos.||
-|**pkg: Util**|application-component|util: Almacenan todas las clases de utilería para la aplicación.||
-|**pkg: Web**|application-component|dto: Almacenan todas las clases (pojos) para manejo de datos.||
 
-## Arq Mi Mutual. 5. Físico
-![Diagram: Arq Mi Mutual. 5. Físico](images/ArqMiMutual.5.Físico.png){#fig:ArqMiMutual.5.Físico width=}
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. |  |
+| pkg: Config | Application Component | config: Almacenan todas las clases para la configuración del proyecto Spring. |  |
+| pkg: Controller | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: DTO | Application Component | dto: Almacenan todas las clases (pojos) para manejo de datos. |  |
+| pkg: Model | Application Component | model: Almacenan todas las clases (entities) que constituyen el modelo de datos.<br> |  |
+| pkg: Reglas | Application Component | dto: Almacenan todas las clases (pojos) para manejo de datos. |  |
+| pkg: Repository | Application Component | repository: Almacenan todas las interfaces y clases que constituyen el acceso a<br>datos.<br> |  |
+| pkg: Security | Application Component | security: Almacenan todas las clases que permiten la configuración de seguridad de la aplicación.<br> |  |
+| pkg: Service | Application Component | service: Almacenan todas las interfaces que constituyen la lógica de negocio. |  |
+| pkg: Service Impl | Application Component | service.impl: Almacenan todas las clases que implementan la funcionalidad de las interfaces de service que constituyen la lógica de negocio. |  |
+| pkg: Spring Cloud | Application Component | dto: Almacenan todas las clases (pojos) para manejo de datos. |  |
+| pkg: Util | Application Component | util: Almacenan todas las clases de utilería para la aplicación. |  |
+| pkg: Web | Application Component | dto: Almacenan todas las clases (pojos) para manejo de datos. |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.4a3.Dependencias-id}
+
+
+## Arq Mi Mutual. 5. Físico (despliegue)
+
+Mi Mutual. Coomeva, 2023.
+
+Distribución física Mi Mutual. Estado actual, 2023.
+
+versión 0.4.4
+
 
 Especificaciones de despliegue Mi Mutual, 2023, componente central.
 
@@ -456,42 +593,259 @@ Especificaciones de despliegue Mi Mutual, 2023, componente central.
 * Servidor web (HTTP 1.1): Apache 2.X
 
 
+![Arq Mi Mutual. 5. Físico (despliegue)](images/ArqMiMutual.5.Físico(despliegue).png){#fig:id-id-f12ffd7585e24d0da3e26ab9b25d0b9c width=}
+
+_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+
+<br>
+
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
-|:--------|:--------|:--------|:--------|
-|**Eureka admin**|application-component|Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.||
-|**Gateway**|application-component|Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.||
-|**Identidades**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de los archivos de propiedades de los microservicios (Esta en construcción y no se ha integrado).||
-|**Implementación de Servicios**|application-component|Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br>||
-|**Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.||
-|**Secuencias: zipkin**|application-component|Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs.||
-|**Directorio: eureka: tomcat**|system-software|||
-|**Gateway: tomcat**|system-software|||
-|**Identidad: spring cloud security**|system-software|||
-|**Secuencias: zipking: tomcat**|system-software|||
-|**Servicios: tomcat**|system-software|||
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Directorio: eureka: tomcat | System Software |  |  |
+| Entorno Java: JRE 1.8 | System Software |  |  |
+| Gateway: tomcat | System Software |  |  |
+| Identidad: spring cloud security | System Software |  |  |
+| Secuencias: zipking: tomcat | System Software |  |  |
+| Servicios: tomcat | System Software |  |  |
+| app: Asociados | Application Component | Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios. |  |
+| app: Eureka admin | Application Component | Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos. |  |
+| app: Gateway | Application Component | Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios. |  |
+| app: Identidades | Application Component | Contiene todas las funcionalidades relacionadas con la gestión de los archivos de propiedades de los microservicios (Esta en construcción y no se ha integrado). |  |
+| app: Implementación de Servicios | Application Component | Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br> |  |
+| app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. |  |
+| app: Protecciones | Application Component | Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones. |  |
+| app: Reclamaciones | Application Component | Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos. |  |
+| app: Secuencias: zipkin | Application Component | Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs. |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.5.Físico(despliegue)-id}
+
 
 ## Arq Mi Mutual. 6. Infraestructura
-![Diagram: Arq Mi Mutual. 6. Infraestructura](images/ArqMiMutual.6.Infraestructura.png){#fig:ArqMiMutual.6.Infraestructura width=}
+
+Mi Mutual. Coomeva, 2023.
+
+Ambientes, Nodos (servidores), Elementos de red, Almacenamiento y equipos de hardware Mi Mutual. Estado Actual
+
+versión 0.3
+
+
+
+![Arq Mi Mutual. 6. Infraestructura](images/ArqMiMutual.6.Infraestructura.png){#fig:id-id-ee8757edbccd440eb43234279e7d1ff9 width=}
+
+_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+
+<br>
+
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
-|:--------|:--------|:--------|:--------|
-|**Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.||
-|**Spring cloud security**|node|Se implementará Spring Boot Security y Spring Boot Oauth2 las cuales proveen una capa básica de seguridad entre Vista (Angular 2) y Controlador, obligando a que únicamente permita el acceso si se está autenticado si lo requiere, además para realizar el proceso de autenticación se utilizara la aplicación SISPRO (Coomeva) la cual funciona como un servidor de autenticación.<br>La validación de roles se realizará a nivel de peticiones en el api rest según corresponda, siempre y cuando sea necesario, también se tendrán en cuenta otras validaciones como:<br>• Las credenciales que proporcionó no son válidas.<br>• El usuario esta deshabilitado.<br>• Las credenciales de usuario han caducado.<br>• La cuenta de usuario ha caducado.<br>• La cuenta de usuario está bloqueada.||
-|**DB2 AS400: SIPASDB**|system-software|Las bases de datos a utilizar son: <br>* DB2 AS400: SIPASDB<br>* Sql Server (...)<br>* Oracle (...)<br>||
-|**Oracle DB: (...)**|system-software|Las bases de datos a utilizar son: <br>* DB2 AS400: SIPASDB<br>* Sql Server (...)<br>* Oracle (...)<br>||
-|**SQL Server: (...)**|system-software|Las bases de datos a utilizar son: <br>* DB2 AS400: SIPASDB<br>* SQL Server (...)<br>* Oracle (...)<br>||
-|**Servicio de Almacenamiento de Datos**|technology-service|||
-|**Servicio de Red**|technology-service|||
-|**Servicio de archivos**|technology-service|||
-<div style="page-break-before: always;"></div>
-\newpage
 
-# Cotizador Web
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| DB2 AS400: SIPASDB | System Software | Las bases de datos a utilizar son: <br>
+<br>* DB2 AS400: SIPASDB
+<br>* Sql Server (...)
+<br>* Oracle (...)
+<br><br> |  |
+| Oracle DB: (...) | System Software | Las bases de datos a utilizar son: <br>
+<br>* DB2 AS400: SIPASDB
+<br>* Sql Server (...)
+<br>* Oracle (...)
+<br><br> |  |
+| SQL Server: (...) | System Software | Las bases de datos a utilizar son: <br>
+<br>* DB2 AS400: SIPASDB
+<br>* SQL Server (...)
+<br>* Oracle (...)
+<br><br> |  |
+| Servicio de Almacenamiento de Datos | Technology Service |  |  |
+| Servicio de Red | Technology Service |  |  |
+| Servicio de archivos | Technology Service |  |  |
+| Spring cloud security | Node | Se implementará Spring Boot Security y Spring Boot Oauth2 las cuales proveen una capa básica de seguridad entre Vista (Angular 2) y Controlador, obligando a que únicamente permita el acceso si se está autenticado si lo requiere, además para realizar el proceso de autenticación se utilizara la aplicación SISPRO (Coomeva) la cual funciona como un servidor de autenticación.
+<br>La validación de roles se realizará a nivel de peticiones en el api rest según corresponda, siempre y cuando sea necesario, también se tendrán en cuenta otras validaciones como:
+<br>• Las credenciales que proporcionó no son válidas.
+<br>• El usuario esta deshabilitado.
+<br>• Las credenciales de usuario han caducado.
+<br>• La cuenta de usuario ha caducado.
+<br>• La cuenta de usuario está bloqueada. |  |
+| app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.6.Infraestructura-id}
+
+
+## Arq Mi Mutual. 7. Datos. Negocio
+
+Mi Mutual. Coomeva, 2023.
+
+Mi Mutual Central. Entidades: Estructuras, objeto, relaciones con aplicación.
+
+versión 0.1
+
+
+## Entidades de Negocio Mi Mutual
+
+* Configuración (caracterización de productos, plan)
+* Plan (producto pólizas seguros)
+* Canal (medios del tomador/asociado)
+* Parametros globales (catálogos)
+* Portafolio de asociado
+* Asociado
+* Facturación
+* Beneficiario
+
+![Arq Mi Mutual. 7. Datos. Negocio](images/ArqMiMutual.7.Datos.Negocio.png){#fig:id-id-e4ae408c4a5b41a09e47e227c33d467d width=}
+
+_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| DAT00.Asociado | Business Object |  |  |
+| DAT00.Beneficiario | Business Object |  |  |
+| DAT00.Canal (medios del tomador/asociado) | Business Object |  |  |
+| DAT00.Configuración (caracterización) | Business Object | Caracterización de productos, planes, parámetros<br> |  |
+| DAT00.Facturación | Business Object |  |  |
+| DAT00.Parametros globales (catálogos) | Business Object |  |  |
+| DAT00.Plan (producto pólizas seguros) | Business Object |  |  |
+| DAT00.Portafolios de asociados | Business Object |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.7.Datos.Negocio-id}
+
+
+## Arq Mi Mutual. 7a. Datos. Aplicación
+
+Mi Mutual. Coomeva, 2023.
+
+Mi Mutual Central. Físico. Entidades: Estructuras, objeto, relaciones con entidades.
+
+versión 0.1
+
+
+Modelo físico facilitadas por Coomeva, corte del 2 de mayo de 2022. Contiene las estructuras de configuración de fondo, cliente, planes, cobertura y planes de coberturas.
+
+
+
+![Arq Mi Mutual. 7a. Datos. Aplicación](images/ArqMiMutual.7a.Datos.Aplicación.png){#fig:id-id-c4ed2d8934fd40eea1d71556b08da65e width=}
+
+_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| DAT01.ADICIONAL PLAN COBERTURA | Data Object |  |  |
+| DAT01.ASISTENCIA PLAN COBERTURA | Data Object |  |  |
+| DAT01.ASISTENCIA PLAN COBERTURA DETALLE | Data Object |  |  |
+| DAT01.BENEFICIARIO ASISTENCIA | Data Object |  |  |
+| DAT01.BENEFICIO PREEXISTENCIA | Data Object |  |  |
+| DAT01.CAMPANA RELACION PLAN COBERTURA | Data Object |  |  |
+| DAT01.CANAL | Data Object |  |  |
+| DAT01.CANAL EVENTO | Data Object |  |  |
+| DAT01.CANAL VENTA EXCLUSION | Data Object |  |  |
+| DAT01.CANAL VENTA EXCLUSION COBERTURA | Data Object |  |  |
+| DAT01.CICLO FACTURACION CONFIG MOV | Data Object |  |  |
+| DAT01.CLIENTE | Data Object |  |  |
+| DAT01.COBERTURA | Data Object |  |  |
+| DAT01.COBERTURA BENEFICIARIO COBERTURA | Data Object |  |  |
+| DAT01.COBERTURA BENEFICIARIO PAGO | Data Object |  |  |
+| DAT01.CONDICION PAGO ANTIGUEDAD | Data Object |  |  |
+| DAT01.CONDICION PAGO EVENTO | Data Object |  |  |
+| DAT01.CONDICION PLAN | Data Object |  |  |
+| DAT01.CONDICION VENTA | Data Object |  |  |
+| DAT01.CONDICIONES | Data Object |  |  |
+| DAT01.CONFIGURACION DIAGNOSTICOS | Data Object |  |  |
+| DAT01.CONFIGURACION MOV DETALLE | Data Object |  |  |
+| DAT01.CONFIGURACION MOVIMIENTO | Data Object |  |  |
+| DAT01.CONTROL ARE TECNICA | Data Object |  |  |
+| DAT01.CONTROL CUMULO | Data Object |  |  |
+| DAT01.CUMULO | Data Object |  |  |
+| DAT01.CUMULOS COBERTURA | Data Object |  |  |
+| DAT01.CUMULOS PLAN COBERTURA | Data Object |  |  |
+| DAT01.DEDUCIBLE | Data Object |  |  |
+| DAT01.DESMEMBRACION ACCIDENTE | Data Object |  |  |
+| DAT01.DESMEMBRACION ACCIDENTE PLAN COBERTURA | Data Object |  |  |
+| DAT01.DOCUMENTO REQUISITO | Data Object |  |  |
+| DAT01.DOCUMENTOS SOLICITUD EVENTO | Data Object |  |  |
+| DAT01.ENFERMEDAD GRAVE | Data Object |  |  |
+| DAT01.ENFERMEDAD GRAVE PLAN COBERTURA | Data Object |  |  |
+| DAT01.ESTADO ASOCIADO | Data Object |  |  |
+| DAT01.EVENTO COBERTURA | Data Object |  |  |
+| DAT01.EXCLUSION | Data Object |  |  |
+| DAT01.EXCLUSION COBERTURA | Data Object |  |  |
+| DAT01.EXCLUSION PLAN COBERTURA | Data Object |  |  |
+| DAT01.EXCLUSION PLAN COBERTURA DETALLE | Data Object |  |  |
+| DAT01.FAC CONCEPTO PLAN | Data Object |  |  |
+| DAT01.FONDO | Data Object |  |  |
+| DAT01.FORMULA PLAN | Data Object |  |  |
+| DAT01.GENERO REQUISITO | Data Object |  |  |
+| DAT01.LIQUIDACION | Data Object |  |  |
+| DAT01.LIQUIDACION DETALLE | Data Object |  |  |
+| DAT01.NIVEL RIESGO COBERTURA | Data Object |  |  |
+| DAT01.NIVEL RIESGO CONFIG MOV | Data Object |  |  |
+| DAT01.NIVELES NOTAS PLAN COBERTURA | Data Object |  |  |
+| DAT01.NOTA ACLARATORIA PLAN | Data Object |  |  |
+| DAT01.NOTIFICACION EVENTO | Data Object |  |  |
+| DAT01.ORIGEN COBERTURA COBERTURA | Data Object |  |  |
+| DAT01.PERIODO CARENCIA | Data Object |  |  |
+| DAT01.PERSONA | Data Object |  |  |
+| DAT01.PLAN | Data Object |  |  |
+| DAT01.PLAN CANAL VENTA | Data Object |  |  |
+| DAT01.PLAN COBERTURA | Data Object |  |  |
+| DAT01.PLAN COBERTURA DEPENDIENTE | Data Object |  |  |
+| DAT01.PLAN COBERTURA EDAD | Data Object |  |  |
+| DAT01.PLAN COBERTURA REQUISITO | Data Object |  |  |
+| DAT01.PLAN FRECUENCIA FACTURACION | Data Object |  |  |
+| DAT01.PLAN MEDIO FACTURACION | Data Object |  |  |
+| DAT01.PLAN NIVEL RIESGO | Data Object |  |  |
+| DAT01.PLAN OBLIGATORIO | Data Object |  |  |
+| DAT01.PLAN PARENTESCO | Data Object |  |  |
+| DAT01.PLAN PERSEVERANTE | Data Object |  |  |
+| DAT01.PORCENTAJE CUOTA | Data Object |  |  |
+| DAT01.PRODUCTO COBERTURA | Data Object |  |  |
+| DAT01.PRODUCTO EXCLUYENTE | Data Object |  |  |
+| DAT01.PROMOCION CANAL | Data Object |  |  |
+| DAT01.PROMOCION CONDICION | Data Object |  |  |
+| DAT01.PROMOCION PLAN COBERTURA | Data Object |  |  |
+| DAT01.PROMOTOR CANAL | Data Object |  |  |
+| DAT01.RECONOCIMIENTO POR PERMANENCIA | Data Object |  |  |
+| DAT01.REGLAS EXCEPCIONES | Data Object |  |  |
+| DAT01.REQUISITO CONTROL MEDICO | Data Object |  |  |
+| DAT01.RESPONSABLE PERSONA | Data Object |  |  |
+| DAT01.SOLICITUD EVENT | Data Object |  |  |
+| DAT01.SOLICITUD EVENTO DETALLE | Data Object |  |  |
+| DAT01.SUBLIMITE COBERTURA | Data Object |  |  |
+| DAT01.SUBSISTENTE PLAN COBERTURA | Data Object |  |  |
+| DAT01.SUBSISTENTE PLAN COBERTURA DETALLE | Data Object |  |  |
+| DAT01.TIPO MOVIMIENTO | Data Object |  |  |
+| DAT01.TIPO PROCESO CUMULO | Data Object |  |  |
+| DAT01.TRANSACCION EXCLUSION | Data Object |  |  |
+| DAT01.TRANSACCION EXCLUSION COBERTURA | Data Object |  |  |
+| DAT01.TRANSACCION REQUISITO  | Data Object |  |  |
+| DAT01.VALOR ASEGURADO | Data Object |  |  |
+| DAT01.VALOR ASEGURADO PLAN COBERTURA | Data Object |  |  |
+| DAT01.VALOR ASEGURADO TOPE | Data Object |  |  |
+| DAT01.VALOR CUOTA PLAN COBERTURA | Data Object |  |  |
+| DAT01.VALOR RESCATE | Data Object |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.7a.Datos.Aplicación-id}
+
+
 ## ArqCotizador. 1. Contexto
-![Diagram: ArqCotizador. 1. Contexto](images/ArqCotizador.1.Contexto.png){#fig:ArqCotizador.1.Contexto width=}
+
+Mi Mutual. Coomeva, 2023.
+
+Cotizador Web Mi Mutual. Contexto Mi Mutual: Áreas negocio, componente central Mi Mutual, servicios y funciones.
+
+versión 0.1
+
 
 ## Módulos Mi Mutual Web
 La estructura por módulos permite realizar aplicaciones escalables y robustas ya que permite organizar las partes de la aplicación, la organización en bloques, extender la aplicación con funcionalidades de libreras externas, proporcionar un entorno de resolución de plantillas y además permite especificar la forma de la carga de cada uno de los componentes y servicios que conforman un módulo.
@@ -513,7 +867,7 @@ Documentación: https://github.com/auth0/angular2-jwt
 * ngx-tinymce: Editor html para generación de plantillas para cartas Documentación: https://cipchk.github.io/ngx-tinymce/#/
 * quill: componente para editor html Documentación: https://quilljs.com/
 
-<br>
+&lt;br&gt;
 
 ## Servicios Transversales 
 
@@ -525,75 +879,205 @@ Documentación: https://github.com/auth0/angular2-jwt
 * TypesService: Consumo de servicios de parametrización
 * IdleTimeoutService: Verificación de timeout del token
 
+&lt;br&gt;
+
+![ArqCotizador. 1. Contexto](images/ArqCotizador.1.Contexto.png){#fig:id-id-6c23b3a1025841cc9dc9c8385dd94f67 width=}
+
+_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+
 <br>
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
-|:--------|:--------|:--------|:--------|
-|**Controlador**|application-component|Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.||
-|**Cotizador Web**|application-component|||
-|**Aplicativo**|application-function|||
-|**Compartido**|application-function|||
-|**Cotizador**|application-function|||
-|**Interfaz gráfica**|application-function|||
-|**Util**|application-function|En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br>||
-|**admin Páginas**|application-function|||
-|**admin Servicios**|application-function|||
-|**API Mi Mutual**|application-interface|||
-|**Autenticación: authgard**|application-service|||
-|**Interceptor: errorinterceptor**|application-service|||
-|**Parametrización: typeservice**|application-service|||
-|**admin Sesión: idletimeout**|application-service|||
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| API Mi Mutual | Application Interface |  |  |
+| Aplicativo | Application Function |  |  |
+| Autenticación: authgard | Application Service |  |  |
+| Compartido | Application Function |  |  |
+| Controlador Mi Mutual | Application Component | Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos. |  |
+| Cotizador | Application Function |  |  |
+| Interceptor: errorinterceptor | Application Service |  |  |
+| Interfaz gráfica | Application Function |  |  |
+| Parametrización: typeservice | Application Service |  |  |
+| Sesión admin: idletimeout | Application Service |  |  |
+| Util | Application Function | En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br><br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br><br> |  |
+| admin Páginas | Application Function |  |  |
+| admin Servicios | Application Function |  |  |
+| app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.1.Contexto-id}
+
+
+## ArqCotizador. 2. Contenedores
+
+Mi Mutual. Coomeva, 2023.
+
+Estructura de componentes principales, Cotizador Web, Mi Mutual. Roles de componentes, separación responsabilidades.
+
+versión 0.2
+
+
+
+![ArqCotizador. 2. Contenedores](images/ArqCotizador.2.Contenedores.png){#fig:id-id-f2a4384798e643c1a7b24456c69f7a6d width=}
+
+_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| API Mi Mutual | Application Interface |  |  |
+| HTTP / HTTPS | Application Interface |  |  |
+| Repositorio web | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br> |  |
+| app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.2.Contenedores-id}
+
 
 ## ArqCotizador. 2. Dependencias
-![Diagram: ArqCotizador. 2. Dependencias](images/ArqCotizador.2.Dependencias.png){#fig:ArqCotizador.2.Dependencias width=}
+
+Mi Mutual. Coomeva, 2023.
+
+Mi Mutual Web. Paquetes: dependencias, roles, implementación funciones de aplicación.
+
+versión 0.1
+
 
 ## Paquetes y Dependencias Cotizador Web
 Módulos y componentes que hacen parte de la estructura de la aplicación Cotizador Web (basado en Angular 7 [^1]).
 
-[^1]: Angular 2 tiene una arquitectura Modelo Vista Controlador (MVC) con el fin de hacer que el desarrollo sea claro y sencillo.
+[^1]: Angular 2 tiene una arquitectura Modelo Vista Controlador (MVC) con el fin de hacer el desarrollo gestionado.
 
-## Móduos
+## Módulos
 La estructura por módulos actual apunta a la escalabilidad y mantenimiento del Cotizador en términos de: organizar las partes de la aplicación, organización los bloques, extender la aplicación con libreras externas, proporcionar un entorno de resolución de plantillas y además, distribuir las cargas de los componentes y servicios que usa la aplicación.
+
+![ArqCotizador. 2. Dependencias](images/ArqCotizador.2.Dependencias.png){#fig:id-id-3bc899b013be4bb0818e8856b07c2b50 width=}
+
+_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+
+<br>
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
-|:--------|:--------|:--------|:--------|
-|**Cotizador Web**|application-component|||
-|**pkg: admin**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: administración**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: asociados**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: auth**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: cliente**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: clientes**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: componentes**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: config**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: cotizaciones**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: cotización**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: directivas**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: home**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: interfaces**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: modelos**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: multiactiva**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: protecciones**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: proveedores**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: reporte**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: reportes**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: transporte**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: util**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: utilidades**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**Aplicativo**|application-function|||
-|**Compartido**|application-function|||
-|**Cotizador**|application-function|||
-|**Interfaz gráfica**|application-function|||
-|**Util**|application-function|En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br>||
-|**admin Páginas**|application-function|||
-|**admin Servicios**|application-function|||
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Aplicativo | Application Function |  |  |
+| Compartido | Application Function |  |  |
+| Cotizador | Application Function |  |  |
+| Interfaz gráfica | Application Function |  |  |
+| Util | Application Function | En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br><br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br><br> |  |
+| admin Páginas | Application Function |  |  |
+| admin Servicios | Application Function |  |  |
+| app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
+| pkg: admin | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: administración | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: asociados | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: auth | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: cliente | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: clientes | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: componentes | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: config | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: cotizaciones | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: cotización | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: directivas | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: home | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: interfaces | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: modelos | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: multiactiva | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: protecciones | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: proveedores | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: reporte | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: reportes | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: transporte | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: util | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: utilidades | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.2.Dependencias-id}
 
 
-``Generated on: Mon Oct 09 2023 13:13:07 GMT-0500 (COT)``
+## ArqCotizador. 5. Físico (despliegue)
+
+Mi Mutual. Coomeva, 2023.
+
+Distribución física Cotizador Web, Mi Mutual. Estado actual, 2023.
+
+versión 0.1.1
+
+
+
+
+![ArqCotizador. 5. Físico (despliegue)](images/ArqCotizador.5.Físico(despliegue).png){#fig:id-id-bc7b34fbb33241e785ae91a9d3102378 width=}
+
+_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Conexión: jdbc | Artifact |  |  |
+| Entorno Angular: ng12 | System Software |  |  |
+| Repositorio: db2 iSerie | System Software |  |  |
+| Servicios: tomcat | System Software |  |  |
+| app: Asociados | Application Component | Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios. |  |
+| app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
+| app: Implementación de Servicios | Application Component | Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br> |  |
+| app: Protecciones | Application Component | Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones. |  |
+| app: Reclamaciones | Application Component | Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos. |  |
+| pkg: admin | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: administración | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: asociados | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: auth | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: cliente | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: clientes | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: config | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: cotizaciones | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: cotización | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: home | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: modelos | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: multiactiva | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: protecciones | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: proveedores | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: reporte | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: reportes | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+| pkg: utilidades | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.5.Físico(despliegue)-id}
+
+
+## Vistas de Arquitectura Mi Mutual
+
+undefined
+
+
+
+![Vistas de Arquitectura Mi Mutual](images/VistasdeArquitecturaMiMutual.png){#fig:id-id-7ce9f9bf90d343c48ed121b2fa175972 width=}
+
+_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Cotizador Web | Grouping |  |  |
+| Mi Mutual Central | Grouping |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-VistasdeArquitecturaMiMutual-id}
+
+
+
+
 
 ## Requerimientos de Administración
 1.	Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
@@ -668,7 +1152,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.a521fc2 de 12 Oct 2023
+| **Versión** del producto 1.86bdc0a de 12 Oct 2023
 
 | **Presentado a**
 
@@ -697,7 +1181,7 @@ Descripción de los productos del trabajo de infraestructura del proyecto Migrac
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Infraestrctura, PasS |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.a521fc2 del 12 Oct 2023 |
+| Versión        | 1.86bdc0a del 12 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -886,7 +1370,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.a521fc2 de 12 Oct 2023
+| **Versión** del producto 1.86bdc0a de 12 Oct 2023
 
 | **Presentado a**
 
@@ -916,7 +1400,7 @@ Descripción de los productos de trabajo de la arquitectura de datos del proyect
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Entidades, Datos  |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.a521fc2 del 12 Oct 2023 |
+| Versión        | 1.86bdc0a del 12 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
