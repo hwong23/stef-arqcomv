@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-12" />
   <meta name="citation_publication_date" content="2023-10-12" />
   <meta property="article:published_time" content="2023-10-12" />
-  <meta name="dc.modified" content="2023-10-12T16:57:01+00:00" />
-  <meta property="article:modified_time" content="2023-10-12T16:57:01+00:00" />
+  <meta name="dc.modified" content="2023-10-12T18:08:16+00:00" />
+  <meta property="article:modified_time" content="2023-10-12T18:08:16+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/e219884d0e30c8baf494ee8da76f2444922011a9/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/e219884d0e30c8baf494ee8da76f2444922011a9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/e219884d0e30c8baf494ee8da76f2444922011a9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/d7423c08affd04932056052e9c9c3fb085356c2b/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/d7423c08affd04932056052e9c9c3fb085356c2b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/d7423c08affd04932056052e9c9c3fb085356c2b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.e219884 de 12 Oct 2023
+| **Versión** del producto 1.d7423c0 de 12 Oct 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/e219884d0e30c8baf494ee8da76f2444922011a9/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/d7423c08affd04932056052e9c9c3fb085356c2b/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@e219884](http://stefanini.sharepoint.com)
+[Sharepoint STEF@d7423c0](http://stefanini.sharepoint.com)
 del October 12, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.e219884 del 12 Oct 2023 |
+| Versión        | 1.d7423c0 del 12 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -284,6 +284,7 @@ versión 0.1
 
 
 Spring Boot Security y Spring Boot Oauth2 proveen características de seguridad entre Vista (Angular 2) y Controlador. Estas son responsables de que únicamente permita el acceso si se está autenticado. Además, para realizar el proceso de autenticación se delega a la aplicación SISPRO (Coomeva) que funciona como un servidor de autenticación.
+
 ![Arq Mi Mutual. 1. Contexto](images/ArqMiMutual.1.Contexto.png){#fig:id-id-919c1deee57b4c78a03abff98e0db161 width=}
 
 _Fuente: Repositorio arquitectura Mi Mutual (2023)_
@@ -331,12 +332,10 @@ Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.1.Contexto-id}
 
 Mi Mutual. Coomeva, 2023.
 
-Estructura de componentes principales, Mi Mutual Central. Roles de componentes, separación responsabilidades.
+Organización de componentes principales, Mi Mutual Central. Roles de componentes, separación responsabilidades.
 
 versión 0.4.1
 
-
-## Organización de Componentes Mi Mutual
 
 La organización de componentes utilizada Mi Mutual, impulsada por Spring Web, antepone como interfaz de uso un API REST. La interfaz se articula con tres componentes utilitarios: Controller, Service y Repository, los cuales están mediados por el componente misional, Mi Mutual, en la imagen. 
 
@@ -731,6 +730,25 @@ _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 | DAT00.Parametros globales (catálogos) | Business Object |  |  |
 | DAT00.Plan (producto pólizas seguros) | Business Object |  |  |
 | DAT00.Portafolios de asociados | Business Object |  |  |
+| DAT01.ADICIONAL PLAN COBERTURA | Data Object |  |  |
+| DAT01.ASISTENCIA PLAN COBERTURA | Data Object |  |  |
+| DAT01.ASISTENCIA PLAN COBERTURA DETALLE | Data Object |  |  |
+| DAT01.CAMPANA RELACION PLAN COBERTURA | Data Object |  |  |
+| DAT01.CANAL | Data Object |  |  |
+| DAT01.CANAL EVENTO | Data Object |  |  |
+| DAT01.CANAL VENTA EXCLUSION | Data Object |  |  |
+| DAT01.CUMULOS PLAN COBERTURA | Data Object |  |  |
+| DAT01.DEDUCIBLE | Data Object |  |  |
+| DAT01.DESMEMBRACION ACCIDENTE | Data Object |  |  |
+| DAT01.DESMEMBRACION ACCIDENTE PLAN COBERTURA | Data Object |  |  |
+| DAT01.DOCUMENTO REQUISITO | Data Object |  |  |
+| DAT01.ENFERMEDAD GRAVE | Data Object |  |  |
+| DAT01.ENFERMEDAD GRAVE PLAN COBERTURA | Data Object |  |  |
+| DAT01.ESTADO ASOCIADO | Data Object |  |  |
+| DAT01.PERSONA | Data Object |  |  |
+| DAT01.SUBLIMITE COBERTURA | Data Object |  |  |
+| DAT01.TIPO MOVIMIENTO | Data Object |  |  |
+| DAT01.TIPO PROCESO CUMULO | Data Object |  |  |
 
 Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.7.Datos.Negocio-id}
 
@@ -1191,7 +1209,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.e219884 de 12 Oct 2023
+| **Versión** del producto 1.d7423c0 de 12 Oct 2023
 
 | **Presentado a**
 
@@ -1220,7 +1238,7 @@ Descripción de los productos del trabajo de infraestructura del proyecto Migrac
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Infraestrctura, PasS |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.e219884 del 12 Oct 2023 |
+| Versión        | 1.d7423c0 del 12 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -1409,7 +1427,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.e219884 de 12 Oct 2023
+| **Versión** del producto 1.d7423c0 de 12 Oct 2023
 
 | **Presentado a**
 
@@ -1439,7 +1457,7 @@ Descripción de los productos de trabajo de la arquitectura de datos del proyect
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Entidades, Datos  |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.e219884 del 12 Oct 2023 |
+| Versión        | 1.d7423c0 del 12 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
