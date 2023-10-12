@@ -49,8 +49,8 @@
   <meta name="dc.date" content="2023-10-12" />
   <meta name="citation_publication_date" content="2023-10-12" />
   <meta property="article:published_time" content="2023-10-12" />
-  <meta name="dc.modified" content="2023-10-12T03:28:52+00:00" />
-  <meta property="article:modified_time" content="2023-10-12T03:28:52+00:00" />
+  <meta name="dc.modified" content="2023-10-12T15:59:01+00:00" />
+  <meta property="article:modified_time" content="2023-10-12T15:59:01+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -65,9 +65,9 @@
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/a521fc27c8462acb3facfc32238fd0418e97fcda/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a521fc27c8462acb3facfc32238fd0418e97fcda/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a521fc27c8462acb3facfc32238fd0418e97fcda/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/86bdc0ad140b8391f7f4ab5832ec6673f9b256b4/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/86bdc0ad140b8391f7f4ab5832ec6673f9b256b4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/86bdc0ad140b8391f7f4ab5832ec6673f9b256b4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -89,7 +89,7 @@
 <p><br></p>
 <p><br></p>
 <p><br></p>
-<div class="line-block"><strong>Versión</strong> del producto 1.a521fc2 de 12 Oct 2023</div>
+<div class="line-block"><strong>Versión</strong> del producto 1.86bdc0a de 12 Oct 2023</div>
 <div class="line-block"><strong>Presentado a</strong></div>
 <div class="line-block">STEF - Coomeva</div>
 <div class="line-block"></div>
@@ -99,9 +99,9 @@
 
 </div>
 <p><small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023,
-(<a href="https://hwong23.github.io/stef-arqcomv/v/a521fc27c8462acb3facfc32238fd0418e97fcda/">Web</a>)
+(<a href="https://hwong23.github.io/stef-arqcomv/v/86bdc0ad140b8391f7f4ab5832ec6673f9b256b4/">Web</a>)
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-<a href="http://stefanini.sharepoint.com">Sharepoint STEF@a521fc2</a>
+<a href="http://stefanini.sharepoint.com">Sharepoint STEF@86bdc0a</a>
 del October 12, 2023.
 </em></small></p>
 <p><br></p>
@@ -150,7 +150,7 @@ Arquitecto, Stefanini
 </tr>
 <tr class="even">
 <td>Versión</td>
-<td>1.a521fc2 del 12 Oct 2023</td>
+<td>1.86bdc0a del 12 Oct 2023</td>
 </tr>
 <tr class="odd">
 <td>Vínculos</td>
@@ -299,594 +299,634 @@ Arquitecto, Stefanini
 <div style="page-break-before: always;">
 
 </div>
-<h1 id="vistas-de-arquitectura-mi-mutual">Vistas de Arquitectura Mi Mutual</h1>
-<ul>
-<li><a href="#mi-mutual-central">Mi Mutual Central</a>
-<ul>
-<li><a href="#arq-mi-mutual.-1.-contexto">Arq Mi Mutual. 1. Contexto</a></li>
-<li><a href="#arq-mi-mutual.-2.-contenedores">Arq Mi Mutual. 2. Contenedores</a></li>
-<li><a href="#arq-mi-mutual.-3.-dominios">Arq Mi Mutual. 3. Dominios</a></li>
-<li><a href="#arq-mi-mutual.-4.-aplicación">Arq Mi Mutual. 4. Aplicación</a></li>
-<li><a href="#arq-mi-mutual.-4a3.-dependencias">Arq Mi Mutual. 4a3. Dependencias</a></li>
-<li><a href="#arq-mi-mutual.-5.-físico">Arq Mi Mutual. 5. Físico</a></li>
-<li><a href="#arq-mi-mutual.-6.-infraestructura">Arq Mi Mutual. 6. Infraestructura</a></li>
-</ul></li>
-<li><a href="#cotizador-web">Cotizador Web</a>
-<ul>
-<li><a href="#arqcotizador.-1.-contexto">ArqCotizador. 1. Contexto</a></li>
-<li><a href="#arqcotizador.-2.-dependencias">ArqCotizador. 2. Dependencias</a></li>
-</ul></li>
-</ul>
-<div style="page-break-before: always;">
+<!--
+Single-page HTML Export
 
-</div>
-<h1 id="mi-mutual-central">Mi Mutual Central</h1>
+Created with Archi (https://www.archimatetool.com) and the following jArchi script:
+https://github.com/archi-contribs/jarchi-single-page-html-export
+
+Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
+-->
+<p>STEF-CMMV</p>
 <h2 id="arq-mi-mutual.-1.-contexto">Arq Mi Mutual. 1. Contexto</h2>
-<div id="fig:ArqMiMutual.1.Contexto" class="fignos">
-<figure>
-<img src="images/ArqMiMutual.1.Contexto.png" alt="Imagen 1: Diagram: Arq Mi Mutual. 1. Contexto" />
-<figcaption aria-hidden="true"><span>Imagen 1:</span> Diagram: Arq Mi Mutual. 1. Contexto</figcaption>
-</figure>
-</div>
-<p>Spring Boot Security y Spring Boot Oauth2 las cuales proveen una capa básica de seguridad entre Vista (Angular 2) y Controlador, obligando a que únicamente permita el acceso si se está autenticado si lo requiere, además para realizar el proceso de autenticación se utilizara la aplicación SISPRO (Coomeva) la cual funciona como un servidor de autenticación.</p>
+<p>Mi Mutual. Coomeva, 2023.</p>
+<p>Contexto Mi Mutual: Áreas negocio, componente central Mi Mutual, servicios y funciones.</p>
+<p>versión 0.1</p>
+<p>Spring Boot Security y Spring Boot Oauth2 proveen características de seguridad entre Vista (Angular 2) y Controlador. Estas son responsables de que únicamente permita el acceso si se está autenticado. Además, para realizar el proceso de autenticación se delega a la aplicación SISPRO (Coomeva) que funciona como un servidor de autenticación.
+<img src="images/ArqMiMutual.1.Contexto.png" id="fig:id-id-919c1deee57b4c78a03abff98e0db161" alt="Arq Mi Mutual. 1. Contexto" /></p>
+<p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
+<p><br></p>
 <h3 id="catálogo-de-elementos">Catálogo de Elementos</h3>
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 47%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Name</th>
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Description</th>
-<th style="text-align: left;">Properties</th>
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Mi Mutual Central</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.</td>
-<td style="text-align: left;"></td>
+<td>Administración facturación y recaudo</td>
+<td>Application Function</td>
+<td>Administración de la facturación y recaudo diario de los productos<br></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Administración facturación y recaudo</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;">Administración de la facturación y recaudo diario de los productos<br></td>
-<td style="text-align: left;"></td>
+<td>Autorizaciones</td>
+<td>Application Function</td>
+<td>Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones mediante el servicio del flujo de procesos</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Autorizaciones</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;">Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones mediante el servicio del flujo de procesos</td>
-<td style="text-align: left;"></td>
+<td>Autorizaciones</td>
+<td>Application Service</td>
+<td>Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones usando el servicio del flujo de procesos.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Certificados</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;">Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.<br></td>
-<td style="text-align: left;"></td>
+<td>Características Funcionales</td>
+<td>Requirement</td>
+<td>## Características Funcionales Mi Mutual<br><br>1. Gestión de productos del fondo mutual y auxilio funerario que involucran a sus coberturas<br>1. Administración de la facturación y recaudo diario de los productos<br>1. Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado.<br>1. Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación.<br>1. Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.<br>1. Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.<br>1. Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Configuración factores cálculos, contribuciones</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;">1. Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br></td>
-<td style="text-align: left;"></td>
+<td>Certificados</td>
+<td>Application Function</td>
+<td>Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.<br></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Gestión Beneficiarios</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;">Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación.<br></td>
-<td style="text-align: left;"></td>
+<td>Certificados</td>
+<td>Application Service</td>
+<td>Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Gestión Reclamaciones</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;">Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado.<br></td>
-<td style="text-align: left;"></td>
+<td>Configuración</td>
+<td>Application Service</td>
+<td>Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Gestión Usuarios</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;">Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.<br></td>
-<td style="text-align: left;"></td>
+<td>Configuración factores cálculos, contribuciones</td>
+<td>Application Function</td>
+<td>1. Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Gestión fondo mutual y auxilio funerario</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;">Gestión de productos del fondo mutual y auxilio funerario que involucran a sus coberturas<br></td>
-<td style="text-align: left;"></td>
+<td>Facturación y Recaudo</td>
+<td>Application Service</td>
+<td>Administración de la facturación y recaudo diario de los productos</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Interoperabilidad entre sistemas Coomeva</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;">Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.<br></td>
-<td style="text-align: left;"></td>
+<td>Gestión Beneficiarios</td>
+<td>Application Function</td>
+<td>Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación.<br></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Seguridad</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td>Gestión Reclamaciones</td>
+<td>Application Function</td>
+<td>Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado.<br></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Simuladores</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;">Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.<br></td>
-<td style="text-align: left;"></td>
+<td>Gestión Usuarios</td>
+<td>Application Function</td>
+<td>Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.<br></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Autorizaciones</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones usando el servicio del flujo de procesos.</td>
-<td style="text-align: left;"></td>
+<td>Gestión de Beneficiarios</td>
+<td>Application Service</td>
+<td>Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Certificados</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.</td>
-<td style="text-align: left;"></td>
+<td><br></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Configuración</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Facturación y Recaudo</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Administración de la facturación y recaudo diario de los productos</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Gestión de Beneficiarios</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación<br></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Gestión de Productos</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas:<br>• Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias.<br>• Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Gestión de Reclamos</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Gestión de Usuarios</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Simuladores</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Unidad de Solidaridad y Seguros</strong></td>
-<td style="text-align: left;">business-function</td>
-<td style="text-align: left;">Unidad de Solidaridad y Seguros de la Cooperativa</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Restricciones de Arquitectura</strong></td>
-<td style="text-align: left;">constraint</td>
-<td style="text-align: left;">## Restricciones de Arquitectura (Atributos)<br>1. Disponibilidad. Se requiere que el sistema esté disponible 7 X 24, el servicio prestado al cliente no se limita a horarios de oficina pues las compras pueden darse en cualquier momento<br>1. Escalabilidad. Se requiere que el sistema pueda llegar a atender hasta 1.000 clientes, para esto se requiere que el sistema se pueda extender horizontalmente de tal manera que pueda tener instalado en varios servidores para atender esta cantidad de usuarios. Todas las aplicaciones desarrolladas podrán ser escaladas horizontalmente para atender la demanda relacionada con el crecimiento de la empresa.<br>1. Reutilización. Se requiere que el sistema permita reutilizar sus componentes para prestar el mismo servicio a otras aplicaciones de la compañía. Para esto se va a desarrollar la aplicación utilizando servicios, separados y con asignación de responsabilidades, propias, de tal manera de que, si se requiere exponer servicios web sobre estas funcionalidades, no requiere cambios en la aplicación.<br>1. Autenticación. Autenticación es el proceso para determinar que alguien o un sistema es quien dice ser. Uso de estándar Oauth2 y JSON Web Token – JWT, para gestión de autenticación de servicios de la aplicación.<br>1. Autorización. Autorización se refiere a la validación que realiza un sistema para determinar si un usuario puede usar cierta funcionalidad. Uso de API de seguridad de Spring (spring-security) + Oauth2<br>1. Interoperabilidad – Movilidad. Interoperabilidad se refiere a la habilidad de un sistema de interactuar y comunicarse con sistemas heterogéneos a través de interfaces completamente definidas. Uso de estándar de web services REST + JSON.<br>1. Facilidad de Uso. Se refiere a la facilidad con que las personas pueden utilizar el sistema porque facilitan la lectura de los textos, descargan rápidamente la información y presentan funciones y menús sencillos, por lo que el usuario encuentra satisfechas sus consultas y cómodo su uso.<br>1. Verificación (QA). Es la capacidad del producto software que hace posible que el software modificado sea probado.<br></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Características Funcionales</strong></td>
-<td style="text-align: left;">requirement</td>
-<td style="text-align: left;">## Características Funcionales Mi Mutual<br>1. Gestión de productos del fondo mutual y auxilio funerario que involucran a sus coberturas<br>1. Administración de la facturación y recaudo diario de los productos<br>1. Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado.<br>1. Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación.<br>1. Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.<br>1. Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.<br>1. Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br></td>
-<td style="text-align: left;"></td>
+<td>Gestión de Productos</td>
+<td>Application Service</td>
+<td>Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas:</td>
+<td></td>
 </tr>
 </tbody>
 </table>
+<p><br>
+<br>• Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias.
+<br>
+<br>• Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado | |
+| Gestión de Reclamos | Application Service | Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado | |
+| Gestión de Usuarios | Application Service | Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema. | |
+| Gestión fondo mutual y auxilio funerario | Application Function | Gestión de productos del fondo mutual y auxilio funerario que involucran a sus coberturas<br> | |
+| Interoperabilidad entre sistemas Coomeva | Application Function | Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.<br> | |
+| Restricciones de Arquitectura | Constraint | ## Restricciones de Arquitectura (Atributos)<br><br>1. Disponibilidad. Se requiere que el sistema esté disponible 7 X 24, el servicio prestado al cliente no se limita a horarios de oficina pues las compras pueden darse en cualquier momento<br>1. Escalabilidad. Se requiere que el sistema pueda llegar a atender hasta 1.000 clientes, para esto se requiere que el sistema se pueda extender horizontalmente de tal manera que pueda tener instalado en varios servidores para atender esta cantidad de usuarios. Todas las aplicaciones desarrolladas podrán ser escaladas horizontalmente para atender la demanda relacionada con el crecimiento de la empresa.<br>1. Reutilización. Se requiere que el sistema permita reutilizar sus componentes para prestar el mismo servicio a otras aplicaciones de la compañía. Para esto se va a desarrollar la aplicación utilizando servicios, separados y con asignación de responsabilidades, propias, de tal manera de que, si se requiere exponer servicios web sobre estas funcionalidades, no requiere cambios en la aplicación.<br>1. Autenticación. Autenticación es el proceso para determinar que alguien o un sistema es quien dice ser. Uso de estándar Oauth2 y JSON Web Token – JWT, para gestión de autenticación de servicios de la aplicación.<br>1. Autorización. Autorización se refiere a la validación que realiza un sistema para determinar si un usuario puede usar cierta funcionalidad. Uso de API de seguridad de Spring (spring-security) + Oauth2<br>1. Interoperabilidad – Movilidad. Interoperabilidad se refiere a la habilidad de un sistema de interactuar y comunicarse con sistemas heterogéneos a través de interfaces completamente definidas. Uso de estándar de web services REST + JSON.<br>1. Facilidad de Uso. Se refiere a la facilidad con que las personas pueden utilizar el sistema porque facilitan la lectura de los textos, descargan rápidamente la información y presentan funciones y menús sencillos, por lo que el usuario encuentra satisfechas sus consultas y cómodo su uso.<br>1. Verificación (QA). Es la capacidad del producto software que hace posible que el software modificado sea probado.<br> | |
+| Seguridad | Application Function | | |
+| Simuladores | Application Function | Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.<br> | |
+| Simuladores | Application Service | Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado. | |
+| Unidad de Solidaridad y Seguros | Business Function | Unidad de Solidaridad y Seguros de la Cooperativa | |
+| app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. | |</p>
+<p>Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.1.Contexto-id}</p>
 <h2 id="arq-mi-mutual.-2.-contenedores">Arq Mi Mutual. 2. Contenedores</h2>
-<div id="fig:ArqMiMutual.2.Contenedores" class="fignos">
-<figure>
-<img src="images/ArqMiMutual.2.Contenedores.png" alt="Imagen 2: Diagram: Arq Mi Mutual. 2. Contenedores" />
-<figcaption aria-hidden="true"><span>Imagen 2:</span> Diagram: Arq Mi Mutual. 2. Contenedores</figcaption>
-</figure>
-</div>
+<p>Mi Mutual. Coomeva, 2023.</p>
+<p>Estructura de componentes principales, Mi Mutual Central. Roles de componentes, separación responsabilidades.</p>
+<p>versión 0.4.1</p>
 <h2 id="organización-de-componentes-mi-mutual">Organización de Componentes Mi Mutual</h2>
 <p>La organización de componentes utilizada Mi Mutual, impulsada por Spring Web, antepone como interfaz de uso un API REST. La interfaz se articula con tres componentes utilitarios: Controller, Service y Repository, los cuales están mediados por el componente misional, Mi Mutual, en la imagen.</p>
 <p>Esta decisión de organización de los componentes de Mi Mutual, incluyendo al misional del mismo nomnbre, permite estructurar la aplicación de una manera ordenada y, en línea con las restricciones de arquitectura exigidas al sistema, facilita la efectividad de las extensiones y el mantenimiento.</p>
+<div id="fig:id-id-5fe59b86833c4bf8a7be4069e0b798a8" class="fignos">
+<figure>
+<img src="images/ArqMiMutual.2.Contenedores.png" alt="Imagen 1: Arq Mi Mutual. 2. Contenedores" />
+<figcaption aria-hidden="true"><span>Imagen 1:</span> Arq Mi Mutual. 2. Contenedores</figcaption>
+</figure>
+</div>
+<p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
+<p><br></p>
 <h3 id="catálogo-de-elementos-1">Catálogo de Elementos</h3>
-<table>
+<div id="tbl:tblelement-ArqMiMutual.2.Contenedores-id" class="tablenos">
+<table id="tbl:tblelement-ArqMiMutual.2.Contenedores-id">
+<caption><span>Tabla 4:</span> Elementos de la vista. </caption>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 47%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Name</th>
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Description</th>
-<th style="text-align: left;">Properties</th>
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Controlador</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.</td>
-<td style="text-align: left;"></td>
+<td>API Mi Mutual</td>
+<td>Application Interface</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Cotizador Web</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td>Controlador Mi Mutual</td>
+<td>Application Component</td>
+<td>Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Implementación de Servicios</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br></td>
-<td style="text-align: left;"></td>
+<td>Registro Servicios: eureka</td>
+<td>Application Component</td>
+<td>Eureka: Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.<br></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Mi Mutual Central</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.</td>
-<td style="text-align: left;"></td>
+<td>Repositorio Mi Mutual</td>
+<td>Application Component</td>
+<td>Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Registro Servicios: eureka</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Eureka: Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.<br></td>
-<td style="text-align: left;"></td>
+<td>Ruteador (proxy): gateway</td>
+<td>Application Component</td>
+<td>Gateway: Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.<br></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Repositorio</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br></td>
-<td style="text-align: left;"></td>
+<td>app: Cotizador Web</td>
+<td>Application Component</td>
+<td>pkg: MiMutualWeb</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Ruteador (proxy): gateway</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Gateway: Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.<br></td>
-<td style="text-align: left;"></td>
+<td>app: Implementación de Servicios</td>
+<td>Application Component</td>
+<td>Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>API Mi Mutual</strong></td>
-<td style="text-align: left;">application-interface</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td>app: Mi Mutual Central</td>
+<td>Application Component</td>
+<td>Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.</td>
+<td></td>
 </tr>
 </tbody>
 </table>
+</div>
 <h2 id="arq-mi-mutual.-3.-dominios">Arq Mi Mutual. 3. Dominios</h2>
-<div id="fig:ArqMiMutual.3.Dominios" class="fignos">
+<p>Mi Mutual. Coomeva, 2023.</p>
+<p>Servicios trasversales Mi Mutual. Estado Actual.</p>
+<p>versión 0.1</p>
+<p>La división por dominios busca facilitar la administración los servicios de la plataforma Mi Mutual que son comunes entre aplicaciones de Mi Mutual, tales como Asociados, Reclamaciones, Protecciones y otros servicios trasversales como Utilidades, Reglas de negocio, Procesos de negocio (BPM), Auditoria, Flujos de trabajo:flowable.</p>
+<div id="fig:id-id-dec3e8d41fed4da6b7bc317e01485518" class="fignos">
 <figure>
-<img src="images/ArqMiMutual.3.Dominios.png" alt="Imagen 3: Diagram: Arq Mi Mutual. 3. Dominios" />
-<figcaption aria-hidden="true"><span>Imagen 3:</span> Diagram: Arq Mi Mutual. 3. Dominios</figcaption>
+<img src="images/ArqMiMutual.3.Dominios.png" alt="Imagen 2: Arq Mi Mutual. 3. Dominios" />
+<figcaption aria-hidden="true"><span>Imagen 2:</span> Arq Mi Mutual. 3. Dominios</figcaption>
 </figure>
 </div>
-<p>La división por dominios busca facilitar la administración los servicios de la plataforma Mi Mutual que son comunes entre aplicaciones de Mi Mutual, tales como Asociados, Reclamaciones, Protecciones y otros servicios trasversales como Utilidades, Reglas de negocio, Procesos de negocio (BPM), Auditoria, Flujos de trabajo:flowable.</p>
+<p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
+<p><br></p>
 <h3 id="catálogo-de-elementos-2">Catálogo de Elementos</h3>
-<table>
+<div id="tbl:tblelement-ArqMiMutual.3.Dominios-id" class="tablenos">
+<table id="tbl:tblelement-ArqMiMutual.3.Dominios-id">
+<caption><span>Tabla 5:</span> Elementos de la vista. </caption>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 47%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Name</th>
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Description</th>
-<th style="text-align: left;">Properties</th>
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Asociados</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.</td>
-<td style="text-align: left;"></td>
+<td>Flujo Trabajo: flowable</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con el motor de BPM Flowable, como gestión de tareas, instancias de nuevas procesos y asignación de tareas.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Auditoria</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con el almacenamiento de la auditoria de las peticiones de la aplicación.</td>
-<td style="text-align: left;"></td>
+<td>Integración</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con integraciones a otros servicios y otras bases de datos.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Eureka admin</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.</td>
-<td style="text-align: left;"></td>
+<td>Procesos negocio</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con los flujos de JBPM, actualmente se hace solo para acceso a datos de la base de datos de JBPM.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Flujo Trabajo: flowable</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con el motor de BPM Flowable, como gestión de tareas, instancias de nuevas procesos y asignación de tareas.</td>
-<td style="text-align: left;"></td>
+<td>Reglas negocio</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con la validación de reglas usadas en otros microservicios.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Gateway</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.</td>
-<td style="text-align: left;"></td>
+<td>SISPRO</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con la autenticación y autorización al sistema Mi mutual (Este componente se adopta a la arquitectura de microservicios de MiMutual)</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Identidades</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con la gestión de los archivos de propiedades de los microservicios (Esta en construcción y no se ha integrado).</td>
-<td style="text-align: left;"></td>
+<td>Utilidades</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades útiles y trasversales a los microservicios, como envió de correos, generación de archivos Excel, PDF desde Jasper y consulta de parámetros.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Integración</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con integraciones a otros servicios y otras bases de datos.</td>
-<td style="text-align: left;"></td>
+<td>app: Asociados</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Mi Mutual Central</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.</td>
-<td style="text-align: left;"></td>
+<td>app: Auditoria</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con el almacenamiento de la auditoria de las peticiones de la aplicación.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Procesos negocio</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con los flujos de JBPM, actualmente se hace solo para acceso a datos de la base de datos de JBPM.</td>
-<td style="text-align: left;"></td>
+<td>app: Eureka admin</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Protecciones</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.</td>
-<td style="text-align: left;"></td>
+<td>app: Gateway</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Reclamaciones</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos.</td>
-<td style="text-align: left;"></td>
+<td>app: Identidades</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con la gestión de los archivos de propiedades de los microservicios (Esta en construcción y no se ha integrado).</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Reglas negocio</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con la validación de reglas usadas en otros microservicios.</td>
-<td style="text-align: left;"></td>
+<td>app: Mi Mutual Central</td>
+<td>Application Component</td>
+<td>Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Secuencias: zipkin</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs.</td>
-<td style="text-align: left;"></td>
+<td>app: Protecciones</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Sispro</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con la autenticación y autorización al sistema Mi mutual (Este componente se adopta a la arquitectura de microservicios de MiMutual)</td>
-<td style="text-align: left;"></td>
+<td>app: Reclamaciones</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Utilidades</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades útiles y trasversales a los microservicios, como envió de correos, generación de archivos Excel, PDF desde Jasper y consulta de parámetros.</td>
-<td style="text-align: left;"></td>
+<td>app: Secuencias: zipkin</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs.</td>
+<td></td>
 </tr>
 </tbody>
 </table>
+</div>
 <h2 id="arq-mi-mutual.-4.-aplicación">Arq Mi Mutual. 4. Aplicación</h2>
-<div id="fig:ArqMiMutual.4.Aplicación" class="fignos">
+<p>Mi Mutual. Coomeva, 2023.</p>
+<p>Organización de componentes de aplicación Mi Mutual. Estado Actual. Segmentos (1) frontal, (2) servicios, (3) central/negocio Mi Mutual, (4) infraestructura.</p>
+<p>versión 0.3</p>
+<div id="fig:id-id-27bcd4f7a1c2454295b001008ee42aaa" class="fignos">
 <figure>
-<img src="images/ArqMiMutual.4.Aplicación.png" alt="Imagen 4: Diagram: Arq Mi Mutual. 4. Aplicación" />
-<figcaption aria-hidden="true"><span>Imagen 4:</span> Diagram: Arq Mi Mutual. 4. Aplicación</figcaption>
+<img src="images/ArqMiMutual.4.Aplicación.png" alt="Imagen 3: Arq Mi Mutual. 4. Aplicación" />
+<figcaption aria-hidden="true"><span>Imagen 3:</span> Arq Mi Mutual. 4. Aplicación</figcaption>
 </figure>
 </div>
+<p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
+<p><br></p>
 <h3 id="catálogo-de-elementos-3">Catálogo de Elementos</h3>
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 47%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Name</th>
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Description</th>
-<th style="text-align: left;">Properties</th>
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Controlador</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.</td>
-<td style="text-align: left;"></td>
+<td>Analistas</td>
+<td>Business Role</td>
+<td>Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Cotización y Ventas</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td>Asesores</td>
+<td>Business Role</td>
+<td>Asesores integrales</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Cotizador Web</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td>Autorizaciones</td>
+<td>Application Service</td>
+<td>Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones usando el servicio del flujo de procesos.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Implementación de Servicios</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br></td>
-<td style="text-align: left;"></td>
+<td>Auxiliares servicio</td>
+<td>Business Role</td>
+<td>Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Mi Mutual Central</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.</td>
-<td style="text-align: left;"></td>
+<td>Certificados</td>
+<td>Application Service</td>
+<td>Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Mi Mutual Presentación</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td>Configuración</td>
+<td>Application Service</td>
+<td>Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Repositorio</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br></td>
-<td style="text-align: left;"></td>
+<td>Controlador Mi Mutual</td>
+<td>Application Component</td>
+<td>Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Simulador</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td>Facturación y Recaudo</td>
+<td>Application Service</td>
+<td>Administración de la facturación y recaudo diario de los productos</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Vinculación</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td>Fidelización</td>
+<td>Business Role</td>
+<td>Ejecutivos de Fidelización</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Integración</strong></td>
-<td style="text-align: left;">application-interface</td>
-<td style="text-align: left;">Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.</td>
-<td style="text-align: left;"></td>
+<td>Gestión de Beneficiarios</td>
+<td>Application Service</td>
+<td>Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Autorizaciones</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones usando el servicio del flujo de procesos.</td>
-<td style="text-align: left;"></td>
+<td><br></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Certificados</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Configuración</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Facturación y Recaudo</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Administración de la facturación y recaudo diario de los productos</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Gestión de Beneficiarios</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación<br></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Gestión de Productos</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas:<br>• Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias.<br>• Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Gestión de Reclamos</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Gestión de Usuarios</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Simuladores</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;">Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Analistas</strong></td>
-<td style="text-align: left;">business-role</td>
-<td style="text-align: left;">Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Asesores</strong></td>
-<td style="text-align: left;">business-role</td>
-<td style="text-align: left;">Asesores integrales</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Auxiliares servicio</strong></td>
-<td style="text-align: left;">business-role</td>
-<td style="text-align: left;">Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Fidelización</strong></td>
-<td style="text-align: left;">business-role</td>
-<td style="text-align: left;">Ejecutivos de Fidelización</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Profundización</strong></td>
-<td style="text-align: left;">business-role</td>
-<td style="text-align: left;">Ejecutivos de Profundización</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Unidad de Solidaridad y Seguros</strong></td>
-<td style="text-align: left;">grouping</td>
-<td style="text-align: left;">La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad)</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Servicio de Almacenamiento de Datos</strong></td>
-<td style="text-align: left;">technology-service</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Servicio de Red</strong></td>
-<td style="text-align: left;">technology-service</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Servicio de archivos</strong></td>
-<td style="text-align: left;">technology-service</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td>Gestión de Productos</td>
+<td>Application Service</td>
+<td>Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas:</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<h2 id="arq-mi-mutual.-4a3.-dependencias">Arq Mi Mutual. 4a3. Dependencias</h2>
-<div id="fig:ArqMiMutual.4a3.Dependencias" class="fignos">
+<p><br>
+<br>• Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias.
+<br>
+<br>• Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado | |
+| Gestión de Reclamos | Application Service | Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado | |
+| Gestión de Usuarios | Application Service | Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema. | |
+| Integración | Application Interface | Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados. | |
+| Mi Mutual Presentación | Application Component | | |
+| Profundización | Business Role | Ejecutivos de Profundización | |
+| Repositorio Mi Mutual | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br> | |
+| Servicio de Almacenamiento de Datos | Technology Service | | |
+| Servicio de Red | Technology Service | | |
+| Servicio de archivos | Technology Service | | |
+| Simulador | Application Component | | |
+| Simuladores | Application Service | Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado. | |
+| Unidad de Solidaridad y Seguros | Grouping | La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad) | |
+| Vinculación | Application Component | | |
+| app: Cotización y Ventas | Application Component | | |
+| app: Cotizador Web | Application Component | pkg: MiMutualWeb | |
+| app: Implementación de Servicios | Application Component | Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br> | |
+| app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. | |</p>
+<p>Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.4.Aplicación-id}</p>
+<h2 id="arq-mi-mutual.-4a1.-referencia">Arq Mi Mutual. 4a1. Referencia</h2>
+<p>Mi Mutual. Coomeva, 2023.</p>
+<p>Esquema de componentes Spring Boot</p>
+<p>versión 0.1</p>
+<div id="fig:id-id-ecda07ca4d5a48479f53c13bf96290c7" class="fignos">
 <figure>
-<img src="images/ArqMiMutual.4a3.Dependencias.png" alt="Imagen 5: Diagram: Arq Mi Mutual. 4a3. Dependencias" />
-<figcaption aria-hidden="true"><span>Imagen 5:</span> Diagram: Arq Mi Mutual. 4a3. Dependencias</figcaption>
+<img src="images/ArqMiMutual.4a1.Referencia.png" alt="Imagen 4: Arq Mi Mutual. 4a1. Referencia" />
+<figcaption aria-hidden="true"><span>Imagen 4:</span> Arq Mi Mutual. 4a1. Referencia</figcaption>
 </figure>
 </div>
+<p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
+<p><br></p>
+<h3 id="catálogo-de-elementos-4">Catálogo de Elementos</h3>
+<div id="tbl:tblelement-ArqMiMutual.4a1.Referencia-id" class="tablenos">
+<table id="tbl:tblelement-ArqMiMutual.4a1.Referencia-id">
+<caption><span>Tabla 6:</span> Elementos de la vista. </caption>
+<thead>
+<tr class="header">
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Almacenamiento y Repositorio</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Api Rest</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Autenticación (filtro)</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>BPMS</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>BUC</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Cofiguración</td>
+<td>Application Process</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Componentes Spring Boot</td>
+<td>Application Component</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DDSEGUROS</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>ESB/WS</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Nivel de Integración</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Nivel de Negocio</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Nivel de datos</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>RULES</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Repositorio</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>SIPASDB</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>SISPRO</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Seguridad</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Service Agents</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Servicios</td>
+<td>Application Process</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Servicios Backend</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="arq-mi-mutual.-4a3.-dependencias">Arq Mi Mutual. 4a3. Dependencias</h2>
+<p>Mi Mutual. Coomeva, 2023.</p>
+<p>Mi Mutual Central. Paquetes: dependencias, roles, implementación funciones de aplicación.</p>
+<p>versión 0.1</p>
 <h2 id="paquetes-y-dependencias-mi-mutual">Paquetes y Dependencias Mi Mutual</h2>
 <p>La estructura está basada en spring boot y lenguaje de programación JAVA 8, conformada por componentes de aplicación y administración del ciclo de vida de los objetos.</p>
 <p>Nombrado de paquetes para los servicios</p>
@@ -903,115 +943,123 @@ Arquitecto, Stefanini
 <li>Mi&lt;utualFLowable</li>
 <li>MiMutualSpringCloud</li>
 </ul>
-<p><br></p>
+<p>&lt;br&gt;</p>
 <h2 id="entorno-de-desarrollo">Entorno de Desarrollo</h2>
 <p>Para la etapa de desarrollo la aplicación estará configurada para levantar un servidor Tomcat embebido el cual se encuentra configurado el pom.xml y el cual permite trabajar de forma mucho más ágil.</p>
 <p>Para el despliegue entre ambientes se manejará maven profiles con el fin de agregar las configuraciones de cada uno de estos.</p>
 <p>El código fuente está alojado en un repositorio de Coomeva.</p>
-<h3 id="catálogo-de-elementos-4">Catálogo de Elementos</h3>
-<table>
+<div id="fig:id-id-cd7711359fb64153aacc8f016b0e85e8" class="fignos">
+<figure>
+<img src="images/ArqMiMutual.4a3.Dependencias.png" alt="Imagen 5: Arq Mi Mutual. 4a3. Dependencias" />
+<figcaption aria-hidden="true"><span>Imagen 5:</span> Arq Mi Mutual. 4a3. Dependencias</figcaption>
+</figure>
+</div>
+<p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
+<p><br></p>
+<h3 id="catálogo-de-elementos-5">Catálogo de Elementos</h3>
+<div id="tbl:tblelement-ArqMiMutual.4a3.Dependencias-id" class="tablenos">
+<table id="tbl:tblelement-ArqMiMutual.4a3.Dependencias-id">
+<caption><span>Tabla 7:</span> Elementos de la vista. </caption>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 47%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Name</th>
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Description</th>
-<th style="text-align: left;">Properties</th>
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Mi Mutual Central</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.</td>
-<td style="text-align: left;"></td>
+<td>app: Mi Mutual Central</td>
+<td>Application Component</td>
+<td>Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>pkg: Config</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">config: Almacenan todas las clases para la configuración del proyecto Spring.</td>
-<td style="text-align: left;"></td>
+<td>pkg: Config</td>
+<td>Application Component</td>
+<td>config: Almacenan todas las clases para la configuración del proyecto Spring.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>pkg: Controller</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
+<td>pkg: Controller</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>pkg: DTO</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">dto: Almacenan todas las clases (pojos) para manejo de datos.</td>
-<td style="text-align: left;"></td>
+<td>pkg: DTO</td>
+<td>Application Component</td>
+<td>dto: Almacenan todas las clases (pojos) para manejo de datos.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>pkg: Model</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">model: Almacenan todas las clases (entities) que constituyen el modelo de datos.<br></td>
-<td style="text-align: left;"></td>
+<td>pkg: Model</td>
+<td>Application Component</td>
+<td>model: Almacenan todas las clases (entities) que constituyen el modelo de datos.<br></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>pkg: Reglas</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">dto: Almacenan todas las clases (pojos) para manejo de datos.</td>
-<td style="text-align: left;"></td>
+<td>pkg: Reglas</td>
+<td>Application Component</td>
+<td>dto: Almacenan todas las clases (pojos) para manejo de datos.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>pkg: Repository</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">repository: Almacenan todas las interfaces y clases que constituyen el acceso a<br>datos.<br></td>
-<td style="text-align: left;"></td>
+<td>pkg: Repository</td>
+<td>Application Component</td>
+<td>repository: Almacenan todas las interfaces y clases que constituyen el acceso a<br>datos.<br></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>pkg: Security</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">security: Almacenan todas las clases que permiten la configuración de seguridad de la aplicación.<br></td>
-<td style="text-align: left;"></td>
+<td>pkg: Security</td>
+<td>Application Component</td>
+<td>security: Almacenan todas las clases que permiten la configuración de seguridad de la aplicación.<br></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>pkg: Service</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">service: Almacenan todas las interfaces que constituyen la lógica de negocio.</td>
-<td style="text-align: left;"></td>
+<td>pkg: Service</td>
+<td>Application Component</td>
+<td>service: Almacenan todas las interfaces que constituyen la lógica de negocio.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>pkg: Service Impl</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">service.impl: Almacenan todas las clases que implementan la funcionalidad de las interfaces de service que constituyen la lógica de negocio.</td>
-<td style="text-align: left;"></td>
+<td>pkg: Service Impl</td>
+<td>Application Component</td>
+<td>service.impl: Almacenan todas las clases que implementan la funcionalidad de las interfaces de service que constituyen la lógica de negocio.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>pkg: Spring Cloud</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">dto: Almacenan todas las clases (pojos) para manejo de datos.</td>
-<td style="text-align: left;"></td>
+<td>pkg: Spring Cloud</td>
+<td>Application Component</td>
+<td>dto: Almacenan todas las clases (pojos) para manejo de datos.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>pkg: Util</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">util: Almacenan todas las clases de utilería para la aplicación.</td>
-<td style="text-align: left;"></td>
+<td>pkg: Util</td>
+<td>Application Component</td>
+<td>util: Almacenan todas las clases de utilería para la aplicación.</td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>pkg: Web</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">dto: Almacenan todas las clases (pojos) para manejo de datos.</td>
-<td style="text-align: left;"></td>
+<td>pkg: Web</td>
+<td>Application Component</td>
+<td>dto: Almacenan todas las clases (pojos) para manejo de datos.</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<h2 id="arq-mi-mutual.-5.-físico">Arq Mi Mutual. 5. Físico</h2>
-<div id="fig:ArqMiMutual.5.Físico" class="fignos">
-<figure>
-<img src="images/ArqMiMutual.5.Físico.png" alt="Imagen 6: Diagram: Arq Mi Mutual. 5. Físico" />
-<figcaption aria-hidden="true"><span>Imagen 6:</span> Diagram: Arq Mi Mutual. 5. Físico</figcaption>
-</figure>
 </div>
+<h2 id="arq-mi-mutual.-5.-físico-despliegue">Arq Mi Mutual. 5. Físico (despliegue)</h2>
+<p>Mi Mutual. Coomeva, 2023.</p>
+<p>Distribución física Mi Mutual. Estado actual, 2023.</p>
+<p>versión 0.4.4</p>
 <p>Especificaciones de despliegue Mi Mutual, 2023, componente central.</p>
 <ul>
 <li>Estándares para el manejo de servicios REST sobre HTTP 1.1</li>
@@ -1023,176 +1071,873 @@ Arquitecto, Stefanini
 <li>Librería de Estilos: Bootstrap 4</li>
 <li>Servidor web (HTTP 1.1): Apache 2.X</li>
 </ul>
-<h3 id="catálogo-de-elementos-5">Catálogo de Elementos</h3>
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Name</th>
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Description</th>
-<th style="text-align: left;">Properties</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>Eureka admin</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Gateway</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Identidades</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con la gestión de los archivos de propiedades de los microservicios (Esta en construcción y no se ha integrado).</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Implementación de Servicios</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Mi Mutual Central</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Secuencias: zipkin</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Directorio: eureka: tomcat</strong></td>
-<td style="text-align: left;">system-software</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Gateway: tomcat</strong></td>
-<td style="text-align: left;">system-software</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Identidad: spring cloud security</strong></td>
-<td style="text-align: left;">system-software</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Secuencias: zipking: tomcat</strong></td>
-<td style="text-align: left;">system-software</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Servicios: tomcat</strong></td>
-<td style="text-align: left;">system-software</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-</tbody>
-</table>
-<h2 id="arq-mi-mutual.-6.-infraestructura">Arq Mi Mutual. 6. Infraestructura</h2>
-<div id="fig:ArqMiMutual.6.Infraestructura" class="fignos">
+<div id="fig:id-id-f12ffd7585e24d0da3e26ab9b25d0b9c" class="fignos">
 <figure>
-<img src="images/ArqMiMutual.6.Infraestructura.png" alt="Imagen 7: Diagram: Arq Mi Mutual. 6. Infraestructura" />
-<figcaption aria-hidden="true"><span>Imagen 7:</span> Diagram: Arq Mi Mutual. 6. Infraestructura</figcaption>
+<img src="images/ArqMiMutual.5.Físico(despliegue).png" alt="Imagen 6: Arq Mi Mutual. 5. Físico (despliegue)" />
+<figcaption aria-hidden="true"><span>Imagen 6:</span> Arq Mi Mutual. 5. Físico (despliegue)</figcaption>
 </figure>
 </div>
+<p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
+<p><br></p>
 <h3 id="catálogo-de-elementos-6">Catálogo de Elementos</h3>
-<table>
+<div id="tbl:tblelement-ArqMiMutual.5.Físico(despliegue)-id" class="tablenos">
+<table id="tbl:tblelement-ArqMiMutual.5.Físico(despliegue)-id">
+<caption><span>Tabla 8:</span> Elementos de la vista. </caption>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 47%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Name</th>
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Description</th>
-<th style="text-align: left;">Properties</th>
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Mi Mutual Central</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.</td>
-<td style="text-align: left;"></td>
+<td>Directorio: eureka: tomcat</td>
+<td>System Software</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Spring cloud security</strong></td>
-<td style="text-align: left;">node</td>
-<td style="text-align: left;">Se implementará Spring Boot Security y Spring Boot Oauth2 las cuales proveen una capa básica de seguridad entre Vista (Angular 2) y Controlador, obligando a que únicamente permita el acceso si se está autenticado si lo requiere, además para realizar el proceso de autenticación se utilizara la aplicación SISPRO (Coomeva) la cual funciona como un servidor de autenticación.<br>La validación de roles se realizará a nivel de peticiones en el api rest según corresponda, siempre y cuando sea necesario, también se tendrán en cuenta otras validaciones como:<br>• Las credenciales que proporcionó no son válidas.<br>• El usuario esta deshabilitado.<br>• Las credenciales de usuario han caducado.<br>• La cuenta de usuario ha caducado.<br>• La cuenta de usuario está bloqueada.</td>
-<td style="text-align: left;"></td>
+<td>Entorno Java: JRE 1.8</td>
+<td>System Software</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>DB2 AS400: SIPASDB</strong></td>
-<td style="text-align: left;">system-software</td>
-<td style="text-align: left;">Las bases de datos a utilizar son: <br>* DB2 AS400: SIPASDB<br>* Sql Server (…)<br>* Oracle (…)<br></td>
-<td style="text-align: left;"></td>
+<td>Gateway: tomcat</td>
+<td>System Software</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Oracle DB: (…)</strong></td>
-<td style="text-align: left;">system-software</td>
-<td style="text-align: left;">Las bases de datos a utilizar son: <br>* DB2 AS400: SIPASDB<br>* Sql Server (…)<br>* Oracle (…)<br></td>
-<td style="text-align: left;"></td>
+<td>Identidad: spring cloud security</td>
+<td>System Software</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>SQL Server: (…)</strong></td>
-<td style="text-align: left;">system-software</td>
-<td style="text-align: left;">Las bases de datos a utilizar son: <br>* DB2 AS400: SIPASDB<br>* SQL Server (…)<br>* Oracle (…)<br></td>
-<td style="text-align: left;"></td>
+<td>Secuencias: zipking: tomcat</td>
+<td>System Software</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Servicio de Almacenamiento de Datos</strong></td>
-<td style="text-align: left;">technology-service</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td>Servicios: tomcat</td>
+<td>System Software</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Servicio de Red</strong></td>
-<td style="text-align: left;">technology-service</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td>app: Asociados</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Servicio de archivos</strong></td>
-<td style="text-align: left;">technology-service</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td>app: Eureka admin</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>app: Gateway</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>app: Identidades</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con la gestión de los archivos de propiedades de los microservicios (Esta en construcción y no se ha integrado).</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>app: Implementación de Servicios</td>
+<td>Application Component</td>
+<td>Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>app: Mi Mutual Central</td>
+<td>Application Component</td>
+<td>Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>app: Protecciones</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>app: Reclamaciones</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>app: Secuencias: zipkin</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs.</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<div style="page-break-before: always;">
-
 </div>
-<h1 id="cotizador-web">Cotizador Web</h1>
-<h2 id="arqcotizador.-1.-contexto">ArqCotizador. 1. Contexto</h2>
-<div id="fig:ArqCotizador.1.Contexto" class="fignos">
+<h2 id="arq-mi-mutual.-6.-infraestructura">Arq Mi Mutual. 6. Infraestructura</h2>
+<p>Mi Mutual. Coomeva, 2023.</p>
+<p>Ambientes, Nodos (servidores), Elementos de red, Almacenamiento y equipos de hardware Mi Mutual. Estado Actual</p>
+<p>versión 0.3</p>
+<div id="fig:id-id-ee8757edbccd440eb43234279e7d1ff9" class="fignos">
 <figure>
-<img src="images/ArqCotizador.1.Contexto.png" alt="Imagen 8: Diagram: ArqCotizador. 1. Contexto" />
-<figcaption aria-hidden="true"><span>Imagen 8:</span> Diagram: ArqCotizador. 1. Contexto</figcaption>
+<img src="images/ArqMiMutual.6.Infraestructura.png" alt="Imagen 7: Arq Mi Mutual. 6. Infraestructura" />
+<figcaption aria-hidden="true"><span>Imagen 7:</span> Arq Mi Mutual. 6. Infraestructura</figcaption>
 </figure>
 </div>
+<p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
+<p><br></p>
+<h3 id="catálogo-de-elementos-7">Catálogo de Elementos</h3>
+<table>
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DB2 AS400: SIPASDB</td>
+<td>System Software</td>
+<td>Las bases de datos a utilizar son: <br></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><br>* DB2 AS400: SIPASDB
+<br>* Sql Server (…)
+<br>* Oracle (…)
+<br><br> | |
+| Oracle DB: (…) | System Software | Las bases de datos a utilizar son: <br>
+<br>* DB2 AS400: SIPASDB
+<br>* Sql Server (…)
+<br>* Oracle (…)
+<br><br> | |
+| SQL Server: (…) | System Software | Las bases de datos a utilizar son: <br>
+<br>* DB2 AS400: SIPASDB
+<br>* SQL Server (…)
+<br>* Oracle (…)
+<br><br> | |
+| Servicio de Almacenamiento de Datos | Technology Service | | |
+| Servicio de Red | Technology Service | | |
+| Servicio de archivos | Technology Service | | |
+| Spring cloud security | Node | Se implementará Spring Boot Security y Spring Boot Oauth2 las cuales proveen una capa básica de seguridad entre Vista (Angular 2) y Controlador, obligando a que únicamente permita el acceso si se está autenticado si lo requiere, además para realizar el proceso de autenticación se utilizara la aplicación SISPRO (Coomeva) la cual funciona como un servidor de autenticación.
+<br>La validación de roles se realizará a nivel de peticiones en el api rest según corresponda, siempre y cuando sea necesario, también se tendrán en cuenta otras validaciones como:
+<br>• Las credenciales que proporcionó no son válidas.
+<br>• El usuario esta deshabilitado.
+<br>• Las credenciales de usuario han caducado.
+<br>• La cuenta de usuario ha caducado.
+<br>• La cuenta de usuario está bloqueada. | |
+| app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. | |</p>
+<p>Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.6.Infraestructura-id}</p>
+<h2 id="arq-mi-mutual.-7.-datos.-negocio">Arq Mi Mutual. 7. Datos. Negocio</h2>
+<p>Mi Mutual. Coomeva, 2023.</p>
+<p>Mi Mutual Central. Entidades: Estructuras, objeto, relaciones con aplicación.</p>
+<p>versión 0.1</p>
+<h2 id="entidades-de-negocio-mi-mutual">Entidades de Negocio Mi Mutual</h2>
+<ul>
+<li>Configuración (caracterización de productos, plan)</li>
+<li>Plan (producto pólizas seguros)</li>
+<li>Canal (medios del tomador/asociado)</li>
+<li>Parametros globales (catálogos)</li>
+<li>Portafolio de asociado</li>
+<li>Asociado</li>
+<li>Facturación</li>
+<li>Beneficiario</li>
+</ul>
+<div id="fig:id-id-e4ae408c4a5b41a09e47e227c33d467d" class="fignos">
+<figure>
+<img src="images/ArqMiMutual.7.Datos.Negocio.png" alt="Imagen 8: Arq Mi Mutual. 7. Datos. Negocio" />
+<figcaption aria-hidden="true"><span>Imagen 8:</span> Arq Mi Mutual. 7. Datos. Negocio</figcaption>
+</figure>
+</div>
+<p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
+<p><br></p>
+<h3 id="catálogo-de-elementos-8">Catálogo de Elementos</h3>
+<div id="tbl:tblelement-ArqMiMutual.7.Datos.Negocio-id" class="tablenos">
+<table id="tbl:tblelement-ArqMiMutual.7.Datos.Negocio-id">
+<caption><span>Tabla 9:</span> Elementos de la vista. </caption>
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DAT00.Asociado</td>
+<td>Business Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT00.Beneficiario</td>
+<td>Business Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT00.Canal (medios del tomador/asociado)</td>
+<td>Business Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT00.Configuración (caracterización)</td>
+<td>Business Object</td>
+<td>Caracterización de productos, planes, parámetros<br></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT00.Facturación</td>
+<td>Business Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT00.Parametros globales (catálogos)</td>
+<td>Business Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT00.Plan (producto pólizas seguros)</td>
+<td>Business Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT00.Portafolios de asociados</td>
+<td>Business Object</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="arq-mi-mutual.-7a.-datos.-aplicación">Arq Mi Mutual. 7a. Datos. Aplicación</h2>
+<p>Mi Mutual. Coomeva, 2023.</p>
+<p>Mi Mutual Central. Físico. Entidades: Estructuras, objeto, relaciones con entidades.</p>
+<p>versión 0.1</p>
+<p>Modelo físico facilitadas por Coomeva, corte del 2 de mayo de 2022. Contiene las estructuras de configuración de fondo, cliente, planes, cobertura y planes de coberturas.</p>
+<div id="fig:id-id-c4ed2d8934fd40eea1d71556b08da65e" class="fignos">
+<figure>
+<img src="images/ArqMiMutual.7a.Datos.Aplicación.png" alt="Imagen 9: Arq Mi Mutual. 7a. Datos. Aplicación" />
+<figcaption aria-hidden="true"><span>Imagen 9:</span> Arq Mi Mutual. 7a. Datos. Aplicación</figcaption>
+</figure>
+</div>
+<p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
+<p><br></p>
+<h3 id="catálogo-de-elementos-9">Catálogo de Elementos</h3>
+<div id="tbl:tblelement-ArqMiMutual.7a.Datos.Aplicación-id" class="tablenos">
+<table id="tbl:tblelement-ArqMiMutual.7a.Datos.Aplicación-id">
+<caption><span>Tabla 10:</span> Elementos de la vista. </caption>
+<thead>
+<tr class="header">
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DAT01.ADICIONAL PLAN COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.ASISTENCIA PLAN COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.ASISTENCIA PLAN COBERTURA DETALLE</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.BENEFICIARIO ASISTENCIA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.BENEFICIO PREEXISTENCIA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.CAMPANA RELACION PLAN COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.CANAL</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.CANAL EVENTO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.CANAL VENTA EXCLUSION</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.CANAL VENTA EXCLUSION COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.CICLO FACTURACION CONFIG MOV</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.CLIENTE</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.COBERTURA BENEFICIARIO COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.COBERTURA BENEFICIARIO PAGO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.CONDICION PAGO ANTIGUEDAD</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.CONDICION PAGO EVENTO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.CONDICION PLAN</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.CONDICION VENTA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.CONDICIONES</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.CONFIGURACION DIAGNOSTICOS</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.CONFIGURACION MOV DETALLE</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.CONFIGURACION MOVIMIENTO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.CONTROL ARE TECNICA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.CONTROL CUMULO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.CUMULO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.CUMULOS COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.CUMULOS PLAN COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.DEDUCIBLE</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.DESMEMBRACION ACCIDENTE</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.DESMEMBRACION ACCIDENTE PLAN COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.DOCUMENTO REQUISITO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.DOCUMENTOS SOLICITUD EVENTO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.ENFERMEDAD GRAVE</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.ENFERMEDAD GRAVE PLAN COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.ESTADO ASOCIADO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.EVENTO COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.EXCLUSION</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.EXCLUSION COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.EXCLUSION PLAN COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.EXCLUSION PLAN COBERTURA DETALLE</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.FAC CONCEPTO PLAN</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.FONDO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.FORMULA PLAN</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.GENERO REQUISITO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.LIQUIDACION</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.LIQUIDACION DETALLE</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.NIVEL RIESGO COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.NIVEL RIESGO CONFIG MOV</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.NIVELES NOTAS PLAN COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.NOTA ACLARATORIA PLAN</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.NOTIFICACION EVENTO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.ORIGEN COBERTURA COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.PERIODO CARENCIA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.PERSONA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.PLAN</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.PLAN CANAL VENTA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.PLAN COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.PLAN COBERTURA DEPENDIENTE</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.PLAN COBERTURA EDAD</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.PLAN COBERTURA REQUISITO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.PLAN FRECUENCIA FACTURACION</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.PLAN MEDIO FACTURACION</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.PLAN NIVEL RIESGO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.PLAN OBLIGATORIO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.PLAN PARENTESCO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.PLAN PERSEVERANTE</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.PORCENTAJE CUOTA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.PRODUCTO COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.PRODUCTO EXCLUYENTE</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.PROMOCION CANAL</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.PROMOCION CONDICION</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.PROMOCION PLAN COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.PROMOTOR CANAL</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.RECONOCIMIENTO POR PERMANENCIA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.REGLAS EXCEPCIONES</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.REQUISITO CONTROL MEDICO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.RESPONSABLE PERSONA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.SOLICITUD EVENT</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.SOLICITUD EVENTO DETALLE</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.SUBLIMITE COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.SUBSISTENTE PLAN COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.SUBSISTENTE PLAN COBERTURA DETALLE</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.TIPO MOVIMIENTO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.TIPO PROCESO CUMULO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.TRANSACCION EXCLUSION</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.TRANSACCION EXCLUSION COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.TRANSACCION REQUISITO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.VALOR ASEGURADO</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.VALOR ASEGURADO PLAN COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.VALOR ASEGURADO TOPE</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DAT01.VALOR CUOTA PLAN COBERTURA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.VALOR RESCATE</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="arqcotizador.-1.-contexto">ArqCotizador. 1. Contexto</h2>
+<p>Mi Mutual. Coomeva, 2023.</p>
+<p>Cotizador Web Mi Mutual. Contexto Mi Mutual: Áreas negocio, componente central Mi Mutual, servicios y funciones.</p>
+<p>versión 0.1</p>
 <h2 id="módulos-mi-mutual-web">Módulos Mi Mutual Web</h2>
 <p>La estructura por módulos permite realizar aplicaciones escalables y robustas ya que permite organizar las partes de la aplicación, la organización en bloques, extender la aplicación con funcionalidades de libreras externas, proporcionar un entorno de resolución de plantillas y además permite especificar la forma de la carga de cada uno de los componentes y servicios que conforman un módulo.</p>
 <h2 id="módulos-externos">3.2 Módulos Externos</h2>
@@ -1212,7 +1957,7 @@ Documentación: https://github.com/auth0/angular2-jwt</li>
 <li>ngx-tinymce: Editor html para generación de plantillas para cartas Documentación: https://cipchk.github.io/ngx-tinymce/#/</li>
 <li>quill: componente para editor html Documentación: https://quilljs.com/</li>
 </ul>
-<p><br></p>
+<p>&lt;br&gt;</p>
 <h2 id="servicios-transversales">Servicios Transversales</h2>
 <ul>
 <li>AuthGuard: Validación de existencia de autenticación</li>
@@ -1223,321 +1968,625 @@ Documentación: https://github.com/auth0/angular2-jwt</li>
 <li>TypesService: Consumo de servicios de parametrización</li>
 <li>IdleTimeoutService: Verificación de timeout del token</li>
 </ul>
-<p><br></p>
-<h3 id="catálogo-de-elementos-7">Catálogo de Elementos</h3>
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Name</th>
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Description</th>
-<th style="text-align: left;">Properties</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>Controlador</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Cotizador Web</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Aplicativo</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Compartido</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Cotizador</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Interfaz gráfica</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Util</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;">En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>admin Páginas</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>admin Servicios</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>API Mi Mutual</strong></td>
-<td style="text-align: left;">application-interface</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Autenticación: authgard</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Interceptor: errorinterceptor</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Parametrización: typeservice</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>admin Sesión: idletimeout</strong></td>
-<td style="text-align: left;">application-service</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-</tbody>
-</table>
-<h2 id="arqcotizador.-2.-dependencias">ArqCotizador. 2. Dependencias</h2>
-<div id="fig:ArqCotizador.2.Dependencias" class="fignos">
+<p>&lt;br&gt;</p>
+<div id="fig:id-id-6c23b3a1025841cc9dc9c8385dd94f67" class="fignos">
 <figure>
-<img src="images/ArqCotizador.2.Dependencias.png" alt="Imagen 9: Diagram: ArqCotizador. 2. Dependencias" />
-<figcaption aria-hidden="true"><span>Imagen 9:</span> Diagram: ArqCotizador. 2. Dependencias</figcaption>
+<img src="images/ArqCotizador.1.Contexto.png" alt="Imagen 10: ArqCotizador. 1. Contexto" />
+<figcaption aria-hidden="true"><span>Imagen 10:</span> ArqCotizador. 1. Contexto</figcaption>
 </figure>
 </div>
-<h2 id="paquetes-y-dependencias-cotizador-web">Paquetes y Dependencias Cotizador Web</h2>
-<p>Módulos y componentes que hacen parte de la estructura de la aplicación Cotizador Web (basado en Angular 7 <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>).</p>
-<h2 id="móduos">Móduos</h2>
-<p>La estructura por módulos actual apunta a la escalabilidad y mantenimiento del Cotizador en términos de: organizar las partes de la aplicación, organización los bloques, extender la aplicación con libreras externas, proporcionar un entorno de resolución de plantillas y además, distribuir las cargas de los componentes y servicios que usa la aplicación.</p>
-<h3 id="catálogo-de-elementos-8">Catálogo de Elementos</h3>
-<table>
+<p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
+<p><br></p>
+<h3 id="catálogo-de-elementos-10">Catálogo de Elementos</h3>
+<div id="tbl:tblelement-ArqCotizador.1.Contexto-id" class="tablenos">
+<table id="tbl:tblelement-ArqCotizador.1.Contexto-id">
+<caption><span>Tabla 11:</span> Elementos de la vista. </caption>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col style="width: 47%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Name</th>
-<th style="text-align: left;">Type</th>
-<th style="text-align: left;">Description</th>
-<th style="text-align: left;">Properties</th>
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Cotizador Web</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td>API Mi Mutual</td>
+<td>Application Interface</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>pkg: admin</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
+<td>Aplicativo</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>pkg: administración</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
+<td>Autenticación: authgard</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>pkg: asociados</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
+<td>Compartido</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>pkg: auth</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
+<td>Controlador Mi Mutual</td>
+<td>Application Component</td>
+<td>Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>pkg: cliente</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
+<td>Cotizador</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>pkg: clientes</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
+<td>Interceptor: errorinterceptor</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>pkg: componentes</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
+<td>Interfaz gráfica</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>pkg: config</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
+<td>Parametrización: typeservice</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>pkg: cotizaciones</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
+<td>Sesión admin: idletimeout</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>pkg: cotización</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
+<td>Util</td>
+<td>Application Function</td>
+<td>En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br><br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br><br></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>pkg: directivas</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
+<td>admin Páginas</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>pkg: home</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
+<td>admin Servicios</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>pkg: interfaces</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>pkg: modelos</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>pkg: multiactiva</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>pkg: protecciones</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>pkg: proveedores</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>pkg: reporte</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>pkg: reportes</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>pkg: transporte</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>pkg: util</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>pkg: utilidades</strong></td>
-<td style="text-align: left;">application-component</td>
-<td style="text-align: left;">controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Aplicativo</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Compartido</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Cotizador</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Interfaz gráfica</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Util</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;">En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>admin Páginas</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>admin Servicios</strong></td>
-<td style="text-align: left;">application-function</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td>app: Cotizador Web</td>
+<td>Application Component</td>
+<td>pkg: MiMutualWeb</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<p><code>Generated on: Mon Oct 09 2023 13:13:07 GMT-0500 (COT)</code></p>
+</div>
+<h2 id="arqcotizador.-2.-contenedores">ArqCotizador. 2. Contenedores</h2>
+<p>Mi Mutual. Coomeva, 2023.</p>
+<p>Estructura de componentes principales, Cotizador Web, Mi Mutual. Roles de componentes, separación responsabilidades.</p>
+<p>versión 0.2</p>
+<div id="fig:id-id-f2a4384798e643c1a7b24456c69f7a6d" class="fignos">
+<figure>
+<img src="images/ArqCotizador.2.Contenedores.png" alt="Imagen 11: ArqCotizador. 2. Contenedores" />
+<figcaption aria-hidden="true"><span>Imagen 11:</span> ArqCotizador. 2. Contenedores</figcaption>
+</figure>
+</div>
+<p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
+<p><br></p>
+<h3 id="catálogo-de-elementos-11">Catálogo de Elementos</h3>
+<div id="tbl:tblelement-ArqCotizador.2.Contenedores-id" class="tablenos">
+<table id="tbl:tblelement-ArqCotizador.2.Contenedores-id">
+<caption><span>Tabla 12:</span> Elementos de la vista. </caption>
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>API Mi Mutual</td>
+<td>Application Interface</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>HTTP / HTTPS</td>
+<td>Application Interface</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Repositorio web</td>
+<td>Application Component</td>
+<td>Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>app: Cotizador Web</td>
+<td>Application Component</td>
+<td>pkg: MiMutualWeb</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="arqcotizador.-2.-dependencias">ArqCotizador. 2. Dependencias</h2>
+<p>Mi Mutual. Coomeva, 2023.</p>
+<p>Mi Mutual Web. Paquetes: dependencias, roles, implementación funciones de aplicación.</p>
+<p>versión 0.1</p>
+<h2 id="paquetes-y-dependencias-cotizador-web">Paquetes y Dependencias Cotizador Web</h2>
+<p>Módulos y componentes que hacen parte de la estructura de la aplicación Cotizador Web (basado en Angular 7 <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>).</p>
+<h2 id="módulos">Módulos</h2>
+<p>La estructura por módulos actual apunta a la escalabilidad y mantenimiento del Cotizador en términos de: organizar las partes de la aplicación, organización los bloques, extender la aplicación con libreras externas, proporcionar un entorno de resolución de plantillas y además, distribuir las cargas de los componentes y servicios que usa la aplicación.</p>
+<div id="fig:id-id-3bc899b013be4bb0818e8856b07c2b50" class="fignos">
+<figure>
+<img src="images/ArqCotizador.2.Dependencias.png" alt="Imagen 12: ArqCotizador. 2. Dependencias" />
+<figcaption aria-hidden="true"><span>Imagen 12:</span> ArqCotizador. 2. Dependencias</figcaption>
+</figure>
+</div>
+<p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
+<p><br></p>
+<h3 id="catálogo-de-elementos-12">Catálogo de Elementos</h3>
+<div id="tbl:tblelement-ArqCotizador.2.Dependencias-id" class="tablenos">
+<table id="tbl:tblelement-ArqCotizador.2.Dependencias-id">
+<caption><span>Tabla 13:</span> Elementos de la vista. </caption>
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Aplicativo</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Compartido</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Cotizador</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Interfaz gráfica</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Util</td>
+<td>Application Function</td>
+<td>En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br><br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br><br></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>admin Páginas</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>admin Servicios</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>app: Cotizador Web</td>
+<td>Application Component</td>
+<td>pkg: MiMutualWeb</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: admin</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: administración</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: asociados</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: auth</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: cliente</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: clientes</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: componentes</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: config</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: cotizaciones</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: cotización</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: directivas</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: home</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: interfaces</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: modelos</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: multiactiva</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: protecciones</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: proveedores</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: reporte</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: reportes</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: transporte</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: util</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: utilidades</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="arqcotizador.-5.-físico-despliegue">ArqCotizador. 5. Físico (despliegue)</h2>
+<p>Mi Mutual. Coomeva, 2023.</p>
+<p>Distribución física Cotizador Web, Mi Mutual. Estado actual, 2023.</p>
+<p>versión 0.1.1</p>
+<div id="fig:id-id-bc7b34fbb33241e785ae91a9d3102378" class="fignos">
+<figure>
+<img src="images/ArqCotizador.5.Físico(despliegue).png" alt="Imagen 13: ArqCotizador. 5. Físico (despliegue)" />
+<figcaption aria-hidden="true"><span>Imagen 13:</span> ArqCotizador. 5. Físico (despliegue)</figcaption>
+</figure>
+</div>
+<p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
+<p><br></p>
+<h3 id="catálogo-de-elementos-13">Catálogo de Elementos</h3>
+<div id="tbl:tblelement-ArqCotizador.5.Físico(despliegue)-id" class="tablenos">
+<table id="tbl:tblelement-ArqCotizador.5.Físico(despliegue)-id">
+<caption><span>Tabla 14:</span> Elementos de la vista. </caption>
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Conexión: jdbc</td>
+<td>Artifact</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Entorno Angular: ng12</td>
+<td>System Software</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Repositorio: db2 iSerie</td>
+<td>System Software</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Servicios: tomcat</td>
+<td>System Software</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>app: Asociados</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>app: Cotizador Web</td>
+<td>Application Component</td>
+<td>pkg: MiMutualWeb</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>app: Implementación de Servicios</td>
+<td>Application Component</td>
+<td>Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>app: Protecciones</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>app: Reclamaciones</td>
+<td>Application Component</td>
+<td>Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: admin</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: administración</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: asociados</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: auth</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: cliente</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: clientes</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: config</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: cotizaciones</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: cotización</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: home</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: modelos</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: multiactiva</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: protecciones</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: proveedores</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: reporte</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>pkg: reportes</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>pkg: utilidades</td>
+<td>Application Component</td>
+<td>controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="vistas-de-arquitectura-mi-mutual">Vistas de Arquitectura Mi Mutual</h2>
+<p>undefined</p>
+<div id="fig:id-id-7ce9f9bf90d343c48ed121b2fa175972" class="fignos">
+<figure>
+<img src="images/VistasdeArquitecturaMiMutual.png" alt="Imagen 14: Vistas de Arquitectura Mi Mutual" />
+<figcaption aria-hidden="true"><span>Imagen 14:</span> Vistas de Arquitectura Mi Mutual</figcaption>
+</figure>
+</div>
+<p><em>Fuente: ${4:Diagnóstico SOA. E-Service (2022).}</em></p>
+<p><br></p>
+<h3 id="catálogo-de-elementos-14">Catálogo de Elementos</h3>
+<div id="tbl:tblelement-VistasdeArquitecturaMiMutual-id" class="tablenos">
+<table id="tbl:tblelement-VistasdeArquitecturaMiMutual-id">
+<caption><span>Tabla 15:</span> Elementos de la vista. </caption>
+<thead>
+<tr class="header">
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cotizador Web</td>
+<td>Grouping</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Mi Mutual Central</td>
+<td>Grouping</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
 <h2 id="requerimientos-de-administración">Requerimientos de Administración</h2>
 <ol type="1">
 <li>Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos.</li>
@@ -1591,7 +2640,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <p><br></p>
 <p><br></p>
 <p><br></p>
-<div class="line-block"><strong>Versión</strong> del producto 1.a521fc2 de 12 Oct 2023</div>
+<div class="line-block"><strong>Versión</strong> del producto 1.86bdc0a de 12 Oct 2023</div>
 <div class="line-block"><strong>Presentado a</strong></div>
 <div class="line-block">STEF - Coomeva</div>
 <div class="line-block"></div>
@@ -1631,7 +2680,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 </tr>
 <tr class="even">
 <td>Versión</td>
-<td>1.a521fc2 del 12 Oct 2023</td>
+<td>1.86bdc0a del 12 Oct 2023</td>
 </tr>
 <tr class="odd">
 <td>Vínculos</td>
@@ -1660,8 +2709,8 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <h2 id="lineabase.1a.siu-componentes.-infraestrcutura">Lineabase.1a.SIU componentes. infraestrcutura</h2>
 <div id="fig:Lineabase.1a.SIUcomponentes.infraestrcutura" class="fignos">
 <figure>
-<img src="images/Lineabase.1a.SIUcomponentes.infraestrcutura.png" alt="Imagen 10: Diagram: Lineabase.1a.SIU componentes. infraestrcutura" />
-<figcaption aria-hidden="true"><span>Imagen 10:</span> Diagram: Lineabase.1a.SIU componentes. infraestrcutura</figcaption>
+<img src="images/Lineabase.1a.SIUcomponentes.infraestrcutura.png" alt="Imagen 15: Diagram: Lineabase.1a.SIU componentes. infraestrcutura" />
+<figcaption aria-hidden="true"><span>Imagen 15:</span> Diagram: Lineabase.1a.SIU componentes. infraestrcutura</figcaption>
 </figure>
 </div>
 <p>Dependencias de infraestructura entre los servicios que integran el modelo de aplicación de Mi Mutual, Migración.</p>
@@ -1672,7 +2721,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <li>Servidor BDD App (Transaccional)</li>
 <li>Servidor BDD Config (Configuración)</li>
 </ul>
-<h3 id="catálogo-de-elementos-9">Catálogo de Elementos</h3>
+<h3 id="catálogo-de-elementos-15">Catálogo de Elementos</h3>
 <table>
 <colgroup>
 <col style="width: 25%" />
@@ -1910,8 +2959,8 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <h2 id="lineabase.0.siu-applicación.-física">Lineabase.0.SIU applicación. física</h2>
 <div id="fig:Lineabase.0.SIUapplicación.física" class="fignos">
 <figure>
-<img src="images/Lineabase.0.SIUapplicación.física.png" alt="Imagen 11: Diagram: Lineabase.0.SIU applicación. física" />
-<figcaption aria-hidden="true"><span>Imagen 11:</span> Diagram: Lineabase.0.SIU applicación. física</figcaption>
+<img src="images/Lineabase.0.SIUapplicación.física.png" alt="Imagen 16: Diagram: Lineabase.0.SIU applicación. física" />
+<figcaption aria-hidden="true"><span>Imagen 16:</span> Diagram: Lineabase.0.SIU applicación. física</figcaption>
 </figure>
 </div>
 <h2 id="representación-arquitectónica">Representación Arquitectónica</h2>
@@ -1921,7 +2970,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <li>API Tx: Servicio api rest base node encargado de realizar las transacciones básicas CRUD</li>
 <li>API Config / Seguridad. Servicio Web API .Net Framework encargado de gestionar características con la autenticación y configuración</li>
 </ol>
-<h3 id="catálogo-de-elementos-10">Catálogo de Elementos</h3>
+<h3 id="catálogo-de-elementos-16">Catálogo de Elementos</h3>
 <table>
 <colgroup>
 <col style="width: 25%" />
@@ -2063,8 +3112,8 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <h2 id="seguridad.-lineabase.0.siu-applicación">Seguridad. Lineabase.0.SIU applicación</h2>
 <div id="fig:Seguridad.Lineabase.0.SIUapplicación" class="fignos">
 <figure>
-<img src="images/Seguridad.Lineabase.0.SIUapplicación.png" alt="Imagen 12: Diagram: Seguridad. Lineabase.0.SIU applicación" />
-<figcaption aria-hidden="true"><span>Imagen 12:</span> Diagram: Seguridad. Lineabase.0.SIU applicación</figcaption>
+<img src="images/Seguridad.Lineabase.0.SIUapplicación.png" alt="Imagen 17: Diagram: Seguridad. Lineabase.0.SIU applicación" />
+<figcaption aria-hidden="true"><span>Imagen 17:</span> Diagram: Seguridad. Lineabase.0.SIU applicación</figcaption>
 </figure>
 </div>
 <h2 id="representación-arquitectónica-1">Representación Arquitectónica</h2>
@@ -2074,7 +3123,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <li>API Tx: Servicio api rest base node encargado de realizar las transacciones básicas CRUD</li>
 <li>API Config / Seguridad. Servicio Web API .Net Framework encargado de gestionar características con la autenticación y configuración</li>
 </ol>
-<h3 id="catálogo-de-elementos-11">Catálogo de Elementos</h3>
+<h3 id="catálogo-de-elementos-17">Catálogo de Elementos</h3>
 <table>
 <colgroup>
 <col style="width: 25%" />
@@ -2283,7 +3332,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <p><br></p>
 <p><br></p>
 <p><br></p>
-<div class="line-block"><strong>Versión</strong> del producto 1.a521fc2 de 12 Oct 2023</div>
+<div class="line-block"><strong>Versión</strong> del producto 1.86bdc0a de 12 Oct 2023</div>
 <div class="line-block"><strong>Presentado a</strong></div>
 <div class="line-block">STEF - Coomeva</div>
 <div class="line-block"></div>
@@ -2323,7 +3372,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 </tr>
 <tr class="even">
 <td>Versión</td>
-<td>1.a521fc2 del 12 Oct 2023</td>
+<td>1.86bdc0a del 12 Oct 2023</td>
 </tr>
 <tr class="odd">
 <td>Vínculos</td>
@@ -2354,14 +3403,14 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <h2 id="migracion.2.-datos">Migracion.2. datos</h2>
 <div id="fig:Migracion.2.datos" class="fignos">
 <figure>
-<img src="images/Migracion.2.datos.png" style="width:5.32in" alt="Imagen 13: Diagram: Migracion.2. datos" />
-<figcaption aria-hidden="true"><span>Imagen 13:</span> Diagram: Migracion.2. datos</figcaption>
+<img src="images/Migracion.2.datos.png" style="width:5.32in" alt="Imagen 18: Diagram: Migracion.2. datos" />
+<figcaption aria-hidden="true"><span>Imagen 18:</span> Diagram: Migracion.2. datos</figcaption>
 </figure>
 </div>
 <p>Modelo de acceso y procesamiento a datos de negocio del Mi Mutual. Presentamos la organización de los ítems de datos de negocio necesarios para que los módulos del Mi Mutual puedan recolectar, procesar, integrar y almacenarlos de forma organizada y escalable.</p>
 <p>Mediante esta organización, los datos de negocio son transportados desde sus respectivas fuentes mediante interfaces (por principio de extensión y mantenibilidad). Los datos externos, entendidos como los de otros proveedores, son obtenidos mediante un intermediario: el bus de datos del Mi Mutual.</p>
 <p>Consideramos tres tipos datos: datos transaccionales, históricos y externos, y presentamos una manera distinta de tratarlos y transportarlos.</p>
-<h3 id="catálogo-de-elementos-12">Catálogo de Elementos</h3>
+<h3 id="catálogo-de-elementos-18">Catálogo de Elementos</h3>
 <table>
 <colgroup>
 <col style="width: 25%" />
@@ -2467,13 +3516,13 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <h2 id="migracion.2a.-datos-hominis">Migracion.2a. datos Hominis</h2>
 <div id="fig:Migracion.2a.datosHominis" class="fignos">
 <figure>
-<img src="images/Migracion.2a.datosHominis.png" style="width:5.32in" alt="Imagen 14: Diagram: Migracion.2a. datos Hominis" />
-<figcaption aria-hidden="true"><span>Imagen 14:</span> Diagram: Migracion.2a. datos Hominis</figcaption>
+<img src="images/Migracion.2a.datosHominis.png" style="width:5.32in" alt="Imagen 19: Diagram: Migracion.2a. datos Hominis" />
+<figcaption aria-hidden="true"><span>Imagen 19:</span> Diagram: Migracion.2a. datos Hominis</figcaption>
 </figure>
 </div>
 <p>Identificación de entidades de datos de negocio relacionadas al módulo de gestión de capital del Mi Mutual, Hominis.</p>
 <p>Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del Mi Mutual y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo.</p>
-<h3 id="catálogo-de-elementos-13">Catálogo de Elementos</h3>
+<h3 id="catálogo-de-elementos-19">Catálogo de Elementos</h3>
 <table>
 <colgroup>
 <col style="width: 25%" />
@@ -2615,13 +3664,13 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <h2 id="migracion.2c.-datos-control-interno">Migracion.2c. datos Control interno</h2>
 <div id="fig:Migracion.2c.datosControlinterno" class="fignos">
 <figure>
-<img src="images/Migracion.2c.datosControlinterno.png" alt="Imagen 15: Diagram: Migracion.2c. datos Control interno" />
-<figcaption aria-hidden="true"><span>Imagen 15:</span> Diagram: Migracion.2c. datos Control interno</figcaption>
+<img src="images/Migracion.2c.datosControlinterno.png" alt="Imagen 20: Diagram: Migracion.2c. datos Control interno" />
+<figcaption aria-hidden="true"><span>Imagen 20:</span> Diagram: Migracion.2c. datos Control interno</figcaption>
 </figure>
 </div>
 <p>Identificación de entidades de datos de negocio relacionadas al módulo de seguimiento del desempeño de la Coomeva del Mi Mutual, Control Interno.</p>
 <p>Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del Mi Mutual y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo.</p>
-<h3 id="catálogo-de-elementos-14">Catálogo de Elementos</h3>
+<h3 id="catálogo-de-elementos-20">Catálogo de Elementos</h3>
 <table>
 <thead>
 <tr class="header">
@@ -2667,13 +3716,13 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <h2 id="migracion.2d.-datos-siri">Migracion.2d. datos SIRI</h2>
 <div id="fig:Migracion.2d.datosSIRI" class="fignos">
 <figure>
-<img src="images/Migracion.2d.datosSIRI.png" alt="Imagen 16: Diagram: Migracion.2d. datos SIRI" />
-<figcaption aria-hidden="true"><span>Imagen 16:</span> Diagram: Migracion.2d. datos SIRI</figcaption>
+<img src="images/Migracion.2d.datosSIRI.png" alt="Imagen 21: Diagram: Migracion.2d. datos SIRI" />
+<figcaption aria-hidden="true"><span>Imagen 21:</span> Diagram: Migracion.2d. datos SIRI</figcaption>
 </figure>
 </div>
 <p>Identificación de entidades de datos de negocio relacionadas al módulo del Mi Mutual, SIRI.</p>
 <p>Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del Mi Mutual y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo.</p>
-<h3 id="catálogo-de-elementos-15">Catálogo de Elementos</h3>
+<h3 id="catálogo-de-elementos-21">Catálogo de Elementos</h3>
 <table>
 <thead>
 <tr class="header">
@@ -2701,13 +3750,13 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <h2 id="migracion.2b.-datos-sim">Migracion.2b. datos SIM</h2>
 <div id="fig:Migracion.2b.datosSIM" class="fignos">
 <figure>
-<img src="images/Migracion.2b.datosSIM.png" alt="Imagen 17: Diagram: Migracion.2b. datos SIM" />
-<figcaption aria-hidden="true"><span>Imagen 17:</span> Diagram: Migracion.2b. datos SIM</figcaption>
+<img src="images/Migracion.2b.datosSIM.png" alt="Imagen 22: Diagram: Migracion.2b. datos SIM" />
+<figcaption aria-hidden="true"><span>Imagen 22:</span> Diagram: Migracion.2b. datos SIM</figcaption>
 </figure>
 </div>
 <p>Identificación de entidades de datos de negocio relacionadas al módulo de Mi Mutual, SIM.</p>
 <p>Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del Mi Mutual y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo.</p>
-<h3 id="catálogo-de-elementos-16">Catálogo de Elementos</h3>
+<h3 id="catálogo-de-elementos-22">Catálogo de Elementos</h3>
 <table>
 <thead>
 <tr class="header">
@@ -2771,7 +3820,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Angular 2 tiene una arquitectura Modelo Vista Controlador (MVC) con el fin de hacer que el desarrollo sea claro y sencillo.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Angular 2 tiene una arquitectura Modelo Vista Controlador (MVC) con el fin de hacer el desarrollo gestionado.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 <!-- default theme -->
