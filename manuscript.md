@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-12" />
   <meta name="citation_publication_date" content="2023-10-12" />
   <meta property="article:published_time" content="2023-10-12" />
-  <meta name="dc.modified" content="2023-10-12T16:47:54+00:00" />
-  <meta property="article:modified_time" content="2023-10-12T16:47:54+00:00" />
+  <meta name="dc.modified" content="2023-10-12T16:57:01+00:00" />
+  <meta property="article:modified_time" content="2023-10-12T16:57:01+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/a441c539c8b2cd1c12421cc82be02f9229f7b562/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a441c539c8b2cd1c12421cc82be02f9229f7b562/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a441c539c8b2cd1c12421cc82be02f9229f7b562/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/e219884d0e30c8baf494ee8da76f2444922011a9/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/e219884d0e30c8baf494ee8da76f2444922011a9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/e219884d0e30c8baf494ee8da76f2444922011a9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.a441c53 de 12 Oct 2023
+| **Versión** del producto 1.e219884 de 12 Oct 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/a441c539c8b2cd1c12421cc82be02f9229f7b562/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/e219884d0e30c8baf494ee8da76f2444922011a9/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@a441c53](http://stefanini.sharepoint.com)
+[Sharepoint STEF@e219884](http://stefanini.sharepoint.com)
 del October 12, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.a441c53 del 12 Oct 2023 |
+| Versión        | 1.e219884 del 12 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -286,7 +286,7 @@ versión 0.1
 Spring Boot Security y Spring Boot Oauth2 proveen características de seguridad entre Vista (Angular 2) y Controlador. Estas son responsables de que únicamente permita el acceso si se está autenticado. Además, para realizar el proceso de autenticación se delega a la aplicación SISPRO (Coomeva) que funciona como un servidor de autenticación.
 ![Arq Mi Mutual. 1. Contexto](images/ArqMiMutual.1.Contexto.png){#fig:id-id-919c1deee57b4c78a03abff98e0db161 width=}
 
-_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 <br>
 
@@ -344,7 +344,7 @@ Esta decisión de organización de los componentes de Mi Mutual, incluyendo al m
 
 ![Arq Mi Mutual. 2. Contenedores](images/ArqMiMutual.2.Contenedores.png){#fig:id-id-5fe59b86833c4bf8a7be4069e0b798a8 width=}
 
-_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 <br>
 
@@ -381,7 +381,7 @@ La división por dominios busca facilitar la administración los servicios de la
 
 ![Arq Mi Mutual. 3. Dominios](images/ArqMiMutual.3.Dominios.png){#fig:id-id-dec3e8d41fed4da6b7bc317e01485518 width=}
 
-_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 <br>
 
@@ -425,7 +425,7 @@ versión 0.3
 
 ![Arq Mi Mutual. 4. Aplicación](images/ArqMiMutual.4.Aplicación.png){#fig:id-id-27bcd4f7a1c2454295b001008ee42aaa width=}
 
-_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 <br>
 
@@ -482,7 +482,7 @@ versión 0.1
 
 ![Arq Mi Mutual. 4a1. Referencia](images/ArqMiMutual.4a1.Referencia.png){#fig:id-id-ecda07ca4d5a48479f53c13bf96290c7 width=}
 
-_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 <br>
 
@@ -555,7 +555,7 @@ El código fuente está alojado en un repositorio de Coomeva.
 
 ![Arq Mi Mutual. 4a3. Dependencias](images/ArqMiMutual.4a3.Dependencias.png){#fig:id-id-cd7711359fb64153aacc8f016b0e85e8 width=}
 
-_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 <br>
 
@@ -607,7 +607,7 @@ Especificaciones de despliegue Mi Mutual, 2023, componente central.
 
 ![Arq Mi Mutual. 5. Físico (despliegue)](images/ArqMiMutual.5.Físico(despliegue).png){#fig:id-id-f12ffd7585e24d0da3e26ab9b25d0b9c width=}
 
-_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 <br>
 
@@ -650,7 +650,7 @@ versión 0.3
 
 ![Arq Mi Mutual. 6. Infraestructura](images/ArqMiMutual.6.Infraestructura.png){#fig:id-id-ee8757edbccd440eb43234279e7d1ff9 width=}
 
-_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 <br>
 
@@ -714,7 +714,7 @@ versión 0.1
 
 ![Arq Mi Mutual. 7. Datos. Negocio](images/ArqMiMutual.7.Datos.Negocio.png){#fig:id-id-e4ae408c4a5b41a09e47e227c33d467d width=}
 
-_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 <br>
 
@@ -753,7 +753,7 @@ Modelo físico facilitadas por Coomeva, corte del 2 de mayo de 2022. Contiene la
 
 ![Arq Mi Mutual. 7a. Datos. Aplicación](images/ArqMiMutual.7a.Datos.Aplicación.png){#fig:id-id-c4ed2d8934fd40eea1d71556b08da65e width=}
 
-_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 <br>
 
@@ -907,7 +907,7 @@ Documentación: https://github.com/auth0/angular2-jwt
 
 ![ArqCotizador. 1. Contexto](images/ArqCotizador.1.Contexto.png){#fig:id-id-6c23b3a1025841cc9dc9c8385dd94f67 width=}
 
-_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 <br>
 
@@ -949,7 +949,7 @@ versión 0.2
 
 ![ArqCotizador. 2. Contenedores](images/ArqCotizador.2.Contenedores.png){#fig:id-id-f2a4384798e643c1a7b24456c69f7a6d width=}
 
-_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 <br>
 
@@ -988,7 +988,7 @@ La estructura por módulos actual apunta a la escalabilidad y mantenimiento del 
 
 ![ArqCotizador. 4a. Dependencias](images/ArqCotizador.4a.Dependencias.png){#fig:id-id-3bc899b013be4bb0818e8856b07c2b50 width=}
 
-_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 <br>
 
@@ -1047,7 +1047,7 @@ versión 0.1.1
 
 ![ArqCotizador. 5. Físico (despliegue)](images/ArqCotizador.5.Físico(despliegue).png){#fig:id-id-bc7b34fbb33241e785ae91a9d3102378 width=}
 
-_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 <br>
 
@@ -1097,7 +1097,7 @@ undefined
 
 ![Vistas de Arquitectura Mi Mutual](images/VistasdeArquitecturaMiMutual.png){#fig:id-id-7ce9f9bf90d343c48ed121b2fa175972 width=}
 
-_Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 <br>
 
@@ -1191,7 +1191,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.a441c53 de 12 Oct 2023
+| **Versión** del producto 1.e219884 de 12 Oct 2023
 
 | **Presentado a**
 
@@ -1220,7 +1220,7 @@ Descripción de los productos del trabajo de infraestructura del proyecto Migrac
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Infraestrctura, PasS |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.a441c53 del 12 Oct 2023 |
+| Versión        | 1.e219884 del 12 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -1409,7 +1409,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.a441c53 de 12 Oct 2023
+| **Versión** del producto 1.e219884 de 12 Oct 2023
 
 | **Presentado a**
 
@@ -1439,7 +1439,7 @@ Descripción de los productos de trabajo de la arquitectura de datos del proyect
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Entidades, Datos  |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.a441c53 del 12 Oct 2023 |
+| Versión        | 1.e219884 del 12 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
