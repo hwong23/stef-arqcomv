@@ -3,7 +3,7 @@
 git checkout arq
 git pull
 
-cp -R ~/Downloads/tmpr/cmvarchidoc/* .
+mv -R ~/Downloads/tmpr/cmvarchidoc/* .
 
 git add .
 git commit -a -m "$1"
