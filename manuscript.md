@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-12" />
   <meta name="citation_publication_date" content="2023-10-12" />
   <meta property="article:published_time" content="2023-10-12" />
-  <meta name="dc.modified" content="2023-10-12T16:12:10+00:00" />
-  <meta property="article:modified_time" content="2023-10-12T16:12:10+00:00" />
+  <meta name="dc.modified" content="2023-10-12T16:37:18+00:00" />
+  <meta property="article:modified_time" content="2023-10-12T16:37:18+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/435c20edf97cc78e4ddcae62d29f2d90fbc173f8/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/435c20edf97cc78e4ddcae62d29f2d90fbc173f8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/435c20edf97cc78e4ddcae62d29f2d90fbc173f8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/a89c0c1f7df974b2c255a718c4aa6698cf42b83a/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a89c0c1f7df974b2c255a718c4aa6698cf42b83a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a89c0c1f7df974b2c255a718c4aa6698cf42b83a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.435c20e de 12 Oct 2023
+| **Versión** del producto 1.a89c0c1 de 12 Oct 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/435c20edf97cc78e4ddcae62d29f2d90fbc173f8/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/a89c0c1f7df974b2c255a718c4aa6698cf42b83a/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@435c20e](http://stefanini.sharepoint.com)
+[Sharepoint STEF@a89c0c1](http://stefanini.sharepoint.com)
 del October 12, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.435c20e del 12 Oct 2023 |
+| Versión        | 1.a89c0c1 del 12 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -238,6 +238,8 @@ Definiremos estos requisitos de la solución a tener en cuenta al momento del de
 
 Table: Requisito no. 1, Migración Mi Mutual, Consistencia. {#tbl:requisito1-id}
 
+<br>
+
 ### Mantenibilidad Mi Mutual
 
 | Requisito      | Mantenibilidad Mi Mutual |
@@ -246,6 +248,8 @@ Table: Requisito no. 1, Migración Mi Mutual, Consistencia. {#tbl:requisito1-id}
 | Calidad sistémica | La mantenibilidad por control de dependencias que optimiza el diseño Migración Mi Mutual está dada por el control de cambios no programados sobre los componentes misionales del Mi Mutual (corrupción de componentes). Ver Patrón de Diseño Migración Mi Mutual, más adelante en el documento. |
 
 Table: Requisito no. 2, Mantenibilidad Mi Mutual. {#tbl:requisito2-id}
+
+<br>
 
 ### Extensibilidad Mi Mutual
 
@@ -258,8 +262,6 @@ Table: Requisito no. 3, Migración Mi Mutual, Flexibilidad. {#tbl:requisito3-id}
 
 <div style="page-break-before: always;"></div>
 \newpage
-
-
 
 
 <!--
@@ -319,7 +321,10 @@ _Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
 | Unidad de Solidaridad y Seguros | Business Function | Unidad de Solidaridad y Seguros de la Cooperativa |  |
 | app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. |  |
 
+
 Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.1.Contexto-id}
+
+
 
 
 ## Arq Mi Mutual. 2. Contenedores
@@ -357,7 +362,10 @@ _Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
 | app: Implementación de Servicios | Application Component | Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br> |  |
 | app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. |  |
 
+
 Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.2.Contenedores-id}
+
+
 
 
 ## Arq Mi Mutual. 3. Dominios
@@ -398,7 +406,10 @@ _Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
 | app: Reclamaciones | Application Component | Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos. |  |
 | app: Secuencias: zipkin | Application Component | Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs. |  |
 
+
 Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.3.Dominios-id}
+
+
 
 
 ## Arq Mi Mutual. 4. Aplicación
@@ -453,7 +464,10 @@ _Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
 | app: Implementación de Servicios | Application Component | Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br> |  |
 | app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. |  |
 
+
 Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.4.Aplicación-id}
+
+
 
 
 ## Arq Mi Mutual. 4a1. Referencia
@@ -498,7 +512,10 @@ _Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
 | Servicios | Application Process |  |  |
 | Servicios Backend | Application Service |  |  |
 
+
 Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.4a1.Referencia-id}
+
+
 
 
 ## Arq Mi Mutual. 4a3. Dependencias
@@ -561,7 +578,10 @@ _Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
 | pkg: Util | Application Component | util: Almacenan todas las clases de utilería para la aplicación. |  |
 | pkg: Web | Application Component | dto: Almacenan todas las clases (pojos) para manejo de datos. |  |
 
+
 Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.4a3.Dependencias-id}
+
+
 
 
 ## Arq Mi Mutual. 5. Físico (despliegue)
@@ -612,7 +632,10 @@ _Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
 | app: Reclamaciones | Application Component | Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos. |  |
 | app: Secuencias: zipkin | Application Component | Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs. |  |
 
+
 Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.5.Físico(despliegue)-id}
+
+
 
 
 ## Arq Mi Mutual. 6. Infraestructura
@@ -663,7 +686,10 @@ _Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
 <br>• La cuenta de usuario está bloqueada. |  |
 | app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. |  |
 
+
 Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.6.Infraestructura-id}
+
+
 
 
 ## Arq Mi Mutual. 7. Datos. Negocio
@@ -706,7 +732,10 @@ _Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
 | DAT00.Plan (producto pólizas seguros) | Business Object |  |  |
 | DAT00.Portafolios de asociados | Business Object |  |  |
 
+
 Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.7.Datos.Negocio-id}
+
+
 
 
 ## Arq Mi Mutual. 7a. Datos. Aplicación
@@ -827,7 +856,10 @@ _Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
 | DAT01.VALOR CUOTA PLAN COBERTURA | Data Object |  |  |
 | DAT01.VALOR RESCATE | Data Object |  |  |
 
+
 Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.7a.Datos.Aplicación-id}
+
+
 
 
 ## ArqCotizador. 1. Contexto
@@ -899,7 +931,10 @@ _Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
 | admin Servicios | Application Function |  |  |
 | app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
 
+
 Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.1.Contexto-id}
+
+
 
 
 ## ArqCotizador. 2. Contenedores
@@ -928,7 +963,10 @@ _Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
 | Repositorio web | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br> |  |
 | app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
 
+
 Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.2.Contenedores-id}
+
+
 
 
 ## ArqCotizador. 4a. Dependencias
@@ -990,7 +1028,10 @@ _Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
 | pkg: util | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
 | pkg: utilidades | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
 
+
 Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.4a.Dependencias-id}
+
+
 
 
 ## ArqCotizador. 5. Físico (despliegue)
@@ -1042,7 +1083,10 @@ _Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
 | pkg: reportes | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
 | pkg: utilidades | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
 
+
 Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.5.Físico(despliegue)-id}
+
+
 
 
 ## Vistas de Arquitectura Mi Mutual
@@ -1065,7 +1109,10 @@ _Fuente: ${4:Diagnóstico SOA. E-Service (2022).}_
 | Cotizador Web | Grouping |  |  |
 | Mi Mutual Central | Grouping |  |  |
 
+
 Table: Elementos de la vista. {#tbl:tblelement-VistasdeArquitecturaMiMutual-id}
+
+
 
 
 
@@ -1144,7 +1191,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.435c20e de 12 Oct 2023
+| **Versión** del producto 1.a89c0c1 de 12 Oct 2023
 
 | **Presentado a**
 
@@ -1173,7 +1220,7 @@ Descripción de los productos del trabajo de infraestructura del proyecto Migrac
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Infraestrctura, PasS |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.435c20e del 12 Oct 2023 |
+| Versión        | 1.a89c0c1 del 12 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -1362,7 +1409,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.435c20e de 12 Oct 2023
+| **Versión** del producto 1.a89c0c1 de 12 Oct 2023
 
 | **Presentado a**
 
@@ -1392,7 +1439,7 @@ Descripción de los productos de trabajo de la arquitectura de datos del proyect
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Entidades, Datos  |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.435c20e del 12 Oct 2023 |
+| Versión        | 1.a89c0c1 del 12 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
