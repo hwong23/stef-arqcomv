@@ -5,7 +5,7 @@ keywords:
 - gobierno
 - Coomeva
 lang: en-US
-date-meta: '2023-10-12'
+date-meta: '2023-10-13'
 author-meta:
 - Equipo arquitectura STEF-COOMV.
 header-includes: |
@@ -15,11 +15,11 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-10-12" />
-  <meta name="citation_publication_date" content="2023-10-12" />
-  <meta property="article:published_time" content="2023-10-12" />
-  <meta name="dc.modified" content="2023-10-12T23:37:10+00:00" />
-  <meta property="article:modified_time" content="2023-10-12T23:37:10+00:00" />
+  <meta name="dc.date" content="2023-10-13" />
+  <meta name="citation_publication_date" content="2023-10-13" />
+  <meta property="article:published_time" content="2023-10-13" />
+  <meta name="dc.modified" content="2023-10-13T18:30:42+00:00" />
+  <meta property="article:modified_time" content="2023-10-13T18:30:42+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/3422b2d0336e4c7212dbd754a45ce8f36017efd4/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/3422b2d0336e4c7212dbd754a45ce8f36017efd4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/3422b2d0336e4c7212dbd754a45ce8f36017efd4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/a6482bb882a7a589a42380717293a0cd21bdd85c/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a6482bb882a7a589a42380717293a0cd21bdd85c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a6482bb882a7a589a42380717293a0cd21bdd85c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.3422b2d de 12 Oct 2023
+| **Versión** del producto 1.a6482bb de 13 Oct 2023
 
 | **Presentado a**
 
@@ -87,7 +87,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 12 Oct 2023
+| 13 Oct 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -95,10 +95,10 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/3422b2d0336e4c7212dbd754a45ce8f36017efd4/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/a6482bb882a7a589a42380717293a0cd21bdd85c/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@3422b2d](http://stefanini.sharepoint.com)
-del October 12, 2023.
+[Sharepoint STEF@a6482bb](http://stefanini.sharepoint.com)
+del October 13, 2023.
 </em></small>
 
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.3422b2d del 12 Oct 2023 |
+| Versión        | 1.a6482bb del 13 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -274,18 +274,23 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 -->
 STEF-CMMV
 
-## Arq Mi Mutual. 1. Contexto
+## Arq MiMutual. 1. Contexto
 
 Mi Mutual. Coomeva, 2023.
 
 Contexto Mi Mutual: Áreas negocio, componente central Mi Mutual, servicios y funciones.
 
-versión 0.1
+versión 0.2.1
 
 
-Spring Boot Security y Spring Boot Oauth2 proveen características de seguridad entre Vista (Angular 2) y Controlador. Estas son responsables de que únicamente permita el acceso si se está autenticado. Además, para realizar el proceso de autenticación se delega a la aplicación SISPRO (Coomeva) que funciona como un servidor de autenticación.
+## Contexto Mi Mutual Central
+El sistema principal de fondo Mi Mutual Central es la composición de las funciones de negocio de la Unidad de Solidaridad de Coomeva. Las funciones de negocio referidas, como Gestión Beneficiarios,  Certificados, Gestión Beneficiarios, aparecen dentro del componente principal en la imagen.
 
-![Arq Mi Mutual. 1. Contexto](images/ArqMiMutual.1.Contexto.png){#fig:id-id-919c1deee57b4c78a03abff98e0db161 width=}
+Este entregable documenta los diferentes módulos y componentes que hacen parte de la estructura de una aplicación en Angular 7 y como es su interacción para conformar una arquitectura robusta y escalable para aplicaciones de gran tamaño.
+
+Las librerías Spring Boot Security y Spring Boot Oauth2 proveen características de seguridad entre Vista (Angular 2) y Controlador. Estas son responsables de que únicamente permita el acceso si se está autenticado. Además, para realizar el proceso de autenticación se delega a la aplicación SISPRO (Coomeva) que funciona como un servidor de autenticación.
+
+![Arq MiMutual. 1. Contexto](images/ArqMiMutual.1.Contexto.png){#fig:id-id-919c1deee57b4c78a03abff98e0db161 width=}
 
 _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
@@ -328,7 +333,7 @@ Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.1.Contexto-id}
 
 
 
-## Arq Mi Mutual. 2. Contenedores
+## Arq MiMutual. 2. Contenedores
 
 Mi Mutual. Coomeva, 2023.
 
@@ -341,7 +346,7 @@ La organización de componentes utilizada Mi Mutual, impulsada por Spring Web, a
 
 Esta decisión de organización de los componentes de Mi Mutual, incluyendo al misional del mismo nomnbre, permite estructurar la aplicación de una manera ordenada y, en línea con las restricciones de arquitectura exigidas al sistema, facilita la efectividad de las extensiones y el mantenimiento.
 
-![Arq Mi Mutual. 2. Contenedores](images/ArqMiMutual.2.Contenedores.png){#fig:id-id-5fe59b86833c4bf8a7be4069e0b798a8 width=}
+![Arq MiMutual. 2. Contenedores](images/ArqMiMutual.2.Contenedores.png){#fig:id-id-5fe59b86833c4bf8a7be4069e0b798a8 width=}
 
 _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
@@ -367,7 +372,7 @@ Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.2.Contenedores-id}
 
 
 
-## Arq Mi Mutual. 3. Dominios
+## Arq MiMutual. 3. Dominios
 
 Mi Mutual. Coomeva, 2023.
 
@@ -378,7 +383,7 @@ versión 0.1
 
 La división por dominios busca facilitar la administración los servicios de la plataforma Mi Mutual que son comunes entre aplicaciones de Mi Mutual, tales como Asociados, Reclamaciones, Protecciones y otros servicios trasversales como Utilidades, Reglas de negocio, Procesos de negocio (BPM), Auditoria, Flujos de trabajo:flowable.
 
-![Arq Mi Mutual. 3. Dominios](images/ArqMiMutual.3.Dominios.png){#fig:id-id-dec3e8d41fed4da6b7bc317e01485518 width=}
+![Arq MiMutual. 3. Dominios](images/ArqMiMutual.3.Dominios.png){#fig:id-id-dec3e8d41fed4da6b7bc317e01485518 width=}
 
 _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
@@ -411,18 +416,18 @@ Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.3.Dominios-id}
 
 
 
-## Arq Mi Mutual. 4. Aplicación
+## Arq MiMutual. 4. Aplicación
 
 Mi Mutual. Coomeva, 2023.
 
 Organización de componentes de aplicación Mi Mutual. Estado Actual. Segmentos (1) frontal, (2) servicios, (3) central/negocio Mi Mutual, (4) infraestructura.
 
-versión 0.3
+versión 0.4.1
 
 
 
 
-![Arq Mi Mutual. 4. Aplicación](images/ArqMiMutual.4.Aplicación.png){#fig:id-id-27bcd4f7a1c2454295b001008ee42aaa width=}
+![Arq MiMutual. 4. Aplicación](images/ArqMiMutual.4.Aplicación.png){#fig:id-id-27bcd4f7a1c2454295b001008ee42aaa width=}
 
 _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
@@ -447,10 +452,26 @@ _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 | Gestión de Productos | Application Service | Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado. |  |
 | Gestión de Reclamos | Application Service | Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado |  |
 | Gestión de Usuarios | Application Service | Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema. |  |
-| Integración | Application Interface | Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados. |  |
+| Interfaz transporte | Application Interface | Feign Client.<br><br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados. |  |
 | Mi Mutual Presentación | Application Component |  |  |
 | Profundización | Business Role | Ejecutivos de Profundización |  |
 | Repositorio Mi Mutual | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br> |  |
+| SS02.acumulados - portafolio | Application Service |  |  |
+| SS02.aportes - estatutarios | Application Service |  |  |
+| SS02.distribuciones | Application Service |  |  |
+| SS02.notas - aclaratorias | Application Service |  |  |
+| SS02.porcentaje - cuota | Application Service |  |  |
+| SS02.protecciones - mim - actuaria | Application Service |  |  |
+| SS02.protecciones- desmemebracion - accidente | Application Service |  |  |
+| SS02.proveedor | Application Service |  |  |
+| SS02.proyeccion | Application Service |  |  |
+| SS02.proyecto - vida | Application Service |  |  |
+| SS02.relacion - planes | Application Service |  |  |
+| SS02.reporte - cotizacion | Application Service |  |  |
+| SS02.reporte - estado - cotizacion | Application Service |  |  |
+| SS02.tipo - plan | Application Service |  |  |
+| SS02.util - archivos | Application Service |  |  |
+| SS02.util - municipios | Application Service |  |  |
 | Servicio de Almacenamiento de Datos | Technology Service |  |  |
 | Servicio de Red | Technology Service |  |  |
 | Servicio de archivos | Technology Service |  |  |
@@ -469,7 +490,7 @@ Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.4.Aplicación-id}
 
 
 
-## Arq Mi Mutual. 4a1. Referencia
+## Arq MiMutual. 4a1. Referencia
 
 Mi Mutual. Coomeva, 2023.
 
@@ -479,7 +500,7 @@ versión 0.1
 
 
 
-![Arq Mi Mutual. 4a1. Referencia](images/ArqMiMutual.4a1.Referencia.png){#fig:id-id-ecda07ca4d5a48479f53c13bf96290c7 width=}
+![Arq MiMutual. 4a1. Referencia](images/ArqMiMutual.4a1.Referencia.png){#fig:id-id-ecda07ca4d5a48479f53c13bf96290c7 width=}
 
 _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
@@ -517,7 +538,7 @@ Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.4a1.Referencia-id}
 
 
 
-## Arq Mi Mutual. 4a3. Dependencias
+## Arq MiMutual. 4a3. Dependencias
 
 Mi Mutual. Coomeva, 2023.
 
@@ -552,7 +573,7 @@ Para el despliegue entre ambientes se manejará maven profiles con el fin de agr
 
 El código fuente está alojado en un repositorio de Coomeva.
 
-![Arq Mi Mutual. 4a3. Dependencias](images/ArqMiMutual.4a3.Dependencias.png){#fig:id-id-cd7711359fb64153aacc8f016b0e85e8 width=}
+![Arq MiMutual. 4a3. Dependencias](images/ArqMiMutual.4a3.Dependencias.png){#fig:id-id-cd7711359fb64153aacc8f016b0e85e8 width=}
 
 _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
@@ -583,7 +604,7 @@ Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.4a3.Dependencias-id}
 
 
 
-## Arq Mi Mutual. 5. Físico (despliegue)
+## Arq MiMutual. 5. Físico (despliegue)
 
 Mi Mutual. Coomeva, 2023.
 
@@ -604,7 +625,7 @@ Especificaciones de despliegue Mi Mutual, 2023, componente central.
 * Servidor web (HTTP 1.1): Apache 2.X
 
 
-![Arq Mi Mutual. 5. Físico (despliegue)](images/ArqMiMutual.5.Físico(despliegue).png){#fig:id-id-f12ffd7585e24d0da3e26ab9b25d0b9c width=}
+![Arq MiMutual. 5. Físico (despliegue)](images/ArqMiMutual.5.Físico(despliegue).png){#fig:id-id-f12ffd7585e24d0da3e26ab9b25d0b9c width=}
 
 _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
@@ -637,7 +658,7 @@ Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.5.Físico(despliegue)
 
 
 
-## Arq Mi Mutual. 6. Infraestructura
+## Arq MiMutual. 6. Infraestructura
 
 Mi Mutual. Coomeva, 2023.
 
@@ -647,7 +668,7 @@ versión 0.3
 
 
 
-![Arq Mi Mutual. 6. Infraestructura](images/ArqMiMutual.6.Infraestructura.png){#fig:id-id-ee8757edbccd440eb43234279e7d1ff9 width=}
+![Arq MiMutual. 6. Infraestructura](images/ArqMiMutual.6.Infraestructura.png){#fig:id-id-ee8757edbccd440eb43234279e7d1ff9 width=}
 
 _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
@@ -691,7 +712,7 @@ Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.6.Infraestructura-id}
 
 
 
-## Arq Mi Mutual. 7. Datos. Negocio
+## Arq MiMutual. 7. Datos. Negocio
 
 Mi Mutual. Coomeva, 2023.
 
@@ -712,7 +733,7 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 * Facturación
 * Beneficiario
 
-![Arq Mi Mutual. 7. Datos. Negocio](images/ArqMiMutual.7.Datos.Negocio.png){#fig:id-id-e4ae408c4a5b41a09e47e227c33d467d width=}
+![Arq MiMutual. 7. Datos. Negocio](images/ArqMiMutual.7.Datos.Negocio.png){#fig:id-id-e4ae408c4a5b41a09e47e227c33d467d width=}
 
 _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
@@ -738,7 +759,7 @@ Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.7.Datos.Negocio-id}
 
 
 
-## Arq Mi Mutual. 7a. Datos. Aplicación
+## Arq MiMutual. 7a. Datos. Aplicación
 
 Mi Mutual. Coomeva, 2023.
 
@@ -751,7 +772,7 @@ Estructuras de datos específicas a la plataforma. Modelo de negocio para las ap
 
 Modelo físico facilitadas por Coomeva, corte del 2 de mayo de 2022. Contiene las estructuras de configuración de fondo, cliente, planes, cobertura y planes de coberturas.
 
-![Arq Mi Mutual. 7a. Datos. Aplicación](images/ArqMiMutual.7a.Datos.Aplicación.png){#fig:id-id-c4ed2d8934fd40eea1d71556b08da65e width=}
+![Arq MiMutual. 7a. Datos. Aplicación](images/ArqMiMutual.7a.Datos.Aplicación.png){#fig:id-id-c4ed2d8934fd40eea1d71556b08da65e width=}
 
 _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
@@ -862,7 +883,7 @@ Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.7a.Datos.Aplicación-
 
 
 
-## Arq Mi Mutual. 7b. Datos. Relaciones
+## Arq MiMutual. 7b. Datos. Relaciones
 
 Mi Mutual. Coomeva, 2023.
 
@@ -882,7 +903,7 @@ versión 0.2.3
 * Facturación
 * Beneficiario
 
-![Arq Mi Mutual. 7b. Datos. Relaciones](images/ArqMiMutual.7b.Datos.Relaciones.png){#fig:id-id-4c251568d38049f89d4963e7439861ac width=}
+![Arq MiMutual. 7b. Datos. Relaciones](images/ArqMiMutual.7b.Datos.Relaciones.png){#fig:id-id-4c251568d38049f89d4963e7439861ac width=}
 
 _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
@@ -936,16 +957,17 @@ Cotizador Web Mi Mutual. Contexto Mi Mutual: Áreas negocio, componente central 
 versión 0.1
 
 
-## Módulos Mi Mutual Web
+## Contexto Mi Mutual Web
+La aplicación Cotizador Web hace parte de los módulos de interfaz web de Mi Mutual Central, representado por API Mi Mutual en el diagrama. Realizar cotizaciones de los planes de protección luego de la vinculación del asociado.
+
 La estructura por módulos permite realizar aplicaciones escalables y robustas ya que permite organizar las partes de la aplicación, la organización en bloques, extender la aplicación con funcionalidades de libreras externas, proporcionar un entorno de resolución de plantillas y además permite especificar la forma de la carga de cada uno de los componentes y servicios que conforman un módulo.
 
-## 3.2 Módulos Externos
+## Módulos Externos
 Los módulos externos son todas y cada uno de las herramientas que se utilizan para complementar con funcionalidades ya desarrolladas y tomadas desde un repositorio externo (NPM).
 
 * TranslateModule: Manejo de internacionalización. Documentación: https://github.com/ngx-translate/core
 * NgxMaskModule: Manejo de máscaras de input text. Documentación: https://github.com/JsDaddy/ngx-mask
-* JwtModule: Manejo de token.
-Documentación: https://github.com/auth0/angular2-jwt
+* JwtModule: Manejo de token. Documentación: https://github.com/auth0/angular2-jwt
 * sweetalert2: Manejo de alertas de mensajes. Documentación: https://sweetalert2.github.io/
 * ngx-ui-loader: Manejo de Spinner para control de peticiones asíncronas. Documentación: https://github.com/t-ho/ngx-ui-loader
 * Ngprime: Manejo de componentes visuales Documentación: https://www.primefaces.org/primeng/#/
@@ -1024,11 +1046,113 @@ _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 | Nombre           | Tipo | Documentación | Propiedad |
 |----------------|------|------|------|
 | API Mi Mutual | Application Interface |  |  |
-| HTTP / HTTPS | Application Interface |  |  |
-| Repositorio web | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br> |  |
+| Cliente HTTP / HTTPS | Application Interface |  |  |
+| Control | Application Function |  |  |
+| Repositorio Mi Mutual | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br> |  |
+| Ruteos | Application Function |  |  |
+| Servicios | Application Function |  |  |
 | app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
 
 Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.2.Contenedores-id}
+
+<br>
+
+
+
+## ArqCotizador. 4. Aplicación
+
+Mi Mutual. Coomeva, 2023.
+
+Organización de aplicación Cotizador Web, Mi Mutual. Estado Actual. Segmentos (1) frontal, (2) servicios, (3) central/negocio Mi Mutual, (4) infraestructura.
+
+versión 0.4.1
+
+
+
+La organización de la aplicación Cotizador Web Mi Mutual, como capa de presentación y servicios, plantea una estructura basada en la referencia de aplicaciones Angular 12. Las características de esta estructura (referida por Angular) está orientada al crecimiento (tamaño) de la aplicación, la escalabilidad y al rendimiento. La aplicación web Cotizador está diseñada (modulos) para manejar la carga por demanda del contenido.
+
+![ArqCotizador. 4. Aplicación](images/ArqCotizador.4.Aplicación.png){#fig:id-id-64b018b5f3ca41688deb2b02f70ded86 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Analistas | Business Role | Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes. |  |
+| Application Service | Application Service |  |  |
+| Asesores | Business Role | Asesores integrales |  |
+| Autorizaciones | Application Service | Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones usando el servicio del flujo de procesos. |  |
+| Auxiliares servicio | Business Role | Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes. |  |
+| Certificados | Application Service | Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario. |  |
+| Configuración | Application Service | Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos. |  |
+| Controlador Mi Mutual | Application Component | Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos. |  |
+| Facturación y Recaudo | Application Service | Administración de la facturación y recaudo diario de los productos |  |
+| Gestión de Beneficiarios | Application Service | Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación
+<br> |  |
+| Gestión de Productos | Application Service | Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado. |  |
+| Gestión de Usuarios | Application Service | Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema. |  |
+| Interfaz transporte | Application Interface | Feign Client.<br><br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados. |  |
+| MOD0.JwtModule | Application Component |  Manejo de token. Documentación: https://github.com/auth0/angular2-jwt |  |
+| MOD0.Ngprime | Application Component |  Manejo de componentes visuales Documentación: https://www.primefaces.org/primeng/#/ |  |
+| MOD0.NgxMaskModule | Application Component |  Manejo de máscaras de input text. Documentación: https://github.com/JsDaddy/ngx-mask |  |
+| MOD0.TranslateModule | Application Component |  Manejo de internacionalización. Documentación: https://github.com/ngx-translate/core |  |
+| MOD0.chart.js | Application Component |  Componente utilizado para el manejo de graficas Documentación: https://www.chartjs.org/docs/latest/ |  |
+| MOD0.classlist.js | Application Component | Componete para el manejo de listas de datos en las gráficas Documentación: https://www.chartjs.org/docs/latest/ |  |
+| MOD0.cronstrue | Application Component |  Componente para traducir una expresión cron a palabras Documentación: https://github.com/bradymholt/cronstrue |  |
+| MOD0.file-saver | Application Component |  Componente para descargar un archivo desde los bytes Documentación: https://github.com/eligrey/FileSaver.js#readme |  |
+| MOD0.ngx-tinymce | Application Component | Editor html para generación de plantillas para cartas Documentación: https://cipchk.github.io/ngx-tinymce/#/ |  |
+| MOD0.ngx-ui-loader | Application Component | Manejo de Spinner para control de peticiones asíncronas. Documentación: https://github.com/t-ho/ngx-ui-loader |  |
+| MOD0.quill | Application Component | Ccomponente para editor html Documentación: https://quilljs.com/ |  |
+| MOD0.sweetalert2 | Application Component | Manejo de alertas de mensajes. Documentación: https://sweetalert2.github.io/ |  |
+| Módulos Externos | Grouping |  |  |
+| Repositorio Mi Mutual | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br> |  |
+| SS02.reporte - cotizacion | Application Service |  |  |
+| SS02.reporte - estado - cotizacion | Application Service |  |  |
+| Servicio de Almacenamiento de Datos | Technology Service |  |  |
+| Servicio de Red | Technology Service |  |  |
+| Servicio de archivos | Technology Service |  |  |
+| Simuladores | Application Service | Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado. |  |
+| Unidad de Solidaridad y Seguros | Grouping | La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad) |  |
+| app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
+| app: Implementación de Servicios | Application Component | Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br> |  |
+| app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.4.Aplicación-id}
+
+<br>
+
+
+
+## ArqCotizador. 4a. Aplicación. Servicios
+
+
+
+![ArqCotizador. 4a. Aplicación. Servicios](images/ArqCotizador.4a.Aplicación.Servicios.png){#fig:id-id-3a9f664ae1d44c2fa789e33d6a6cc4b1 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Application Service | Application Service |  |  |
+| Controlador | Application Component |  |  |
+| Gestión de Productos | Application Service | Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado. |  |
+| Integración | Application Service |  |  |
+| Interfaz | Application Component |  |  |
+| Interfaz datos | Application Component |  |  |
+| Interfaz transporte | Application Interface | Feign Client.<br><br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados. |  |
+| Operación | Application Component |  |  |
+| Servicio | Application Component |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.4a.Aplicación.Servicios-id}
 
 <br>
 
@@ -1044,11 +1168,11 @@ versión 0.1
 
 
 ## Paquetes y Dependencias Cotizador Web
-Módulos y componentes que hacen parte de la estructura de la aplicación Cotizador Web (basado en Angular 7 [^1]).
+Módulos y componentes que hacen parte de la estructura de la aplicación Cotizador Web (basado en Angular 12 [^1]).
 
 [^1]: Angular 2 tiene una arquitectura Modelo Vista Controlador (MVC) con el fin de hacer el desarrollo gestionado.
 
-## Módulos
+## Módulos Cotizador Web
 La estructura por módulos actual apunta a la escalabilidad y mantenimiento del Cotizador en términos de: organizar las partes de la aplicación, organización los bloques, extender la aplicación con libreras externas, proporcionar un entorno de resolución de plantillas y además, distribuir las cargas de los componentes y servicios que usa la aplicación.
 
 ![ArqCotizador. 4a. Dependencias](images/ArqCotizador.4a.Dependencias.png){#fig:id-id-3bc899b013be4bb0818e8856b07c2b50 width=}
@@ -1186,12 +1310,15 @@ _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 | Nombre           | Tipo | Documentación | Propiedad |
 |----------------|------|------|------|
+| DAT00.Asegurado | Business Object |  |  |
 | DAT00.Asociado | Business Object |  |  |
 | DAT00.Beneficiario | Business Object |  |  |
 | DAT00.Canal (medios del tomador/asociado) | Business Object |  |  |
 | DAT00.Configuración (caracterización) | Business Object | Caracterización de productos, planes, parámetros<br> |  |
 | DAT00.Plan (producto pólizas seguros) | Business Object |  |  |
-| DAT01. Cotización | Business Object |  |  |
+| DAT01.Cotización | Business Object |  |  |
+| DAT01.PERSONA | Data Object |  |  |
+| DAT01.Vinculación | Business Object |  |  |
 
 Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.7.Datos.Negocio-id}
 
