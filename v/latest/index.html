@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Equipo arquitectura STEF-COOMV." />
-  <meta name="dcterms.date" content="2023-10-12" />
+  <meta name="dcterms.date" content="2023-10-13" />
   <meta name="keywords" content="SOA, madurez, gobierno, Coomeva" />
   <title>Documento de Arquitectura Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva, STEF - Coomeva</title>
   <style>
@@ -46,11 +46,11 @@
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-10-12" />
-  <meta name="citation_publication_date" content="2023-10-12" />
-  <meta property="article:published_time" content="2023-10-12" />
-  <meta name="dc.modified" content="2023-10-12T23:37:10+00:00" />
-  <meta property="article:modified_time" content="2023-10-12T23:37:10+00:00" />
+  <meta name="dc.date" content="2023-10-13" />
+  <meta name="citation_publication_date" content="2023-10-13" />
+  <meta property="article:published_time" content="2023-10-13" />
+  <meta name="dc.modified" content="2023-10-13T18:30:42+00:00" />
+  <meta property="article:modified_time" content="2023-10-13T18:30:42+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -65,9 +65,9 @@
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/3422b2d0336e4c7212dbd754a45ce8f36017efd4/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/3422b2d0336e4c7212dbd754a45ce8f36017efd4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/3422b2d0336e4c7212dbd754a45ce8f36017efd4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/a6482bb882a7a589a42380717293a0cd21bdd85c/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a6482bb882a7a589a42380717293a0cd21bdd85c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a6482bb882a7a589a42380717293a0cd21bdd85c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -89,20 +89,20 @@
 <p><br></p>
 <p><br></p>
 <p><br></p>
-<div class="line-block"><strong>Versión</strong> del producto 1.3422b2d de 12 Oct 2023</div>
+<div class="line-block"><strong>Versión</strong> del producto 1.a6482bb de 13 Oct 2023</div>
 <div class="line-block"><strong>Presentado a</strong></div>
 <div class="line-block">STEF - Coomeva</div>
 <div class="line-block"></div>
 <div class="line-block"><strong>Fecha</strong></div>
-<div class="line-block">12 Oct 2023</div>
+<div class="line-block">13 Oct 2023</div>
 <div style="page-break-before: always;">
 
 </div>
 <p><small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023,
-(<a href="https://hwong23.github.io/stef-arqcomv/v/3422b2d0336e4c7212dbd754a45ce8f36017efd4/">Web</a>)
+(<a href="https://hwong23.github.io/stef-arqcomv/v/a6482bb882a7a589a42380717293a0cd21bdd85c/">Web</a>)
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-<a href="http://stefanini.sharepoint.com">Sharepoint STEF@3422b2d</a>
-del October 12, 2023.
+<a href="http://stefanini.sharepoint.com">Sharepoint STEF@a6482bb</a>
+del October 13, 2023.
 </em></small></p>
 <p><br></p>
 <h2 id="autores">Autores</h2>
@@ -150,7 +150,7 @@ Arquitecto, Stefanini
 </tr>
 <tr class="even">
 <td>Versión</td>
-<td>1.3422b2d del 12 Oct 2023</td>
+<td>1.a6482bb del 13 Oct 2023</td>
 </tr>
 <tr class="odd">
 <td>Vínculos</td>
@@ -310,15 +310,18 @@ https://github.com/archi-contribs/jarchi-single-page-html-export
 Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 -->
 <p>STEF-CMMV</p>
-<h2 id="arq-mi-mutual.-1.-contexto">Arq Mi Mutual. 1. Contexto</h2>
+<h2 id="arq-mimutual.-1.-contexto">Arq MiMutual. 1. Contexto</h2>
 <p>Mi Mutual. Coomeva, 2023.</p>
 <p>Contexto Mi Mutual: Áreas negocio, componente central Mi Mutual, servicios y funciones.</p>
-<p>versión 0.1</p>
-<p>Spring Boot Security y Spring Boot Oauth2 proveen características de seguridad entre Vista (Angular 2) y Controlador. Estas son responsables de que únicamente permita el acceso si se está autenticado. Además, para realizar el proceso de autenticación se delega a la aplicación SISPRO (Coomeva) que funciona como un servidor de autenticación.</p>
+<p>versión 0.2.1</p>
+<h2 id="contexto-mi-mutual-central">Contexto Mi Mutual Central</h2>
+<p>El sistema principal de fondo Mi Mutual Central es la composición de las funciones de negocio de la Unidad de Solidaridad de Coomeva. Las funciones de negocio referidas, como Gestión Beneficiarios, Certificados, Gestión Beneficiarios, aparecen dentro del componente principal en la imagen.</p>
+<p>Este entregable documenta los diferentes módulos y componentes que hacen parte de la estructura de una aplicación en Angular 7 y como es su interacción para conformar una arquitectura robusta y escalable para aplicaciones de gran tamaño.</p>
+<p>Las librerías Spring Boot Security y Spring Boot Oauth2 proveen características de seguridad entre Vista (Angular 2) y Controlador. Estas son responsables de que únicamente permita el acceso si se está autenticado. Además, para realizar el proceso de autenticación se delega a la aplicación SISPRO (Coomeva) que funciona como un servidor de autenticación.</p>
 <div id="fig:id-id-919c1deee57b4c78a03abff98e0db161" class="fignos">
 <figure>
-<img src="images/ArqMiMutual.1.Contexto.png" alt="Imagen 1: Arq Mi Mutual. 1. Contexto" />
-<figcaption aria-hidden="true"><span>Imagen 1:</span> Arq Mi Mutual. 1. Contexto</figcaption>
+<img src="images/ArqMiMutual.1.Contexto.png" alt="Imagen 1: Arq MiMutual. 1. Contexto" />
+<figcaption aria-hidden="true"><span>Imagen 1:</span> Arq MiMutual. 1. Contexto</figcaption>
 </figure>
 </div>
 <p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
@@ -496,7 +499,7 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 </table>
 </div>
 <p><br></p>
-<h2 id="arq-mi-mutual.-2.-contenedores">Arq Mi Mutual. 2. Contenedores</h2>
+<h2 id="arq-mimutual.-2.-contenedores">Arq MiMutual. 2. Contenedores</h2>
 <p>Mi Mutual. Coomeva, 2023.</p>
 <p>Organización de componentes principales, Mi Mutual Central. Roles de componentes, separación responsabilidades.</p>
 <p>versión 0.4.1</p>
@@ -504,8 +507,8 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <p>Esta decisión de organización de los componentes de Mi Mutual, incluyendo al misional del mismo nomnbre, permite estructurar la aplicación de una manera ordenada y, en línea con las restricciones de arquitectura exigidas al sistema, facilita la efectividad de las extensiones y el mantenimiento.</p>
 <div id="fig:id-id-5fe59b86833c4bf8a7be4069e0b798a8" class="fignos">
 <figure>
-<img src="images/ArqMiMutual.2.Contenedores.png" alt="Imagen 2: Arq Mi Mutual. 2. Contenedores" />
-<figcaption aria-hidden="true"><span>Imagen 2:</span> Arq Mi Mutual. 2. Contenedores</figcaption>
+<img src="images/ArqMiMutual.2.Contenedores.png" alt="Imagen 2: Arq MiMutual. 2. Contenedores" />
+<figcaption aria-hidden="true"><span>Imagen 2:</span> Arq MiMutual. 2. Contenedores</figcaption>
 </figure>
 </div>
 <p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
@@ -581,15 +584,15 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 </table>
 </div>
 <p><br></p>
-<h2 id="arq-mi-mutual.-3.-dominios">Arq Mi Mutual. 3. Dominios</h2>
+<h2 id="arq-mimutual.-3.-dominios">Arq MiMutual. 3. Dominios</h2>
 <p>Mi Mutual. Coomeva, 2023.</p>
 <p>Servicios trasversales Mi Mutual. Estado Actual.</p>
 <p>versión 0.1</p>
 <p>La división por dominios busca facilitar la administración los servicios de la plataforma Mi Mutual que son comunes entre aplicaciones de Mi Mutual, tales como Asociados, Reclamaciones, Protecciones y otros servicios trasversales como Utilidades, Reglas de negocio, Procesos de negocio (BPM), Auditoria, Flujos de trabajo:flowable.</p>
 <div id="fig:id-id-dec3e8d41fed4da6b7bc317e01485518" class="fignos">
 <figure>
-<img src="images/ArqMiMutual.3.Dominios.png" alt="Imagen 3: Arq Mi Mutual. 3. Dominios" />
-<figcaption aria-hidden="true"><span>Imagen 3:</span> Arq Mi Mutual. 3. Dominios</figcaption>
+<img src="images/ArqMiMutual.3.Dominios.png" alt="Imagen 3: Arq MiMutual. 3. Dominios" />
+<figcaption aria-hidden="true"><span>Imagen 3:</span> Arq MiMutual. 3. Dominios</figcaption>
 </figure>
 </div>
 <p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
@@ -707,14 +710,14 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 </table>
 </div>
 <p><br></p>
-<h2 id="arq-mi-mutual.-4.-aplicación">Arq Mi Mutual. 4. Aplicación</h2>
+<h2 id="arq-mimutual.-4.-aplicación">Arq MiMutual. 4. Aplicación</h2>
 <p>Mi Mutual. Coomeva, 2023.</p>
 <p>Organización de componentes de aplicación Mi Mutual. Estado Actual. Segmentos (1) frontal, (2) servicios, (3) central/negocio Mi Mutual, (4) infraestructura.</p>
-<p>versión 0.3</p>
+<p>versión 0.4.1</p>
 <div id="fig:id-id-27bcd4f7a1c2454295b001008ee42aaa" class="fignos">
 <figure>
-<img src="images/ArqMiMutual.4.Aplicación.png" alt="Imagen 4: Arq Mi Mutual. 4. Aplicación" />
-<figcaption aria-hidden="true"><span>Imagen 4:</span> Arq Mi Mutual. 4. Aplicación</figcaption>
+<img src="images/ArqMiMutual.4.Aplicación.png" alt="Imagen 4: Arq MiMutual. 4. Aplicación" />
+<figcaption aria-hidden="true"><span>Imagen 4:</span> Arq MiMutual. 4. Aplicación</figcaption>
 </figure>
 </div>
 <p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
@@ -823,9 +826,9 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <td></td>
 </tr>
 <tr class="odd">
-<td>Integración</td>
+<td>Interfaz transporte</td>
 <td>Application Interface</td>
-<td>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.</td>
+<td>Feign Client.<br><br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.</td>
 <td></td>
 </tr>
 <tr class="even">
@@ -844,6 +847,102 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <td>Repositorio Mi Mutual</td>
 <td>Application Component</td>
 <td>Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>SS02.acumulados - portafolio</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>SS02.aportes - estatutarios</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>SS02.distribuciones</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>SS02.notas - aclaratorias</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>SS02.porcentaje - cuota</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>SS02.protecciones - mim - actuaria</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>SS02.protecciones- desmemebracion - accidente</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>SS02.proveedor</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>SS02.proyeccion</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>SS02.proyecto - vida</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>SS02.relacion - planes</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>SS02.reporte - cotizacion</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>SS02.reporte - estado - cotizacion</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>SS02.tipo - plan</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>SS02.util - archivos</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>SS02.util - municipios</td>
+<td>Application Service</td>
+<td></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -916,14 +1015,14 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 </table>
 </div>
 <p><br></p>
-<h2 id="arq-mi-mutual.-4a1.-referencia">Arq Mi Mutual. 4a1. Referencia</h2>
+<h2 id="arq-mimutual.-4a1.-referencia">Arq MiMutual. 4a1. Referencia</h2>
 <p>Mi Mutual. Coomeva, 2023.</p>
 <p>Esquema de componentes Spring Boot</p>
 <p>versión 0.1</p>
 <div id="fig:id-id-ecda07ca4d5a48479f53c13bf96290c7" class="fignos">
 <figure>
-<img src="images/ArqMiMutual.4a1.Referencia.png" alt="Imagen 5: Arq Mi Mutual. 4a1. Referencia" />
-<figcaption aria-hidden="true"><span>Imagen 5:</span> Arq Mi Mutual. 4a1. Referencia</figcaption>
+<img src="images/ArqMiMutual.4a1.Referencia.png" alt="Imagen 5: Arq MiMutual. 4a1. Referencia" />
+<figcaption aria-hidden="true"><span>Imagen 5:</span> Arq MiMutual. 4a1. Referencia</figcaption>
 </figure>
 </div>
 <p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
@@ -1065,7 +1164,7 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 </table>
 </div>
 <p><br></p>
-<h2 id="arq-mi-mutual.-4a3.-dependencias">Arq Mi Mutual. 4a3. Dependencias</h2>
+<h2 id="arq-mimutual.-4a3.-dependencias">Arq MiMutual. 4a3. Dependencias</h2>
 <p>Mi Mutual. Coomeva, 2023.</p>
 <p>Mi Mutual Central. Paquetes: dependencias, roles, implementación funciones de aplicación.</p>
 <p>versión 0.1</p>
@@ -1092,8 +1191,8 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <p>El código fuente está alojado en un repositorio de Coomeva.</p>
 <div id="fig:id-id-cd7711359fb64153aacc8f016b0e85e8" class="fignos">
 <figure>
-<img src="images/ArqMiMutual.4a3.Dependencias.png" alt="Imagen 6: Arq Mi Mutual. 4a3. Dependencias" />
-<figcaption aria-hidden="true"><span>Imagen 6:</span> Arq Mi Mutual. 4a3. Dependencias</figcaption>
+<img src="images/ArqMiMutual.4a3.Dependencias.png" alt="Imagen 6: Arq MiMutual. 4a3. Dependencias" />
+<figcaption aria-hidden="true"><span>Imagen 6:</span> Arq MiMutual. 4a3. Dependencias</figcaption>
 </figure>
 </div>
 <p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
@@ -1199,7 +1298,7 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 </table>
 </div>
 <p><br></p>
-<h2 id="arq-mi-mutual.-5.-físico-despliegue">Arq Mi Mutual. 5. Físico (despliegue)</h2>
+<h2 id="arq-mimutual.-5.-físico-despliegue">Arq MiMutual. 5. Físico (despliegue)</h2>
 <p>Mi Mutual. Coomeva, 2023.</p>
 <p>Distribución física Mi Mutual. Estado actual, 2023.</p>
 <p>versión 0.4.4</p>
@@ -1216,8 +1315,8 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 </ul>
 <div id="fig:id-id-f12ffd7585e24d0da3e26ab9b25d0b9c" class="fignos">
 <figure>
-<img src="images/ArqMiMutual.5.Físico(despliegue).png" alt="Imagen 7: Arq Mi Mutual. 5. Físico (despliegue)" />
-<figcaption aria-hidden="true"><span>Imagen 7:</span> Arq Mi Mutual. 5. Físico (despliegue)</figcaption>
+<img src="images/ArqMiMutual.5.Físico(despliegue).png" alt="Imagen 7: Arq MiMutual. 5. Físico (despliegue)" />
+<figcaption aria-hidden="true"><span>Imagen 7:</span> Arq MiMutual. 5. Físico (despliegue)</figcaption>
 </figure>
 </div>
 <p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
@@ -1335,14 +1434,14 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 </table>
 </div>
 <p><br></p>
-<h2 id="arq-mi-mutual.-6.-infraestructura">Arq Mi Mutual. 6. Infraestructura</h2>
+<h2 id="arq-mimutual.-6.-infraestructura">Arq MiMutual. 6. Infraestructura</h2>
 <p>Mi Mutual. Coomeva, 2023.</p>
 <p>Ambientes, Nodos (servidores), Elementos de red, Almacenamiento y equipos de hardware Mi Mutual. Estado Actual</p>
 <p>versión 0.3</p>
 <div id="fig:id-id-ee8757edbccd440eb43234279e7d1ff9" class="fignos">
 <figure>
-<img src="images/ArqMiMutual.6.Infraestructura.png" alt="Imagen 8: Arq Mi Mutual. 6. Infraestructura" />
-<figcaption aria-hidden="true"><span>Imagen 8:</span> Arq Mi Mutual. 6. Infraestructura</figcaption>
+<img src="images/ArqMiMutual.6.Infraestructura.png" alt="Imagen 8: Arq MiMutual. 6. Infraestructura" />
+<figcaption aria-hidden="true"><span>Imagen 8:</span> Arq MiMutual. 6. Infraestructura</figcaption>
 </figure>
 </div>
 <p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
@@ -1399,7 +1498,7 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 | app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. | |</p>
 <p>Table: Elementos de la vista. {#tbl:tblelement-ArqMiMutual.6.Infraestructura-id}</p>
 <p><br></p>
-<h2 id="arq-mi-mutual.-7.-datos.-negocio">Arq Mi Mutual. 7. Datos. Negocio</h2>
+<h2 id="arq-mimutual.-7.-datos.-negocio">Arq MiMutual. 7. Datos. Negocio</h2>
 <p>Mi Mutual. Coomeva, 2023.</p>
 <p>Mi Mutual Central. Entidades: Estructuras, objeto, relaciones con aplicación.</p>
 <p>versión 0.1</p>
@@ -1417,8 +1516,8 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 </ul>
 <div id="fig:id-id-e4ae408c4a5b41a09e47e227c33d467d" class="fignos">
 <figure>
-<img src="images/ArqMiMutual.7.Datos.Negocio.png" alt="Imagen 9: Arq Mi Mutual. 7. Datos. Negocio" />
-<figcaption aria-hidden="true"><span>Imagen 9:</span> Arq Mi Mutual. 7. Datos. Negocio</figcaption>
+<img src="images/ArqMiMutual.7.Datos.Negocio.png" alt="Imagen 9: Arq MiMutual. 7. Datos. Negocio" />
+<figcaption aria-hidden="true"><span>Imagen 9:</span> Arq MiMutual. 7. Datos. Negocio</figcaption>
 </figure>
 </div>
 <p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
@@ -1494,7 +1593,7 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 </table>
 </div>
 <p><br></p>
-<h2 id="arq-mi-mutual.-7a.-datos.-aplicación">Arq Mi Mutual. 7a. Datos. Aplicación</h2>
+<h2 id="arq-mimutual.-7a.-datos.-aplicación">Arq MiMutual. 7a. Datos. Aplicación</h2>
 <p>Mi Mutual. Coomeva, 2023.</p>
 <p>Mi Mutual Central. Físico. Entidades: Estructuras, objeto, relaciones con entidades.</p>
 <p>versión 0.1</p>
@@ -1502,8 +1601,8 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <p>Modelo físico facilitadas por Coomeva, corte del 2 de mayo de 2022. Contiene las estructuras de configuración de fondo, cliente, planes, cobertura y planes de coberturas.</p>
 <div id="fig:id-id-c4ed2d8934fd40eea1d71556b08da65e" class="fignos">
 <figure>
-<img src="images/ArqMiMutual.7a.Datos.Aplicación.png" alt="Imagen 10: Arq Mi Mutual. 7a. Datos. Aplicación" />
-<figcaption aria-hidden="true"><span>Imagen 10:</span> Arq Mi Mutual. 7a. Datos. Aplicación</figcaption>
+<img src="images/ArqMiMutual.7a.Datos.Aplicación.png" alt="Imagen 10: Arq MiMutual. 7a. Datos. Aplicación" />
+<figcaption aria-hidden="true"><span>Imagen 10:</span> Arq MiMutual. 7a. Datos. Aplicación</figcaption>
 </figure>
 </div>
 <p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
@@ -2083,7 +2182,7 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 </table>
 </div>
 <p><br></p>
-<h2 id="arq-mi-mutual.-7b.-datos.-relaciones">Arq Mi Mutual. 7b. Datos. Relaciones</h2>
+<h2 id="arq-mimutual.-7b.-datos.-relaciones">Arq MiMutual. 7b. Datos. Relaciones</h2>
 <p>Mi Mutual. Coomeva, 2023.</p>
 <p>Mi Mutual Central. Entidades: Estructuras, objeto, relaciones con aplicación.</p>
 <p>versión 0.2.3</p>
@@ -2100,8 +2199,8 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 </ul>
 <div id="fig:id-id-4c251568d38049f89d4963e7439861ac" class="fignos">
 <figure>
-<img src="images/ArqMiMutual.7b.Datos.Relaciones.png" alt="Imagen 11: Arq Mi Mutual. 7b. Datos. Relaciones" />
-<figcaption aria-hidden="true"><span>Imagen 11:</span> Arq Mi Mutual. 7b. Datos. Relaciones</figcaption>
+<img src="images/ArqMiMutual.7b.Datos.Relaciones.png" alt="Imagen 11: Arq MiMutual. 7b. Datos. Relaciones" />
+<figcaption aria-hidden="true"><span>Imagen 11:</span> Arq MiMutual. 7b. Datos. Relaciones</figcaption>
 </figure>
 </div>
 <p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
@@ -2295,15 +2394,15 @@ Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
 <p>Mi Mutual. Coomeva, 2023.</p>
 <p>Cotizador Web Mi Mutual. Contexto Mi Mutual: Áreas negocio, componente central Mi Mutual, servicios y funciones.</p>
 <p>versión 0.1</p>
-<h2 id="módulos-mi-mutual-web">Módulos Mi Mutual Web</h2>
+<h2 id="contexto-mi-mutual-web">Contexto Mi Mutual Web</h2>
+<p>La aplicación Cotizador Web hace parte de los módulos de interfaz web de Mi Mutual Central, representado por API Mi Mutual en el diagrama. Realizar cotizaciones de los planes de protección luego de la vinculación del asociado.</p>
 <p>La estructura por módulos permite realizar aplicaciones escalables y robustas ya que permite organizar las partes de la aplicación, la organización en bloques, extender la aplicación con funcionalidades de libreras externas, proporcionar un entorno de resolución de plantillas y además permite especificar la forma de la carga de cada uno de los componentes y servicios que conforman un módulo.</p>
-<h2 id="módulos-externos">3.2 Módulos Externos</h2>
+<h2 id="módulos-externos">Módulos Externos</h2>
 <p>Los módulos externos son todas y cada uno de las herramientas que se utilizan para complementar con funcionalidades ya desarrolladas y tomadas desde un repositorio externo (NPM).</p>
 <ul>
 <li>TranslateModule: Manejo de internacionalización. Documentación: https://github.com/ngx-translate/core</li>
 <li>NgxMaskModule: Manejo de máscaras de input text. Documentación: https://github.com/JsDaddy/ngx-mask</li>
-<li>JwtModule: Manejo de token.
-Documentación: https://github.com/auth0/angular2-jwt</li>
+<li>JwtModule: Manejo de token. Documentación: https://github.com/auth0/angular2-jwt</li>
 <li>sweetalert2: Manejo de alertas de mensajes. Documentación: https://sweetalert2.github.io/</li>
 <li>ngx-ui-loader: Manejo de Spinner para control de peticiones asíncronas. Documentación: https://github.com/t-ho/ngx-ui-loader</li>
 <li>Ngprime: Manejo de componentes visuales Documentación: https://www.primefaces.org/primeng/#/</li>
@@ -2479,21 +2578,389 @@ Documentación: https://github.com/auth0/angular2-jwt</li>
 <td></td>
 </tr>
 <tr class="even">
-<td>HTTP / HTTPS</td>
+<td>Cliente HTTP / HTTPS</td>
 <td>Application Interface</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>Repositorio web</td>
+<td>Control</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Repositorio Mi Mutual</td>
 <td>Application Component</td>
 <td>Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Ruteos</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Servicios</td>
+<td>Application Function</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>app: Cotizador Web</td>
+<td>Application Component</td>
+<td>pkg: MiMutualWeb</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h2 id="arqcotizador.-4.-aplicación">ArqCotizador. 4. Aplicación</h2>
+<p>Mi Mutual. Coomeva, 2023.</p>
+<p>Organización de aplicación Cotizador Web, Mi Mutual. Estado Actual. Segmentos (1) frontal, (2) servicios, (3) central/negocio Mi Mutual, (4) infraestructura.</p>
+<p>versión 0.4.1</p>
+<p>La organización de la aplicación Cotizador Web Mi Mutual, como capa de presentación y servicios, plantea una estructura basada en la referencia de aplicaciones Angular 12. Las características de esta estructura (referida por Angular) está orientada al crecimiento (tamaño) de la aplicación, la escalabilidad y al rendimiento. La aplicación web Cotizador está diseñada (modulos) para manejar la carga por demanda del contenido.</p>
+<div id="fig:id-id-64b018b5f3ca41688deb2b02f70ded86" class="fignos">
+<figure>
+<img src="images/ArqCotizador.4.Aplicación.png" alt="Imagen 14: ArqCotizador. 4. Aplicación" />
+<figcaption aria-hidden="true"><span>Imagen 14:</span> ArqCotizador. 4. Aplicación</figcaption>
+</figure>
+</div>
+<p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
+<p><br></p>
+<h3 id="catálogo-de-elementos-13">Catálogo de Elementos</h3>
+<div id="tbl:tblelement-ArqCotizador.4.Aplicación-id" class="tablenos">
+<table id="tbl:tblelement-ArqCotizador.4.Aplicación-id">
+<caption><span>Tabla 16:</span> Elementos de la vista. </caption>
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Analistas</td>
+<td>Business Role</td>
+<td>Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Application Service</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Asesores</td>
+<td>Business Role</td>
+<td>Asesores integrales</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Autorizaciones</td>
+<td>Application Service</td>
+<td>Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones usando el servicio del flujo de procesos.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Auxiliares servicio</td>
+<td>Business Role</td>
+<td>Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Certificados</td>
+<td>Application Service</td>
+<td>Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Configuración</td>
+<td>Application Service</td>
+<td>Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Controlador Mi Mutual</td>
+<td>Application Component</td>
+<td>Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Facturación y Recaudo</td>
+<td>Application Service</td>
+<td>Administración de la facturación y recaudo diario de los productos</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Gestión de Beneficiarios</td>
+<td>Application Service</td>
+<td>Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><br></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Gestión de Productos</td>
+<td>Application Service</td>
+<td>Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Gestión de Usuarios</td>
+<td>Application Service</td>
+<td>Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Interfaz transporte</td>
+<td>Application Interface</td>
+<td>Feign Client.<br><br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>MOD0.JwtModule</td>
+<td>Application Component</td>
+<td>Manejo de token. Documentación: https://github.com/auth0/angular2-jwt</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>MOD0.Ngprime</td>
+<td>Application Component</td>
+<td>Manejo de componentes visuales Documentación: https://www.primefaces.org/primeng/#/</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>MOD0.NgxMaskModule</td>
+<td>Application Component</td>
+<td>Manejo de máscaras de input text. Documentación: https://github.com/JsDaddy/ngx-mask</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>MOD0.TranslateModule</td>
+<td>Application Component</td>
+<td>Manejo de internacionalización. Documentación: https://github.com/ngx-translate/core</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>MOD0.chart.js</td>
+<td>Application Component</td>
+<td>Componente utilizado para el manejo de graficas Documentación: https://www.chartjs.org/docs/latest/</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>MOD0.classlist.js</td>
+<td>Application Component</td>
+<td>Componete para el manejo de listas de datos en las gráficas Documentación: https://www.chartjs.org/docs/latest/</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>MOD0.cronstrue</td>
+<td>Application Component</td>
+<td>Componente para traducir una expresión cron a palabras Documentación: https://github.com/bradymholt/cronstrue</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>MOD0.file-saver</td>
+<td>Application Component</td>
+<td>Componente para descargar un archivo desde los bytes Documentación: https://github.com/eligrey/FileSaver.js#readme</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>MOD0.ngx-tinymce</td>
+<td>Application Component</td>
+<td>Editor html para generación de plantillas para cartas Documentación: https://cipchk.github.io/ngx-tinymce/#/</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>MOD0.ngx-ui-loader</td>
+<td>Application Component</td>
+<td>Manejo de Spinner para control de peticiones asíncronas. Documentación: https://github.com/t-ho/ngx-ui-loader</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>MOD0.quill</td>
+<td>Application Component</td>
+<td>Ccomponente para editor html Documentación: https://quilljs.com/</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>MOD0.sweetalert2</td>
+<td>Application Component</td>
+<td>Manejo de alertas de mensajes. Documentación: https://sweetalert2.github.io/</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Módulos Externos</td>
+<td>Grouping</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Repositorio Mi Mutual</td>
+<td>Application Component</td>
+<td>Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>SS02.reporte - cotizacion</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>SS02.reporte - estado - cotizacion</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Servicio de Almacenamiento de Datos</td>
+<td>Technology Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Servicio de Red</td>
+<td>Technology Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Servicio de archivos</td>
+<td>Technology Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Simuladores</td>
+<td>Application Service</td>
+<td>Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Unidad de Solidaridad y Seguros</td>
+<td>Grouping</td>
+<td>La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad)</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>app: Cotizador Web</td>
 <td>Application Component</td>
 <td>pkg: MiMutualWeb</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>app: Implementación de Servicios</td>
+<td>Application Component</td>
+<td>Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>app: Mi Mutual Central</td>
+<td>Application Component</td>
+<td>Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<h2 id="arqcotizador.-4a.-aplicación.-servicios">ArqCotizador. 4a. Aplicación. Servicios</h2>
+<div id="fig:id-id-3a9f664ae1d44c2fa789e33d6a6cc4b1" class="fignos">
+<figure>
+<img src="images/ArqCotizador.4a.Aplicación.Servicios.png" alt="Imagen 15: ArqCotizador. 4a. Aplicación. Servicios" />
+<figcaption aria-hidden="true"><span>Imagen 15:</span> ArqCotizador. 4a. Aplicación. Servicios</figcaption>
+</figure>
+</div>
+<p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
+<p><br></p>
+<h3 id="catálogo-de-elementos-14">Catálogo de Elementos</h3>
+<div id="tbl:tblelement-ArqCotizador.4a.Aplicación.Servicios-id" class="tablenos">
+<table id="tbl:tblelement-ArqCotizador.4a.Aplicación.Servicios-id">
+<caption><span>Tabla 17:</span> Elementos de la vista. </caption>
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Documentación</th>
+<th>Propiedad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Application Service</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Controlador</td>
+<td>Application Component</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Gestión de Productos</td>
+<td>Application Service</td>
+<td>Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Integración</td>
+<td>Application Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Interfaz</td>
+<td>Application Component</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Interfaz datos</td>
+<td>Application Component</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Interfaz transporte</td>
+<td>Application Interface</td>
+<td>Feign Client.<br><br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Operación</td>
+<td>Application Component</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Servicio</td>
+<td>Application Component</td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
@@ -2505,21 +2972,21 @@ Documentación: https://github.com/auth0/angular2-jwt</li>
 <p>Mi Mutual Web. Paquetes: dependencias, roles, implementación funciones de aplicación.</p>
 <p>versión 0.1</p>
 <h2 id="paquetes-y-dependencias-cotizador-web">Paquetes y Dependencias Cotizador Web</h2>
-<p>Módulos y componentes que hacen parte de la estructura de la aplicación Cotizador Web (basado en Angular 7 <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>).</p>
-<h2 id="módulos">Módulos</h2>
+<p>Módulos y componentes que hacen parte de la estructura de la aplicación Cotizador Web (basado en Angular 12 <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>).</p>
+<h2 id="módulos-cotizador-web">Módulos Cotizador Web</h2>
 <p>La estructura por módulos actual apunta a la escalabilidad y mantenimiento del Cotizador en términos de: organizar las partes de la aplicación, organización los bloques, extender la aplicación con libreras externas, proporcionar un entorno de resolución de plantillas y además, distribuir las cargas de los componentes y servicios que usa la aplicación.</p>
 <div id="fig:id-id-3bc899b013be4bb0818e8856b07c2b50" class="fignos">
 <figure>
-<img src="images/ArqCotizador.4a.Dependencias.png" alt="Imagen 14: ArqCotizador. 4a. Dependencias" />
-<figcaption aria-hidden="true"><span>Imagen 14:</span> ArqCotizador. 4a. Dependencias</figcaption>
+<img src="images/ArqCotizador.4a.Dependencias.png" alt="Imagen 16: ArqCotizador. 4a. Dependencias" />
+<figcaption aria-hidden="true"><span>Imagen 16:</span> ArqCotizador. 4a. Dependencias</figcaption>
 </figure>
 </div>
 <p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
 <p><br></p>
-<h3 id="catálogo-de-elementos-13">Catálogo de Elementos</h3>
+<h3 id="catálogo-de-elementos-15">Catálogo de Elementos</h3>
 <div id="tbl:tblelement-ArqCotizador.4a.Dependencias-id" class="tablenos">
 <table id="tbl:tblelement-ArqCotizador.4a.Dependencias-id">
-<caption><span>Tabla 16:</span> Elementos de la vista. </caption>
+<caption><span>Tabla 18:</span> Elementos de la vista. </caption>
 <colgroup>
 <col style="width: 47%" />
 <col style="width: 17%" />
@@ -2725,16 +3192,16 @@ Documentación: https://github.com/auth0/angular2-jwt</li>
 <p>versión 0.1.1</p>
 <div id="fig:id-id-bc7b34fbb33241e785ae91a9d3102378" class="fignos">
 <figure>
-<img src="images/ArqCotizador.5.Físico(despliegue).png" alt="Imagen 15: ArqCotizador. 5. Físico (despliegue)" />
-<figcaption aria-hidden="true"><span>Imagen 15:</span> ArqCotizador. 5. Físico (despliegue)</figcaption>
+<img src="images/ArqCotizador.5.Físico(despliegue).png" alt="Imagen 17: ArqCotizador. 5. Físico (despliegue)" />
+<figcaption aria-hidden="true"><span>Imagen 17:</span> ArqCotizador. 5. Físico (despliegue)</figcaption>
 </figure>
 </div>
 <p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
 <p><br></p>
-<h3 id="catálogo-de-elementos-14">Catálogo de Elementos</h3>
+<h3 id="catálogo-de-elementos-16">Catálogo de Elementos</h3>
 <div id="tbl:tblelement-ArqCotizador.5.Físico(despliegue)-id" class="tablenos">
 <table id="tbl:tblelement-ArqCotizador.5.Físico(despliegue)-id">
-<caption><span>Tabla 17:</span> Elementos de la vista. </caption>
+<caption><span>Tabla 19:</span> Elementos de la vista. </caption>
 <colgroup>
 <col style="width: 47%" />
 <col style="width: 17%" />
@@ -2928,16 +3395,16 @@ Documentación: https://github.com/auth0/angular2-jwt</li>
 </ul>
 <div id="fig:id-id-59beffe958dd4af68af3a4d2251241ec" class="fignos">
 <figure>
-<img src="images/ArqCotizador.7.Datos.Negocio.png" alt="Imagen 16: ArqCotizador. 7. Datos. Negocio" />
-<figcaption aria-hidden="true"><span>Imagen 16:</span> ArqCotizador. 7. Datos. Negocio</figcaption>
+<img src="images/ArqCotizador.7.Datos.Negocio.png" alt="Imagen 18: ArqCotizador. 7. Datos. Negocio" />
+<figcaption aria-hidden="true"><span>Imagen 18:</span> ArqCotizador. 7. Datos. Negocio</figcaption>
 </figure>
 </div>
 <p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
 <p><br></p>
-<h3 id="catálogo-de-elementos-15">Catálogo de Elementos</h3>
+<h3 id="catálogo-de-elementos-17">Catálogo de Elementos</h3>
 <div id="tbl:tblelement-ArqCotizador.7.Datos.Negocio-id" class="tablenos">
 <table id="tbl:tblelement-ArqCotizador.7.Datos.Negocio-id">
-<caption><span>Tabla 18:</span> Elementos de la vista. </caption>
+<caption><span>Tabla 20:</span> Elementos de la vista. </caption>
 <colgroup>
 <col style="width: 47%" />
 <col style="width: 17%" />
@@ -2954,37 +3421,55 @@ Documentación: https://github.com/auth0/angular2-jwt</li>
 </thead>
 <tbody>
 <tr class="odd">
+<td>DAT00.Asegurado</td>
+<td>Business Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
 <td>DAT00.Asociado</td>
 <td>Business Object</td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>DAT00.Beneficiario</td>
 <td>Business Object</td>
 <td></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>DAT00.Canal (medios del tomador/asociado)</td>
 <td>Business Object</td>
 <td></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>DAT00.Configuración (caracterización)</td>
 <td>Business Object</td>
 <td>Caracterización de productos, planes, parámetros<br></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>DAT00.Plan (producto pólizas seguros)</td>
 <td>Business Object</td>
 <td></td>
 <td></td>
 </tr>
+<tr class="odd">
+<td>DAT01.Cotización</td>
+<td>Business Object</td>
+<td></td>
+<td></td>
+</tr>
 <tr class="even">
-<td>DAT01. Cotización</td>
+<td>DAT01.PERSONA</td>
+<td>Data Object</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>DAT01.Vinculación</td>
 <td>Business Object</td>
 <td></td>
 <td></td>
@@ -2997,16 +3482,16 @@ Documentación: https://github.com/auth0/angular2-jwt</li>
 <p>undefined</p>
 <div id="fig:id-id-7ce9f9bf90d343c48ed121b2fa175972" class="fignos">
 <figure>
-<img src="images/VistasdeArquitecturaMiMutual.png" alt="Imagen 17: Vistas de Arquitectura Mi Mutual" />
-<figcaption aria-hidden="true"><span>Imagen 17:</span> Vistas de Arquitectura Mi Mutual</figcaption>
+<img src="images/VistasdeArquitecturaMiMutual.png" alt="Imagen 19: Vistas de Arquitectura Mi Mutual" />
+<figcaption aria-hidden="true"><span>Imagen 19:</span> Vistas de Arquitectura Mi Mutual</figcaption>
 </figure>
 </div>
 <p><em>Fuente: Repositorio arquitectura Mi Mutual (2023)</em></p>
 <p><br></p>
-<h3 id="catálogo-de-elementos-16">Catálogo de Elementos</h3>
+<h3 id="catálogo-de-elementos-18">Catálogo de Elementos</h3>
 <div id="tbl:tblelement-VistasdeArquitecturaMiMutual-id" class="tablenos">
 <table id="tbl:tblelement-VistasdeArquitecturaMiMutual-id">
-<caption><span>Tabla 19:</span> Elementos de la vista. </caption>
+<caption><span>Tabla 21:</span> Elementos de la vista. </caption>
 <thead>
 <tr class="header">
 <th>Nombre</th>
