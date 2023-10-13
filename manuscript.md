@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-13" />
   <meta name="citation_publication_date" content="2023-10-13" />
   <meta property="article:published_time" content="2023-10-13" />
-  <meta name="dc.modified" content="2023-10-13T18:30:42+00:00" />
-  <meta property="article:modified_time" content="2023-10-13T18:30:42+00:00" />
+  <meta name="dc.modified" content="2023-10-13T18:50:48+00:00" />
+  <meta property="article:modified_time" content="2023-10-13T18:50:48+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/a6482bb882a7a589a42380717293a0cd21bdd85c/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a6482bb882a7a589a42380717293a0cd21bdd85c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a6482bb882a7a589a42380717293a0cd21bdd85c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/e1aa2c7ed1e21a5ba750a34bc8c06b745444bff0/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/e1aa2c7ed1e21a5ba750a34bc8c06b745444bff0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/e1aa2c7ed1e21a5ba750a34bc8c06b745444bff0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.a6482bb de 13 Oct 2023
+| **Versión** del producto 1.e1aa2c7 de 13 Oct 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/a6482bb882a7a589a42380717293a0cd21bdd85c/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/e1aa2c7ed1e21a5ba750a34bc8c06b745444bff0/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@a6482bb](http://stefanini.sharepoint.com)
+[Sharepoint STEF@e1aa2c7](http://stefanini.sharepoint.com)
 del October 13, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.a6482bb del 13 Oct 2023 |
+| Versión        | 1.e1aa2c7 del 13 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -547,7 +547,7 @@ Mi Mutual Central. Paquetes: dependencias, roles, implementación funciones de a
 versión 0.1
 
 
-## Paquetes y Dependencias Mi Mutual
+### Paquetes y Dependencias Mi Mutual
 La estructura está basada en spring boot y lenguaje de programación JAVA 8, conformada por componentes de aplicación y administración del ciclo de vida de los objetos.
 
 Nombrado de paquetes para los servicios
@@ -566,7 +566,7 @@ Nombrado de paquetes para los servicios
 
 &lt;br&gt;
 
-## Entorno de Desarrollo
+### Entorno de Desarrollo
 Para la etapa de desarrollo la aplicación estará configurada para levantar un servidor Tomcat embebido el cual se encuentra configurado el pom.xml y el cual permite trabajar de forma mucho más ágil.
 
 Para el despliegue entre ambientes se manejará maven profiles con el fin de agregar las configuraciones de cada uno de estos.
@@ -679,21 +679,9 @@ _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 | Nombre           | Tipo | Documentación | Propiedad |
 |----------------|------|------|------|
-| DB2 AS400: SIPASDB | System Software | Las bases de datos a utilizar son: <br>
-<br>* DB2 AS400: SIPASDB
-<br>* Sql Server (...)
-<br>* Oracle (...)
-<br><br> |  |
-| Oracle DB: (...) | System Software | Las bases de datos a utilizar son: <br>
-<br>* DB2 AS400: SIPASDB
-<br>* Sql Server (...)
-<br>* Oracle (...)
-<br><br> |  |
-| SQL Server: (...) | System Software | Las bases de datos a utilizar son: <br>
-<br>* DB2 AS400: SIPASDB
-<br>* SQL Server (...)
-<br>* Oracle (...)
-<br><br> |  |
+| DB2 AS400: SIPASDB | System Software | Las bases de datos a utilizar son: * DB2 AS400: SIPASDB, * Sql Server (...), * Oracle (...) |  |
+| Oracle DB: (...) | System Software | Las bases de datos a utilizar son: * DB2 AS400: SIPASDB, * SQL Server (...), * Oracle (...) |  |
+| SQL Server: (...) | System Software | Las bases de datos a utilizar son: * DB2 AS400: SIPASDB, * SQL Server (...), * Oracle (...) |  |
 | Servicio de Almacenamiento de Datos | Technology Service |  |  |
 | Servicio de Red | Technology Service |  |  |
 | Servicio de archivos | Technology Service |  |  |
@@ -721,7 +709,7 @@ Mi Mutual Central. Entidades: Estructuras, objeto, relaciones con aplicación.
 versión 0.1
 
 
-## Entidades de Negocio Mi Mutual
+### Entidades de Negocio Mi Mutual
 Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.
 
 * Configuración (caracterización de productos, plan)
@@ -892,7 +880,7 @@ Mi Mutual Central. Entidades: Estructuras, objeto, relaciones con aplicación.
 versión 0.2.3
 
 
-## Entidades de Negocio Mi Mutual
+### Entidades de Negocio Mi Mutual
 
 * Configuración (caracterización de productos, plan)
 * Plan (producto pólizas seguros)
@@ -957,12 +945,12 @@ Cotizador Web Mi Mutual. Contexto Mi Mutual: Áreas negocio, componente central 
 versión 0.1
 
 
-## Contexto Mi Mutual Web
+### Contexto Mi Mutual Web
 La aplicación Cotizador Web hace parte de los módulos de interfaz web de Mi Mutual Central, representado por API Mi Mutual en el diagrama. Realizar cotizaciones de los planes de protección luego de la vinculación del asociado.
 
 La estructura por módulos permite realizar aplicaciones escalables y robustas ya que permite organizar las partes de la aplicación, la organización en bloques, extender la aplicación con funcionalidades de libreras externas, proporcionar un entorno de resolución de plantillas y además permite especificar la forma de la carga de cada uno de los componentes y servicios que conforman un módulo.
 
-## Módulos Externos
+### Módulos Externos
 Los módulos externos son todas y cada uno de las herramientas que se utilizan para complementar con funcionalidades ya desarrolladas y tomadas desde un repositorio externo (NPM).
 
 * TranslateModule: Manejo de internacionalización. Documentación: https://github.com/ngx-translate/core
@@ -980,7 +968,7 @@ Los módulos externos son todas y cada uno de las herramientas que se utilizan p
 
 &lt;br&gt;
 
-## Servicios Transversales 
+### Servicios Transversales 
 
 * AuthGuard: Validación de existencia de autenticación
 * DeaciveGuard: Validación de salida de un componente
@@ -1167,12 +1155,12 @@ Mi Mutual Web. Paquetes: dependencias, roles, implementación funciones de aplic
 versión 0.1
 
 
-## Paquetes y Dependencias Cotizador Web
+### Paquetes y Dependencias Cotizador Web
 Módulos y componentes que hacen parte de la estructura de la aplicación Cotizador Web (basado en Angular 12 [^1]).
 
 [^1]: Angular 2 tiene una arquitectura Modelo Vista Controlador (MVC) con el fin de hacer el desarrollo gestionado.
 
-## Módulos Cotizador Web
+### Módulos Cotizador Web
 La estructura por módulos actual apunta a la escalabilidad y mantenimiento del Cotizador en términos de: organizar las partes de la aplicación, organización los bloques, extender la aplicación con libreras externas, proporcionar un entorno de resolución de plantillas y además, distribuir las cargas de los componentes y servicios que usa la aplicación.
 
 ![ArqCotizador. 4a. Dependencias](images/ArqCotizador.4a.Dependencias.png){#fig:id-id-3bc899b013be4bb0818e8856b07c2b50 width=}
@@ -1287,7 +1275,7 @@ Mi Mutual Web. Entidades: Estructuras, objeto, relaciones con aplicación.
 versión 0.1
 
 
-## Entidades de Negocio Mi Mutual
+### Entidades de Negocio Mi Mutual
 Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.
 
 * Configuración (caracterización de productos, plan)
