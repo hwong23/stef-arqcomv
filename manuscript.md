@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-13" />
   <meta name="citation_publication_date" content="2023-10-13" />
   <meta property="article:published_time" content="2023-10-13" />
-  <meta name="dc.modified" content="2023-10-13T18:59:00+00:00" />
-  <meta property="article:modified_time" content="2023-10-13T18:59:00+00:00" />
+  <meta name="dc.modified" content="2023-10-13T19:24:35+00:00" />
+  <meta property="article:modified_time" content="2023-10-13T19:24:35+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/ac2a00e2bbe5e5c2628489102b5bdf4863cc41e5/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/ac2a00e2bbe5e5c2628489102b5bdf4863cc41e5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/ac2a00e2bbe5e5c2628489102b5bdf4863cc41e5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/a50e785836545796e04af5ecef656748de06c8d8/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a50e785836545796e04af5ecef656748de06c8d8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a50e785836545796e04af5ecef656748de06c8d8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.ac2a00e de 13 Oct 2023
+| **Versión** del producto 1.a50e785 de 13 Oct 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/ac2a00e2bbe5e5c2628489102b5bdf4863cc41e5/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/a50e785836545796e04af5ecef656748de06c8d8/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@ac2a00e](http://stefanini.sharepoint.com)
+[Sharepoint STEF@a50e785](http://stefanini.sharepoint.com)
 del October 13, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.ac2a00e del 13 Oct 2023 |
+| Versión        | 1.a50e785 del 13 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -1071,7 +1071,7 @@ _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 | Nombre           | Tipo | Documentación | Propiedad |
 |----------------|------|------|------|
 | Analistas | Business Role | Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes. |  |
-| Application Service | Application Service |  |  |
+| Application Service | Application Service | Otros servicios del contexto de Mi Mutual Central.<br> |  |
 | Asesores | Business Role | Asesores integrales |  |
 | Autorizaciones | Application Service | Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones usando el servicio del flujo de procesos. |  |
 | Auxiliares servicio | Business Role | Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes. |  |
@@ -1117,7 +1117,15 @@ Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.4.Aplicación-id}
 
 ## ArqCotizador. 4a. Aplicación. Servicios
 
+Mi Mutual. Coomeva, 2023.
 
+Especificaciones de Servicios. Aplicación Cotizador Web, Mi Mutual. Estado Actual. Estructura interna, comunicación e interfaces.
+
+versión 0.1
+
+
+
+Composición interna de los servivios de Mi Mutual Central, Mi Mutual Web, Cotizador Web. 
 
 ![ArqCotizador. 4a. Aplicación. Servicios](images/ArqCotizador.4a.Aplicación.Servicios.png){#fig:id-id-3a9f664ae1d44c2fa789e33d6a6cc4b1 width=}
 
@@ -1130,15 +1138,15 @@ _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 
 | Nombre           | Tipo | Documentación | Propiedad |
 |----------------|------|------|------|
-| Application Service | Application Service |  |  |
-| Controlador | Application Component |  |  |
+| Application Service | Application Service | Otros servicios del contexto de Mi Mutual Central.<br> |  |
+| Controlador | Application Component | Controlador interno del servicio. Punto de entrada a la lógica de expuesta. |  |
 | Gestión de Productos | Application Service | Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado. |  |
 | Integración | Application Service |  |  |
-| Interfaz | Application Component |  |  |
-| Interfaz datos | Application Component |  |  |
+| Interfaz | Application Component | Interfaz de inversión de dependencia a las clases del servicio.<br> |  |
+| Interfaz datos | Application Component | Acceso a datos del modelo del contexto de Mi Mutual Central.<br> |  |
 | Interfaz transporte | Application Interface | Feign Client.<br><br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados. |  |
 | Operación | Application Component |  |  |
-| Servicio | Application Component |  |  |
+| Servicio | Application Component | Exposición de componentes de negocio.<br> |  |
 
 Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.4a.Aplicación.Servicios-id}
 
