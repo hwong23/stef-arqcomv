@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-13" />
   <meta name="citation_publication_date" content="2023-10-13" />
   <meta property="article:published_time" content="2023-10-13" />
-  <meta name="dc.modified" content="2023-10-13T19:24:35+00:00" />
-  <meta property="article:modified_time" content="2023-10-13T19:24:35+00:00" />
+  <meta name="dc.modified" content="2023-10-13T19:40:56+00:00" />
+  <meta property="article:modified_time" content="2023-10-13T19:40:56+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/a50e785836545796e04af5ecef656748de06c8d8/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a50e785836545796e04af5ecef656748de06c8d8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a50e785836545796e04af5ecef656748de06c8d8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/a8752a5027c455ca1ff55be9257e777dd7513eb3/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a8752a5027c455ca1ff55be9257e777dd7513eb3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/a8752a5027c455ca1ff55be9257e777dd7513eb3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.a50e785 de 13 Oct 2023
+| **Versión** del producto 1.a8752a5 de 13 Oct 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/a50e785836545796e04af5ecef656748de06c8d8/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/a8752a5027c455ca1ff55be9257e777dd7513eb3/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@a50e785](http://stefanini.sharepoint.com)
+[Sharepoint STEF@a8752a5](http://stefanini.sharepoint.com)
 del October 13, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.a50e785 del 13 Oct 2023 |
+| Versión        | 1.a8752a5 del 13 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -284,9 +284,9 @@ versión 0.2.1
 
 
 ## Contexto Mi Mutual Central
-El sistema principal de fondo Mi Mutual Central es la composición de las funciones de negocio de la Unidad de Solidaridad de Coomeva. Las funciones de negocio referidas, como Gestión Beneficiarios,  Certificados, Gestión Beneficiarios, aparecen dentro del componente principal en la imagen.
+El sistema principal de fondo Mi Mutual Central es la composición de las funciones de negocio de la Unidad de Solidaridad de Coomeva. Las funciones de negocio referidas, como Gestión Beneficiarios, Certificados, Gestión Beneficiarios, aparecen dentro del componente principal en la imagen.
 
-Este entregable documenta los diferentes módulos y componentes que hacen parte de la estructura de una aplicación en Angular 7 y como es su interacción para conformar una arquitectura robusta y escalable para aplicaciones de gran tamaño.
+Este entregable documenta los diferentes módulos y componentes que hacen parte de la estructura de una aplicación en Angular 12 y como es su interacción para conformar una arquitectura robusta y escalable para aplicaciones de gran tamaño.
 
 Las librerías Spring Boot Security y Spring Boot Oauth2 proveen características de seguridad entre Vista (Angular 2) y Controlador. Estas son responsables de que únicamente permita el acceso si se está autenticado. Además, para realizar el proceso de autenticación se delega a la aplicación SISPRO (Coomeva) que funciona como un servidor de autenticación.
 
@@ -362,7 +362,7 @@ _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 | Registro Servicios: eureka | Application Component | Eureka: Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.<br> |  |
 | Repositorio Mi Mutual | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br> |  |
 | Ruteador (proxy): gateway | Application Component | Gateway: Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.<br> |  |
-| app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
+| app: Cotizador Web | Application Component | pkg: MiMutualWeb<br><br> |  |
 | app: Implementación de Servicios | Application Component | Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br> |  |
 | app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. |  |
 
@@ -480,7 +480,7 @@ _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 | Unidad de Solidaridad y Seguros | Grouping | La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad) |  |
 | Vinculación | Application Component |  |  |
 | app: Cotización y Ventas | Application Component |  |  |
-| app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
+| app: Cotizador Web | Application Component | pkg: MiMutualWeb<br><br> |  |
 | app: Implementación de Servicios | Application Component | Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br> |  |
 | app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. |  |
 
@@ -620,7 +620,7 @@ Especificaciones de despliegue Mi Mutual, 2023, componente central.
 * Acceso a Datos: Spring Data 2.1.4
 * Seguridad de las API: Spring Security + Oauth2.0
 * Plataforma de despliegue Backend: Tomcat Spring boot
-* Tecnologías para el frontend: Angular 7
+* Tecnologías para el frontend: Angular 12
 * Librería de Estilos: Bootstrap 4
 * Servidor web (HTTP 1.1): Apache 2.X
 
@@ -1004,7 +1004,7 @@ _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 | Util | Application Function | En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br><br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br><br> |  |
 | admin Páginas | Application Function |  |  |
 | admin Servicios | Application Function |  |  |
-| app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
+| app: Cotizador Web | Application Component | pkg: MiMutualWeb<br><br> |  |
 
 Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.1.Contexto-id}
 
@@ -1039,7 +1039,7 @@ _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 | Repositorio Mi Mutual | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br><br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br> |  |
 | Ruteos | Application Function |  |  |
 | Servicios | Application Function |  |  |
-| app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
+| app: Cotizador Web | Application Component | pkg: MiMutualWeb<br><br> |  |
 
 Table: Elementos de la vista. {#tbl:tblelement-ArqCotizador.2.Contenedores-id}
 
@@ -1105,7 +1105,7 @@ _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 | Servicio de archivos | Technology Service |  |  |
 | Simuladores | Application Service | Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado. |  |
 | Unidad de Solidaridad y Seguros | Grouping | La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad) |  |
-| app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
+| app: Cotizador Web | Application Component | pkg: MiMutualWeb<br><br> |  |
 | app: Implementación de Servicios | Application Component | Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br> |  |
 | app: Mi Mutual Central | Application Component | Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa. |  |
 
@@ -1189,7 +1189,7 @@ _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 | Util | Application Function | En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br><br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br><br> |  |
 | admin Páginas | Application Function |  |  |
 | admin Servicios | Application Function |  |  |
-| app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
+| app: Cotizador Web | Application Component | pkg: MiMutualWeb<br><br> |  |
 | pkg: admin | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
 | pkg: administración | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
 | pkg: asociados | Application Component | controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación. |  |
@@ -1229,6 +1229,23 @@ versión 0.1.1
 
 
 
+### Especificaciones de Despliegue Cotizador Web
+Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local (2022).
+
+#### Recursos Requeridos
+* Git. Se debe instalar git para poder realizar la clonación de cada uno de los proyectos mas adelante.
+* Instalación SmartGit. Se debe instalar Smartgit para poder realizar la clonación de cada uno de los proyectos mas adelante, este es opcional ya que es una interfaz gráfica de git mas amigable para el usuario en caso que no desee trabajar con la consola.
+* DBeaver. Se debe instalar DBeaver para poder acceder a la base de datos. 
+* Instalación Maven. Se debe instalar maven para poder compilar los proyectos, nos debemos asegurar de instalar la versión 3.6.3, en caso que no se encuentra en la página oficial copiar la carpeta que esta en el repositorio a archivo de programas. 
+* Java 8. Se debe instalar Java para poder desplegar los proyectos mas adelante, nos debemos asegurar de instalar la versión 8. 
+* STS. Se debe instalar el IDE para realizar modificaciones a los proyectos back mas adelante en este caso Spring Tools 4 for Eclipse. La carpeta que genera el instalador la copiamos a archivos de programa. 
+* Instalación Lombok. Se debe instalar el lombok seleccionando el IDE que acabamos de instarlar en este caso el STS.
+* Postman. Se debe instalar el postman para poder consumir los servicios del backend mas adelante cuando ya se hayan desplegado.
+* Node Js. Se debe instalar Node Js para configurar el proyecto front mas adelante, nos debemos asegurar de instalar la versión v14.2.0.
+* Visual Studio Code. Se debe instalar el IDE para realizar modificaciones al proyecto front mas adelante en este caso Visual Studio code. 
+k. Angular 9.1.12 o superior.
+
+&lt;br&gt;
 
 ![ArqCotizador. 5. Físico (despliegue)](images/ArqCotizador.5.Físico(despliegue).png){#fig:id-id-bc7b34fbb33241e785ae91a9d3102378 width=}
 
@@ -1243,10 +1260,11 @@ _Fuente: Repositorio arquitectura Mi Mutual (2023)_
 |----------------|------|------|------|
 | Conexión: jdbc | Artifact |  |  |
 | Entorno Angular: ng12 | System Software |  |  |
+| Entorno JS: node 14.2.0 | System Software |  |  |
 | Repositorio: db2 iSerie | System Software |  |  |
 | Servicios: tomcat | System Software |  |  |
 | app: Asociados | Application Component | Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios. |  |
-| app: Cotizador Web | Application Component | pkg: MiMutualWeb |  |
+| app: Cotizador Web | Application Component | pkg: MiMutualWeb<br><br> |  |
 | app: Implementación de Servicios | Application Component | Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br> |  |
 | app: Protecciones | Application Component | Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones. |  |
 | app: Reclamaciones | Application Component | Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos. |  |
