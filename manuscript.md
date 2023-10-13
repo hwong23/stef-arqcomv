@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-13" />
   <meta name="citation_publication_date" content="2023-10-13" />
   <meta property="article:published_time" content="2023-10-13" />
-  <meta name="dc.modified" content="2023-10-13T18:50:48+00:00" />
-  <meta property="article:modified_time" content="2023-10-13T18:50:48+00:00" />
+  <meta name="dc.modified" content="2023-10-13T18:59:00+00:00" />
+  <meta property="article:modified_time" content="2023-10-13T18:59:00+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/e1aa2c7ed1e21a5ba750a34bc8c06b745444bff0/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/e1aa2c7ed1e21a5ba750a34bc8c06b745444bff0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/e1aa2c7ed1e21a5ba750a34bc8c06b745444bff0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/ac2a00e2bbe5e5c2628489102b5bdf4863cc41e5/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/ac2a00e2bbe5e5c2628489102b5bdf4863cc41e5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/ac2a00e2bbe5e5c2628489102b5bdf4863cc41e5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.e1aa2c7 de 13 Oct 2023
+| **Versión** del producto 1.ac2a00e de 13 Oct 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/e1aa2c7ed1e21a5ba750a34bc8c06b745444bff0/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/ac2a00e2bbe5e5c2628489102b5bdf4863cc41e5/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@e1aa2c7](http://stefanini.sharepoint.com)
+[Sharepoint STEF@ac2a00e](http://stefanini.sharepoint.com)
 del October 13, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.e1aa2c7 del 13 Oct 2023 |
+| Versión        | 1.ac2a00e del 13 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -1343,7 +1343,7 @@ Table: Elementos de la vista. {#tbl:tblelement-VistasdeArquitecturaMiMutual-id}
 
 
 
-## Requerimientos de Administración
+# Requerimientos de Administración
 1. Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
 1. Administrar los Perfiles de acceso por rol: Esta funcionalidad permitirá configurar a que funcionalidades u opciones de la solución puede entrar un usuario con un rol específico. Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir configurar, activar, desactivar usuarios de las soluciones desarrolladas.
 1. Administrar los permisos de acceso: Esta funcionalidad permite definir específicamente a que servicios de la solución puede ingresar un usuario (CRUD). 
@@ -1358,7 +1358,7 @@ Table: Elementos de la vista. {#tbl:tblelement-VistasdeArquitecturaMiMutual-id}
 <br>
 
 
-## Requerimientos de Seguridad
+# Requerimientos de Seguridad
 1. Las soluciones deben dar cumplimiento a las políticas institucionales del sistema de gestión de seguridad de la información establecidas por la entidad que busca garantizar la confidencialidad, integridad y disponibilidad de la información que se genera, procesa, almacena y/o transmite en los sistemas de Información de la Entidad. 
 1. Las soluciones de automatización de procesos a implementar deben permitir la Gestión de Seguridad de Usuarios, grupos de usuarios y asignación de Roles y perfiles de usuarios, permitiendo asociar las acciones disponibles en la solución con respecto a roles de usuario, permitiendo parametrizar las funcionalidades que cada actor puede usar en la solución. 
 1. Un usuario puede estar asociado a uno o más roles, de tal manera que los menús de navegación de la solución se muestran o despliegan dependiendo de las acciones asociadas a cada rol de usuario, permitiendo así que cuando el usuario es autenticado correctamente, la solución verifica los roles que tiene activos para otorgarle únicamente las acciones autorizadas. 
