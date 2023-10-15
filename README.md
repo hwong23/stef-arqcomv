@@ -12,3 +12,4 @@ Este documento tiene como propósito presentar la arquitectura del aplicativo $A
 ### Versiones (7)
 This build is based on hook6 280a02f https://github.com/stefarqcomv/commit/280a02f.
 This build is based on hook7 9f68dac https://github.com/stefarqcomv/commit/9f68dac.
+cambio
