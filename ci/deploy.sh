@@ -53,9 +53,9 @@ fi
 fi
 
 # Fetch and create gh-pages and output branches
-git remote set-branches --add origin gh-pages output
-git fetch origin gh-pages:gh-pages output:output || \
-  echo >&2 "[INFO] could not fetch gh-pages or output from origin."
+git remote set-branches --add origin gh-pages output arq
+git fetch origin gh-pages:gh-pages output:output arq:arq || \
+  echo >&2 "[INFO] could not fetch gh-pages, output or arq from origin."
 
 
 # Configure versioned webpage and timestamp
@@ -94,6 +94,15 @@ ghp-import \
   --branch=gh-pages \
   --message="$MESSAGE" \
   webpage
+
+# Deploy the webpage directory to gh-pages
+# ghp-import \
+#   --no-jekyll \
+#   --follow-links \
+#   --push \
+#   --branch=arq \
+#   --message="$MESSAGE" \
+#   webpage
 
 if [ $MANUBOT_DEPLOY_VIA_SSH = "true" ]; then
   # Workaround https://github.com/travis-ci/travis-ci/issues/8082
