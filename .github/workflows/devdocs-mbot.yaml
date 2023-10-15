@@ -74,8 +74,8 @@ jobs:
           echo "PROY_DESCR=Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva" >> $GITHUB_ENV
           echo "APLICATIVO=Mi Mutual" >> $GITHUB_ENV
           echo "CLIENTE=STEF - Coomeva" >> $GITHUB_ENV
-          echo "$(git show -s --format=%s)"
-          
+          echo "COMMIT_MSJ=$(git show -s --format=%s)" >> $GITHUB_ENV
+          echo "mensaje ${{ github.event.head_commit.message }}"
       - name: Cache
         uses: actions/cache@v3
         with:
