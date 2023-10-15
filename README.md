@@ -9,4 +9,4 @@ Este documento tiene como propósito presentar la arquitectura del aplicativo $A
 + **HTML manuscript** at https://hwong23.github.io/pgn-078/
 + **PDF manuscript** at https://hwong23.github.io/pgn-078/manuscript.pdf
 
-### Versiones (3)
+### Versiones (4)
