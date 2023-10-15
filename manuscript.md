@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-15" />
   <meta name="citation_publication_date" content="2023-10-15" />
   <meta property="article:published_time" content="2023-10-15" />
-  <meta name="dc.modified" content="2023-10-15T04:46:46+00:00" />
-  <meta property="article:modified_time" content="2023-10-15T04:46:46+00:00" />
+  <meta name="dc.modified" content="2023-10-15T20:04:30+00:00" />
+  <meta property="article:modified_time" content="2023-10-15T20:04:30+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/6cd145e5f3e50ca904a010edd960440942324c1a/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/6cd145e5f3e50ca904a010edd960440942324c1a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/6cd145e5f3e50ca904a010edd960440942324c1a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/da3c6d7bee7fa3f6239b9182dbd29c99cf667e70/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/da3c6d7bee7fa3f6239b9182dbd29c99cf667e70/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/da3c6d7bee7fa3f6239b9182dbd29c99cf667e70/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.6cd145e de 15 Oct 2023
+| **Versión** del producto 1.da3c6d7 de 15 Oct 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/6cd145e5f3e50ca904a010edd960440942324c1a/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/da3c6d7bee7fa3f6239b9182dbd29c99cf667e70/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@6cd145e](http://stefanini.sharepoint.com)
+[Sharepoint STEF@da3c6d7](http://stefanini.sharepoint.com)
 del October 15, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.6cd145e del 15 Oct 2023 |
+| Versión        | 1.da3c6d7 del 15 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
