@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-25" />
   <meta name="citation_publication_date" content="2023-10-25" />
   <meta property="article:published_time" content="2023-10-25" />
-  <meta name="dc.modified" content="2023-10-25T16:09:57+00:00" />
-  <meta property="article:modified_time" content="2023-10-25T16:09:57+00:00" />
+  <meta name="dc.modified" content="2023-10-25T17:13:12+00:00" />
+  <meta property="article:modified_time" content="2023-10-25T17:13:12+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/df2b736691b63118bb53be4f5f35d49b89b1fae0/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/df2b736691b63118bb53be4f5f35d49b89b1fae0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/df2b736691b63118bb53be4f5f35d49b89b1fae0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/22939535687973eddf49bdf5bca68bfdc9d00491/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/22939535687973eddf49bdf5bca68bfdc9d00491/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/22939535687973eddf49bdf5bca68bfdc9d00491/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.df2b736 de 25 Oct 2023
+| **Versión** del producto 1.2293953 de 25 Oct 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/df2b736691b63118bb53be4f5f35d49b89b1fae0/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/22939535687973eddf49bdf5bca68bfdc9d00491/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@df2b736](http://stefanini.sharepoint.com)
+[Sharepoint STEF@2293953](http://stefanini.sharepoint.com)
 del October 25, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.df2b736 del 25 Oct 2023 |
+| Versión        | 1.2293953 del 25 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -4862,8 +4862,8 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 |**DAT00.Beneficiario**|business-object|||
 |**DAT00.Canal (medios del tomador/asociado)**|business-object|||
 |**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
+|**DAT00.Cotización**|business-object|||
 |**DAT00.Plan (producto pólizas seguros)**|business-object|||
-|**DAT01.Cotización**|business-object|||
 |**DAT01.Vinculación**|business-object|||
 |**DAT01.PERSONA**|data-object|||
 |**DAT01.PERSONA**|data-object|||
@@ -4871,7 +4871,7 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 |**DAT01.PERSONA**|data-object|||
 
 
-``Generated on: Wed Oct 25 2023 10:58:51 GMT-0500 (COT)``
+``Generated on: Wed Oct 25 2023 12:06:15 GMT-0500 (COT)``
 
 # Requerimientos de Administración
 1. Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
