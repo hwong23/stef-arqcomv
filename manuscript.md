@@ -5,7 +5,7 @@ keywords:
 - gobierno
 - Coomeva
 lang: en-US
-date-meta: '2023-10-17'
+date-meta: '2023-10-25'
 author-meta:
 - Equipo arquitectura STEF-COOMV.
 header-includes: |
@@ -15,11 +15,11 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-10-17" />
-  <meta name="citation_publication_date" content="2023-10-17" />
-  <meta property="article:published_time" content="2023-10-17" />
-  <meta name="dc.modified" content="2023-10-17T13:09:02+00:00" />
-  <meta property="article:modified_time" content="2023-10-17T13:09:02+00:00" />
+  <meta name="dc.date" content="2023-10-25" />
+  <meta name="citation_publication_date" content="2023-10-25" />
+  <meta property="article:published_time" content="2023-10-25" />
+  <meta name="dc.modified" content="2023-10-25T15:33:53+00:00" />
+  <meta property="article:modified_time" content="2023-10-25T15:33:53+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/20c5010942e92b7ee2f110f388e4a03314cf34ff/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/20c5010942e92b7ee2f110f388e4a03314cf34ff/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/20c5010942e92b7ee2f110f388e4a03314cf34ff/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/43c5300d2b169cd514a19edc45c5f8d15c170e88/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/43c5300d2b169cd514a19edc45c5f8d15c170e88/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/43c5300d2b169cd514a19edc45c5f8d15c170e88/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.20c5010 de 17 Oct 2023
+| **Versión** del producto 1.43c5300 de 25 Oct 2023
 
 | **Presentado a**
 
@@ -87,7 +87,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 17 Oct 2023
+| 25 Oct 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -95,10 +95,10 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/20c5010942e92b7ee2f110f388e4a03314cf34ff/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/43c5300d2b169cd514a19edc45c5f8d15c170e88/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@20c5010](http://stefanini.sharepoint.com)
-del October 17, 2023.
+[Sharepoint STEF@43c5300](http://stefanini.sharepoint.com)
+del October 25, 2023.
 </em></small>
 
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.20c5010 del 17 Oct 2023 |
+| Versión        | 1.43c5300 del 25 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -1368,6 +1368,3510 @@ Table: Elementos de la vista. {#tbl:tblelement-VistasdeArquitecturaMiMutual-id}
 
 
 
+
+<!--
+Single-page HTML Export
+
+Created with Archi (https://www.archimatetool.com) and the following jArchi script:
+https://github.com/archi-contribs/jarchi-single-page-html-export
+
+Copyright (c) 2020 Phillip Beauvoir & Jean-Baptiste Sarrodie - MIT License
+-->
+PGN-078
+
+## Doc.1.Datos SUI
+
+undefined
+
+
+
+![Doc.1.Datos SUI](images/Doc.1.DatosSUI.png){#fig:id-id-da6ff55a01c445e5b57abe5bba908702 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Descripción de Entidades de Datos Migración SUI PGN | Grouping |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Doc.1.DatosSUI-id}
+
+<br>
+
+
+
+## Doc.2.Infraestructura SUI
+
+undefined
+
+
+
+![Doc.2.Infraestructura SUI](images/Doc.2.InfraestructuraSUI.png){#fig:id-id-d20f6681ac6249bf88591c49616de26a width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Descripción de Infraestructura Migración SUI PGN | Grouping |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Doc.2.InfraestructuraSUI-id}
+
+<br>
+
+
+
+## Doc.3.Migración Funcional SUI
+
+undefined
+
+
+
+![Doc.3.Migración Funcional SUI](images/Doc.3.MigraciónFuncionalSUI.png){#fig:id-id-feee5640a7664190836510f20d08a457 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Análisis de Productos | Grouping |  |  |
+| Arquitectura de Seguridad, SUI Migración | Grouping |  |  |
+| Organización cambios arquitectura | Grouping |  |  |
+| Patrón de Diseño Línea Base SUI PGN | Grouping |  |  |
+| Patrón de Diseño Migración SUI PGN | Grouping |  |  |
+| Riesgos Técnicos | Grouping |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Doc.3.MigraciónFuncionalSUI-id}
+
+<br>
+
+
+
+## Doc.4.PGN Contractual
+
+undefined
+
+
+
+![Doc.4.PGN Contractual](images/Doc.4.PGNContractual.png){#fig:id-id-e7f7d2ccbf294528b5d78a0bd1efe1fe width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| CI | Grouping |  |  |
+| Componentes | Grouping |  |  |
+| Contexto | Grouping |  |  |
+| Física | Grouping |  |  |
+| Interoperabilidad | Grouping |  |  |
+| Motivadores | Grouping |  |  |
+| Seguridad | Grouping |  |  |
+| Tecnología | Grouping |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Doc.4.PGNContractual-id}
+
+<br>
+
+
+
+## Lineabase.0.SIU applicación
+
+Procuraduría General de la Nación
+Proyecto Migración SIU, 2023. Fase II
+
+Línea base sistema único de información. PGN. Componentes originales Fase I. Organización de la Aplicación.
+
+versión 0.11
+
+
+
+Procuraduría General de la Nación, proyecto Migración SIU, 2023, Fase II. Línea base del sistema único de información (SUI en adelante) de la PGN. Presentación de componentes de software  originales implementados en la Fase I del presente proyecto.
+
+
+## Representación Arquitectónica
+Con una arquitectura orientada a servicios SUI recopila:
+
+1. Runtime: Es el servicio que interactúa con el usuario final (GUI) elaborado en Angular 11
+1. API Tx: Servicio api rest base node encargado de realizar las transacciones básicas CRUD
+1. API Config / Seguridad. Servicio Web API .Net Framework encargado de gestionar características con la autenticación y configuración
+
+&lt;br&gt;
+
+
+![Lineabase.0.SIU applicación](images/Lineabase.0.SIUapplicación.png){#fig:id-id-d1c66332737c4f8294474c4bbd0ebd52 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| App | Application Component |  |  |
+| App PGN Móvil | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethikal Hacking. 
+<br>
+<br>Protección de datos personales, 
+<br>Los sistemas de información que recogen, procesan y almacenan información de los derechos de las personas se deben almacenar de forma adecuada, la información que pueda ser vulnerada puede generar obliaciones legales y éticas con respecto a la perdida de informacion confidencial por parte de ciudadanos del pais. 
+<br>
+<br>La informacion contenida en las bases de datos debe tener los mecanismos de cifrado que en otros apartados se han mencionado. 
+<br>La legislación que hay que tener como referencia, ley 1581 de 2012. Decreto 1377 de 2013
+<br>
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br> |  |
+| App PGN Web | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethical Hacking. 
+<br>Los resultados permitirán identificar los requisitos de seguridad que los sistemas de informacion o servicios web deberán cumplir.
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br>El Login deberá evidenciar el control de errores, al momento de realizar la validación deberá mensaje de error para el caso que se autentique con credenciales erradas.  |  |
+| Application Collaboration | Application Collaboration |  |  |
+| Application Collaboration | Application Collaboration |  |  |
+| Application Service (NLB) | Application Service |  |  |
+| Config | Application Component |  |  |
+| Interfaz de datos 1 | Application Service |  |  |
+| Interfaz de datos 2 | Application Service |  |  |
+| Punto acceso público | Application Interface | URL tipo C<br>HTTP |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Lineabase.0.SIUapplicación-id}
+
+<br>
+
+
+
+## Lineabase.0.SIU applicación. física
+
+Procuraduría General de la Nación
+Proyecto Migración SIU, 2023. Fase II
+
+Línea base sistema único de información. PGN. Componentes originales Fase I.
+
+versión 0.11.1
+
+
+
+Procuraduría General de la Nación (PGN), módulo SIU migrado, 2023. Elementos físicos que soportan a la aplicación Sistema de Información Único (SIU en adelante) de la PGN, actual Fase I y existente en Fase II. Presentación de componentes de software y tecnologeia física (hardware) implementados en la Fase I y requeridos por Fase II (presente proyecto).
+
+## Representación Arquitectónica
+Con una arquitectura orientada a servicios SUI recopila:
+
+1. Runtime: Es el servicio que interactúa con el usuario final (GUI) elaborado en Angular 11
+1. API Tx: Servicio api rest base node encargado de realizar las transacciones básicas CRUD
+1. API Config / Seguridad. Servicio Web API .Net Framework encargado de gestionar características con la autenticación y configuración
+
+&lt;br&gt;
+
+![Lineabase.0.SIU applicación. física](images/Lineabase.0.SIUapplicación.física.png){#fig:id-id-f3eee2e860604899903c6b48c2f76335 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| App | Application Component |  |  |
+| App PGN Móvil | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethikal Hacking. 
+<br>
+<br>Protección de datos personales, 
+<br>Los sistemas de información que recogen, procesan y almacenan información de los derechos de las personas se deben almacenar de forma adecuada, la información que pueda ser vulnerada puede generar obliaciones legales y éticas con respecto a la perdida de informacion confidencial por parte de ciudadanos del pais. 
+<br>
+<br>La informacion contenida en las bases de datos debe tener los mecanismos de cifrado que en otros apartados se han mencionado. 
+<br>La legislación que hay que tener como referencia, ley 1581 de 2012. Decreto 1377 de 2013
+<br>
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br> |  |
+| App PGN Web | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethical Hacking. 
+<br>Los resultados permitirán identificar los requisitos de seguridad que los sistemas de informacion o servicios web deberán cumplir.
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br>El Login deberá evidenciar el control de errores, al momento de realizar la validación deberá mensaje de error para el caso que se autentique con credenciales erradas.  |  |
+| Application Collaboration | Application Collaboration |  |  |
+| Application Collaboration | Application Collaboration |  |  |
+| Application Service (NLB) | Application Service |  |  |
+| Balanceador | Node |  |  |
+| Communication Network (DMZ) | Communication Network |  |  |
+| Communication Network (LAN) | Communication Network |  |  |
+| Communication Network (internet) | Communication Network |  |  |
+| Config | Application Component |  |  |
+| Interfaz de datos 1 | Application Service |  |  |
+| Interfaz de datos 2 | Application Service |  |  |
+| Punto acceso público | Application Interface | URL tipo C<br>HTTP |  |
+| Servidor BDD App | Node | Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz<br>Discos	SO C: 126 GB, Backup E: 511 GB, SQL Data F: 510 GB, SQL Log   G: 510 GB, TempDB  G: 63.6 GB.<br> |  |
+| Servidor BDD Config | Node | Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz<br>Discos	SO C: 80 GB, Backup E: 250 GB, SQL Data F: 250 GB, SQL Log G: 250 GB, TempDB  G: 30 GB.<br> |  |
+| Servidor Web App | Node | Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM	8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos	SO C: 126 GB. SO D: 16 GB.<br> |  |
+| Servidor Web Canales | Node | Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM	8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos	SO C: 126 GB. SO D: 16 GB.<br> |  |
+| www pgn com | Technology Interface |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Lineabase.0.SIUapplicación.física-id}
+
+<br>
+
+
+
+## Lineabase.1.SIU componente
+
+
+Distribución de los servicios y paquetes que integran la aplicación de SUI. 
+
+Cuatro paquetes con tecnologías respectivas
+
+1. Angular 11 (Web)
+1. API Transaccional (Node Js)
+1. API Config (C#)
+1. Persistencia (SQL)
+
+Asuntos de la Migración:
+
+* Estrategia CMS central
+* Motor de búsqueda
+* Estatego como BI
+* Conciliación y Doku
+* Gestión de sesiones / caducidad
+
+
+![Lineabase.1.SIU componente](images/Lineabase.1.SIUcomponente.png){#fig:id-id-4f2604a6793e41ce9eb978dca0209b03 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| API externas | Application Service |  |  |
+| App | Application Component |  |  |
+| App PGN Móvil | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethikal Hacking. 
+<br>
+<br>Protección de datos personales, 
+<br>Los sistemas de información que recogen, procesan y almacenan información de los derechos de las personas se deben almacenar de forma adecuada, la información que pueda ser vulnerada puede generar obliaciones legales y éticas con respecto a la perdida de informacion confidencial por parte de ciudadanos del pais. 
+<br>
+<br>La informacion contenida en las bases de datos debe tener los mecanismos de cifrado que en otros apartados se han mencionado. 
+<br>La legislación que hay que tener como referencia, ley 1581 de 2012. Decreto 1377 de 2013
+<br>
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br> |  |
+| App PGN Web | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethical Hacking. 
+<br>Los resultados permitirán identificar los requisitos de seguridad que los sistemas de informacion o servicios web deberán cumplir.
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br>El Login deberá evidenciar el control de errores, al momento de realizar la validación deberá mensaje de error para el caso que se autentique con credenciales erradas.  |  |
+| Application Service (NLB) | Application Service |  |  |
+| Archivos Compartidos | Application Service |  |  |
+| CDN Contenidos | Application Service |  |  |
+| Config | Application Component |  |  |
+| Controlador admin | Application Component |  |  |
+| Controlador frontal mvl | Application Component |  |  |
+| Controlador frontal web | Application Component | -	Verificados los SSL, se recomienda adquirir SSL seguros, con entidades certificadoras. 
+<br>Si se desea continuar con SSL de Let's Encrypt, se recomienda automatizar el proceso de actualización dado que al dejar estos en modo actualización manual es probable el olvido de esta actualización (Estos certificados se deben actualizar trimestralmente y no cuentan con las características de seguridad necesarias. 
+<br> |  |
+| Controlador funcional | Application Component |  |  |
+| Doku (gest. doc.) | Application Service |  |  |
+| Identidades | Application Service |  |  |
+| Interfaz de aplicación (runtime) | Application Interface | Servidor web:  Microsoft-IIS/10.0 
+<br>Marco de Programación: ASP.NET
+<br>Huellas digitales identificadas:  
+<br>Huella digital SHA-256 “FC:79:06:7E:F5:24:20:50:F1:C0:74:F7:85:56:B9:05:B7:33:A3:2D:44:A0:48”
+<br>Huella digital SHA1 “8C:48:BD:E2:F5:18:18:C3:85:96:68:44:2E:28:A0:68:08:2F:0A:BE”
+<br> |  |
+| Interfaz de datos 1 | Application Service |  |  |
+| Interfaz de datos 2 | Application Service |  |  |
+| Interfaz de datos 3 | Application Service |  |  |
+| Mensaje: JSON | Data Object |  |  |
+| Modelo (neg) | Application Component |  |  |
+| PGN SIU | Grouping | El objetivo principal de la arquitectura del SUI de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la PGN.<br><br>Los objetivos secundarios de esta arquitectura SUI de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br><br> |  |
+| Persistencia | Application Collaboration |  |  |
+| Puerto datos 1 | Application Component |  |  |
+| Puerto datos 2 | Application Component |  |  |
+| RQR. Administrativos | Requirement |  |  |
+| RQR. Funcionales | Requirement |  |  |
+| RQR. Ingeniería | Requirement |  |  |
+| RQR. Seguridad | Requirement | Requerimientos de seguridad, SUI, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br> |  |
+| Seguridad | Application Component |  |  |
+| Transacciones | Application Component |  |  |
+| Utilitario | Application Component |  |  |
+| Vista móvil | Application Component |  |  |
+| Vista web | Application Component | -	Verificados los SSL, se recomienda adquirir SSL seguros, con entidades certificadoras. 
+<br>Si se desea continuar con SSL de Let's Encrypt, se recomienda automatizar el proceso de actualización dado que al dejar estos en modo actualización manual es probable el olvido de esta actualización (Estos certificados se deben actualizar trimestralmente y no cuentan con las características de seguridad necesarias. 
+<br>4.	SERVICIOS IDENTIFICADOS:
+<br>
+<br>Servidor web:  Microsoft-IIS/10.0 
+<br>Marco de Programación: ASP.NET
+<br>Huellas digitales identificadas:  
+<br>Huella digital SHA-256 “FC:79:06:7E:F5:24:20:50:F1:C0:74:F7:85:56:B9:05:B7:33:A3:2D:44:A0:48”
+<br>Huella digital SHA1 “8C:48:BD:E2:F5:18:18:C3:85:96:68:44:2E:28:A0:68:08:2F:0A:BE”
+<br> |  |
+| ccccc Proveedores contenidos | Application Service |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Lineabase.1.SIUcomponente-id}
+
+<br>
+
+
+
+## Lineabase.1a.SIU componentes. infraestrcutura
+
+
+Dependencias de infraestructura entre los servicios que integran el modelo de aplicación de SUI, Migración. 
+
+* Servidor de Canales (App PGN web y móvil)
+* Servidor Web App (App SUI)
+* Servidor Lappiz (Config SUI)
+* Servidor BDD App (Transaccional)
+* Servidor BDD Config (Configuración)
+
+
+![Lineabase.1a.SIU componentes. infraestrcutura](images/Lineabase.1a.SIUcomponentes.infraestrcutura.png){#fig:id-id-ae9dc2de036e435fbcba8497224653a7 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| API externas | Application Service |  |  |
+| App | Application Component |  |  |
+| App PGN Móvil | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethikal Hacking. 
+<br>
+<br>Protección de datos personales, 
+<br>Los sistemas de información que recogen, procesan y almacenan información de los derechos de las personas se deben almacenar de forma adecuada, la información que pueda ser vulnerada puede generar obliaciones legales y éticas con respecto a la perdida de informacion confidencial por parte de ciudadanos del pais. 
+<br>
+<br>La informacion contenida en las bases de datos debe tener los mecanismos de cifrado que en otros apartados se han mencionado. 
+<br>La legislación que hay que tener como referencia, ley 1581 de 2012. Decreto 1377 de 2013
+<br>
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br> |  |
+| App PGN Web | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethical Hacking. 
+<br>Los resultados permitirán identificar los requisitos de seguridad que los sistemas de informacion o servicios web deberán cumplir.
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br>El Login deberá evidenciar el control de errores, al momento de realizar la validación deberá mensaje de error para el caso que se autentique con credenciales erradas.  |  |
+| Application Service (NLB) | Application Service |  |  |
+| Archivos Compartidos | Application Service |  |  |
+| CDN Contenidos | Application Service |  |  |
+| Config | Application Component |  |  |
+| Controlador admin | Application Component |  |  |
+| Controlador frontal mvl | Application Component |  |  |
+| Controlador frontal web | Application Component | -	Verificados los SSL, se recomienda adquirir SSL seguros, con entidades certificadoras. 
+<br>Si se desea continuar con SSL de Let's Encrypt, se recomienda automatizar el proceso de actualización dado que al dejar estos en modo actualización manual es probable el olvido de esta actualización (Estos certificados se deben actualizar trimestralmente y no cuentan con las características de seguridad necesarias. 
+<br> |  |
+| Controlador funcional | Application Component |  |  |
+| Doku (gest. doc.) | Application Service |  |  |
+| Identidades | Application Service |  |  |
+| Infraestructura SUI | Grouping | Soporte de infraestructura a los componentes del SUI Migración. Servidores y ambientes de cómputo para la ejecución del software base de los componentes misionales del SUI de PGN.<br> |  |
+| Interfaz de aplicación (runtime) | Application Interface | Servidor web:  Microsoft-IIS/10.0 
+<br>Marco de Programación: ASP.NET
+<br>Huellas digitales identificadas:  
+<br>Huella digital SHA-256 “FC:79:06:7E:F5:24:20:50:F1:C0:74:F7:85:56:B9:05:B7:33:A3:2D:44:A0:48”
+<br>Huella digital SHA1 “8C:48:BD:E2:F5:18:18:C3:85:96:68:44:2E:28:A0:68:08:2F:0A:BE”
+<br> |  |
+| Interfaz de datos 1 | Application Service |  |  |
+| Interfaz de datos 2 | Application Service |  |  |
+| Interfaz de datos 3 | Application Service |  |  |
+| Mensaje: JSON | Data Object |  |  |
+| Modelo (neg) | Application Component |  |  |
+| PGN SIU | Grouping | El objetivo principal de la arquitectura del SUI de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la PGN.<br><br>Los objetivos secundarios de esta arquitectura SUI de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br><br> |  |
+| Persistencia | Application Collaboration |  |  |
+| Puerto datos 1 | Application Component |  |  |
+| Puerto datos 2 | Application Component |  |  |
+| Seguridad | Application Component |  |  |
+| Servidor BDD App | Node | Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz<br>Discos	SO C: 126 GB, Backup E: 511 GB, SQL Data F: 510 GB, SQL Log   G: 510 GB, TempDB  G: 63.6 GB.<br> |  |
+| Servidor BDD Config | Node | Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz<br>Discos	SO C: 80 GB, Backup E: 250 GB, SQL Data F: 250 GB, SQL Log G: 250 GB, TempDB  G: 30 GB.<br> |  |
+| Servidor Web App | Node | Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM	8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos	SO C: 126 GB. SO D: 16 GB.<br> |  |
+| Servidor Web Canales | Node | Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM	8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos	SO C: 126 GB. SO D: 16 GB.<br> |  |
+| Transacciones | Application Component |  |  |
+| Utilitario | Application Component |  |  |
+| Vista móvil | Application Component |  |  |
+| Vista web | Application Component | -	Verificados los SSL, se recomienda adquirir SSL seguros, con entidades certificadoras. 
+<br>Si se desea continuar con SSL de Let's Encrypt, se recomienda automatizar el proceso de actualización dado que al dejar estos en modo actualización manual es probable el olvido de esta actualización (Estos certificados se deben actualizar trimestralmente y no cuentan con las características de seguridad necesarias. 
+<br>4.	SERVICIOS IDENTIFICADOS:
+<br>
+<br>Servidor web:  Microsoft-IIS/10.0 
+<br>Marco de Programación: ASP.NET
+<br>Huellas digitales identificadas:  
+<br>Huella digital SHA-256 “FC:79:06:7E:F5:24:20:50:F1:C0:74:F7:85:56:B9:05:B7:33:A3:2D:44:A0:48”
+<br>Huella digital SHA1 “8C:48:BD:E2:F5:18:18:C3:85:96:68:44:2E:28:A0:68:08:2F:0A:BE”
+<br> |  |
+| ccccc Proveedores contenidos | Application Service |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Lineabase.1a.SIUcomponentes.infraestrcutura-id}
+
+<br>
+
+
+
+## Linebase.2.Portal
+
+
+El portal es el conjunto de los elementos físicos y lógicos necesarios para la implementación de la granja de servidores de SharePoint Server 2019 para el portal de la PROCURADURIA.
+
+* Servidores Web Front End
+* Servidores de Aplicaciones
+* Servidores de SQL Server
+
+![Linebase.2.Portal](images/Linebase.2.Portal.png){#fig:id-id-64947c69f63c422e9f18c81763910332 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Application Collaboration Sharepoint | Application Collaboration |  |  |
+| Application Interface | Application Interface |  |  |
+| Servidor aplicaciones Sharepoint | Application Component |  |  |
+| Servidor datos Sharepoint | Application Component |  |  |
+| Servidor web Sharepoint | Application Component |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Linebase.2.Portal-id}
+
+<br>
+
+
+
+## Migracion.1a.a.SIU Contexto
+
+PGN. Migración Sistemas Misionales. Fase 2.
+
+Submódulos Sistema Único de Información. Requerimientos asociados a submódulos.
+
+versión 0.4
+
+
+La vista presenta en contexto a los módulos SUI migrados y el estilo de comunicación vía API sincreonica/asincrónica.
+
+Cada módulo migrado atiende al funcionario que le corresponde, p. ejemplo, Relatoría atiende a la depedencia Jurídica de la PGN. Los módulos comparten su información mediante el API local presente dentro de cada uno. Esto es, la información se mantiene protegida en dominios pero coordinada (se comparte con otros dominios).
+
+El arreglo de datos de registros operativos y transaccionales es como sigue: cada módulo individual mantiene su registro de datos, estado y transacciones minimizado y protegido (individual y aislado). Salvo excepciones no consentidas por el diseño original, un módulo puede compartir el mismo almacen de datos con otro.
+
+![Migracion.1a.a.SIU Contexto](images/Migracion.1a.a.SIUContexto.png){#fig:id-id-e1668a92e195406086fc440010fe73a5 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| API SUI | Application Interface | API de representación del módulo. Centrlalización de la comunicación con otros módulos del SUI migrado.<br> |  |
+| API SUI 2 | Application Interface | API de representación del módulo. Centrlalización de la comunicación con otros módulos del SUI migrado.<br> |  |
+| API SUI 3 | Application Interface | API de representación del módulo. Centrlalización de la comunicación con otros módulos del SUI migrado.<br> |  |
+| API SUI N | Application Interface | API de representación del módulo. Centrlalización de la comunicación con otros módulos del SUI migrado.<br> |  |
+| Cliente PGN | Business Actor |  |  |
+| Funcionario PGN | Business Actor |  |  |
+| cc:Administración | Application Collaboration |  |  |
+| cc:Almacenamient 2 | Application Collaboration | Espacio de almancenamiento operativo y transaccional de un módulo central del SUI migrado. |  |
+| cc:Almacenamiento | Application Collaboration | Espacio de almancenamiento operativo y transaccional de un módulo central del SUI migrado. |  |
+| cc:Almacenamiento 3 | Application Collaboration | Espacio de almancenamiento operativo y transaccional de un módulo central del SUI migrado. |  |
+| cc:Almacenamiento N | Application Collaboration | Espacio de almancenamiento operativo y transaccional de un módulo central del SUI migrado. |  |
+| cc:PGN SUI (módulo central) | Application Collaboration | Módulo central SUI migrado. Módulo independiente y asignado a un dominio partigular de la PGN.<br> |  |
+| cc:PGN SUI (módulo central) 2 | Application Collaboration | Módulo central SUI migrado. Módulo independiente y asignado a un dominio partigular de la PGN.<br> |  |
+| cc:PGN SUI (módulo central) 3 | Application Collaboration | Módulo central SUI migrado. Módulo independiente y asignado a un dominio partigular de la PGN.<br> |  |
+| cc:PGN SUI (módulo central) N | Application Collaboration | Módulo central SUI migrado. Módulo independiente y asignado a un dominio partigular de la PGN.<br> |  |
+| cc:Portales y canales | Application Collaboration | Submódulo de portales internos de la PGN a donde llega el SUI. Interfaz web que usa al SUI para llegar a direcciones y subdirecciones de la PGN. La plataforma principal de portales en este contexto es Sharepoint de Microsoft.<br> |  |
+| cc:Presentación | Application Collaboration | Submódulo de presentación del SUI. interfaz gráfica, interfaz web visible a los usuarios clientes y funcionarios de la PGN.  |  |
+| cc:Servicios de aplicación | Application Collaboration | Submódulo de servicios utilitarios que sirven al SUI. Servicios variados que cumplen roles facilitadores de las actividades misionales del SUI. Ejemplos de estos servicios son los de gestión documental, implementado por Doku en el contexto de PGN.<br><br> |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Migracion.1a.a.SIUContexto-id}
+
+<br>
+
+
+
+## Migracion.1a.b.SIU Módulos
+
+PGN. Migración Sistemas Misionales. Fase 2.
+
+Submódulos Sistema Único de Información. Requerimientos asociados a submódulos.
+
+versión 0.4
+
+
+Identificación de submódulos del Sistema Único de Información (SUI) de la PGN. 
+
+Todos los sistemas de información del SUI deben seguir la directiva de separar a los componentes misionales de los utilitarios: el SUI de PGN estará constituidos por submódulos dispuestos en relación de utilitarios (que sirven) a los componentes misionales del SUI, ubicados en el centro en la diagrama.
+
+Los submódulos del SUI, tal como están presentados, reúnen a las partes por el mismo rol en favor de la coherencia. Por ejemplo, los servicios de aplicación, en la imagen, contiene a todos aquellos utilitarios que prestan alguna utilidad momentánea al SUI migrado. Organizados así, estos submódulos utilitarios pueden ser intercambiados o ampliados sin perjuicio de los componentes misionales dell SUI (centro del diagrama) gracias a las _interfaces de unión_ en favor de la extensibilidad.
+
+Las interfaces de unión indicadas arriba obligan a los submódulos a cumplir las exigencias de los componentes misionales del SUI.
+
+Los submódulos identificados tienen los siguientes roles para el SUI migrado:
+
+1. cc:Presentación
+1. cc:Servicios de aplicación
+1. cc:Portales y canales
+1. cc:Administración y configuración
+1. cc:Almacenamiento
+
+### Requerimientos Asociados a los Submódulos
+La disposición de los módulos y submódulos presentada, denominada SUI Migración en adelante, facilita la focalización de los requerimientos encontrados en el levantamiento realizado en el actual proyecto. Así, por ejemplo, los requerimientos funcionales se encuentran concentrados en el submódulo de presentación (ver imagen).
+
+![Migracion.1a.b.SIU Módulos](images/Migracion.1a.b.SIUMódulos.png){#fig:id-id-f3f3865c516245bfb2d777de5b23efb6 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| ARQ01. Consistencia SUI | Constraint | Unifica las entidades de negocio PGN, entre las que se incluyen a conciliaciones, publicaciones de relatoría, resoluciones, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del SUI, estarán concentradas en un único artefacto correspondiente. Calidad sistémica: la consistencia persigue que el resultado de la lógica de negocio sea la misma entre los módulos del SUI migrado. Esto redunda a mantenibilidad y gestión: tiende a tener un solo punto de cambio y dificulta la transferencia de dependencias implícitas a otros procesos. |  |
+| ARQ02. Mantenibilidad SUI | Constraint | Evitar las dependencia transitivas de los módulos misionales del SUI a componentes y sistemas de terceros o submódulos no misionales.  Calidad sistémica: la mantenibilidad por control de dependencias que optimiza el diseño Migración SUI está dada por el control de cambios no programados sobre los componentes misionales del SUI (corrupción de componentes). Ver Patrón de Diseño Migración SUI, más adelante en el documento. |  |
+| ARQ03. Extensibilidad SUI | Constraint | Concentración de los componentes de negocio, misionales, del SUI protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Migración SUI, más adelante en el documento. Calidad sistémica: la extensibilidad que optimiza el diseño Migración SUI está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege. |  |
+| Cliente PGN | Business Actor |  |  |
+| Funcionario PGN | Business Actor |  |  |
+| RQR. Administrativos | Requirement |  |  |
+| RQR. Funcionales | Requirement |  |  |
+| RQR. Ingeniería | Requirement |  |  |
+| RQR. Negocio | Requirement |  |  |
+| RQR. Seguridad | Requirement | Requerimientos de seguridad, SUI, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br> |  |
+| cc:Administración | Application Collaboration |  |  |
+| cc:Almacenamiento | Application Collaboration | Espacio de almancenamiento operativo y transaccional de un módulo central del SUI migrado. |  |
+| cc:PGN SUI (módulo central) | Application Collaboration | Módulo central SUI migrado. Módulo independiente y asignado a un dominio partigular de la PGN.<br> |  |
+| cc:Portales y canales | Application Collaboration | Submódulo de portales internos de la PGN a donde llega el SUI. Interfaz web que usa al SUI para llegar a direcciones y subdirecciones de la PGN. La plataforma principal de portales en este contexto es Sharepoint de Microsoft.<br> |  |
+| cc:Presentación | Application Collaboration | Submódulo de presentación del SUI. interfaz gráfica, interfaz web visible a los usuarios clientes y funcionarios de la PGN.  |  |
+| cc:Servicios de aplicación | Application Collaboration | Submódulo de servicios utilitarios que sirven al SUI. Servicios variados que cumplen roles facilitadores de las actividades misionales del SUI. Ejemplos de estos servicios son los de gestión documental, implementado por Doku en el contexto de PGN.<br><br> |  |
+| interfaz | Application Interface |  |  |
+| interfaz | Application Interface |  |  |
+| interfaz | Application Interface |  |  |
+| interfaz | Application Interface |  |  |
+| interfaz | Application Interface |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Migracion.1a.b.SIUMódulos-id}
+
+<br>
+
+
+
+## Migracion.1b.1. SIU Módulos Componentes
+
+PGN. Migración Sistemas Misionales. Fase 2.
+
+Componentes internos de los submódulos Sistema Único de Información. 
+
+versión 0.45
+
+
+Presentación de los componentes internos de los submódulos del sistema único de información migrado, SUI de PGN. Organización intena de los servicios y paquetes que integran cada submódulo del SUI. Todos los sistemas de información del SUI siguen esta directiva: estarán constituídos por submódulos dispuestos en relación de utilitarios (que sirven) a los componentes misionales del SUI, ubicados en el centro en la diagrama. 
+
+La organización de componentes de migración SUI facilita focalizar la selección de tecnologeias. Los componentes internos y tecnologías elegidas son las siguientes
+
+1. Presentación: Angular 11 (Web)
+1. PGN SUI: API Transaccional (Node Js)
+1. Administración: API Config (C#)
+1. Persistencia: (SQL)
+
+Los submódulos del SUI, tal como están presentados, reúnen a las partes que tienen el mismo rol en favor de la coherencia. Así mismo, estos pueden ser intercambiados o ampliados sin perjuicio del SUI gracias a las interfaces de unión (en favor de la extensibilidad).
+
+Las interfaces de unión indicadas arriba obligan a los submódulos a cumplir las exigencias de los componentes misionales del SUI.
+
+
+![Migracion.1b.1. SIU Módulos Componentes](images/Migracion.1b.1.SIUMódulosComponentes.png){#fig:id-id-6dcada718c1446f69884dc7418828c51 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| API externas | Application Service |  |  |
+| ARQ01. Consistencia SUI | Constraint | Unifica las entidades de negocio PGN, entre las que se incluyen a conciliaciones, publicaciones de relatoría, resoluciones, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del SUI, estarán concentradas en un único artefacto correspondiente. Calidad sistémica: la consistencia persigue que el resultado de la lógica de negocio sea la misma entre los módulos del SUI migrado. Esto redunda a mantenibilidad y gestión: tiende a tener un solo punto de cambio y dificulta la transferencia de dependencias implícitas a otros procesos. |  |
+| ARQ02. Mantenibilidad SUI | Constraint | Evitar las dependencia transitivas de los módulos misionales del SUI a componentes y sistemas de terceros o submódulos no misionales.  Calidad sistémica: la mantenibilidad por control de dependencias que optimiza el diseño Migración SUI está dada por el control de cambios no programados sobre los componentes misionales del SUI (corrupción de componentes). Ver Patrón de Diseño Migración SUI, más adelante en el documento. |  |
+| ARQ03. Extensibilidad SUI | Constraint | Concentración de los componentes de negocio, misionales, del SUI protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Migración SUI, más adelante en el documento. Calidad sistémica: la extensibilidad que optimiza el diseño Migración SUI está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege. |  |
+| Administración | Grouping |  |  |
+| Almacenamiento | Grouping |  |  |
+| App | Application Component |  |  |
+| App PGN Móvil | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethikal Hacking. 
+<br>
+<br>Protección de datos personales, 
+<br>Los sistemas de información que recogen, procesan y almacenan información de los derechos de las personas se deben almacenar de forma adecuada, la información que pueda ser vulnerada puede generar obliaciones legales y éticas con respecto a la perdida de informacion confidencial por parte de ciudadanos del pais. 
+<br>
+<br>La informacion contenida en las bases de datos debe tener los mecanismos de cifrado que en otros apartados se han mencionado. 
+<br>La legislación que hay que tener como referencia, ley 1581 de 2012. Decreto 1377 de 2013
+<br>
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br> |  |
+| App PGN Web | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethical Hacking. 
+<br>Los resultados permitirán identificar los requisitos de seguridad que los sistemas de informacion o servicios web deberán cumplir.
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br>El Login deberá evidenciar el control de errores, al momento de realizar la validación deberá mensaje de error para el caso que se autentique con credenciales erradas.  |  |
+| Application Interface | Application Interface |  |  |
+| Application Service (NLB) | Application Service |  |  |
+| Application Service (n) | Application Service | Implementación de un caso de uso de negocio, independiente y demostrable. Contiene a la unidad ejecutable del CU y a la entidad  |  |
+| Application Service 1 | Application Service | Implementación de un caso de uso de negocio, independiente y demostrable. Contiene a la unidad ejecutable del CU y reutiliza (accede a) una entidad de negocio, que puede ser también una función PGN.<br> |  |
+| Archivos Compartidos | Application Service |  |  |
+| CDN Contenidos | Application Service |  |  |
+| CU ejecutable | Application Component |  |  |
+| CU ejecutable (n) | Application Component |  |  |
+| Config | Application Component |  |  |
+| Controlador admin | Application Component |  |  |
+| Controlador frontal mvl | Application Component |  |  |
+| Controlador frontal web | Application Component | -	Verificados los SSL, se recomienda adquirir SSL seguros, con entidades certificadoras. 
+<br>Si se desea continuar con SSL de Let's Encrypt, se recomienda automatizar el proceso de actualización dado que al dejar estos en modo actualización manual es probable el olvido de esta actualización (Estos certificados se deben actualizar trimestralmente y no cuentan con las características de seguridad necesarias. 
+<br> |  |
+| Controlador funcional | Application Component |  |  |
+| Doku (gest. doc.) | Application Service |  |  |
+| Entidad negocio PGN | Business Object | Repreesnta un objeto de negocio del contexto de la entidad PGN,, por ejemplo: un decreto, una intervención, una conciliación.<br><br> |  |
+| Función PGN | Application Component | La unidad de cómputo que resulta en la aplicación de una regla de negocio.<br> |  |
+| Identidades | Application Service |  |  |
+| Interfaz de aplicación (runtime) | Application Interface | Servidor web:  Microsoft-IIS/10.0 
+<br>Marco de Programación: ASP.NET
+<br>Huellas digitales identificadas:  
+<br>Huella digital SHA-256 “FC:79:06:7E:F5:24:20:50:F1:C0:74:F7:85:56:B9:05:B7:33:A3:2D:44:A0:48”
+<br>Huella digital SHA1 “8C:48:BD:E2:F5:18:18:C3:85:96:68:44:2E:28:A0:68:08:2F:0A:BE”
+<br> |  |
+| Interfaz de datos 1 | Application Service |  |  |
+| Interfaz de datos 2 | Application Service |  |  |
+| Interfaz de datos 3 | Application Service |  |  |
+| Mensaje: JSON | Data Object |  |  |
+| Modelo (neg) | Application Component |  |  |
+| Office | Application Service |  |  |
+| Portales | Grouping | Submódulo de portales internos de la PGN a donde llega el SUI. Interfaz web que usa al SUI para llegar a direcciones y subdirecciones de la PGN. La plataforma principal de portales en este contexto es Sharepoint de Microsoft.<br> |  |
+| Presentación | Grouping | Submódulo de presentación del SUI. interfaz gráfica, interfaz web visible a los usuarios clientes y funcionarios de la PGN.  |  |
+| Puerto datos 1 | Application Component |  |  |
+| Puerto datos 2 | Application Component |  |  |
+| RQR. Administrativos | Requirement |  |  |
+| RQR. Funcionales | Requirement |  |  |
+| RQR. Ingeniería | Requirement |  |  |
+| RQR. Negocio | Requirement |  |  |
+| RQR. Seguridad | Requirement | Requerimientos de seguridad, SUI, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br> |  |
+| Seguridad | Application Component |  |  |
+| Servicios de aplicación | Grouping | Submódulo de servicios utilitarios que sirven al SUI. Servicios variados que cumplen roles facilitadores de las actividades misionales del SUI. Ejemplos de estos servicios son los de gestión documental, implementado por Doku en el contexto de PGN.<br> |  |
+| Servidor aplicaciones Sharepoint | Application Component |  |  |
+| Servidor datos Sharepoint | Application Component |  |  |
+| Servidor web Sharepoint | Application Component |  |  |
+| Transacciones | Application Component |  |  |
+| Utilitario | Application Component |  |  |
+| Vista móvil | Application Component |  |  |
+| Vista web | Application Component | -	Verificados los SSL, se recomienda adquirir SSL seguros, con entidades certificadoras. 
+<br>Si se desea continuar con SSL de Let's Encrypt, se recomienda automatizar el proceso de actualización dado que al dejar estos en modo actualización manual es probable el olvido de esta actualización (Estos certificados se deben actualizar trimestralmente y no cuentan con las características de seguridad necesarias. 
+<br>4.	SERVICIOS IDENTIFICADOS:
+<br>
+<br>Servidor web:  Microsoft-IIS/10.0 
+<br>Marco de Programación: ASP.NET
+<br>Huellas digitales identificadas:  
+<br>Huella digital SHA-256 “FC:79:06:7E:F5:24:20:50:F1:C0:74:F7:85:56:B9:05:B7:33:A3:2D:44:A0:48”
+<br>Huella digital SHA1 “8C:48:BD:E2:F5:18:18:C3:85:96:68:44:2E:28:A0:68:08:2F:0A:BE”
+<br> |  |
+| cc:PGN SUI (módulo central) | Application Collaboration | Módulo central SUI migrado. Módulo independiente y asignado a un dominio partigular de la PGN.<br> |  |
+| cc:Presentación | Application Collaboration | Submódulo de presentación del SUI. interfaz gráfica, interfaz web visible a los usuarios clientes y funcionarios de la PGN.  |  |
+| ccccc Proveedores contenidos | Application Service |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Migracion.1b.1.SIUMódulosComponentes-id}
+
+<br>
+
+
+
+## Migracion.1b.2. SIU Módulos Componentes. Brecha
+
+PGN. Migración Sistemas Misionales. Fase 2.
+
+Componentes internos de los submódulos Sistema Único de Información. 
+
+versión 0.45
+
+
+Los elementos resaltados indican las extensiones a la arqutecutra por concepto de Fase II del proyecto de migración SUI. 
+
+Los componentes internos incorporados en la arquitectura tienen el propósito de implementar los casos de uso (CU) de cada módulo construído con esta organización (vista anterior). En la imagen los CU son expuestos por los servicios de aplicación, y estos a su vez, usan funciones de negocio (impulsadas por la plataforma de Lappiz). 
+
+Todos los sistemas de información del SUI siguen esta directiva: estarán constituídos por submódulos dispuestos en relación de utilitarios (que sirven) a los componentes misionales del SUI, ubicados en el centro en la diagrama. 
+
+![Migracion.1b.2. SIU Módulos Componentes. Brecha](images/Migracion.1b.2.SIUMódulosComponentes.Brecha.png){#fig:id-id-a68add993bca48cc9cbc11fb76628836 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| API externas | Application Service |  |  |
+| ARQ01. Consistencia SUI | Constraint | Unifica las entidades de negocio PGN, entre las que se incluyen a conciliaciones, publicaciones de relatoría, resoluciones, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del SUI, estarán concentradas en un único artefacto correspondiente. Calidad sistémica: la consistencia persigue que el resultado de la lógica de negocio sea la misma entre los módulos del SUI migrado. Esto redunda a mantenibilidad y gestión: tiende a tener un solo punto de cambio y dificulta la transferencia de dependencias implícitas a otros procesos. |  |
+| ARQ02. Mantenibilidad SUI | Constraint | Evitar las dependencia transitivas de los módulos misionales del SUI a componentes y sistemas de terceros o submódulos no misionales.  Calidad sistémica: la mantenibilidad por control de dependencias que optimiza el diseño Migración SUI está dada por el control de cambios no programados sobre los componentes misionales del SUI (corrupción de componentes). Ver Patrón de Diseño Migración SUI, más adelante en el documento. |  |
+| ARQ03. Extensibilidad SUI | Constraint | Concentración de los componentes de negocio, misionales, del SUI protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Migración SUI, más adelante en el documento. Calidad sistémica: la extensibilidad que optimiza el diseño Migración SUI está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege. |  |
+| Administración | Grouping |  |  |
+| Almacenamiento | Grouping |  |  |
+| App | Application Component |  |  |
+| App PGN Móvil | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethikal Hacking. 
+<br>
+<br>Protección de datos personales, 
+<br>Los sistemas de información que recogen, procesan y almacenan información de los derechos de las personas se deben almacenar de forma adecuada, la información que pueda ser vulnerada puede generar obliaciones legales y éticas con respecto a la perdida de informacion confidencial por parte de ciudadanos del pais. 
+<br>
+<br>La informacion contenida en las bases de datos debe tener los mecanismos de cifrado que en otros apartados se han mencionado. 
+<br>La legislación que hay que tener como referencia, ley 1581 de 2012. Decreto 1377 de 2013
+<br>
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br> |  |
+| App PGN Web | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethical Hacking. 
+<br>Los resultados permitirán identificar los requisitos de seguridad que los sistemas de informacion o servicios web deberán cumplir.
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br>El Login deberá evidenciar el control de errores, al momento de realizar la validación deberá mensaje de error para el caso que se autentique con credenciales erradas.  |  |
+| Application Interface | Application Interface |  |  |
+| Application Service (NLB) | Application Service |  |  |
+| Application Service (n) | Application Service | Implementación de un caso de uso de negocio, independiente y demostrable. Contiene a la unidad ejecutable del CU y a la entidad  |  |
+| Application Service 1 | Application Service | Implementación de un caso de uso de negocio, independiente y demostrable. Contiene a la unidad ejecutable del CU y reutiliza (accede a) una entidad de negocio, que puede ser también una función PGN.<br> |  |
+| Archivos Compartidos | Application Service |  |  |
+| CDN Contenidos | Application Service |  |  |
+| CU ejecutable | Application Component |  |  |
+| CU ejecutable (n) | Application Component |  |  |
+| Config | Application Component |  |  |
+| Controlador admin | Application Component |  |  |
+| Controlador frontal mvl | Application Component |  |  |
+| Controlador frontal web | Application Component | -	Verificados los SSL, se recomienda adquirir SSL seguros, con entidades certificadoras. 
+<br>Si se desea continuar con SSL de Let's Encrypt, se recomienda automatizar el proceso de actualización dado que al dejar estos en modo actualización manual es probable el olvido de esta actualización (Estos certificados se deben actualizar trimestralmente y no cuentan con las características de seguridad necesarias. 
+<br> |  |
+| Controlador funcional | Application Component |  |  |
+| Doku (gest. doc.) | Application Service |  |  |
+| Entidad negocio PGN | Business Object | Repreesnta un objeto de negocio del contexto de la entidad PGN,, por ejemplo: un decreto, una intervención, una conciliación.<br><br> |  |
+| Función PGN | Application Component | La unidad de cómputo que resulta en la aplicación de una regla de negocio.<br> |  |
+| Identidades | Application Service |  |  |
+| Interfaz de aplicación (runtime) | Application Interface | Servidor web:  Microsoft-IIS/10.0 
+<br>Marco de Programación: ASP.NET
+<br>Huellas digitales identificadas:  
+<br>Huella digital SHA-256 “FC:79:06:7E:F5:24:20:50:F1:C0:74:F7:85:56:B9:05:B7:33:A3:2D:44:A0:48”
+<br>Huella digital SHA1 “8C:48:BD:E2:F5:18:18:C3:85:96:68:44:2E:28:A0:68:08:2F:0A:BE”
+<br> |  |
+| Interfaz de datos 1 | Application Service |  |  |
+| Interfaz de datos 2 | Application Service |  |  |
+| Interfaz de datos 3 | Application Service |  |  |
+| Mensaje: JSON | Data Object |  |  |
+| Modelo (neg) | Application Component |  |  |
+| Office | Application Service |  |  |
+| PGN SIU | Grouping | El objetivo principal de la arquitectura del SUI de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la PGN.<br><br>Los objetivos secundarios de esta arquitectura SUI de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br><br> |  |
+| Portales | Grouping | Submódulo de portales internos de la PGN a donde llega el SUI. Interfaz web que usa al SUI para llegar a direcciones y subdirecciones de la PGN. La plataforma principal de portales en este contexto es Sharepoint de Microsoft.<br> |  |
+| Presentación | Grouping | Submódulo de presentación del SUI. interfaz gráfica, interfaz web visible a los usuarios clientes y funcionarios de la PGN.  |  |
+| Puerto datos 1 | Application Component |  |  |
+| Puerto datos 2 | Application Component |  |  |
+| RQR. Administrativos | Requirement |  |  |
+| RQR. Funcionales | Requirement |  |  |
+| RQR. Ingeniería | Requirement |  |  |
+| RQR. Negocio | Requirement |  |  |
+| RQR. Seguridad | Requirement | Requerimientos de seguridad, SUI, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br> |  |
+| Seguridad | Application Component |  |  |
+| Servicios de aplicación | Grouping | Submódulo de servicios utilitarios que sirven al SUI. Servicios variados que cumplen roles facilitadores de las actividades misionales del SUI. Ejemplos de estos servicios son los de gestión documental, implementado por Doku en el contexto de PGN.<br> |  |
+| Servidor aplicaciones Sharepoint | Application Component |  |  |
+| Servidor datos Sharepoint | Application Component |  |  |
+| Servidor web Sharepoint | Application Component |  |  |
+| Transacciones | Application Component |  |  |
+| Utilitario | Application Component |  |  |
+| Vista móvil | Application Component |  |  |
+| Vista web | Application Component | -	Verificados los SSL, se recomienda adquirir SSL seguros, con entidades certificadoras. 
+<br>Si se desea continuar con SSL de Let's Encrypt, se recomienda automatizar el proceso de actualización dado que al dejar estos en modo actualización manual es probable el olvido de esta actualización (Estos certificados se deben actualizar trimestralmente y no cuentan con las características de seguridad necesarias. 
+<br>4.	SERVICIOS IDENTIFICADOS:
+<br>
+<br>Servidor web:  Microsoft-IIS/10.0 
+<br>Marco de Programación: ASP.NET
+<br>Huellas digitales identificadas:  
+<br>Huella digital SHA-256 “FC:79:06:7E:F5:24:20:50:F1:C0:74:F7:85:56:B9:05:B7:33:A3:2D:44:A0:48”
+<br>Huella digital SHA1 “8C:48:BD:E2:F5:18:18:C3:85:96:68:44:2E:28:A0:68:08:2F:0A:BE”
+<br> |  |
+| ccccc Proveedores contenidos | Application Service |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Migracion.1b.2.SIUMódulosComponentes.Brecha-id}
+
+<br>
+
+
+
+## Migracion.1c.SIU Modulos Colaboración
+
+PGN. Migración Sistemas Misionales. Fase 2.
+
+Patrones de comunicación y colaboración. a) entre módulos central SUI de PGN. b) colaoración intraproceso. Puertos, adaptadores y API.
+
+versión 0.4.1
+
+
+Patrón de Distribución y Colaboración estándar para el SUI.
+
+La colaboración y comunicación de los componentes internos del SUI (grupo PFN SUI, en el diagrama) está mediada por interfaces. Estas son provistas por el grupo de componentes misionales, PGN SUI, hacia los submódulos externos. La intención es mantener reducido y controlado el número de interfaces.
+
+La colaboración entre el SUI Migración con sistemas externos puede darse mediante API de comunicación (o buses de datos empresarial que ya disponga la PGN), sin perjuicio del patrón de comunicación estadar descrito en el diagrama.
+
+Los únicos elementos para la comunicación (e integración) son los indicados en la vista actual. En este diseño no considera tipos de comunición mediante  mesajería, datos, ni 
+![Migracion.1c.SIU Modulos Colaboración](images/Migracion.1c.SIUModulosColaboración.png){#fig:id-id-e5d2b80501c743edb14cecf221be73a9 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| API SUI | Application Interface | API de representación del módulo. Centrlalización de la comunicación con otros módulos del SUI migrado.<br> |  |
+| API SUI 2 | Application Interface | API de representación del módulo. Centrlalización de la comunicación con otros módulos del SUI migrado.<br> |  |
+| App | Application Component |  |  |
+| cc:Almacenamiento | Application Collaboration | Espacio de almancenamiento operativo y transaccional de un módulo central del SUI migrado. |  |
+| cc:PGN SUI (módulo central) | Application Collaboration | Módulo central SUI migrado. Módulo independiente y asignado a un dominio partigular de la PGN.<br> |  |
+| cc:PGN SUI (módulo central) 2 | Application Collaboration | Módulo central SUI migrado. Módulo independiente y asignado a un dominio partigular de la PGN.<br> |  |
+| cc:Portales y canales | Application Collaboration | Submódulo de portales internos de la PGN a donde llega el SUI. Interfaz web que usa al SUI para llegar a direcciones y subdirecciones de la PGN. La plataforma principal de portales en este contexto es Sharepoint de Microsoft.<br> |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Migracion.1c.SIUModulosColaboración-id}
+
+<br>
+
+
+
+## Migracion.2. datos
+
+PGN. Migración Sistemas Misionales. Fase 2.
+
+Modelo de acceso y procesamiento de datos de negocio. Módulos Sistema Único de Información. 
+
+versión 0.1
+
+
+
+Modelo de acceso y procesamiento a datos de negocio del SUI. Presentamos la organización de los ítems de datos de negocio necesarios para que los módulos del SUI puedan recolectar, procesar, integrar y almacenarlos de forma organizada y escalable.
+
+Mediante esta organización, los datos de negocio son transportados desde sus respectivas fuentes mediante interfaces (por principio de extensión y mantenibilidad). Los datos externos, entendidos como los de otros proveedores, son obtenidos mediante un intermediario: el bus de datos del SUI.
+
+Consideramos tres tipos datos: datos transaccionales, históricos y externos, y presentamos una manera distinta de tratarlos y transportarlos.
+
+![Migracion.2. datos](images/Migracion.2.datos.png){#fig:id-id-d83ebcb4235c40c4ac68b7f373d4161f width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| APP1.Relatoría | Application Component | Módulo del SUI. Relatoría pública. Publicación de información de referencia para funcionarios y personas naturales, cientes de la PGN.<br>  |  |
+| APP2.SIRI | Application Component |  |  |
+| APP3.Control interno | Application Component |  |  |
+| APP4.Hominis | Application Component | Módulo del SUI. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la PGN.<br> |  |
+| APP5.SIM | Application Component |  |  |
+| APP6.Estratego | Application Component |  |  |
+| Bus de datos | Application Service | El patrón de bus de datos tiene el rol de unir y referir a los datos externos al SUI de tal manera que hace transparente la localización y el formato de este tipo de datos.<br> |  |
+| Datos externos | Data Object |  |  |
+| Datos históricos | Data Object |  |  |
+| Datos transaccionales | Data Object |  |  |
+| Interfaz de Acceso Proveedores | Application Interface | Interfaz de acceso a los tipos de datos externos al SUI.<br> |  |
+| Interfaz de Almacenaniento | Application Interface | Interfaz de acceso a los repositorio, base de datos relacionales y no jerárquicas. Tipos de datos transaccionales, internos, del SUI.<br> |  |
+| Procesamiento batch PGN | Application Process | Los procesos de lotes, que requieren volumenes de datos altos, deben hacer parte de la arquitectura de datos del SUI.<br> |  |
+| cc:PGN SUI (módulo central) | Application Collaboration | Módulo central SUI migrado. Módulo independiente y asignado a un dominio partigular de la PGN.<br> |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Migracion.2.datos-id}
+
+<br>
+
+
+
+## Migracion.2a. datos Hominis
+
+PGN. Migración Sistemas Misionales. Fase 2.
+
+Entidades de datos de negocio. Submódulos Sistema Único de Información. Hominis
+
+versión 0.1
+
+
+
+Identificación de entidades de datos de negocio relacionadas al módulo de gestión de capital del SUI, Hominis.
+
+Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del SUI y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo.
+
+![Migracion.2a. datos Hominis](images/Migracion.2a.datosHominis.png){#fig:id-id-a0d2da66c54a40329bb8fb268e625b5f width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| APP4.Hominis | Application Component | Módulo del SUI. Gestión de capital humano, funcionarios y cargos de representación y libre remoción de la PGN.<br> |  |
+| DAT.Cargo | Business Object |  |  |
+| DAT.Código Actuación | Business Object |  |  |
+| DAT.Código Jurisdicción | Business Object |  |  |
+| DAT.Código Regional | Business Object |  |  |
+| DAT.Código SNIES | Business Object |  |  |
+| DAT.Código dependencia superior | Business Object |  |  |
+| DAT.Código regional | Business Object |  |  |
+| DAT.Decreto de la creación | Business Object |  |  |
+| DAT.Diciplina Area | Business Object |  |  |
+| DAT.Encargo del cargo | Business Object |  |  |
+| DAT.Ley vigente | Business Object |  |  |
+| DAT.Materia | Business Object |  |  |
+| DAT.Nivel | Business Object |  |  |
+| DAT.Nombre Actuación | Business Object |  |  |
+| DAT.Nombre Jurisdicción | Business Object |  |  |
+| DAT.Nombre Regional | Business Object |  |  |
+| DAT.Nombre dependencia superior | Business Object |  |  |
+| DAT.Tipo de inscripcion | Business Object |  |  |
+| DAT.Vinculación | Business Object |  |  |
+| Hominis | Business Object | Entidades de datos de negocio de capital humano de la PGN. Sistema de información Homini.<br> |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Migracion.2a.datosHominis-id}
+
+<br>
+
+
+
+## Migracion.2d. datos Control Interno
+
+PGN. Migración Sistemas Misionales. Fase 2.
+
+Entidades de datos de negocio. Submódulos Sistema Único de Información. Control Interno
+
+versión 0.1
+
+
+
+Identificación de entidades de datos de negocio relacionadas al módulo de seguimiento del desempeño de la PGN del SUI, Control Interno.
+
+Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del SUI y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo. 
+
+![Migracion.2d. datos Control Interno](images/Migracion.2d.datosControlInterno.png){#fig:id-id-6dbb952c4479493fae6f0c7f80e180ed width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| APP3.Control interno | Application Component |  |  |
+| DAT.Dependencia | Business Object |  |  |
+| DAT.Funcionario | Business Object |  |  |
+| DAT.Proceso | Business Object |  |  |
+| DAT.Tipo de proceso | Business Object |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Migracion.2d.datosControlInterno-id}
+
+<br>
+
+
+
+## Migracion.2d. datos SIM
+
+PGN. Migración Sistemas Misionales. Fase 2.
+
+Entidades de datos de negocio. Submódulos Sistema Único de Información. SIM
+
+versión 0.1
+
+
+
+Identificación de entidades de datos de negocio relacionadas al módulo de SUI, SIM.
+
+Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del SUI y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo. 
+
+![Migracion.2d. datos SIM](images/Migracion.2d.datosSIM.png){#fig:id-id-5f6183bf4bd84a1da1c33f8273c4c47b width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| APP5.SIM | Application Component |  |  |
+| DAT.Corregimiento | Business Object |  |  |
+| DAT.Departamento | Business Object |  |  |
+| DAT.Municipio | Business Object |  |  |
+| DAT.País | Business Object |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Migracion.2d.datosSIM-id}
+
+<br>
+
+
+
+## Migracion.2d. datos SIRI
+
+PGN. Migración Sistemas Misionales. Fase 2.
+
+Entidades de datos de negocio. Submódulos Sistema Único de Información. SIRI
+
+versión 0.1
+
+
+
+Identificación de entidades de datos de negocio relacionadas al módulo del SUI, SIRI.
+
+Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del SUI y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo. 
+
+![Migracion.2d. datos SIRI](images/Migracion.2d.datosSIRI.png){#fig:id-id-1db65b37e4354099bfc2a83f74cbeb51 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| APP2.SIRI | Application Component |  |  |
+| DAT.Entidad | Business Object |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Migracion.2d.datosSIRI-id}
+
+<br>
+
+
+
+## Migracion.3. Infraestructura
+
+PGN. Migración Sistemas Misionales. Fase 2.
+
+Diseño de infraestructura. Módulos Central Sistema Único de Información, SIU de PGN.
+
+versión 0.1.1
+
+
+
+Identificación de entidades de datos de negocio relacionadas al módulo del SUI, SIRI.
+
+Estas entidades de datos de negocio son los que llamamos los tipos de datos internos del SUI y deben ser consideradas para la creación de las API de manejo del ciclo de vida de los datos de este módulo. 
+
+![Migracion.3. Infraestructura](images/Migracion.3.Infraestructura.png){#fig:id-id-0e01371191034b69852a033633fb2c96 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+
+Table: Elementos de la vista. {#tbl:tblelement-Migracion.3.Infraestructura-id}
+
+<br>
+
+
+
+## Migracion.4. CI
+
+PGN. Migración Sistemas Misionales. Fase 2.
+
+Patrón de integración/entrega continuo. Módulos Central Sistema Único de Información, SIU de PGN.
+
+versión 0.1.1
+
+
+
+Descripción de las cadenas de integración y despliegue continuo de a) submódulos (aplicaciones web, por ejemplo) del SIU Migrado, 2023; e integración y despliegue continuo de los meodulos central del SIU Migrado, 2023.
+
+Las cadenas están separadas por tecnologeias y plataformas distintas; son independientes y no presentan interbloqueos en cuanto a su ejecución. Pero, requieren administración integral.
+
+Los trabajo de despligue requieren las configuraciones de las cadenas y tareas de conexión tanto a los ambientes productivos y desarrollo.
+ 
+![Migracion.4. CI](images/Migracion.4.CI.png){#fig:id-id-142f2fa094d542c08caf9dbffba6daa9 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Azure CSM: git | Application Service |  |  |
+| Balanceador | Node |  |  |
+| Communication Network (LAN) | Communication Network |  |  |
+| Communication Network (internet) | Communication Network |  |  |
+| Evento de cambio | Application Event |  |  |
+| Evento de cambio | Application Event |  |  |
+| Lappiz CSM: bin | Application Service |  |  |
+| Servidor BDD App | Node | Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz<br>Discos	SO C: 126 GB, Backup E: 511 GB, SQL Data F: 510 GB, SQL Log   G: 510 GB, TempDB  G: 63.6 GB.<br> |  |
+| Servidor BDD Config | Node | Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz<br>Discos	SO C: 80 GB, Backup E: 250 GB, SQL Data F: 250 GB, SQL Log G: 250 GB, TempDB  G: 30 GB.<br> |  |
+| Servidor Web App | Node | Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM	8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos	SO C: 126 GB. SO D: 16 GB.<br> |  |
+| Servidor Web Canales | Node | Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM	8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos	SO C: 126 GB. SO D: 16 GB.<br> |  |
+| Trabajo de despliegue lappiz.com | Technology Process |  |  |
+| Trabajo de despliegue: yaml | Technology Process |  |  |
+| Trabajo de integración lappiz.com | Technology Process |  |  |
+| Trabajo de integración: yaml | Technology Process |  |  |
+| cc:PGN SUI (módulo central) | Application Collaboration | Módulo central SUI migrado. Módulo independiente y asignado a un dominio partigular de la PGN.<br> |  |
+| cc:Presentación | Application Collaboration | Submódulo de presentación del SUI. interfaz gráfica, interfaz web visible a los usuarios clientes y funcionarios de la PGN.  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Migracion.4.CI-id}
+
+<br>
+
+
+
+## Organización. 1n. Mapa producto
+
+
+
+![Organización. 1n. Mapa producto](images/Organización.1n.Mapaproducto.png){#fig:id-id-26b58fc2a55d40b7a082500205f47e61 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Características | Goal |  |  |
+| Deliverable: (tiempo) | Deliverable |  |  |
+| Hitos mercado | Value |  |  |
+| Hoja ruta del producto | Grouping |  |  |
+| Iteración | Work Package |  |  |
+| Tiempo | Gap |  |  |
+| Épicas | Capability |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Organización.1n.Mapaproducto-id}
+
+<br>
+
+
+
+## Organización. 1n.1.. Mapa producto arquitectura PGN
+
+
+
+![Organización. 1n.1.. Mapa producto arquitectura PGN](images/Organización.1n.1..MapaproductoarquitecturaPGN.png){#fig:id-id-4acba5538de34883abe9b4900042f7bd width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Application Component | Application Component |  |  |
+| Características | Goal |  |  |
+| Deliverable: (tiempo) | Deliverable |  |  |
+| Evolución arquitectura | Plateau |  |  |
+| Gap | Gap |  |  |
+| Hitos mercado | Value |  |  |
+| Hoja ruta aquitectura | Grouping |  |  |
+| Hoja ruta del producto | Grouping |  |  |
+| Iteración | Work Package |  |  |
+| Épicas | Capability |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Organización.1n.1..MapaproductoarquitecturaPGN-id}
+
+<br>
+
+
+
+## Organización. 1n.1.a. Mapa producto PGN.1.Relatoría
+
+Procuraduría General de la Nación
+Proyecto Migración SIU, 2023. Fase II
+
+SIREL (Relatoría). Organización de trabajo. 
+Características funcionales, sistémicas, seguridad.
+
+versión 0.12
+
+
+
+Organización y distribución de las características técnicas y funcionales del módulo de Relatoría. 
+
+Características principales:
+* Utilización de metadatos
+* Búsqueda de contenido (intradocumental y por metadatos)
+* Procesos de recolección y sincronización de contenidos
+
+De arriba a abajo: 
+1. Fila 1, planificación de espacios de trabajo (iteraciones, para este caso) restringido al alcance del proyecto Migración PGN 2023.
+1. Debajo, lo hitos importantes organizados en el tiempo.
+1. Fila 3. Evolución de las características en los aspectos funcionales, técnico, hardware y software del módulo Relatoría de PGN. 
+1. FInalmente, fila final del diagrama, la entrega en el tiempo de las capacidades del módulo de relatoría (épicas, para el caso de Scrum). La prioridad de liberación de estas la determina el equipo funcional de este módulo de la PGN.
+
+&lt;br&gt;
+
+![Organización. 1n.1.a. Mapa producto PGN.1.Relatoría](images/Organización.1n.1.a.MapaproductoPGN.1.Relatoría.png){#fig:id-id-d455b60f8f5448b581a3eddd7364c86f width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Accesibilidad mínimo en el nivel AA.  | Constraint | Caracteristicas: 
+<br>- Inclusión para los contenidos audivisuales, subtitulos incorporados o textos escondidos, (Closed Caption).
+<br>- Inclusion de lengua de señas Colombiana para interacciones con la ciudadanía. 
+<br>
+<br> |  |
+| Administración de contenidos | Capability |  |  |
+| Adopción, v1.2 | Value |  |  |
+| Autenticación | Goal |  |  |
+| Autorización | Goal |  |  |
+| Ayudas: Lenguajes de señas | Constraint |  |  |
+| Búsqueda | Goal |  |  |
+| Búsqueda de contenidos. Relatoría v0.1 | Value |  |  |
+| Características | Goal |  |  |
+| Componente de  comunicación segura SIU | Capability |  |  |
+| Componente de autenticación SIU | Capability |  |  |
+| Componente de autorización SIU | Capability |  |  |
+| Componentes de usabilidad, no. 1 | Capability |  |  |
+| Componentes de usabilidad, no. 2 | Capability |  |  |
+| Contenidos | Goal | Se tendran que adecuar los contenidos audivisuales de los sitios web, con subtitulos o CLosed Caption y la apropiacion de lenguajes de señas.  |  |
+| Deliverable: (tiempo) | Deliverable |  |  |
+| Descripción (metatada) | Goal |  |  |
+| Despliegue Relatoría v1.2 | Value |  |  |
+| Ejemplo: Mapa del sitio | Constraint | Capa que permita reforzar las busquedas en los motores de Busquedas, y que ayude a facilitar la accesibilidad de los usuarios, de forma que pueda estar indexada de forma adecuada. 
+<br>Caracteristicas:
+<br>Mayor Navegacion del sitio. 
+<br>Mejor referenciación de contenido. 
+<br>Mayor facilidad de busqueda en los Mavegadores web. 
+<br>
+<br> |  |
+| Enlaces adecuados | Constraint | Los enlaces deberan ser identificados de forma clara, y el indicativo del sitio o la ventana que se abrirá o la ruta al documento que llegará. 
+<br> |  |
+| Funcionalidades de búsqueda | Capability |  |  |
+| Funcionalidades de descripción de contenidos | Capability |  |  |
+| Gestión contenidos. Rltría v1.0 | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Hoja ruta del producto | Grouping |  |  |
+| Idiomas | Constraint | Tener en cuenta el idioma del sitio web, para que en el marco del contexto de ubicación pueda ser interpretado, de acuerdo con el país de ubicación. |  |
+| Indexación | Goal |  |  |
+| Integración API CMS | Capability |  |  |
+| Integridad | Goal |  |  |
+| Iteración | Work Package |  |  |
+| Iteración 2 | Work Package |  |  |
+| Iteración 3 | Work Package |  |  |
+| Iteración 4 | Work Package |  |  |
+| Iteración 5 | Work Package |  |  |
+| Iteración 6 | Work Package |  |  |
+| Iteración 7 | Work Package |  |  |
+| Motor de búsqueda | Capability |  |  |
+| Organización contenidos. Rltría v0.5 | Value |  |  |
+| Proceso de organización de contenidos | Capability |  |  |
+| Proceso de recolección de contenidos | Capability |  |  |
+| Proceso de sincronización automática de contenidos | Capability |  |  |
+| Publicar contenidos | Capability |  |  |
+| Recolección | Goal |  |  |
+| Seguridad. Rltría v0.9 | Value |  |  |
+| Sincronización (actualizcn) | Goal |  |  |
+| Usabilidad web | Goal |  |  |
+| rel.Iteración 1 | Work Package |  |  |
+| Épicas | Capability |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Organización.1n.1.a.MapaproductoPGN.1.Relatoría-id}
+
+<br>
+
+
+
+## Organización. 1n.1.b. Mapa producto PGN. Relatoría
+
+Procuraduría General de la Nación
+Proyecto Migración SIU, 2023. Fase II
+
+Relatoría. Organización de trabajo. 
+Características funcionales, sistémicas, seguridad.
+
+versión 0.7
+
+
+
+
+![Organización. 1n.1.b. Mapa producto PGN. Relatoría](images/Organización.1n.1.b.MapaproductoPGN.Relatoría.png){#fig:id-id-b7bbdb516c71447e866452edcce2c9e8 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Administración de contenidos | Capability |  |  |
+| Adopción, v1.2 | Value |  |  |
+| Autenticación | Goal |  |  |
+| Autorización | Goal |  |  |
+| Búsqueda | Goal |  |  |
+| Búsqueda de contenidos. Relatoría v0.1 | Value |  |  |
+| Características | Goal |  |  |
+| Componente de  comunicación segura SIU | Capability |  |  |
+| Componente de autenticación SIU | Capability |  |  |
+| Componente de autorización SIU | Capability |  |  |
+| Componentes de usabilidad, no. 1 | Capability |  |  |
+| Componentes de usabilidad, no. 2 | Capability |  |  |
+| Contenidos | Goal | Se tendran que adecuar los contenidos audivisuales de los sitios web, con subtitulos o CLosed Caption y la apropiacion de lenguajes de señas.  |  |
+| Deliverable: (tiempo) | Deliverable |  |  |
+| Descripción (metatada) | Goal |  |  |
+| Despliegue Relatoría v1.2 | Value |  |  |
+| Funcionalidades de búsqueda | Capability |  |  |
+| Funcionalidades de descripción de contenidos | Capability |  |  |
+| Gestión contenidos. Rltría v1.0 | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Hoja ruta del producto | Grouping |  |  |
+| Indexación | Goal |  |  |
+| Integración API CMS | Capability |  |  |
+| Integridad | Goal |  |  |
+| Iteración | Work Package |  |  |
+| Iteración 2 | Work Package |  |  |
+| Iteración 3 | Work Package |  |  |
+| Iteración 4 | Work Package |  |  |
+| Iteración 5 | Work Package |  |  |
+| Iteración 6 | Work Package |  |  |
+| Iteración 7 | Work Package |  |  |
+| Motor de búsqueda | Capability |  |  |
+| Organización contenidos. Rltría v0.5 | Value |  |  |
+| Proceso de organización de contenidos | Capability |  |  |
+| Proceso de recolección de contenidos | Capability |  |  |
+| Proceso de sincronización automática de contenidos | Capability |  |  |
+| Recolección | Goal |  |  |
+| Sincronización (actualizcn) | Goal |  |  |
+| Usabilidad web | Goal |  |  |
+| rel.Iteración 1 | Work Package |  |  |
+| Épicas | Capability |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Organización.1n.1.b.MapaproductoPGN.Relatoría-id}
+
+<br>
+
+
+
+## Organización. 2n.1. Mapa producto PGN. Conciliacion
+
+Procuraduría General de la Nación
+Proyecto Migración SIU, 2023. Fase II
+
+Conciliación Administrativa (...).  Organización de trabajo. 
+Características funcionales, sistémicas, seguridad.
+
+versión 0.1
+
+
+
+
+![Organización. 2n.1. Mapa producto PGN. Conciliacion](images/Organización.2n.1.MapaproductoPGN.Conciliacion.png){#fig:id-id-125d1b49b13f492ca225313c1b544613 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Adopción, v1.2 | Value |  |  |
+| Autenticación | Goal |  |  |
+| Autorización | Goal |  |  |
+| Características | Goal |  |  |
+| Componente de  comunicación segura SIU | Capability |  |  |
+| Componente de autenticación SIU | Capability |  |  |
+| Componente de autorización SIU | Capability |  |  |
+| Conciliación administrativa | Goal |  |  |
+| Conciliación civil | Goal |  |  |
+| Conciliación disciplinar | Goal |  |  |
+| Conciliación familia | Goal |  |  |
+| Conciliación preventivo | Goal |  |  |
+| Deliverable: (tiempo) | Deliverable |  |  |
+| Despliegue Conciliación v1.2 | Value |  |  |
+| Diseño de flujos de Conciliación | Goal |  |  |
+| Flujo de trabajo  Preventico | Capability |  |  |
+| Flujo de trabajo Disciplinar | Capability |  |  |
+| Flujo de trabajo Disciplinario. Conciliación v0.9 | Value |  |  |
+| Flujo de trabajo Intervención | Capability |  |  |
+| Flujo de trabajo Intervención. Conciliación v0.1 (copy) | Value |  |  |
+| Flujo de trabajo Preventivo. Conciliación v0.7 | Value |  |  |
+| Gestión de flujos. Conciliación 1.0 | Value |  |  |
+| Gestión de instancias (flujos) | Goal |  |  |
+| Gestión documental | Goal |  |  |
+| Hitos mercado | Value |  |  |
+| Hoja ruta del producto | Grouping |  |  |
+| Informes de gestión flujos | Goal |  |  |
+| Integración API Dokus | Capability |  |  |
+| Integridad | Goal |  |  |
+| Iteración | Work Package |  |  |
+| Iteración 1 | Work Package |  |  |
+| Iteración 2 | Work Package |  |  |
+| Iteración 3 | Work Package |  |  |
+| Iteración 4 | Work Package |  |  |
+| Iteración 5 | Work Package |  |  |
+| Iteración 6 | Work Package |  |  |
+| Iteración 7 | Work Package |  |  |
+| Motor de flujo de trabajo | Capability |  |  |
+| Panel de control flujos | Capability |  |  |
+| Reporte flujos de trabajo | Capability |  |  |
+| Épicas | Capability |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Organización.2n.1.MapaproductoPGN.Conciliacion-id}
+
+<br>
+
+
+
+## Organización. 2n.1a. Mapa producto PGN. Conciliacion
+
+Procuraduría General de la Nación
+Proyecto Migración SIU, 2023. Fase II
+
+Conciliación. Intervención, Preventico y Disciplinario. Organización de trabajo. Características funcionales, sistémicas, seguridad.
+
+versión 0.3
+
+
+
+
+![Organización. 2n.1a. Mapa producto PGN. Conciliacion](images/Organización.2n.1a.MapaproductoPGN.Conciliacion.png){#fig:id-id-4523fca069074c39901d92e952d21734 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Adopción, v1.2 | Value |  |  |
+| Autenticación | Goal |  |  |
+| Autorización | Goal |  |  |
+| Características | Goal |  |  |
+| Componente de  comunicación segura SIU | Capability |  |  |
+| Componente de autenticación SIU | Capability |  |  |
+| Componente de autorización SIU | Capability |  |  |
+| Conciliación administrativa | Goal |  |  |
+| Conciliación civil | Goal |  |  |
+| Conciliación disciplinar | Goal |  |  |
+| Conciliación familia | Goal |  |  |
+| Conciliación preventivo | Goal |  |  |
+| Deliverable: (tiempo) | Deliverable |  |  |
+| Despliegue Conciliación v1.2 | Value |  |  |
+| Diseño de flujos de Conciliación | Goal |  |  |
+| Flujo de trabajo  Preventico | Capability |  |  |
+| Flujo de trabajo Disciplinar | Capability |  |  |
+| Flujo de trabajo Disciplinario. Conciliación v0.9 | Value |  |  |
+| Flujo de trabajo Intervención | Capability |  |  |
+| Flujo de trabajo Intervención. Conciliación v0.1 (copy) | Value |  |  |
+| Flujo de trabajo Preventivo. Conciliación v0.7 | Value |  |  |
+| Gestión de flujos. Conciliación 1.0 | Value |  |  |
+| Gestión de instancias (flujos) | Goal |  |  |
+| Gestión documental | Goal |  |  |
+| Hitos mercado | Value |  |  |
+| Hoja ruta del producto | Grouping |  |  |
+| Informes de gestión flujos | Goal |  |  |
+| Integración API Dokus | Capability |  |  |
+| Integridad | Goal |  |  |
+| Iteración | Work Package |  |  |
+| Iteración 1 | Work Package |  |  |
+| Iteración 2 | Work Package |  |  |
+| Iteración 3 | Work Package |  |  |
+| Iteración 4 | Work Package |  |  |
+| Iteración 5 | Work Package |  |  |
+| Iteración 6 | Work Package |  |  |
+| Iteración 7 | Work Package |  |  |
+| Motor de flujo de trabajo | Capability |  |  |
+| Panel de control flujos | Capability |  |  |
+| Reporte flujos de trabajo | Capability |  |  |
+| Épicas | Capability |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Organización.2n.1a.MapaproductoPGN.Conciliacion-id}
+
+<br>
+
+
+
+## Organización. 3n.1. Mapa producto PGN. SIAF
+
+Procuraduría General de la Nación
+Proyecto Migración SIU, 2023. Fase II
+
+SIAF. Inventario PGN. Organización de trabajo. Características funcionales, sistémicas, seguridad.
+
+versión 0.2
+
+
+
+![Organización. 3n.1. Mapa producto PGN. SIAF](images/Organización.3n.1.MapaproductoPGN.SIAF.png){#fig:id-id-212758d2fc8748b7bcc05868ff393b18 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Acciones de acuerdo al estado | Goal | Realización de acciones específicas según el estado de los movimientos devolutivos. |  |
+| Almacén | Goal | Administración de almacenes. |  |
+| Asientos | Goal | Registro de asientos. |  |
+| CRUD Campos | Goal | Operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en campos de los asientos. |  |
+| Características | Goal |  |  |
+| Creación de movimiento | Goal | Generación de movimientos de acuerdo con los asientos abiertos. |  |
+| Cuenta de funcionario | Goal | Gestión de cuentas de funcionarios. |  |
+| Cuenta en Microsoft (Autenticación) | Goal | Autenticación mediante cuentas de Microsoft. |  |
+| Cálculo de total | Goal | Cálculo automático del total basado en la información de elementos. |  |
+| Código (autoincremental) | Goal | Generación automática de códigos que se reinician cada año. |  |
+| Deliverable: (tiempo) | Deliverable |  |  |
+| Dependiendo del tipo de movimiento | Goal | Gestión de movimientos según su tipo, incluyendo elementos como conceptos, beneficiarios y funcionarios (maestros). |  |
+| Elementos | Goal | Registro de elementos relacionados con los movimientos. |  |
+| Estado | Goal | Seguimiento del estado de los asientos. |  |
+| Fecha automática | Goal | Asignación automática de la fecha en los asientos. |  |
+| Filtrar por campos | Goal | Capacidad para filtrar los movimientos devolutivos según campos específicos. |  |
+| Funcionario Posesionado | Goal | Registro de información sobre funcionarios en posesión. |  |
+| Funcionarios (Nómina) vs Funcionarios (Siaf) | Goal | Comparación y actualización de información de funcionarios almacenada en Siaf con la información de nómina. |  |
+| Generar documento | Goal | Creación de documentos relacionados con los movimientos. |  |
+| Generar reportes | Goal | Creación de informes y reportes para proporcionar la información solicitada. |  |
+| Hitos mercado | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Hoja ruta del producto | Grouping |  |  |
+| Iteración | Work Package |  |  |
+| Iteración 1 | Work Package |  |  |
+| Iteración 1 | Work Package |  |  |
+| Iteración 1 | Work Package |  |  |
+| Iteración 1 | Work Package |  |  |
+| Iteración 1 | Work Package |  |  |
+| Iteración 1 | Work Package |  |  |
+| Iteración 1 | Work Package |  |  |
+| Iteración 1 | Work Package |  |  |
+| Iteración 9 | Work Package |  |  |
+| Login (Doble factor) | Goal | Autenticación de usuario mediante doble factor de seguridad |  |
+| Movimiento Consumible | Goal | Registro de movimientos relacionados con elementos consumibles. |  |
+| Movimiento devolutivo | Goal | Registro de movimientos devolutivos. |  |
+| Sincronización con Homminis | Goal | Sincronización de datos con el sistema Homminis. |  |
+| Vista CRUD | Goal | Interfaz para crear, leer, actualizar y eliminar registros en el almacén. |  |
+| Vista formulario personalizada | Goal | Personalización de formularios para la creación de asientos dependiendo del almacén. |  |
+| Vista tipo formulario personalizada | Goal | Personalización de formularios para ingresar datos relacionados con los asientos. |  |
+| Vista tipo lista personalizada | Goal | Visualización personalizada en forma de lista con filtros por campos específicos. |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas (copy) (copy) (copy) (copy) | Capability |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Organización.3n.1.MapaproductoPGN.SIAF-id}
+
+<br>
+
+
+
+## Organización. 4n.1. Mapa producto PGN. Estratego
+
+Procuraduría General de la Nación
+Proyecto Migración SIU, 2023. Fase II
+
+Conciliación. Intervención, Preventico y Estratego. Reportes estratégicos PGN. Organización de trabajo. Características funcionales, sistémicas, seguridad.
+
+versión 0.2
+
+
+
+
+![Organización. 4n.1. Mapa producto PGN. Estratego](images/Organización.4n.1.MapaproductoPGN.Estratego.png){#fig:id-id-9636a665a6e945f0a5f43b53d1dd0f27 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Acciones correctivas | Goal | Administrar los riesgos asociados a cada uno de los indicadores o planes. |  |
+| Auditoria de mediciones | Goal | Gestionar las actividades de los usuarios, como el registro de indicadores, el tipo, etc. |  |
+| Auditorias | Goal | Gestionar el control de logs de las actividades realizadas por el usuario en sesión. |  |
+| Características | Goal |  |  |
+| Deliverable: (tiempo) | Deliverable |  |  |
+| Dependencias | Goal | Reportar al sistema, actividades, proyectos, indicadores. |  |
+| Grupos (Roles) | Goal | Administrar los roles y permisos dentro del sistema |  |
+| Gráficos | Goal | Generar y presentar gráficos |  |
+| Históricos | Goal | Almacenar y consultar históricos dentro del sistema |  |
+| Hitos mercado | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Hoja ruta del producto | Grouping |  |  |
+| Informes | Goal | Generar documentos con los informes correspondientes. |  |
+| Instrumento de cooperación | Goal | Administrar los proyectos de los cooperantes. |  |
+| Iteración | Work Package |  |  |
+| Iteración | Work Package |  |  |
+| Iteración | Work Package |  |  |
+| Iteración | Work Package |  |  |
+| Iteración | Work Package |  |  |
+| Iteración 1 | Work Package |  |  |
+| Iteración 6 | Work Package |  |  |
+| Organizaciones | Goal | Estructura principal. |  |
+| Planes administrar | Goal | Administrar el plan estratégico institucional. |  |
+| Planes asociar | Goal | Asociar recursos, presupuesto. |  |
+| Planes generar | Goal | Generar planes estratégicos institucionales y asociar los planes de acción preventivos. |  |
+| Portafolio | Goal | Gestionar el portafolio de todos los proyectos de la entidad. |  |
+| Reportes | Goal | Generar reportes y exportarlos en diferentes tipos de archivo. |  |
+| Usuarios | Goal | Administrar los usuarios del sistema |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Organización.4n.1.MapaproductoPGN.Estratego-id}
+
+<br>
+
+
+
+## Organización. 4n.1a. Mapa producto PGN. Comparativa
+
+Procuraduría General de la Nación
+Proyecto Migración SIU, 2023. Fase II
+
+Mapa de Producto SIAf, Estratego. Comparativa funcional, técnica y de impacto.
+
+versión 0.2
+
+
+
+Mapa de productos. Comparativa funcional y técnica de módulos PGN, SIAF (izq.) y Estratego (derecha).
+
+### Volumen Funcional
+El análisis funcional de ambos módulos realizado durante el levantamiento (iteración 0) del presente proyecto arroja que SIAF tiene un 40% más de volumen que Estratego. Esto es, 16 funcionalidades de Estratego, mientras que SIAF suma 26. Ver imagen comparativa.
+
+### Viabilidad de Alcance
+Tomando en cuenta el criterio de calidad de la migración, objeto del presente contrato, 078-2023, de migrar módulos completos dentro de lo posible, y contrastando este criterio con el plazo del proyecto actual, que es de 4 meses, de los cuales ya se han ejecuta aproximadamente el 20% del mismo, es más viable la estrategia de migración de estratego sobre la de SIAF de la PGN por requerir menos iteraciones de desarrollo: seis (6) iteraciones, versus, nueve (9) de SIAF.
+
+### Impacto / Beneficio a PGN
+Los hitos de mercado del presente análisis producto, imagen arriba, dan cuenta  del beneficio e impacto de ambos proyectos de migración. Haciendo la comparación de los hitos de mercado de estos productos resalta que Estratego prima sobre SIAF en tanto que el peso cualitativo de las funciones estratégicas del primero son de mayor relevancia que las funciones operativos de inventario de SIAF. Basado en esto, Estratego reporta mayor beneficio y menos impacto en esfuerzo (por la razón anterior) que SIAF.
+
+En conclusion, por los criterios de viabilidad y tamaño funcional y por el impacto estratégico, Estratego resulta en la migración a seleccionar sobre la del modulo SIAF. Esta estrategia satisface además la restricción de migrar moóulos completos sobre migración parcial.
+
+![Organización. 4n.1a. Mapa producto PGN. Comparativa](images/Organización.4n.1a.MapaproductoPGN.Comparativa.png){#fig:id-id-b5106e7c489b4c6f9cd32559208d8275 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Acciones correctivas | Goal | Administrar los riesgos asociados a cada uno de los indicadores o planes. |  |
+| Acciones de acuerdo al estado (copy) | Goal | Realización de acciones específicas según el estado de los movimientos devolutivos. |  |
+| Almacén (copy) | Goal | Administración de almacenes. |  |
+| Asientos (copy) | Goal | Registro de asientos. |  |
+| Auditoria de mediciones | Goal | Gestionar las actividades de los usuarios, como el registro de indicadores, el tipo, etc. |  |
+| Auditorias | Goal | Gestionar el control de logs de las actividades realizadas por el usuario en sesión. |  |
+| CRUD Campos (copy) | Goal | Operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en campos de los asientos. |  |
+| Creación de movimiento (copy) | Goal | Generación de movimientos de acuerdo con los asientos abiertos. |  |
+| Cuenta de funcionario (copy) | Goal | Gestión de cuentas de funcionarios. |  |
+| Cuenta en Microsoft (Autenticación) (copy) | Goal | Autenticación mediante cuentas de Microsoft. |  |
+| Cálculo de total (copy) | Goal | Cálculo automático del total basado en la información de elementos. |  |
+| Código (autoincremental) (copy) | Goal | Generación automática de códigos que se reinician cada año. |  |
+| Dependencias | Goal | Reportar al sistema, actividades, proyectos, indicadores. |  |
+| Dependiendo del tipo de movimiento (copy) | Goal | Gestión de movimientos según su tipo, incluyendo elementos como conceptos, beneficiarios y funcionarios (maestros). |  |
+| Elementos | Goal | Registro de elementos relacionados con los movimientos. |  |
+| Estado (copy) | Goal | Seguimiento del estado de los asientos. |  |
+| Fecha automática (copy) | Goal | Asignación automática de la fecha en los asientos. |  |
+| Filtrar por campos (copy) | Goal | Capacidad para filtrar los movimientos devolutivos según campos específicos. |  |
+| Funcionario Posesionado (copy) | Goal | Registro de información sobre funcionarios en posesión. |  |
+| Funcionarios (Nómina) vs Funcionarios (Siaf) (copy) | Goal | Comparación y actualización de información de funcionarios almacenada en Siaf con la información de nómina. |  |
+| Generar documento (copy) | Goal | Creación de documentos relacionados con los movimientos. |  |
+| Generar reportes (copy) | Goal | Creación de informes y reportes para proporcionar la información solicitada. |  |
+| Grupos (Roles) | Goal | Administrar los roles y permisos dentro del sistema |  |
+| Gráficos | Goal | Generar y presentar gráficos |  |
+| Históricos | Goal | Almacenar y consultar históricos dentro del sistema |  |
+| Hitos mercado | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Hitos mercado | Value |  |  |
+| Informes | Goal | Generar documentos con los informes correspondientes. |  |
+| Instrumento de cooperación | Goal | Administrar los proyectos de los cooperantes. |  |
+| Iteración | Work Package |  |  |
+| Iteración | Work Package |  |  |
+| Iteración | Work Package |  |  |
+| Iteración | Work Package |  |  |
+| Iteración 1 | Work Package |  |  |
+| Iteración 1 (copy) | Work Package |  |  |
+| Iteración 1 (copy) | Work Package |  |  |
+| Iteración 1 (copy) | Work Package |  |  |
+| Iteración 1 (copy) | Work Package |  |  |
+| Iteración 1 (copy) | Work Package |  |  |
+| Iteración 1 (copy) | Work Package |  |  |
+| Iteración 1 (copy) | Work Package |  |  |
+| Iteración 1 (copy) | Work Package |  |  |
+| Iteración 6 | Work Package |  |  |
+| Iteración 9 (copy) | Work Package |  |  |
+| Login (Doble factor) (copy) | Goal | Autenticación de usuario mediante doble factor de seguridad |  |
+| Movimiento Consumible (copy) | Goal | Registro de movimientos relacionados con elementos consumibles. |  |
+| Movimiento devolutivo (copy) | Goal | Registro de movimientos devolutivos. |  |
+| Organizaciones | Goal | Estructura principal. |  |
+| Planes administrar | Goal | Administrar el plan estratégico institucional. |  |
+| Planes asociar | Goal | Asociar recursos, presupuesto. |  |
+| Planes generar | Goal | Generar planes estratégicos institucionales y asociar los planes de acción preventivos. |  |
+| Portafolio | Goal | Gestionar el portafolio de todos los proyectos de la entidad. |  |
+| Reportes | Goal | Generar reportes y exportarlos en diferentes tipos de archivo. |  |
+| Sincronización con Homminis (copy) | Goal | Sincronización de datos con el sistema Homminis. |  |
+| Usuarios | Goal | Administrar los usuarios del sistema |  |
+| Vista CRUD (copy) | Goal | Interfaz para crear, leer, actualizar y eliminar registros en el almacén. |  |
+| Vista formulario personalizada (copy) | Goal | Personalización de formularios para la creación de asientos dependiendo del almacén. |  |
+| Vista tipo formulario personalizada (copy) | Goal | Personalización de formularios para ingresar datos relacionados con los asientos. |  |
+| Vista tipo lista personalizada (copy) | Goal | Visualización personalizada en forma de lista con filtros por campos específicos. |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas | Capability |  |  |
+| Épicas (copy) | Capability |  |  |
+| Épicas (copy) | Capability |  |  |
+| Épicas (copy) | Capability |  |  |
+| Épicas (copy) | Capability |  |  |
+| Épicas (copy) | Capability |  |  |
+| Épicas (copy) | Capability |  |  |
+| Épicas (copy) | Capability |  |  |
+| Épicas (copy) | Capability |  |  |
+| Épicas (copy) (copy) (copy) (copy) (copy) | Capability |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Organización.4n.1a.MapaproductoPGN.Comparativa-id}
+
+<br>
+
+
+
+## Riesgos.1. Migración funcional
+
+
+Riesgos de la migración funcional:
+
+* RSG1. Estrategia CMS central
+* RSG2. Motor de búsqueda
+* RSG3. Estatego como BI
+* RSG4. Conciliación y Doku
+* RSG5. Gestión de sesiones / caducidad
+* RSG6. Componentes de negocio
+* RSG7. Asignación de roles y permisos de Acceso 
+* RSG8. Intentos de accesos no autorizados
+* RSG9. Alteración de datos negocio
+* RSG10. Validación decisiones de arquitectura
+
+### Acciones de Mitigación
+
+1. Informar a la PGN de las implicaciones junto con alternativas para la implementación de la acción de aprovechamiento: diseño del SCM central (sharepoint). La PGN debe decidir si o no a la acción propuesta.
+
+1. Informar a la PGN de las implicaciones junto con alternativas para la implementación de la acción de aprovechamiento: diseño del motor de búsqueda compartido (sharepoint). La PGN debe decidir si o no a la acción propuesta.
+
+1. Informar a la PGN de las implicaciones junto con alternativas para la implementación de la acción de manejo del riesgo: diseño de solución de inteligencia de negocio (Power BI). La PGN debe decidir si o no a la acción propuesta.
+
+1. Informar a la PGN de las implicaciones junto con alternativas para la implementación de la acción de manejo del riesgo: ubicar la lógica, los flujos, y los datos misionales dentro del SIU. La PGN debe decidir si o no a la acción propuesta.
+
+1. Informar a la PGN de las implicaciones junto con alternativas para la implementación de la acción de manejo del riesgo: facilitar la administración de seguridad en un solo lugar (distinto de localizarla en las aplicaciones web). La PGN debe decidir si o no a la acción propuesta.
+
+![Riesgos.1. Migración funcional](images/Riesgos.1.Migraciónfuncional.png){#fig:id-id-d58fdcecc4f542a39dce288e81a395ae width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| RSG1. Estrategia CMS central | Constraint | Establecer desde el principio el gestor de contenidos compartido que los módulos del SUI migrados van a usar.<br> |  |
+| RSG10. Validación decisiones de arquitectura | Constraint | Discutir la arquitectura de referencia de SUI Migración PGN. La arquitectura de referencia SUI informa de todas las fortalezas y consideraciones estructurales y de sistema, como extensibilidad, rendimiento y seguridad, que regirán a todos los módulos del SUI migrado.<br> |  |
+| RSG11. Estrategias de Migración de datos | Constraint | Discutir el alcance y los recursos para la correcta migración de datos incluídas en contrato 078, Migración Funcional SIU en atención al numeral 5.6 del anexo técnico del proyecto.<br><br>| 5.6 MIGRACIÓN DE DATOS<br>| Dentro del alcance de las actividades a desarrollar, el proveedor debe generar los mecanismos adecuados para hacer migración de la información que se encuentre en los sistemas actuales y que, por evolución de este, tenga datos relevantes que deban ser migrados a los ambientes y/o sistemas de información productos de la fábrica.<br>|<br>| Para este servicio el proveedor debe disponer del personal idóneo y las herramientas necesarias para hacer efectiva las actividades de migración de datos, utilizando las mejores prácticas de Extracción-Transformación-Carga (ETL) y protocolos de control de versiones robustos. Esta labor debe ser coordinada con las personas de la entidad que sean designadas por la Oficina de Tecnología, Innovación y Transformación Digital.<br> |  |
+| RSG2. Motor de búsqueda compartido | Constraint | Establecer desde el principio el motor de búsqueda de conteidos compartido para los módulos del SUI migrados.<br><br> |  |
+| RSG3. Estatego como BI | Constraint | Definir la arquitectura de Estratego migrado: puede ser una solución de BI simple, o puede ser una aplicación web tradicional.<br> |  |
+| RSG4. Conciliación y gestión documental (Doku) | Constraint | Definir la ubicación de los componentes misionales de Conciliación Administrativa (SIU). Debe estar fuera de Doku.<br> |  |
+| RSG5. Gestión de sesiones / caducidad | Constraint | Establecer desde el principio el motor de búsqueda de conteidos compartido para los módulos del SUI migrados.<br><br> |  |
+| RSG6. Componentes de negocio | Constraint | Incluir el esfuerzo de creación de componentes estrcturales y comunes a los módulos del SUI migrado requeridos por la arquitectura de referencia SUI. <br><br>Algunos componentes requeridos son:<br><br>* Administración de autorizaciones (integrado con el directorio PGN)<br>* Motor de flujos de trabajo para diseño y organización del trabajo (Conciliación)<br>* Componente de ruteo de documentos (Relatoría)<br><br> |  |
+| RSG7. Asignación de roles y permisos de Acceso  | Constraint | RSG7. Asignación de roles y permisos de Acceso
+<br>Los riesgos de autenticación como el Single Sign On (SSO), permite que si las credenciales de usuario se ven comprometidas, pueden dar permiso a un atacante acceder a todos o la mayoría de recursos y aplicaciones en la red. 
+<br>Se ha propuesto controlar los accesos a partir de la documentación que identifica la metodología de clasificación y gestión de usuarios roles y procesos de autenticación, a partir del control de acceso basado en roles RBAC (Identidades y autenticación), que permite tener una reacción más oportuna para controlar los accesos a diferentes módulos de los diferentes sistemas de Información.  Los inicios de sesión de los usuarios asociados a cuenta de dominio de Active Directory deben tener en cuenta la asignación de roles de ingreso al servidor o roles de ingreso al motor de bases de datos. Las cuentas de usuario no deben ser creadas de administrador local (administrador), es una puerta de entrada para los ataques de fuerza bruta.
+<br> |  |
+| RSG8. Intentos de accesos no autorizados | Constraint | RSG8. Intentos de accesos no autorizados
+<br>Los intentos no autorizados son una de las técnicas más comunes utilizadas en la actualidad, los diferentes tipos de amenazas de intrusiones SQL Injections, Denegaciones de Servicios, riesgos de Ransomware, Ingeniería social, malware y otras amenazas, permite que se proponga implementación de soluciones de Seguridad perimetral a partir de la implementación de WAF para controlar las peticiones externas y evaluación de vulnerabilidades y escaneo para conocer puertos abiertos y establecer medidas.
+<br> |  |
+| RSG9. Alteración de datos negocio | Constraint | RSG9. Alteración de datos almacenados en Base de Datos.
+<br>Se deberán asignar usuarios para la conexión de cada base de datos.<br>
+<br>Se debe proporcionar seguridad a nivel de filas y columnas (ofuscamiento) para proteger los datos confidenciales en el nivel de columnas y filas RLS ((seguridad de nivel de fila). <br>
+<br>Algunos de los métodos y características que se deben tener en cuenta a implementar es a partir del Alway encrypted, para cifrar los datos que se encuentran almacenados. 
+<br>
+<br> |  |
+| Riesgos Técnicos Migración Funcional SUI (078) | Constraint | Conjunto de riesgos técnicos y arquitectura. Proyecto Migración SUI 2023, PGN.<br><br> |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Riesgos.1.Migraciónfuncional-id}
+
+<br>
+
+
+
+## Riesgos.2. Modelo Riesgo RSG10
+
+Procuraduría General de la Nación
+Proyecto Migración SIU, 2023. Fase II
+
+Gestión de riesgos técnicos. RSG10. Validación decisiones de arquitectura. Agentes del riesgo, valoración, plan de acción.
+
+versión 0.5
+
+
+
+Para mitigar el riesgo 10, RSG10. Validación decisiones de arquitectura, que tiene como agente de riesgo a los arquitectos del contratista, Softgic, y al de la entidad, PGN, es necesario iniciar un proceso de evaluación y aprobación de la arquitectura. La frecuencia de este proceso será eventual, y como mínimo una vez cada dos semanas.
+
+### Valoración del Riesgo
+
+| Requisito      | Extensibilidad SUI |
+|:-------------|:------------------|
+| Descripción | Concentración de los componentes de negocio, misionales, del SUI protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Migración SUI, más adelante en el documento. |
+| Calidad sistémica | La extensibilidad que optimiza el diseño Migración SUI está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege. |
+
+Table: Valoración del riesgo RSG10. Validación decisiones de arquitectura. Migración SUI. {#tbl:requisito1-id}
+
+![Riesgos.2. Modelo Riesgo RSG10](images/Riesgos.2.ModeloRiesgoRSG10.png){#fig:id-id-77e94c7adf4c47acac08d7fa168dccc3 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Agente de riesgo PGN | Business Actor | Arquitecto PGN |  |
+| Agente de riesgo Softgic | Business Actor | Arquitecto Softgic |  |
+| Definición tipos de datos módulos SUI | Requirement |  |  |
+| Desconocimiento arq. de referencia SUI | Business Event |  |  |
+| Evaluación  arquitectura de referencia SUI | Course Of-Action | La frecuencia del proceso de evaluación de la arquitectura es eventual, mínimo una vez cada dos semanas.<br> |  |
+| Impacto | Assessment |  |  |
+| RSG10. Validación decisiones de arquitectura | Constraint | Discutir la arquitectura de referencia de SUI Migración PGN. La arquitectura de referencia SUI informa de todas las fortalezas y consideraciones estructurales y de sistema, como extensibilidad, rendimiento y seguridad, que regirán a todos los módulos del SUI migrado.<br> |  |
+| Supervisor contrato 078-2023 | Stakeholder |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Riesgos.2.ModeloRiesgoRSG10-id}
+
+<br>
+
+
+
+## Riesgos.3. Modelo Riesgo RSG11
+
+Procuraduría General de la Nación
+Proyecto Migración SIU, 2023. Fase II
+
+Gestión de riesgos técnicos. RSG11. Estrategias de migración de datos módulos migrados. Agentes del riesgo, valoración, plan de acción.
+
+versión 0.5
+
+
+
+Para mitigar el riesgo 10, RSG10. Validación decisiones de arquitectura, que tiene como agente de riesgo a los arquitectos del contratista, Softgic, y al de la entidad, PGN, es necesario iniciar un proceso de evaluación y aprobación de la arquitectura. La frecuencia de este proceso será eventual, y como mínimo una vez cada dos semanas.
+
+### Valoración del Riesgo
+
+| Requisito      | Extensibilidad SUI |
+|:-------------|:------------------|
+| Descripción | Concentración de los componentes de negocio, misionales, del SUI protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Migración SUI, más adelante en el documento. |
+| Calidad sistémica | La extensibilidad que optimiza el diseño Migración SUI está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege. |
+
+Table: Valoración del riesgo RSG10. Validación decisiones de arquitectura. Migración SUI. {#tbl:requisito1-id}
+
+![Riesgos.3. Modelo Riesgo RSG11](images/Riesgos.3.ModeloRiesgoRSG11.png){#fig:id-id-697162d0caf141e1b5ceccfc422d4bc8 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Agente de riesgo PGN | Business Actor | Arquitecto PGN |  |
+| Agente de riesgo Softgic | Business Actor | Arquitecto Softgic |  |
+| Definición mecanismo sincronización y extracción (lectura) | Requirement |  |  |
+| Definición tipos de datos módulos SUI | Requirement |  |  |
+| Evaluación tipos de datos, actividades y herramientas | Course Of-Action | La frecuencia del proceso de evaluación de la arquitectura es eventual, mínimo una vez cada dos semanas.<br> |  |
+| Gestión alcance tipos de datos y criterios aceptación migración datos | Business Event |  |  |
+| Impacto | Assessment | Sobretrabajo del proyecto 078, esfuerzo y presupuesto. |  |
+| Implementación de sincronización y lectura datos (migrados) | Course Of-Action | La frecuencia del proceso de evaluación de la arquitectura es eventual, mínimo una vez cada dos semanas.<br> |  |
+| RSG11. Estrategias de Migración de datos | Constraint | Discutir el alcance y los recursos para la correcta migración de datos incluídas en contrato 078, Migración Funcional SIU en atención al numeral 5.6 del anexo técnico del proyecto.<br><br>| 5.6 MIGRACIÓN DE DATOS<br>| Dentro del alcance de las actividades a desarrollar, el proveedor debe generar los mecanismos adecuados para hacer migración de la información que se encuentre en los sistemas actuales y que, por evolución de este, tenga datos relevantes que deban ser migrados a los ambientes y/o sistemas de información productos de la fábrica.<br>|<br>| Para este servicio el proveedor debe disponer del personal idóneo y las herramientas necesarias para hacer efectiva las actividades de migración de datos, utilizando las mejores prácticas de Extracción-Transformación-Carga (ETL) y protocolos de control de versiones robustos. Esta labor debe ser coordinada con las personas de la entidad que sean designadas por la Oficina de Tecnología, Innovación y Transformación Digital.<br> |  |
+| Supervisor contrato 078-2023 | Stakeholder |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Riesgos.3.ModeloRiesgoRSG11-id}
+
+<br>
+
+
+
+## Seguridad Migracion.1a.SIU submódulos
+
+PGN. Migración Sistemas Misionales. Fase 2.
+
+Submódulos Sistema Único de Información. Requerimientos asociados a submódulos.
+
+versión 0.3
+
+
+Identificación de submódulos del Sistema Único de Información (SUI) de la PGN. 
+
+Todos los sistemas de información del SUI siguen esta directiva: estarán constituídos por submódulos dispuestos en relación de utilitarios (que sirven) a los componentes misionales del SUI, ubicados en el centro en la diagrama. 
+
+Los submódulos del SUI, tal como están presentados, reúnen a las partes que tienen el mismo rol en favor de la coherencia. Así mismo, estos pueden ser intercambiados o ampliados sin perjuicio del SUI gracias a las interfaces de unión (en favor de la extensibilidad).
+
+Las interfaces de unión indicadas arriba obligan a los submódulos a cumplir las exigencias de los componentes misionales del SUI.
+
+Los submódulos identificados tienen los siguientes roles para el SUI migrado:
+
+1. cc:Presentación
+1. cc:Servicios de aplicación
+1. cc:Portales y canales
+1. cc:Administración y configuración
+1. cc:Almacenamiento
+
+### Requerimientos Asociados a los Submódulos
+La disposición de los módulos y submódulos presentada, denominada SUI Migración en adelante, facilita la focalización de los requerimientos encontrados en el levantamiento realizado por el actual proyecto. Así, por ejemplo, los requerimientos funcionales se encuentran concentrados en el submódulo de presentación (ver imagen).
+
+![Seguridad Migracion.1a.SIU submódulos](images/SeguridadMigracion.1a.SIUsubmódulos.png){#fig:id-id-550a012b7cc7456ba096cdabbe1731fb width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Cliente PGN | Business Actor |  |  |
+| Funcionario PGN | Business Actor |  |  |
+| RQR. Administrativos | Requirement |  |  |
+| RQR. Funcionales | Requirement |  |  |
+| RQR. Ingeniería | Requirement |  |  |
+| RQR. Negocio | Requirement |  |  |
+| RQR. Seguridad | Requirement | Requerimientos de seguridad, SUI, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br> |  |
+| cc:Administración | Application Collaboration |  |  |
+| cc:Almacenamiento | Application Collaboration | Espacio de almancenamiento operativo y transaccional de un módulo central del SUI migrado. |  |
+| cc:PGN SUI (módulo central) | Application Collaboration | Módulo central SUI migrado. Módulo independiente y asignado a un dominio partigular de la PGN.<br> |  |
+| cc:Portales y canales | Application Collaboration | Submódulo de portales internos de la PGN a donde llega el SUI. Interfaz web que usa al SUI para llegar a direcciones y subdirecciones de la PGN. La plataforma principal de portales en este contexto es Sharepoint de Microsoft.<br> |  |
+| cc:Presentación | Application Collaboration | Submódulo de presentación del SUI. interfaz gráfica, interfaz web visible a los usuarios clientes y funcionarios de la PGN.  |  |
+| cc:Servicios de aplicación | Application Collaboration | Submódulo de servicios utilitarios que sirven al SUI. Servicios variados que cumplen roles facilitadores de las actividades misionales del SUI. Ejemplos de estos servicios son los de gestión documental, implementado por Doku en el contexto de PGN.<br><br> |  |
+| interfaz | Application Interface |  |  |
+| interfaz | Application Interface |  |  |
+| interfaz | Application Interface |  |  |
+| interfaz | Application Interface |  |  |
+| interfaz | Application Interface |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-SeguridadMigracion.1a.SIUsubmódulos-id}
+
+<br>
+
+
+
+## Seguridad. Lineabase.1a.SIU componentes (corregida)
+
+SSL
+
+
+Dependencias de infraestructura entre los servicios que integran el modelo de aplicación de SUI, Migración. 
+
+* Servidor de Canales (App PGN web y móvil)
+* Servidor Web App (App SUI)
+* Servidor Lappiz (Config SUI)
+* Servidor BDD App (Transaccional)
+* Servidor BDD Config (Configuración)
+
+
+![Seguridad. Lineabase.1a.SIU componentes (corregida)](images/Seguridad.Lineabase.1a.SIUcomponentes(corregida).png){#fig:id-id-1cf93f4f9b4e49e3af39acf22f3c2445 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| API externas | Application Service |  |  |
+| Acceso Público | Device |  |  |
+| Acceso Público | Device |  |  |
+| Acceso Público | Device |  |  |
+| App | Application Component |  |  |
+| App PGN Móvil | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethikal Hacking. 
+<br>
+<br>Protección de datos personales, 
+<br>Los sistemas de información que recogen, procesan y almacenan información de los derechos de las personas se deben almacenar de forma adecuada, la información que pueda ser vulnerada puede generar obliaciones legales y éticas con respecto a la perdida de informacion confidencial por parte de ciudadanos del pais. 
+<br>
+<br>La informacion contenida en las bases de datos debe tener los mecanismos de cifrado que en otros apartados se han mencionado. 
+<br>La legislación que hay que tener como referencia, ley 1581 de 2012. Decreto 1377 de 2013
+<br>
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br> |  |
+| App PGN Web | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethical Hacking. 
+<br>Los resultados permitirán identificar los requisitos de seguridad que los sistemas de informacion o servicios web deberán cumplir.
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br>El Login deberá evidenciar el control de errores, al momento de realizar la validación deberá mensaje de error para el caso que se autentique con credenciales erradas.  |  |
+| Application Service (NLB) | Application Service |  |  |
+| Archivos Compartidos | Application Service |  |  |
+| Autorizacion de usuario. | Resource | Los usuarios que tendrán accesos a los diferentes sistemas de información deben tener en cuenta que las credenciales de acceso son de uso personal e intransferible, por lo tanto, se deberá hacer buen uso de las contraseñas asignadas para los diferentes aplicativos de la procuraduría General de la Nación (PGN).
+<br>
+<br>Identificación de Mecanismos
+<br>Identificación de roles, privilegios
+<br>Aprovisionamiento de cuentas
+<br>Establecimeinto de de Mecanismos de control de acceso
+<br> |  |
+| CDN Contenidos | Application Service |  |  |
+| Config | Application Component |  |  |
+| Controlador admin | Application Component |  |  |
+| Controlador frontal mvl | Application Component |  |  |
+| Controlador frontal web | Application Component | -	Verificados los SSL, se recomienda adquirir SSL seguros, con entidades certificadoras. 
+<br>Si se desea continuar con SSL de Let's Encrypt, se recomienda automatizar el proceso de actualización dado que al dejar estos en modo actualización manual es probable el olvido de esta actualización (Estos certificados se deben actualizar trimestralmente y no cuentan con las características de seguridad necesarias. 
+<br> |  |
+| Controlador funcional | Application Component |  |  |
+| Doku (gest. doc.) | Application Service |  |  |
+| Identidades | Application Service |  |  |
+| Infraestructura SUI | Grouping | Soporte de infraestructura a los componentes del SUI Migración. Servidores y ambientes de cómputo para la ejecución del software base de los componentes misionales del SUI de PGN.<br> |  |
+| Interfaz de aplicación (runtime) | Application Interface | Servidor web:  Microsoft-IIS/10.0 
+<br>Marco de Programación: ASP.NET
+<br>Huellas digitales identificadas:  
+<br>Huella digital SHA-256 “FC:79:06:7E:F5:24:20:50:F1:C0:74:F7:85:56:B9:05:B7:33:A3:2D:44:A0:48”
+<br>Huella digital SHA1 “8C:48:BD:E2:F5:18:18:C3:85:96:68:44:2E:28:A0:68:08:2F:0A:BE”
+<br> |  |
+| Interfaz de datos 1 | Application Service |  |  |
+| Interfaz de datos 2 | Application Service |  |  |
+| Interfaz de datos 3 | Application Service |  |  |
+| Key public | Resource |  |  |
+| Key public | Resource |  |  |
+| Key public | Resource |  |  |
+| Mensaje: JSON | Data Object |  |  |
+| Modelo (neg) | Application Component |  |  |
+| PGN SIU | Grouping | El objetivo principal de la arquitectura del SUI de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la PGN.<br><br>Los objetivos secundarios de esta arquitectura SUI de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br><br> |  |
+| Persistencia | Application Collaboration |  |  |
+| Puerto datos 1 | Application Component |  |  |
+| Puerto datos 2 | Application Component |  |  |
+| Scannig port | Resource | Se realiza verificación y comprobación de puertos y puertas traseras cerradas, por lo cual se ejecuta el protocolo telnet, que sirve verificar la entrada a los servidores por cualquier puerto que este abierto que no tenga las protecciones de seguridad adecuadas. |  |
+| Seguridad | Application Component |  |  |
+| Servidor BDD App | Node | Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz<br>Discos	SO C: 126 GB, Backup E: 511 GB, SQL Data F: 510 GB, SQL Log   G: 510 GB, TempDB  G: 63.6 GB.<br> |  |
+| Servidor BDD Config | Node | Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz<br>Discos	SO C: 80 GB, Backup E: 250 GB, SQL Data F: 250 GB, SQL Log G: 250 GB, TempDB  G: 30 GB.<br> |  |
+| Servidor Web App | Node | Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM	8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos	SO C: 126 GB. SO D: 16 GB.<br> |  |
+| Servidor Web Canales | Node | Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM	8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos	SO C: 126 GB. SO D: 16 GB.<br> |  |
+| Sistema de Seguridad (LDAP) Control de acceso. | Node | Sistema de autenticación del directorio activo. |  |
+| Transacciones | Application Component |  |  |
+| Utilitario | Application Component |  |  |
+| Vista móvil | Application Component |  |  |
+| Vista web | Application Component | -	Verificados los SSL, se recomienda adquirir SSL seguros, con entidades certificadoras. 
+<br>Si se desea continuar con SSL de Let's Encrypt, se recomienda automatizar el proceso de actualización dado que al dejar estos en modo actualización manual es probable el olvido de esta actualización (Estos certificados se deben actualizar trimestralmente y no cuentan con las características de seguridad necesarias. 
+<br>4.	SERVICIOS IDENTIFICADOS:
+<br>
+<br>Servidor web:  Microsoft-IIS/10.0 
+<br>Marco de Programación: ASP.NET
+<br>Huellas digitales identificadas:  
+<br>Huella digital SHA-256 “FC:79:06:7E:F5:24:20:50:F1:C0:74:F7:85:56:B9:05:B7:33:A3:2D:44:A0:48”
+<br>Huella digital SHA1 “8C:48:BD:E2:F5:18:18:C3:85:96:68:44:2E:28:A0:68:08:2F:0A:BE”
+<br> |  |
+| WAF Web Aplication firewall | Node |  |  |
+| ccccc Proveedores contenidos | Application Service |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Seguridad.Lineabase.1a.SIUcomponentes(corregida)-id}
+
+<br>
+
+
+
+## Seguridad. Linebase.2.Portal
+
+° P2: Servicio de adinistración de identidades y acceso basado en la nube de Microsoft.
+
+
+El portal es el conjunto de los elementos físicos y lógicos necesarios para la implementación de la granja de servidores de SharePoint Server 2019 para el portal de la Procuraduría.
+
+* Servidores Web Front End
+* Servidores de Aplicaciones
+* Servidores de SQL Server
+
+![Seguridad. Linebase.2.Portal](images/Seguridad.Linebase.2.Portal.png){#fig:id-id-5b47de95cd3f49d6b7dc05471bcc503a width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| Application Collaboration Sharepoint | Application Collaboration |  |  |
+| Application Interface | Application Interface |  |  |
+| Directivas de Aplicaciones. | Application Component | Requiere Microsoft 365 E3 con el complemento de identidades, La restricciones de acceso a las cargas de trabajo de productividad es un elemento clave, en la que los recursos locales y en la nube se autentican y se autorizan. 
+<br>La autenticación por medio del AD con agentes que permiten ampliar su funcionalidad. |  |
+| Directivas de acceso. | Application Component | El control de acceso se da a partir de la autenticacion del directorio activo, y la integración del Single Sign-On (SSO), con el inicio unico de sesión fluido en todas las aplicaciones. 
+<br>Se tendrá en cuenta la implementación con multiples capas de autenticación, autenticacion multifactor MFA
+<br> |  |
+| Directivas de proteccion de aplicaciones. | Application Component |  |  |
+| Directivas de riesgos de protección. * | Application Component |  |  |
+| Requiere MFA * | Application Component | Se deberá incorporar el 2FA para los accesos a la informacion que reposa en el SharePoint, que permita a los usuarios iniciar sesión de forma segura a través del uso de sus dispositivos móviles.  |  |
+| Requiere inicio de sesión. | Application Component | Presenta el formulario de inicio de sesión al usuario final que enviará la solicitud por medio del método POST, que envia datos de información al servidor. para que el servidor los agregue a su base de datos.  |  |
+| Servidor aplicaciones Sharepoint | Application Component |  |  |
+| Servidor datos Sharepoint | Application Component |  |  |
+| Servidor web Sharepoint | Application Component |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Seguridad.Linebase.2.Portal-id}
+
+<br>
+
+
+
+## Seguridad. Migracion.1.SIU modulos
+
+
+Distribución de los servicios y paquetes que integran la aplicación de SUI. 
+
+Cuantro paquetes con tecnologías respectivas
+1. Angular 11 (Web)
+1. API Transaccional (Node Js)
+1. API Config (C#)
+1. Persistencia (SQL)
+
+
+![Seguridad. Migracion.1.SIU modulos](images/Seguridad.Migracion.1.SIUmodulos.png){#fig:id-id-2efb9df070e94a1b8eba05a57ed55eaf width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| API externas | Application Service |  |  |
+| Administración | Grouping |  |  |
+| Almacenamiento | Grouping |  |  |
+| App | Application Component |  |  |
+| App PGN Móvil | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethikal Hacking. 
+<br>
+<br>Protección de datos personales, 
+<br>Los sistemas de información que recogen, procesan y almacenan información de los derechos de las personas se deben almacenar de forma adecuada, la información que pueda ser vulnerada puede generar obliaciones legales y éticas con respecto a la perdida de informacion confidencial por parte de ciudadanos del pais. 
+<br>
+<br>La informacion contenida en las bases de datos debe tener los mecanismos de cifrado que en otros apartados se han mencionado. 
+<br>La legislación que hay que tener como referencia, ley 1581 de 2012. Decreto 1377 de 2013
+<br>
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br> |  |
+| App PGN Web | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethical Hacking. 
+<br>Los resultados permitirán identificar los requisitos de seguridad que los sistemas de informacion o servicios web deberán cumplir.
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br>El Login deberá evidenciar el control de errores, al momento de realizar la validación deberá mensaje de error para el caso que se autentique con credenciales erradas.  |  |
+| Application Interface | Application Interface |  |  |
+| Application Service (NLB) | Application Service |  |  |
+| Archivos Compartidos | Application Service |  |  |
+| CDN Contenidos | Application Service |  |  |
+| Config | Application Component |  |  |
+| Controlador admin | Application Component |  |  |
+| Controlador frontal mvl | Application Component |  |  |
+| Controlador frontal web | Application Component | -	Verificados los SSL, se recomienda adquirir SSL seguros, con entidades certificadoras. 
+<br>Si se desea continuar con SSL de Let's Encrypt, se recomienda automatizar el proceso de actualización dado que al dejar estos en modo actualización manual es probable el olvido de esta actualización (Estos certificados se deben actualizar trimestralmente y no cuentan con las características de seguridad necesarias. 
+<br> |  |
+| Controlador funcional | Application Component |  |  |
+| Doku (gest. doc.) | Application Service |  |  |
+| Identidades | Application Service |  |  |
+| Interfaz de aplicación (runtime) | Application Interface | Servidor web:  Microsoft-IIS/10.0 
+<br>Marco de Programación: ASP.NET
+<br>Huellas digitales identificadas:  
+<br>Huella digital SHA-256 “FC:79:06:7E:F5:24:20:50:F1:C0:74:F7:85:56:B9:05:B7:33:A3:2D:44:A0:48”
+<br>Huella digital SHA1 “8C:48:BD:E2:F5:18:18:C3:85:96:68:44:2E:28:A0:68:08:2F:0A:BE”
+<br> |  |
+| Interfaz de datos 1 | Application Service |  |  |
+| Interfaz de datos 2 | Application Service |  |  |
+| Interfaz de datos 3 | Application Service |  |  |
+| Mensaje: JSON | Data Object |  |  |
+| Modelo (neg) | Application Component |  |  |
+| Office | Application Service |  |  |
+| PGN SIU | Grouping | El objetivo principal de la arquitectura del SUI de la migración es la centralización de los conceptos misionales: concentrar los conceptos misionales en componentes aislados; dejar por fuera de estos componentes misionales todo lo distintos a la misionalidad de la PGN.<br><br>Los objetivos secundarios de esta arquitectura SUI de la migración son flexibilidad y extensibilidad. Dichos objetivos son independientes. Es decir, estos pueden ser maximizados sin conclifcto entre ellos.<br><br> |  |
+| Portales | Grouping | Submódulo de portales internos de la PGN a donde llega el SUI. Interfaz web que usa al SUI para llegar a direcciones y subdirecciones de la PGN. La plataforma principal de portales en este contexto es Sharepoint de Microsoft.<br> |  |
+| Presentación | Grouping | Submódulo de presentación del SUI. interfaz gráfica, interfaz web visible a los usuarios clientes y funcionarios de la PGN.  |  |
+| Puerto datos 1 | Application Component |  |  |
+| Puerto datos 2 | Application Component |  |  |
+| RQR. Administrativos | Requirement |  |  |
+| RQR. Funcionales | Requirement |  |  |
+| RQR. Ingeniería | Requirement |  |  |
+| RQR. Negocio | Requirement |  |  |
+| RQR. Seguridad | Requirement | Requerimientos de seguridad, SUI, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br> |  |
+| Seguridad | Application Component |  |  |
+| Servicios de aplicación | Grouping | Submódulo de servicios utilitarios que sirven al SUI. Servicios variados que cumplen roles facilitadores de las actividades misionales del SUI. Ejemplos de estos servicios son los de gestión documental, implementado por Doku en el contexto de PGN.<br> |  |
+| Servidor aplicaciones Sharepoint | Application Component |  |  |
+| Servidor datos Sharepoint | Application Component |  |  |
+| Servidor web Sharepoint | Application Component |  |  |
+| Transacciones | Application Component |  |  |
+| Utilitario | Application Component |  |  |
+| Vista móvil | Application Component |  |  |
+| Vista web | Application Component | -	Verificados los SSL, se recomienda adquirir SSL seguros, con entidades certificadoras. 
+<br>Si se desea continuar con SSL de Let's Encrypt, se recomienda automatizar el proceso de actualización dado que al dejar estos en modo actualización manual es probable el olvido de esta actualización (Estos certificados se deben actualizar trimestralmente y no cuentan con las características de seguridad necesarias. 
+<br>4.	SERVICIOS IDENTIFICADOS:
+<br>
+<br>Servidor web:  Microsoft-IIS/10.0 
+<br>Marco de Programación: ASP.NET
+<br>Huellas digitales identificadas:  
+<br>Huella digital SHA-256 “FC:79:06:7E:F5:24:20:50:F1:C0:74:F7:85:56:B9:05:B7:33:A3:2D:44:A0:48”
+<br>Huella digital SHA1 “8C:48:BD:E2:F5:18:18:C3:85:96:68:44:2E:28:A0:68:08:2F:0A:BE”
+<br> |  |
+| ccccc Proveedores contenidos | Application Service |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Seguridad.Migracion.1.SIUmodulos-id}
+
+<br>
+
+
+
+## Seguridad.1. Requerimientos
+
+PGN. Migración Sistemas Misionales. Fase 2.
+
+Submódulos Sistema Único de Información. Requerimientos asociados a submódulos.
+
+versión 0.1
+
+
+
+![Seguridad.1. Requerimientos](images/Seguridad.1.Requerimientos.png){#fig:id-id-0c529bbdd5674f7b990738a9d12f0da2 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| RQR. Seguridad | Requirement | Requerimientos de seguridad, SUI, Migración, en aspectos de comunicación, autenticación, autorización y (manejo de) sesiones.<br> |  |
+| RQRSEG1 | Requirement | 1. Las soluciones deben dar cumplimiento a las políticas institucionales del sistema de gestión de seguridad de la información establecidas por la entidad que busca garantizar la confidencialidad, integridad y disponibilidad de la información que se genera, procesa, almacena y/o transmite en los sistemas de Información de la Entidad. 
+<br>
+<br> |  |
+| RQRSEG10 | Requirement | 1. Debe incluir un mecanismo de cifrado de los datos que se transportan entre los diferentes componentes tecnológicos y los datos sensibles de la base de datos que representen un alto nivel de confidencialidad. |  |
+| RQRSEG12 | Requirement | 1. Debe contemplar el cumplimiento de la normatividad vigente en cuanto a protección de datos personales y debe permitir el manejo de excepciones.
+<br>
+<br> |  |
+| RQRSEG13 | Requirement | 1. Para los casos que aplique se debe permitir el manejo de certificados y/o firmas digitales en los documentos que así se definan para efectos de aprobación y digitalización. |  |
+| RQRSEG15 | Requirement | 1. Debe funcionar sobre protocolo SSL (certificados internos de la entidad cuando los sistemas de información sean internas y certificados validos públicamente cuando los sistemas de información estén expuestas a internet). |  |
+| RQRSEG16 | Requirement | 1. Debe entregar un procedimiento para el respaldo de la información de acuerdo con las necesidades de la entidad. |  |
+| RQRSEG17 | Requirement | 1. Debe incluir uso de criptografía para transacciones y/o campos sensibles según lo indiquen las normas vigentes y las necesidades específicas del negocio de acuerdo como lo determine la entidad. |  |
+| RQRSEG18 | Requirement |  "1. Debe contemplar un modelo de datos que garantice base de datos única para evitar que se pueda presentar duplicidad de información. " |  |
+| RQRSEG18 | Requirement | 1. Debe contemplar un modelo de datos que garantice base de datos única para evitar que se pueda presentar duplicidad de información.,id-d1a6b80e7a6c4538b922f333f4d7ec7a,requirement
+<br>RQRSEG11,"1. A nivel de la base de datos debe poder definirse reglas de validación de integridad de datos (unicidad, referencial y negocio). |  |
+| RQRSEG19 | Requirement | 1. En la información confidencial solo puede ser consultada por los perfiles autorizados e igualmente restringir documentos de consulta según los privilegios o permisos asociados. |  |
+| RQRSEG2 | Requirement | 1. Las soluciones de automatización de procesos a implementar deben permitir la Gestión de Seguridad de Usuarios, grupos de usuarios y asignación de Roles y perfiles de usuarios, permitiendo asociar las acciones disponibles en la solución con respecto a roles de usuario, permitiendo parametrizar las funcionalidades que cada actor puede usar en la solución. |  |
+| RQRSEG21 | Requirement | 1. Debe cerrar las transacciones luego de máximo 10 minutos de inactividad. """ |  |
+| RQRSEG22 | Requirement | 1. Debe incluir controles de bloqueo de cuenta después de un máximo de 5 intentos erróneos a fin de evitar ataques de fuerza bruta. |  |
+| RQRSEG24 | Requirement | 1. Debe cumplir con todos los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet |  |
+| RQRSEG25 | Requirement |  "1. Debe incluir un mecanismo de cifrado de los datos que se transportan entre los diferentes componentes tecnológicos y los datos sensibles de la base de datos que representen un alto nivel de confidencialidad." |  |
+| RQRSEG26 | Requirement |  "1. Para los casos que aplique se debe permitir el manejo de certificados o firmas digitales en los documentos que así se definan para efectos de aprobación y digitalización. " |  |
+| RQRSEG27 | Requirement |  "1. Debe contemplar las prácticas de desarrollo seguro de aplicaciones y/o implementación segura de productos, para su naturaleza Web based. " |  |
+| RQRSEG28 | Requirement |  "1. A nivel de la base de datos debe poder definirse reglas de validación de integridad de datos (unicidad, referencial y negocio). " |  |
+| RQRSEG29 | Requirement |  "1. Debe evidenciar el resultado positivo frente apruebas de ethical hacking, análisis de vulnerabilidades, carga, estrés y desempeño antes de la puesta en operación de acuerdo con los lineamientos de la entidad. " |  |
+| RQRSEG3 | Requirement | 1. Un usuario puede estar asociado a uno o más roles, de tal manera que los menús de navegación de la solución se muestran o despliegan dependiendo de las acciones asociadas a cada rol de usuario, permitiendo así que cuando el usuario es autenticado correctamente, la solución verifica los roles que tiene activos para otorgarle únicamente las acciones autorizadas. |  |
+| RQRSEG4 | Requirement | 1. El diseño de la solución debe definir los criterios necesarios para asegurar la trazabilidad y auditoría sobre las acciones de creación, actualización, modificación o borrado de los componentes de información, de tal manera que la solución debe permitirle al administrador de la solución parametrizar las tablas y eventos que pueden auditarse. |  |
+| RQRSEG5 | Requirement | 1. Las soluciones deben tener en cuenta mecanismos que aseguren el registro histórico para poder mantener la trazabilidad de las acciones realizadas por los usuarios, contemplando el registro de auditoría que contiene información de fecha y hora, identificación del registro, tabla afectada, descripción del evento, tipo de evento, usuario que realiza la acción, identificación de sesión y dirección IP del usuario que efectuó la transacción. |  |
+| RQRSEG6 | Requirement | 1. La solución debe proveer una consulta que permita a un usuario con los privilegios asignados, consultar los registros de auditoría, aplicando criterios de filtro (usuario, maquina, rango de fechas y tipo de operación). |  |
+| RQRSEG7 | Requirement | 1. Las soluciones deben integrarse con LDAP – (Lightweight Directory Access Protocol) para los procesos de inicio de sesión y autenticación. La solución debe soportar la integración Nativa con Active Directory de Microsoft. Para usuarios externos el mecanismo de autorización, autenticación y acceso será controlado a través del modelo de seguridad de la solución (no habrá autenticación para usuarios externos). |  |
+| RQRSEG8 | Requirement | 1. Las soluciones deben cumplir con los lineamientos de seguridad relacionados a su utilización a través de redes públicas y privadas, garantizando la confidencialidad e integridad de la información y acceso a ella. |  |
+| RQRSEG9 | Requirement | 1. Debe evidenciar que, a través de pruebas de vulnerabilidad, garantiza la seguridad de la información. Estas pruebas deben suministrar evidencia de que se usaron umbrales de seguridad para establecer niveles mínimos aceptables de calidad de la seguridad y de la privacidad. |  |
+| cc:Administración | Application Collaboration |  |  |
+| cc:PGN SUI (módulo central) | Application Collaboration | Módulo central SUI migrado. Módulo independiente y asignado a un dominio partigular de la PGN.<br> |  |
+| interfaz | Application Interface |  |  |
+| interfaz | Application Interface |  |  |
+| interfaz | Application Interface |  |  |
+| interfaz | Application Interface |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Seguridad.1.Requerimientos-id}
+
+<br>
+
+
+
+## Seguridad.2. Lineabase.0.SIU Applicación
+
+2MFA
+
+
+## Representación Arquitectónica
+Con una arquitectura orientada a servicios SUI recopila:
+
+1. Runtime: Es el servicio que interactúa con el usuario final (GUI) elaborado en Angular 11
+1. API Tx: Servicio api rest base node encargado de realizar las transacciones básicas CRUD
+1. API Config / Seguridad. Servicio Web API .Net Framework encargado de gestionar características con la autenticación y configuración
+
+
+
+![Seguridad.2. Lineabase.0.SIU Applicación](images/Seguridad.2.Lineabase.0.SIUApplicación.png){#fig:id-id-280f63efee9b49e892eb38e7104d2d85 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+| App | Application Component |  |  |
+| App PGN Móvil | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethikal Hacking. 
+<br>
+<br>Protección de datos personales, 
+<br>Los sistemas de información que recogen, procesan y almacenan información de los derechos de las personas se deben almacenar de forma adecuada, la información que pueda ser vulnerada puede generar obliaciones legales y éticas con respecto a la perdida de informacion confidencial por parte de ciudadanos del pais. 
+<br>
+<br>La informacion contenida en las bases de datos debe tener los mecanismos de cifrado que en otros apartados se han mencionado. 
+<br>La legislación que hay que tener como referencia, ley 1581 de 2012. Decreto 1377 de 2013
+<br>
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br> |  |
+| App PGN Web | Application Component | A partir de los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet, se realizaran pruebas de seguridad a partir del analisis de vulnerabilidades, y pruebas de Ethical Hacking. 
+<br>Los resultados permitirán identificar los requisitos de seguridad que los sistemas de informacion o servicios web deberán cumplir.
+<br>La metodologia empleada tendrá las siguientes fases: 
+<br>
+<br>•	FASE DE RECONOCIMIENTO: 
+<br>Se recolectará toda la información posible, usando diferentes técnicas como:
+<br>o	Recopilación de dominios/IPs/puertos/servicios
+<br>o	Recopilación de metadatos
+<br>o	Uso de Google Dorks.
+<br>
+<br>•	ANÁLSIS DE VULNERABILIDADES: 
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades. 
+<br>
+<br>•	EXPLOTACIÓN: 
+<br>•	Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo: 
+<br>o	Inyección de código
+<br>o	Inclusión de ficheros locales o remotos
+<br>o	Evasión de autenticación
+<br>o	Carencia de controles de autorización
+<br>o	Ejecución de comandos en el lado del servidor
+<br>o	Ataques tipo Cross Site Request Forgery
+<br>o	Control de errores
+<br>o	Gestión de sesiones
+<br>o	Fugas de información
+<br>o	Secuestros de sesión
+<br>o	Comprobación de las condiciones para realizar una denegación de servicio.
+<br>	
+<br>•	POST EXPLOTACIÓN:
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.
+<br>
+<br>No	URL	IP
+<br>1.	https://runtimetest.lappiz.io/#/auth/login/PGN_Lappiz
+<br>135.181.185.207
+<br>
+<br>
+<br>El Login deberá evidenciar el control de errores, al momento de realizar la validación deberá mensaje de error para el caso que se autentique con credenciales erradas.  |  |
+| Application Collaboration | Application Collaboration |  |  |
+| Application Collaboration | Application Collaboration |  |  |
+| Application Service (NLB) | Application Service |  |  |
+| Autenticación | Business Object | Con el objetivo de incrementar el nivel de seguridad, para el proceso de autenticación se tendrán en cuenta las siguientes consideraciones:  
+<br>
+<br>Validación del proceso de gestión de usuarios: La fortaleza de la autenticación dependerá del proceso de gestión de usuarios implementado por parte de la entidad. Se debe tener en cuenta los lineamientos definidos en la política Específica de Control de Acceso.  
+<br>
+<br>Autenticación con integración de Windows: La autenticación permitirá que los usuarios asignados al dominio, una vez que se ingresen las credenciales, y realizada la validación, se autorizará el acceso a los servicios y/o soluciones a partir de la integración del directorio activo con la integración del LDAP – (Lightweight Directory Access Protocol).  
+<br>
+<br>Los tipos de autenticación realizadas a partir de las identidades administradas de los recursos de Azure, entidades de Servicio y Certificados, podrán ser integrado con los dominios del directorio activo (DA) local. Por lo que respecta a la autenticación, será generado con la asignación de usuarios y credenciales definidas alineadas con la política Específica de Control de Acceso., a partir de la integración será validado el ingreso a las diferentes soluciones y/o sistemas de información de la PGN.  
+<br>
+<br>Manejo y uso de contraseñas: Los servidores públicos deberán tener en cuenta los lineamientos definidos para la creación y gestión de contraseñas del Sistema de Gestión de Seguridad de la Información SGSI de la Procuraduría General de la Nación. 
+<br>
+<br>Utilización de canales cifrados: El proceso de autenticación tendrá mecanismos de transmisión seguro. El uso del TLS (Transport Layer Security), será necesario para el acceso a la página de autenticación que ayude a garantizar la autenticidad de la aplicación a los funcionarios, como en la transmisión de las credenciales.  
+<br>
+<br>Bloqueo de cuentas: Aquellas cuentas sobre las que se han realizados múltiples intentos de conexiones fallidas, cinco (5) intentos erróneos, se tendrá implementado un bloqueo temporal o permanente como mecanismo de seguridad para evitar amenazas de ataques.   |  |
+| Autorización | Business Object | Metodología 
+<br>
+<br>Los mecanismos de autorización para el acceso a los sistemas de información de la procuraduría general de la nación describen la forma de cómo se restringe el acceso a los diferentes módulos (Misionales (SIM), Registros de Inhabilidades (SIRI), Nómina, Control Interno y relatoría, entre otros.), y que se considera un mecanismo de protección, que ayuda a reaccionar ante cualquier operación no autorizada. El control de acceso basado en roles (RBAC), enfoca la idea de que a los funcionarios se les otorgue los permisos de acceso a los recursos, basados en los roles y/o perfiles que este posee. Este control posee dos características fundamentales: i) los accesos son controlados por medio de los roles y/o perfiles asignados, quiere decir, a los servidores públicos, contratistas, terceros y otros colaboradores autorizados para interactuar con los sistemas de información se le asignan los roles y el encargado/responsable definirá los permisos, que a su vez están relacionados con los roles, ii) Los roles pueden ser definidos a nivel jerárquico, es decir que un rol podrá ser miembro de otro rol.  
+<br>Un proceso de autorización basado en roles, identifica tres factores importantes, i) Todos los servidores públicos, contratistas, terceros y otros 
+<br>Colaboradores, deben tener un rol asignado, si no es asignado no podrá realizar ninguna acción relacionada con el acceso, ii) un usuario podrá hacer uso de los permisos asociados a los roles asignados, el cual deberá realizar el inicio de sesión el usuario asignado del Directorio activo (DA), iii) los servidores públicos, contratistas, terceros y otros, solo podrán realizar acciones para las cuales han sido autorizados por medio de la activación de sus roles y/o perfiles.  
+<br>
+<br>EL control definido para los accesos basados en roles RBAC, permitirá que solo las personas autorizadas de la PGN podrán acceder a ciertos recursos (programas, equipos, aplicaciones, bases de datos, etc.) definido por sus funciones laborales, lo que permitirá controlar los accesos desde diferentes escenarios: Sistemas de información, redes y aplicaciones. 
+<br>
+<br>Gestión de identidades y Control de acceso:  
+<br>
+<br>Gestor de identidades: En esta gestión se planifica el ciclo de vida de las identidades de usuario y se realizan los procesos de sincronización, de acuerdo a los suministros de accesos establecidos por la entidad, los cuales son integrados con el servidor que gestiona la identidad y control de acceso.  
+<br>
+<br>Gestor de roles: La asignación de roles es sincronizada con la identidad de usuario en el servidor de dominio. Para esta gestión se crean las reglas y condiciones que determinan si un usuario puede o no pertenecer a un rol definido por la entidad. 
+<br>
+<br>Para el gobierno y gestión de identidades y de acceso, se identificó como primera medida la implementación de la siguiente metodología. 
+<br>
+<br>REGLAS PARA LA CREACIÓN DE USUARIOS. 
+<br>Identificación de Mecanismos: 
+<br>
+<br> 
+<br>
+<br>En este ítem se deben identificar las herramientas con las que cuenta la    entidad, las cuales deberán ser registradas en el documento denominado: “Clasificación y gestión de usuarios, roles y perfiles.xlsx / Hoja_1 (Mecanismos)”. 
+<br>
+<br>Identificación de Roles y Privilegios 
+<br>
+<br>Este ítem proporciona al sistema la definición de las políticas organizacionales en cuanto a la definición de los privilegios y roles de los diferentes actores en cada uno de los aplicativos con los que estos interactúan dentro de sus funciones, registradas en el documento denominado: “Clasificación y gestión de usuarios, roles y perfiles.xlsx / Hoja_2 (Roles)”. 
+<br>
+<br>Aprovisionamiento de cuentas 
+<br>
+<br>Este ítem establece el proceso adecuado para el aprovisionamiento y des aprovisionamiento de cuentas de usuarios en las diferentes aplicaciones, permitiendo toda la gestión de ellas por medio de un sistema de directorio único y centralizado, Este aprovisionamiento se encuentra registrado en el documento denominado: “Clasificación y gestión de usuarios, roles y perfiles.xlsx / Hoja_4 y Hoja_5 (Permisos)”. 
+<br>
+<br>Establecimiento de mecanismos de control de acceso:  
+<br>
+<br>Este ítem controla que usuarios tienen permitido el acceso a los diferentes aplicativos o herramientas dentro de la organización permitiendo segregar las funciones dependiendo del rol del usuario en cada sistema, Este establecimiento se encuentra registrado en el documento denominado: “Clasificación y gestión de usuarios, roles y perfiles.xlsx / Hoja_3 (Acceso)”. 
+<br>
+<br>Definición de Privilegios y accesos.  
+<br>Los accesos y privilegios serán identificados en la matriz, encargado identificar cada uno de los roles y perfiles que se tendrá cada usuario hacia los sistemas de información cumpliendo con el principio del menor privilegio, teniendo en cuenta que los usuarios deberán tener exclusivamente los permisos y privilegios que necesita para el desarrollo de sus actividades. La matriz identificará i) los roles que se deben crear para cada sistema de información, ii) los privilegios que requiere cada rol del sistema y iii) los niveles de accesos requeridos, (Consultar, Modificar, Eliminar) (CRUD) y iv) Tipos de usuarios, roles que pueden ser asignados al perfil, entre otros.  
+<br>
+<br>Configuración de permisos 
+<br>La configuración con de los perfiles con sus accesos y privilegios en los sistemas de información se debe realizar empleando las herramientas propias de la procuraduría general de la nacional PGN, y serán asignados los permisos según la matriz de roles y permisos.  
+<br>
+<br>Identificación de Mecanismos: 
+<br>En este ítem se deben identificar las herramientas con las que cuenta la    entidad, las cuales deberán ser registradas en el documento denominado: “Clasificación y gestión de usuarios, roles y perfiles.xlsx / Hoja_1 (Mecanismos)”. 
+<br>
+<br>Identificación de Roles y Privilegios 
+<br>Este ítem proporciona al sistema la definición de las políticas organizacionales en cuanto a la definición de los privilegios y roles de los diferentes actores en cada uno de los aplicativos con los que estos interactúan dentro de sus funciones, registradas en el documento denominado: “Clasificación y gestión de usuarios, roles y perfiles.xlsx / Hoja_2 (Roles)”. 
+<br>
+<br>Aprovisionamiento de cuentas 
+<br>
+<br>Este ítem establece el proceso adecuado para el aprovisionamiento y des aprovisionamiento de cuentas de usuarios en las diferentes aplicaciones, permitiendo toda la gestión de ellas por medio de un sistema de directorio único y centralizado, Este aprovisionamiento se encuentra registrado en el documento denominado: “Clasificación y gestión de usuarios, roles y perfiles.xlsx / Hoja_4 y Hoja_5 (Permisos)”. 
+<br>
+<br>Establecimiento de mecanismos de control de acceso:  
+<br>Este ítem controla que usuarios tienen permitido el acceso a los diferentes aplicativos o herramientas dentro de la organización permitiendo segregar las funciones dependiendo del rol del usuario en cada sistema, Este establecimiento se encuentra registrado en el documento denominado: “Clasificación y gestión de usuarios, roles y perfiles.xlsx / Hoja_3 (Acceso)”. 
+<br>
+<br>Definición de Privilegios y accesos.  
+<br>Los accesos y privilegios serán identificados en la matriz, encargado identificar cada uno de los roles y perfiles que se tendrá cada usuario hacia los sistemas de información cumpliendo con el principio del menor privilegio, teniendo en cuenta que los usuarios deberán tener exclusivamente los permisos y privilegios que necesita para el desarrollo de sus actividades. La matriz identificará i) los roles que se deben crear para cada sistema de información, ii) los privilegios que requiere cada rol del sistema y iii) los niveles de accesos requeridos, (Consultar, Modificar, Eliminar) (CRUD) y iv) Tipos de usuarios, roles que pueden ser asignados al perfil, entre otros.  
+<br>
+<br>Configuración de permisos 
+<br>La configuración con de los perfiles con sus accesos y privilegios en los sistemas de información se debe realizar empleando las herramientas propias de la procuraduría general de la nacional PGN, y serán asignados los permisos según la matriz de roles y permisos.   |  |
+| Balanceador | Node |  |  |
+| Cifrado de Datos en tránsito | Business Object | Proteger la información propia de la PGN utilizando mecanismos de cifrado que permita garantizar los pilares de Segurida de la Información Confidencialidad e integridad, asimismo reducir los riesgos de la información mediante la ayuda de Técnicas Criptograficas. 
+<br>
+<br>Como mecanismos se propone implementar estos  mecanismos de cifrado, como el protocolo TLS ( Transport Layer Security) que permite a dos partes identificarse y autenticarse entre sí y comunicarse con confidencialidad e integridad de datos a partir de la conexión del usuario y un servidor WEB.
+<br>
+<br>Se propone integrar certificados SSL, que permite cifrar la información confidencial a fin de que solo los autorizados puedan tener acceso a ella, y asi evitar manipulacion de información confidencial. La Seguridad  que brinda SSL, da garantía para acceder a los aplicativos de PNG. 
+<br>
+<br>Como implementar certificados SSL?
+<br>Podran ser adquiridos a través del proveedor de dominios.
+<br>
+<br>TLS el protocolo que surge para reforzar la seguridad de los certificados SSL, que funciona como mecanismo de encriptación para que sea realmente transparente el envio de la información, proporcionando una autenticación solida, restringiendo la manipulación, interceptación y alteración de mensajes.
+<br>La ultima versión del TLS es la 1.3
+<br>
+<br> |  |
+| Cifrado de datos en tránsito | Business Object | Proteger la información propia de la PGN utilizando mecanismos de cifrado que permita garantizar los pilares de Segurida de la Información Confidencialidad e integridad, asimismo reducir los riesgos de la información mediante la ayuda de Técnicas Criptograficas. Como mecanismos se propone implementar estos  mecanismos de cifrado, como el protocolo TLS ( Transport Layer Security) que permite a dos partes identificarse y autenticarse entre sí y comunicarse con confidencialidad e integridad de datos a partir de la conexión del usuario y un servidor WEB.
+<br>
+<br>Se propone integrar certificados SSL, que permite cifrar la información confidencial a fin de que solo los autorizados puedan tener acceso a ella, y asi evitar manipulacion de información confidencial. La Seguridad  que brinda SSL, da garantía para acceder a los aplicativos de PNG. 
+<br>
+<br>Como implementar certificados SSL?
+<br>Podran ser adquiridos a través del proveedor de dominios.
+<br>
+<br>TLS el protocolo que surge para reforzar la seguridad de los certificados SSL, que funciona como mecanismo de encriptación para que sea realmente transparente el envio de la información, proporcionando una autenticación solida, restringiendo la manipulación, interceptación y alteración de mensajes.
+<br>La ultima versión del TLS es la 1.3 |  |
+| Communication Network (DMZ) | Communication Network |  |  |
+| Communication Network (LAN) | Communication Network |  |  |
+| Communication Network (internet) | Communication Network |  |  |
+| Config | Application Component |  |  |
+| Firewall BDD | Node |  |  |
+| Interfaz de datos 1 | Application Service |  |  |
+| Interfaz de datos 2 | Application Service |  |  |
+| Network Firewall/WAF | Node |  |  |
+| Pruebas | Application Component | FASE DE RECONOCIMIENTO:  
+<br>Se recolectará toda la información posible, usando diferentes técnicas como: 
+<br>Recopilación de dominios/IPs/puertos/servicios 
+<br>Recopilación de metadatos 
+<br>Uso de Google Dorks. 
+<br>
+<br>ANÁLSIS DE VULNERABILIDADES:  
+<br>Se analizará la información recopilada en la fase anterior y se realizará el descubrimiento de las vulnerabilidades.  
+<br>
+<br>EXPLOTACIÓN:  
+<br>Se realizarán todas aquellas acciones que puedan comprometer al sistema auditado, las pruebas a implementar pueden ser de ataques tipo:  
+<br>
+<br>Inyección de código 
+<br>Inclusión de ficheros locales o remotos 
+<br>Evasión de autenticación 
+<br>Carencia de controles de autorización 
+<br>Ejecución de comandos en el lado del servidor 
+<br>Ataques tipo Cross Site Request Forgery 
+<br>Control de errores 
+<br>Gestión de sesiones 
+<br>Fugas de información 
+<br>Secuestros de sesión 
+<br>Comprobación de las condiciones para realizar una denegación de servicio. 
+<br>
+<br>POST EXPLOTACIÓN: 
+<br>En caso de encontrarse una vulnerabilidad que permita realizar otras acciones en el sistema auditado o en su entorno, se realizarán controles adiciones con el objetivo de comprobar la criticidad de esta.  |  |
+| Punto acceso público | Application Interface | URL tipo C<br>HTTP |  |
+| Servidor BDD App | Node | Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz<br>Discos	SO C: 126 GB, Backup E: 511 GB, SQL Data F: 510 GB, SQL Log   G: 510 GB, TempDB  G: 63.6 GB.<br> |  |
+| Servidor BDD Config | Node | Sistema Operativo Windows Server 2019 Standard o Datacenter x64. RAM	8 GB. CPU 64 Bits, 4 Cores > 2 Ghz<br>Discos	SO C: 80 GB, Backup E: 250 GB, SQL Data F: 250 GB, SQL Log G: 250 GB, TempDB  G: 30 GB.<br> |  |
+| Servidor Web App | Node | Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM	8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos	SO C: 126 GB. SO D: 16 GB.<br> |  |
+| Servidor Web Canales | Node | Windows Server 2019 Standard o Datacenter x64. Nombre físico. IP LAN. IP Pública. Windows Server 2019 Standard or Datacenter x64. RAM	8  GB. CPU	64 Bits. 4 Cores de 2 Ghz. Discos	SO C: 126 GB. SO D: 16 GB.<br> |  |
+| Sistema de Seguridad (LDAP) 1 | Node | Sistema de Seguridad (LDAP) 1. Control de acceso internet, 
+<br>La autenticación podrá estar integrada con el directorio activo, a partir de la generación de codigo para ek ingreso con 2FA, que podrá generar un código la plataforma de correo corporativo, el cual solicitará el codigo de autenticacion y una vez ingreado podrá redirigir al sitio.<br> |  |
+| Sistema de Seguridad (LDAP) 2 | Node | Sistema de Seguridad (LDAP) 2. Control de acceso internet, 
+<br>La solución se podra integrar con el directorio activo, a partir de la generación del 2FA, que podrá generar un  codigo por desde la plataforma de office 365, el cual solicitará el codigo de autenticacion y una vez ingreado podrá acceder al sitio. 
+<br> |  |
+| www pgn com | Technology Interface |  |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Seguridad.2.Lineabase.0.SIUApplicación-id}
+
+<br>
+
+
+
+## Seguridad.3. Datos SUI
+
+undefined
+
+
+
+![Seguridad.3. Datos SUI](images/Seguridad.3.DatosSUI.png){#fig:id-id-873b4fcee97c46fba4132d60a65a40b1 width=}
+
+_Fuente: Repositorio arquitectura Mi Mutual (2023)_
+
+<br>
+
+
+### Catálogo de Elementos
+
+| Nombre           | Tipo | Documentación | Propiedad |
+|----------------|------|------|------|
+|  | Meaning |  |  |
+| API (administración de claves) | Business Object | Administración de claves. 
+<br>Las contraseñas deberán cumplir con los requisitos de complejidad y completitud, teniendo en cuenta la longitud, caracteres numéricos, alfabéticos y especiales y que puedan ser cambiadas en un periodo de tiempo establecido, de acuerdo con los parámetros definidos en las políticas de acceso.    |  |
+| Autenticación | Business Object | Los tipos de autenticacion realizadas a partir de las identidades adminsitradas de los recursos de Azure, entidades de Servicio y Certificado y entidad de servicio secreto, podran ser integrado con los dominios del DA locales.   
+<br>
+<br>Por lo que respecta a la autenticación, será generado con la ( Validación de nombre de usuario y contraseñas proporcionadas por el funcionario), a partir de la integracion del directorio activo LDAP. Con la aceptacion del usuario y contraseñas, se podrán ingresar a los diferentes sistemas de información de la PGN. 
+<br>
+<br>Se definirá politica dentro del directorio activo DA para que los usuarios que ingresen su contraseña de forma erronea, se bloquee automaticamente, asi mismo la politica para el bloqueo de los usuarios desatendidos despues de dos (2) Minutos de inactividad.  |  |
+| BD PRD | Application Component | Gestor de Base de datos SQL Server. 
+<br>Pemitirá enmascarar los datos a nivel de columna, teniendo en cuenta el enmascaramiento dinamico de datos (DDM).
+<br>Se podrá utilizar el mecanismo de cifrado a nivel de columna para almacernar los datos confidenciales en formato de cifrado.
+<br>Para el cifrado de los datos en columna se podrá temer en cuenta las funciones de cifrado (ENCRYPT_AES() y ENCRYPT_TDES(), parametros que se incorporar para cifrar los datos que contengan datos de tipo Varchar, Caracter entre otros. 
+<br>para la proteccion de datos en filas de bases de datos, se tendra en cuenta mediante la instrucción transact-SQL CREATE SECURITY POLICY.  |  |
+| Backup | Application Component | Para el respaldo de las bases de datos en los ecosistemas de Dev, Test, Prod se cuenta con las siguientes políticas de retención de copias de seguridad y frecuencia de copias de seguridad. 
+<br>Para la base de datos de seguridad y configuración de la aplicación se tiene un plan de copia completo cada 12 horas (PITR) en una franja de tiempo de 35 días. Adicionalmente cuenta con un LTR de conservación de 12 semanas para las copias de seguridad semanales, 12 semanas de conservación para la primera copia de seguridad de cada mes, y una conservación de 12 semanas de una copia de seguridad anual. 
+<br>Para la base de datos de datos y trazabilidad de transacciones de la aplicación se tiene un plan de copia completo cada 12 horas (PITR) en una franja de tiempo de 35 días. Adicionalmente cuenta con un LTR de conservación de 52 semanas para copias de seguridad semanales, 52 semanas de conservación para la primer copia de seguridad de cada mes, y una conservación de 52 semanas de una copia de seguridad anual. Esto con la finalidad de que al ser una base de datos transaccional precisa de una conservación completa de los años transaccionales.  |  |
+| Cifrado de Datos en tránsito | Business Object | Proteger la información propia de la PGN utilizando mecanismos de cifrado que permita garantizar los pilares de Segurida de la Información Confidencialidad e integridad, asimismo reducir los riesgos de la información mediante la ayuda de Técnicas Criptograficas. 
+<br>
+<br>Como mecanismos se propone implementar estos  mecanismos de cifrado, como el protocolo TLS ( Transport Layer Security) que permite a dos partes identificarse y autenticarse entre sí y comunicarse con confidencialidad e integridad de datos a partir de la conexión del usuario y un servidor WEB.
+<br>
+<br>Se propone integrar certificados SSL, que permite cifrar la información confidencial a fin de que solo los autorizados puedan tener acceso a ella, y asi evitar manipulacion de información confidencial. La Seguridad  que brinda SSL, da garantía para acceder a los aplicativos de PNG. 
+<br>
+<br>Como implementar certificados SSL?
+<br>Podran ser adquiridos a través del proveedor de dominios.
+<br>
+<br>TLS el protocolo que surge para reforzar la seguridad de los certificados SSL, que funciona como mecanismo de encriptación para que sea realmente transparente el envio de la información, proporcionando una autenticación solida, restringiendo la manipulación, interceptación y alteración de mensajes.
+<br>La ultima versión del TLS es la 1.3
+<br>
+<br> |  |
+| Cifrado de datos | Business Object | Establecer mecanismos de cifrado, como el protocolo TLS ( Transport Layer Security) que permite a dos partes identificarse y autenticarse entre sí y comunicarse con confidencialidad e integridad de datos a partir de la conexión del usuario y un servidor WEB. |  |
+| Descripción de Entidades de Datos Migración SUI PGN | Grouping |  |  |
+| Gestión de funcionarios PGN | Business Actor | La autenticacion de usuarios estará enmarcada en en tres factores de autenticación a partir del controlador de Dominio, y el acceso por VPN. |  |
+| Hominis | Data Object |  |  |
+| Ofuscar datos | Business Object | Pemitirá enmascarar los datos a nivel de columna, teniendo en cuenta el enmascaramiento dinamico de datos (DDM).
+<br>Se podrá utilizar el mecanismo de cifrado a nivel de columna para almacernar los datos confidenciales en formato de cifrado.
+<br>Para el cifrado de los datos en columna se podrá temer en cuenta las funciones de cifrado (ENCRYPT_AES() y ENCRYPT_TDES(), parametros que se incorporar para cifrar los datos que contengan datos de tipo Varchar, Caracter entre otros. 
+<br>para la proteccion de datos en filas de bases de datos, se tendra en cuenta mediante la instrucción transact-SQL CREATE SECURITY POLICY.  |  |
+| Roles de Key Vault | Business Object | Control de acceso que define los roles y los privilegios para determinar si a un usuario se le debe dar acceso a un recurso. 
+<br>La información que sea considerada como Información publica reservada de acuerdo con los criterios definidos en la ley 1712 de 2014 “Por medio del cual se crea la ley de transparencia y del derecho de acceso a la información pública nacional.”,, podrá ser consultada solo por el personal autorizado definido de acuerdo con el control de acceso basado en roles.  Los perfiles o roles definiran el acceso a la información. 
+<br>
+<br>Para los documentos restringidos  que requieran firma por parte del lider del proceso o propietario, se propone revisar la implementacion de un dispositivo criptográfico con uso de (CERTIFICADOS y FIRMA DIGITAL) con token integrado que podra ser conectado en el puerto USB de la maquina del usuario.
+<br>La aprobacion de los documentos por intermedio de esta firma permitirá la aprobación, integridad de los documentos , seguridad y validez juridica. Se propone la gestión con un  proveedor de certificado del ambito nacional.
+<br>
+<br>EL control definido para los accesos basados en roles RBAC, permitirá que solo las personas autorizadas de la PGN podrán acceder a ciertos recursos (programas, equipos, aplicaciones, bases de datos, etc) definido por sus funciones laborales, lo que permitirá controlar los accesos desde diferentes escenarios: Sistemas de información, redes y aplicaciones.  |  |
+| Security Administrator | Business Actor | La autenticacion de usuarios estará enmarcada en en tres factores de autenticación:
+<br>control de acceso basado en roles (RBAC), mecanismo de control de acceso que define los roles y los privilegios para determinar si a un usuario se le debe dar acceso a un recurso.
+<br>Conexión de accecso por DA de Azure: Servicio de administración de acceso e identidades basado en la nube.
+<br>Red Privada Virtual de Azure:  bloque de compilación fundamental para las redes privadas en Azure |  |
+| WAF | Node | El WAF es la medida de implementacion del muro de protección (firewall) de Aplicaciones WEB del SUI necesario para el control de las peticiones realizadas desde fuera del perímetro de red y hacia los sistemas de Informacion de la PGN. <br> |  |
+
+Table: Elementos de la vista. {#tbl:tblelement-Seguridad.3.DatosSUI-id}
+
+<br>
+
+
+
+
+
+
+# Vistas de Arquitectura Cotizador 
+* [Cotizador Web](#cotizador-web)
+	* [ArqCotizador. 1. Contexto](#arqcotizador.-1.-contexto)
+	* [ArqCotizador. 2. Contenedores](#arqcotizador.-2.-contenedores)
+	* [ArqCotizador. 4. Aplicación](#arqcotizador.-4.-aplicación)
+	* [ArqCotizador. 4a. Aplicación. Servicios](#arqcotizador.-4a.-aplicación.-servicios)
+	* [ArqCotizador. 4a. Dependencias](#arqcotizador.-4a.-dependencias)
+	* [ArqCotizador. 5. Físico (despliegue)](#arqcotizador.-5.-físico-despliegue)
+	* [ArqCotizador. 7. Datos. Negocio](#arqcotizador.-7.-datos.-negocio)
+
+
+<div style="page-break-before: always;"></div>
+\newpage
+
+# Cotizador Web
+## ArqCotizador. 1. Contexto
+![Diagram: ArqCotizador. 1. Contexto](images/ArqCotizador.1.Contexto.png){#fig:ArqCotizador.1.Contexto width=}
+
+### Contexto Mi Mutual Web
+La aplicación Cotizador Web hace parte de los módulos de interfaz web de Mi Mutual Central, representado por API Mi Mutual en el diagrama. Realizar cotizaciones de los planes de protección luego de la vinculación del asociado.
+
+La estructura por módulos permite realizar aplicaciones escalables y robustas ya que permite organizar las partes de la aplicación, la organización en bloques, extender la aplicación con funcionalidades de libreras externas, proporcionar un entorno de resolución de plantillas y además permite especificar la forma de la carga de cada uno de los componentes y servicios que conforman un módulo.
+
+### Módulos Externos
+Los módulos externos son todas y cada uno de las herramientas que se utilizan para complementar con funcionalidades ya desarrolladas y tomadas desde un repositorio externo (NPM).
+
+* TranslateModule: Manejo de internacionalización. Documentación: https://github.com/ngx-translate/core
+* NgxMaskModule: Manejo de máscaras de input text. Documentación: https://github.com/JsDaddy/ngx-mask
+* JwtModule: Manejo de token. Documentación: https://github.com/auth0/angular2-jwt
+* sweetalert2: Manejo de alertas de mensajes. Documentación: https://sweetalert2.github.io/
+* ngx-ui-loader: Manejo de Spinner para control de peticiones asíncronas. Documentación: https://github.com/t-ho/ngx-ui-loader
+* Ngprime: Manejo de componentes visuales Documentación: https://www.primefaces.org/primeng/#/
+* chart.js: componente utilizado para el manejo de graficas Documentación: https://www.chartjs.org/docs/latest/
+* classlist.js: componete para el manejo de listas de datos en las gráficas Documentación: https://www.chartjs.org/docs/latest/
+* cronstrue: componente para traducir una expresión cron a palabras Documentación: https://github.com/bradymholt/cronstrue
+* file-saver: componente para descargar un archivo desde los bytes Documentación: https://github.com/eligrey/FileSaver.js#readme
+* ngx-tinymce: Editor html para generación de plantillas para cartas Documentación: https://cipchk.github.io/ngx-tinymce/#/
+* quill: componente para editor html Documentación: https://quilljs.com/
+
+<br>
+
+### Servicios Transversales 
+
+* AuthGuard: Validación de existencia de autenticación
+* DeaciveGuard: Validación de salida de un componente
+* ErrorInterceptor: Interceptor de Errores del back
+* JwtInterceptor: Interceptor para inyectar el token
+* AutenticationService: Métodos para completar la autenticación
+* TypesService: Consumo de servicios de parametrización
+* IdleTimeoutService: Verificación de timeout del token
+
+<br>
+
+
+### Catálogo de Elementos
+| Name| Type| Description| Properties
+|:--------|:--------|:--------|:--------|
+|**Controlador Mi Mutual**|application-component|Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.|*modulo:* mimutual<br>|
+|**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
+|**Aplicativo**|application-function||*modulo:* cotizador<br>|
+|**Compartido**|application-function||*modulo:* cotizador<br>|
+|**Cotizador**|application-function||*modulo:* cotizador<br>|
+|**Interfaz gráfica**|application-function||*modulo:* cotizador<br>|
+|**Util**|application-function|En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br>|*modulo:* cotizador<br>|
+|**admin Páginas**|application-function||*modulo:* cotizador<br>|
+|**admin Servicios**|application-function||*modulo:* cotizador<br>|
+|**API Mi Mutual**|application-interface||*modulo:* mimutual<br>|
+|**Autenticación: authgard**|application-service|||
+|**Interceptor: errorinterceptor**|application-service|||
+|**Parametrización: typeservice**|application-service|||
+|**Sesión admin: idletimeout**|application-service|||
+
+## ArqCotizador. 2. Contenedores
+![Diagram: ArqCotizador. 2. Contenedores](images/ArqCotizador.2.Contenedores.png){#fig:ArqCotizador.2.Contenedores width=}
+
+### Catálogo de Elementos
+| Name| Type| Description| Properties
+|:--------|:--------|:--------|:--------|
+|**Repositorio Mi Mutual**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br>|*modulo:* mimutual<br>|
+|**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
+|**Control**|application-function|||
+|**Ruteos**|application-function|||
+|**Servicios**|application-function|||
+|**API Mi Mutual**|application-interface||*modulo:* mimutual<br>|
+|**Cliente HTTP / HTTPS**|application-interface|||
+
+## ArqCotizador. 4. Aplicación
+![Diagram: ArqCotizador. 4. Aplicación](images/ArqCotizador.4.Aplicación.png){#fig:ArqCotizador.4.Aplicación width=}
+
+La organización de la aplicación Cotizador Web Mi Mutual, como capa de presentación y servicios, plantea una estructura basada en la referencia de aplicaciones Angular 12. Las características de esta estructura (referida por Angular) está orientada al crecimiento (tamaño) de la aplicación, la escalabilidad y al rendimiento. La aplicación web Cotizador está diseñada (modulos) para manejar la carga por demanda del contenido.
+
+
+### Catálogo de Elementos
+| Name| Type| Description| Properties
+|:--------|:--------|:--------|:--------|
+|**Controlador Mi Mutual**|application-component|Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.|*modulo:* mimutual<br>|
+|**MOD0.JwtModule**|application-component| Manejo de token. Documentación: https://github.com/auth0/angular2-jwt||
+|**MOD0.Ngprime**|application-component| Manejo de componentes visuales Documentación: https://www.primefaces.org/primeng/#/||
+|**MOD0.NgxMaskModule**|application-component| Manejo de máscaras de input text. Documentación: https://github.com/JsDaddy/ngx-mask||
+|**MOD0.TranslateModule**|application-component| Manejo de internacionalización. Documentación: https://github.com/ngx-translate/core||
+|**MOD0.chart.js**|application-component| Componente utilizado para el manejo de graficas Documentación: https://www.chartjs.org/docs/latest/||
+|**MOD0.classlist.js**|application-component|Componete para el manejo de listas de datos en las gráficas Documentación: https://www.chartjs.org/docs/latest/||
+|**MOD0.cronstrue**|application-component| Componente para traducir una expresión cron a palabras Documentación: https://github.com/bradymholt/cronstrue||
+|**MOD0.file-saver**|application-component| Componente para descargar un archivo desde los bytes Documentación: https://github.com/eligrey/FileSaver.js#readme||
+|**MOD0.ngx-tinymce**|application-component|Editor html para generación de plantillas para cartas Documentación: https://cipchk.github.io/ngx-tinymce/#/||
+|**MOD0.ngx-ui-loader**|application-component|Manejo de Spinner para control de peticiones asíncronas. Documentación: https://github.com/t-ho/ngx-ui-loader||
+|**MOD0.quill**|application-component|Ccomponente para editor html Documentación: https://quilljs.com/||
+|**MOD0.sweetalert2**|application-component|Manejo de alertas de mensajes. Documentación: https://sweetalert2.github.io/||
+|**Repositorio Mi Mutual**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br>|*modulo:* mimutual<br>|
+|**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
+|**app: Implementación de Servicios**|application-component|Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br>|*modulo:* mimutual<br>|
+|**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
+|**Interfaz transporte**|application-interface|Feign Client.<br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.||
+|**Application Service**|application-service|Otros servicios del contexto de Mi Mutual Central.<br>||
+|**Autorizaciones**|application-service|Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones usando el servicio del flujo de procesos.||
+|**Certificados**|application-service|Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.||
+|**Configuración**|application-service|Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.||
+|**Facturación y Recaudo**|application-service|Administración de la facturación y recaudo diario de los productos||
+|**Gestión de Beneficiarios**|application-service|Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación<br>||
+|**Gestión de Productos**|application-service|Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.||
+|**Gestión de Usuarios**|application-service|Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.||
+|**SS02.reporte - cotizacion**|application-service|||
+|**SS02.reporte - estado - cotizacion**|application-service|||
+|**Simuladores**|application-service|Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.||
+|**Analistas**|business-role|Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.||
+|**Asesores**|business-role|Asesores integrales||
+|**Auxiliares servicio**|business-role|Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.||
+|**Módulos Externos**|grouping|||
+|**Unidad de Solidaridad y Seguros**|grouping|La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad)||
+|**Servicio de Almacenamiento de Datos**|technology-service|||
+|**Servicio de Red**|technology-service|||
+|**Servicio de archivos**|technology-service|||
+
+## ArqCotizador. 4a. Aplicación. Servicios
+![Diagram: ArqCotizador. 4a. Aplicación. Servicios](images/ArqCotizador.4a.Aplicación.Servicios.png){#fig:ArqCotizador.4a.Aplicación.Servicios width=}
+
+Composición interna de los servivios de Mi Mutual Central, Mi Mutual Web, Cotizador Web. 
+
+
+### Catálogo de Elementos
+| Name| Type| Description| Properties
+|:--------|:--------|:--------|:--------|
+|**Controlador**|application-component|Controlador interno del servicio. Punto de entrada a la lógica de expuesta.||
+|**Interfaz**|application-component|Interfaz de inversión de dependencia a las clases del servicio.<br>||
+|**Interfaz datos**|application-component|Acceso a datos del modelo del contexto de Mi Mutual Central.<br>||
+|**Operación**|application-component|||
+|**Servicio**|application-component|Exposición de componentes de negocio.<br>||
+|**Interfaz transporte**|application-interface|Feign Client.<br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.||
+|**Application Service**|application-service|Otros servicios del contexto de Mi Mutual Central.<br>||
+|**Gestión de Productos**|application-service|Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.||
+|**Integración**|application-service|||
+
+## ArqCotizador. 4a. Dependencias
+![Diagram: ArqCotizador. 4a. Dependencias](images/ArqCotizador.4a.Dependencias.png){#fig:ArqCotizador.4a.Dependencias width=}
+
+### Paquetes y Dependencias Cotizador Web
+Módulos y componentes que hacen parte de la estructura de la aplicación Cotizador Web (basado en Angular 12 [^1]).
+
+[^1]: Angular 2 tiene una arquitectura Modelo Vista Controlador (MVC) con el fin de hacer el desarrollo gestionado.
+
+### Módulos Cotizador Web
+La estructura por módulos actual apunta a la escalabilidad y mantenimiento del Cotizador en términos de: organizar las partes de la aplicación, organización los bloques, extender la aplicación con libreras externas, proporcionar un entorno de resolución de plantillas y además, distribuir las cargas de los componentes y servicios que usa la aplicación.
+
+
+### Catálogo de Elementos
+| Name| Type| Description| Properties
+|:--------|:--------|:--------|:--------|
+|**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
+|**pkg: admin**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: administración**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: asociados**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: auth**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: cliente**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: clientes**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: componentes**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: config**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: cotizaciones**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: cotización**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: directivas**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: home**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: interfaces**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: modelos**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: multiactiva**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: protecciones**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: proveedores**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: reporte**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: reportes**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: transporte**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: util**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: utilidades**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**Aplicativo**|application-function||*modulo:* cotizador<br>|
+|**Compartido**|application-function||*modulo:* cotizador<br>|
+|**Cotizador**|application-function||*modulo:* cotizador<br>|
+|**Interfaz gráfica**|application-function||*modulo:* cotizador<br>|
+|**Util**|application-function|En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br>|*modulo:* cotizador<br>|
+|**admin Páginas**|application-function||*modulo:* cotizador<br>|
+|**admin Servicios**|application-function||*modulo:* cotizador<br>|
+
+## ArqCotizador. 5. Físico (despliegue)
+![Diagram: ArqCotizador. 5. Físico (despliegue)](images/ArqCotizador.5.Físico(despliegue).png){#fig:ArqCotizador.5.Físico(despliegue) width=}
+
+### Especificaciones de Despliegue Cotizador Web
+Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local (2022).
+
+#### Recursos Requeridos
+* Git. Se debe instalar git para poder realizar la clonación de cada uno de los proyectos mas adelante.
+* Instalación SmartGit. Se debe instalar Smartgit para poder realizar la clonación de cada uno de los proyectos mas adelante, este es opcional ya que es una interfaz gráfica de git mas amigable para el usuario en caso que no desee trabajar con la consola.
+* DBeaver. Se debe instalar DBeaver para poder acceder a la base de datos. 
+* Instalación Maven. Se debe instalar maven para poder compilar los proyectos, nos debemos asegurar de instalar la versión 3.6.3, en caso que no se encuentra en la página oficial copiar la carpeta que esta en el repositorio a archivo de programas. 
+* Java 8. Se debe instalar Java para poder desplegar los proyectos mas adelante, nos debemos asegurar de instalar la versión 8. 
+* STS. Se debe instalar el IDE para realizar modificaciones a los proyectos back mas adelante en este caso Spring Tools 4 for Eclipse. La carpeta que genera el instalador la copiamos a archivos de programa. 
+* Instalación Lombok. Se debe instalar el lombok seleccionando el IDE que acabamos de instarlar en este caso el STS.
+* Postman. Se debe instalar el postman para poder consumir los servicios del backend mas adelante cuando ya se hayan desplegado.
+* Node Js. Se debe instalar Node Js para configurar el proyecto front mas adelante, nos debemos asegurar de instalar la versión v14.2.0.
+* Visual Studio Code. Se debe instalar el IDE para realizar modificaciones al proyecto front mas adelante en este caso Visual Studio code. 
+* Angular 14.
+
+<br>
+
+
+### Catálogo de Elementos
+| Name| Type| Description| Properties
+|:--------|:--------|:--------|:--------|
+|**app: Asociados**|application-component|Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.|*modulo:* mimutual<br>|
+|**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
+|**app: Implementación de Servicios**|application-component|Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br>|*modulo:* mimutual<br>|
+|**app: Protecciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.|*modulo:* mimutual<br>|
+|**app: Reclamaciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos.|*modulo:* mimutual<br>|
+|**pkg: admin**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: administración**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: asociados**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: auth**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: cliente**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: clientes**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: config**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: cotizaciones**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: cotización**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: home**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: modelos**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: multiactiva**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: protecciones**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: proveedores**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: reporte**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: reportes**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: utilidades**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**Conexión: jdbc**|artifact||*modulo:* cotizador<br>|
+|**Entorno Angular: ng 14.0.0**|system-software||*modulo:* cotizador<br>|
+|**Entorno JS: node 14.2.0**|system-software||*modulo:* cotizador<br>|
+|**Repositorio: db2 iSerie**|system-software||*modulo:* cotizador<br>|
+|**Servicios: tomcat**|system-software||*modulo:* mimutual<br>|
+
+## ArqCotizador. 7. Datos. Negocio
+![Diagram: ArqCotizador. 7. Datos. Negocio](images/ArqCotizador.7.Datos.Negocio.png){#fig:ArqCotizador.7.Datos.Negocio width=}
+
+### Entidades de Negocio Mi Mutual
+Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.
+
+* Configuración (caracterización de productos, plan)
+* Plan (producto pólizas seguros)
+* Canal (medios del tomador/asociado)
+* Parametros globales (catálogos)
+* Portafolio de asociado
+* Asociado
+* Facturación
+* Beneficiario
+
+
+### Catálogo de Elementos
+| Name| Type| Description| Properties
+|:--------|:--------|:--------|:--------|
+|**DAT00.Asegurado**|business-object|||
+|**DAT00.Asociado**|business-object|||
+|**DAT00.Beneficiario**|business-object|||
+|**DAT00.Canal (medios del tomador/asociado)**|business-object|||
+|**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
+|**DAT00.Plan (producto pólizas seguros)**|business-object|||
+|**DAT01.Cotización**|business-object|||
+|**DAT01.Vinculación**|business-object|||
+|**DAT01.PERSONA**|data-object|||
+|**DAT01.PERSONA**|data-object|||
+|**DAT01.PERSONA**|data-object|||
+|**DAT01.PERSONA**|data-object|||
+
+
+``Generated on: Wed Oct 25 2023 10:29:20 GMT-0500 (COT)``
 
 # Requerimientos de Administración
 1. Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
