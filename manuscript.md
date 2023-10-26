@@ -5,7 +5,7 @@ keywords:
 - gobierno
 - Coomeva
 lang: en-US
-date-meta: '2023-10-25'
+date-meta: '2023-10-26'
 author-meta:
 - Equipo arquitectura STEF-COOMV.
 header-includes: |
@@ -15,11 +15,11 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-10-25" />
-  <meta name="citation_publication_date" content="2023-10-25" />
-  <meta property="article:published_time" content="2023-10-25" />
-  <meta name="dc.modified" content="2023-10-25T18:50:29+00:00" />
-  <meta property="article:modified_time" content="2023-10-25T18:50:29+00:00" />
+  <meta name="dc.date" content="2023-10-26" />
+  <meta name="citation_publication_date" content="2023-10-26" />
+  <meta property="article:published_time" content="2023-10-26" />
+  <meta name="dc.modified" content="2023-10-26T15:10:30+00:00" />
+  <meta property="article:modified_time" content="2023-10-26T15:10:30+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/3007b3de681daafa70da9e50d6c0e822dc2b6afe/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/3007b3de681daafa70da9e50d6c0e822dc2b6afe/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/3007b3de681daafa70da9e50d6c0e822dc2b6afe/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/026fbdcb2898d0af7a5cf65220875802165be855/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/026fbdcb2898d0af7a5cf65220875802165be855/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/026fbdcb2898d0af7a5cf65220875802165be855/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.3007b3d de 25 Oct 2023
+| **Versión** del producto 1.026fbdc de 26 Oct 2023
 
 | **Presentado a**
 
@@ -87,7 +87,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 25 Oct 2023
+| 26 Oct 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -95,10 +95,10 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/3007b3de681daafa70da9e50d6c0e822dc2b6afe/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/026fbdcb2898d0af7a5cf65220875802165be855/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@3007b3d](http://stefanini.sharepoint.com)
-del October 25, 2023.
+[Sharepoint STEF@026fbdc](http://stefanini.sharepoint.com)
+del October 26, 2023.
 </em></small>
 
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.3007b3d del 25 Oct 2023 |
+| Versión        | 1.026fbdc del 26 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -4871,7 +4871,7 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 |**DAT01.PERSONA**|data-object|||
 
 
-``Generated on: Wed Oct 25 2023 13:47:52 GMT-0500 (COT)``
+``Generated on: Thu Oct 26 2023 10:06:59 GMT-0500 (COT)``
 
 # Requerimientos de Administración
 1. Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
