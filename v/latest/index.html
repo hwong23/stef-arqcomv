@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Equipo arquitectura STEF-COOMV." />
-  <meta name="dcterms.date" content="2023-10-27" />
+  <meta name="dcterms.date" content="2023-11-04" />
   <meta name="keywords" content="SOA, madurez, gobierno, Coomeva" />
   <title>Documento de Arquitectura Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva, STEF - Coomeva</title>
   <style>
@@ -46,11 +46,11 @@
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-10-27" />
-  <meta name="citation_publication_date" content="2023-10-27" />
-  <meta property="article:published_time" content="2023-10-27" />
-  <meta name="dc.modified" content="2023-10-27T14:06:13+00:00" />
-  <meta property="article:modified_time" content="2023-10-27T14:06:13+00:00" />
+  <meta name="dc.date" content="2023-11-04" />
+  <meta name="citation_publication_date" content="2023-11-04" />
+  <meta property="article:published_time" content="2023-11-04" />
+  <meta name="dc.modified" content="2023-11-04T00:38:40+00:00" />
+  <meta property="article:modified_time" content="2023-11-04T00:38:40+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -65,9 +65,9 @@
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/198efe24c7d3b1564948f0899805750bfa8a0ed2/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/198efe24c7d3b1564948f0899805750bfa8a0ed2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/198efe24c7d3b1564948f0899805750bfa8a0ed2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/d404615e94d6478353c5e8714451c11792c2a157/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/d404615e94d6478353c5e8714451c11792c2a157/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/d404615e94d6478353c5e8714451c11792c2a157/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -89,20 +89,20 @@
 <p><br></p>
 <p><br></p>
 <p><br></p>
-<div class="line-block"><strong>Versión</strong> del producto 1.198efe2 de 27 Oct 2023</div>
+<div class="line-block"><strong>Versión</strong> del producto 1.d404615 de 04 Nov 2023</div>
 <div class="line-block"><strong>Presentado a</strong></div>
 <div class="line-block">STEF - Coomeva</div>
 <div class="line-block"></div>
 <div class="line-block"><strong>Fecha</strong></div>
-<div class="line-block">27 Oct 2023</div>
+<div class="line-block">04 Nov 2023</div>
 <div style="page-break-before: always;">
 
 </div>
 <p><small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023,
-(<a href="https://hwong23.github.io/stef-arqcomv/v/198efe24c7d3b1564948f0899805750bfa8a0ed2/">Web</a>)
+(<a href="https://hwong23.github.io/stef-arqcomv/v/d404615e94d6478353c5e8714451c11792c2a157/">Web</a>)
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-<a href="http://stefanini.sharepoint.com">Sharepoint STEF@198efe2</a>
-del October 27, 2023.
+<a href="http://stefanini.sharepoint.com">Sharepoint STEF@d404615</a>
+del November 4, 2023.
 </em></small></p>
 <p><br></p>
 <h2 id="autores">Autores</h2>
@@ -150,7 +150,7 @@ Arquitecto, Stefanini
 </tr>
 <tr class="even">
 <td>Versión</td>
-<td>1.198efe2 del 27 Oct 2023</td>
+<td>1.d404615 del 04 Nov 2023</td>
 </tr>
 <tr class="odd">
 <td>Vínculos</td>
@@ -235,11 +235,11 @@ Arquitecto, Stefanini
 <tbody>
 <tr class="odd">
 <td>Descripción</td>
-<td>Unifica las entidades de negocio Coomeva, entre las que se incluyen a conciliaciones, publicaciones de relatoría, resoluciones, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del Mi Mutual, estarán concentradas en un único artefacto correspondiente.</td>
+<td>Unifica las entidades de negocio Coomeva, entre las que se incluyen a Cotización, Venta, Vinculación, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del Mi Mutual, estarán concentradas en un único artefacto correspondiente.</td>
 </tr>
 <tr class="even">
 <td>Calidad sistémica</td>
-<td>La consistencia persigue que el resultado de la lógica de negocio sea la misma entre los módulos del Mi Mutual migrado. Esto redunda a mantenibilidad y gestión: tiende a tener un solo punto de cambio y dificulta la transferencia de dependencias implícitas a otros procesos.</td>
+<td>La consistencia persigue que el resultado de la lógica de negocio de las entidades de Mi Mutual sea la misma entre los módulos del Mi Mutual. Esto redunda a mantenibilidad y gestión: tiende a tener un solo punto de cambio y dificulta la transferencia de dependencias implícitas a otros procesos.</td>
 </tr>
 </tbody>
 </table>
