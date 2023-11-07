@@ -5,7 +5,7 @@ keywords:
 - gobierno
 - Coomeva
 lang: en-US
-date-meta: '2023-11-04'
+date-meta: '2023-11-07'
 author-meta:
 - Equipo arquitectura STEF-COOMV.
 header-includes: |
@@ -15,11 +15,11 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-11-04" />
-  <meta name="citation_publication_date" content="2023-11-04" />
-  <meta property="article:published_time" content="2023-11-04" />
-  <meta name="dc.modified" content="2023-11-04T00:38:40+00:00" />
-  <meta property="article:modified_time" content="2023-11-04T00:38:40+00:00" />
+  <meta name="dc.date" content="2023-11-07" />
+  <meta name="citation_publication_date" content="2023-11-07" />
+  <meta property="article:published_time" content="2023-11-07" />
+  <meta name="dc.modified" content="2023-11-07T14:23:43+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T14:23:43+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/d404615e94d6478353c5e8714451c11792c2a157/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/d404615e94d6478353c5e8714451c11792c2a157/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/d404615e94d6478353c5e8714451c11792c2a157/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/00ee68d6212c97d72ff3ebd79db362c3d1962861/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/00ee68d6212c97d72ff3ebd79db362c3d1962861/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/00ee68d6212c97d72ff3ebd79db362c3d1962861/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.d404615 de 04 Nov 2023
+| **Versión** del producto 1.00ee68d de 07 Nov 2023
 
 | **Presentado a**
 
@@ -87,7 +87,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 04 Nov 2023
+| 07 Nov 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -95,10 +95,10 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/d404615e94d6478353c5e8714451c11792c2a157/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/00ee68d6212c97d72ff3ebd79db362c3d1962861/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@d404615](http://stefanini.sharepoint.com)
-del November 4, 2023.
+[Sharepoint STEF@00ee68d](http://stefanini.sharepoint.com)
+del November 7, 2023.
 </em></small>
 
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.d404615 del 04 Nov 2023 |
+| Versión        | 1.00ee68d del 07 Nov 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -244,7 +244,7 @@ Table: Requisito no. 1, Desarrollo Mi Mutual, Consistencia. {#tbl:requisito1-id}
 
 | Requisito      | Mantenibilidad Mi Mutual |
 |----------------|--------------------|
-| Descripción | Evitar las dependencia transitivas de los módulos misionales del Mi Mutual a componentes y sistemas de terceros o submódulos no misionales.  |
+| Descripción | Evitar las dependencias transitivas de los módulos misionales del Mi Mutual a componentes y sistemas de terceros o submódulos no misionales.  |
 | Calidad sistémica | La mantenibilidad por control de dependencias que optimiza el diseño Desarrollo Mi Mutual está dada por el control de cambios no programados sobre los componentes misionales del Mi Mutual (corrupción de componentes). Ver Patrón de Diseño Desarrollo Mi Mutual, más adelante en el documento. |
 
 Table: Requisito no. 2, Mantenibilidad Mi Mutual. {#tbl:requisito2-id}
