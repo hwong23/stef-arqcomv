@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-22" />
   <meta name="citation_publication_date" content="2023-11-22" />
   <meta property="article:published_time" content="2023-11-22" />
-  <meta name="dc.modified" content="2023-11-22T12:05:45+00:00" />
-  <meta property="article:modified_time" content="2023-11-22T12:05:45+00:00" />
+  <meta name="dc.modified" content="2023-11-22T17:08:59+00:00" />
+  <meta property="article:modified_time" content="2023-11-22T17:08:59+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/efedd6a8a655ece4862d6b0717b50debeb98d97f/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/efedd6a8a655ece4862d6b0717b50debeb98d97f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/efedd6a8a655ece4862d6b0717b50debeb98d97f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/f0a4f7212abcb5e2a94d2609d440c4e15170fd1e/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/f0a4f7212abcb5e2a94d2609d440c4e15170fd1e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/f0a4f7212abcb5e2a94d2609d440c4e15170fd1e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.efedd6a de 22 Nov 2023
+| **Versión** del producto 1.f0a4f72 de 22 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/efedd6a8a655ece4862d6b0717b50debeb98d97f/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/f0a4f7212abcb5e2a94d2609d440c4e15170fd1e/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@efedd6a](http://stefanini.sharepoint.com)
+[Sharepoint STEF@f0a4f72](http://stefanini.sharepoint.com)
 del November 22, 2023.
 </em></small>
 
@@ -143,6 +143,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.f0a4f72 | 2023-11-22. modelo negocio |
 | 1.efedd6a | 2023-11-22. modelo negocio |
 | 1.ff9e742 | 2023-11-22. abstrc |
 | 1.07c4190 | 2023-11-21. abstrc |
@@ -152,7 +153,6 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | 1.00ee68d | 2023-11-07. upd |
 | 1.d404615 | 2023-11-03. cotizdoc |
 | 1.e6db45d | 2023-11-03. cotizdoc |
-| 1.198efe2 | 2023-10-27. upd |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -4597,11 +4597,12 @@ Table: Elementos de la vista. {#tbl:tblelement-Seguridad.3.DatosSUI-id}
 
 
 
-# Doc. 2. Vistas de Arquitectura Mi Mutual
+# Doc. 1. Vistas de Arquitectura Mi Mutual
 * [Mi Mutual Central](#mi-mutual-central)
 	* [MiMutual. 1. Contexto](#mimutual.-1.-contexto)
 	* [MiMutual. 2. Contenedores](#mimutual.-2.-contenedores)
 	* [MiMutual. 3. Dominios](#mimutual.-3.-dominios)
+	* [Arquitectura. 3. Modelo Negocio](#arquitectura.-3.-modelo-negocio)
 	* [MiMutual. 4. Aplicación](#mimutual.-4.-aplicación)
 	* [MiMutual. 4a3. Dependencias](#mimutual.-4a3.-dependencias)
 	* [MiMutual. 5. Físico. Despliegue](#mimutual.-5.-físico.-despliegue)
@@ -4713,6 +4714,63 @@ La división por dominios busca facilitar la administración los servicios de la
 |**app: Protecciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.|*modulo:* mimutual<br>|
 |**app: Reclamaciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos.|*modulo:* mimutual<br>|
 |**app: Secuencias: zipkin**|application-component|Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
+
+<br>
+
+## Arquitectura. 3. Modelo Negocio
+![Vista. Arquitectura. 3. Modelo Negocio](images/Arquitectura.3.ModeloNegocio.png){#fig:Arquitectura.3.ModeloNegocio width=}
+
+### Conceptos Principales
+
+1. Configuración
+1. Vinculación
+1. Venta
+1. Cotización
+1. Factura
+1. Cobertura
+1. Configuración
+1. Plan de producto
+
+
+### Orden Operativo
+
+1. Configuración
+1. Vinculación
+1. Venta o Cotización
+1. Factura
+
+
+### Catálogo de Elementos
+| Nombre| Tipo| Descripción| Prop.
+|:--------|:--------|:--------|:--------|
+|**Auditoría Médica**|business-object|Cuando se glosa una solicitus es porque el auditor medico necesita mas informacion y la reasigna.<br>||
+|**DAT00. Cobertura**|business-object|||
+|**DAT00. Glosa**|business-object|Cuando se glosa una solicitus es porque el auditor medico necesita mas informacion y la reasigna.<br>||
+|**DAT00. Reclamación**|business-object|Reclamacion es cuando el asociado desea que le paguen una cobertura, Ejemplo cumplio perseverancia ya tiene 60 años y cobra.<br>||
+|**DAT00. Rescate**|business-object|Rescate es cuado el asociado se retira y viene a reclamar los valores ahorrados a los que tiene derecho.<br>||
+|**DAT00.Asegurado**|business-object|||
+|**DAT00.Asociado**|business-object|||
+|**DAT00.Auxilio Funerario**|business-object|||
+|**DAT00.Beneficiario**|business-object|||
+|**DAT00.Canal (medios del tomador/asociado)**|business-object|||
+|**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
+|**DAT00.Cotización**|business-object|||
+|**DAT00.Cúmulo**|business-object|||
+|**DAT00.Declaración de Salud**|business-object|Rescate es cuado el asociado se retira y viene a reclamar los valores ahorrados a los que tiene derecho.<br>||
+|**DAT00.Facturación**|business-object|Factura la genera COOMEVA.<br>||
+|**DAT00.Mesa de Control**|business-object|Rescate es cuado el asociado se retira y viene a reclamar los valores ahorrados a los que tiene derecho.<br>||
+|**DAT00.Operaciones**|business-object|||
+|**DAT00.Parametros globales (catálogos)**|business-object|||
+|**DAT00.Perseverancia**|business-object|Rescate es cuado el asociado se retira y viene a reclamar los valores ahorrados a los que tiene derecho.<br>||
+|**DAT00.Plan - Cobertura**|business-object|||
+|**DAT00.Plan configuración**|business-object|Plan de configuración: producto pólizas seguros.<br>||
+|**DAT00.Plan de Pagos**|business-object|||
+|**DAT00.Planes**|business-object|||
+|**DAT00.Producto**|business-object|||
+|**DAT00.Solicitud**|business-object|Caracterización de productos, planes, parámetros<br>||
+|**DAT00.Venta**|business-object|||
+|**DAT00.Vinculación**|business-object|||
+|**Fondo Solidaridad**|business-object|||
 
 <br>
 
@@ -5536,7 +5594,7 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 <br>
 
 
-``Generated on: Wed Nov 22 2023 07:01:55 GMT-0500 (COT)``
+``Generated on: Wed Nov 22 2023 12:05:47 GMT-0500 (COT)``
 
 # Requerimientos de Administración
 1. Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
