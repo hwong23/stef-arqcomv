@@ -28,7 +28,7 @@ COMMIT="${TRIGGERING_SHA_7}"
 # located in the $PANDOC_DATA_DIR/defaults directory.
 PANDOC_DATA_DIR="${PANDOC_DATA_DIR:-build/pandoc}"
 HISTORIAMD=$(git show -s -n 10 --format='| 1.%h | %ad. %s |' --date=short HEAD)
-export FECHA_COMPILACION COMMIT PROYECTO PROY_DESCR
+export FECHA_COMPILACION COMMIT PROYECTO PROY_DESCR HISTORIAMD
 
 
 # Generate reference information
