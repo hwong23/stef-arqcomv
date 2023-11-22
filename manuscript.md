@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-22" />
   <meta name="citation_publication_date" content="2023-11-22" />
   <meta property="article:published_time" content="2023-11-22" />
-  <meta name="dc.modified" content="2023-11-22T04:40:26+00:00" />
-  <meta property="article:modified_time" content="2023-11-22T04:40:26+00:00" />
+  <meta name="dc.modified" content="2023-11-22T11:45:59+00:00" />
+  <meta property="article:modified_time" content="2023-11-22T11:45:59+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/07c419089c293c1d711cb9084647cdc82da5f5f2/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/07c419089c293c1d711cb9084647cdc82da5f5f2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/07c419089c293c1d711cb9084647cdc82da5f5f2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/ff9e7427908315c28e8ea7e5315f5f40736cec4e/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/ff9e7427908315c28e8ea7e5315f5f40736cec4e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/ff9e7427908315c28e8ea7e5315f5f40736cec4e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.07c4190 de 22 Nov 2023
+| **Versión** del producto 1.ff9e742 de 22 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/07c419089c293c1d711cb9084647cdc82da5f5f2/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/ff9e7427908315c28e8ea7e5315f5f40736cec4e/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@07c4190](http://stefanini.sharepoint.com)
+[Sharepoint STEF@ff9e742](http://stefanini.sharepoint.com)
 del November 22, 2023.
 </em></small>
 
@@ -143,7 +143,16 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
-
+| 1.ff9e742 | 2023-11-22. abstrc |
+| 1.07c4190 | 2023-11-21. abstrc |
+| 1.e0bde5c | 2023-11-07. purg |
+| 1.48030a3 | 2023-11-07. variables |
+| 1.8470759 | 2023-11-07. modneg |
+| 1.00ee68d | 2023-11-07. upd |
+| 1.d404615 | 2023-11-03. cotizdoc |
+| 1.e6db45d | 2023-11-03. cotizdoc |
+| 1.198efe2 | 2023-10-27. upd |
+| 1.7ee3b70 | 2023-10-26. arqdes |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
