@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-22" />
   <meta name="citation_publication_date" content="2023-11-22" />
   <meta property="article:published_time" content="2023-11-22" />
-  <meta name="dc.modified" content="2023-11-22T11:45:59+00:00" />
-  <meta property="article:modified_time" content="2023-11-22T11:45:59+00:00" />
+  <meta name="dc.modified" content="2023-11-22T12:05:45+00:00" />
+  <meta property="article:modified_time" content="2023-11-22T12:05:45+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/ff9e7427908315c28e8ea7e5315f5f40736cec4e/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/ff9e7427908315c28e8ea7e5315f5f40736cec4e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/ff9e7427908315c28e8ea7e5315f5f40736cec4e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/efedd6a8a655ece4862d6b0717b50debeb98d97f/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/efedd6a8a655ece4862d6b0717b50debeb98d97f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/efedd6a8a655ece4862d6b0717b50debeb98d97f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.ff9e742 de 22 Nov 2023
+| **Versión** del producto 1.efedd6a de 22 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/ff9e7427908315c28e8ea7e5315f5f40736cec4e/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/efedd6a8a655ece4862d6b0717b50debeb98d97f/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@ff9e742](http://stefanini.sharepoint.com)
+[Sharepoint STEF@efedd6a](http://stefanini.sharepoint.com)
 del November 22, 2023.
 </em></small>
 
@@ -143,6 +143,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.efedd6a | 2023-11-22. modelo negocio |
 | 1.ff9e742 | 2023-11-22. abstrc |
 | 1.07c4190 | 2023-11-21. abstrc |
 | 1.e0bde5c | 2023-11-07. purg |
@@ -152,7 +153,6 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | 1.d404615 | 2023-11-03. cotizdoc |
 | 1.e6db45d | 2023-11-03. cotizdoc |
 | 1.198efe2 | 2023-10-27. upd |
-| 1.7ee3b70 | 2023-10-26. arqdes |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -4597,14 +4597,14 @@ Table: Elementos de la vista. {#tbl:tblelement-Seguridad.3.DatosSUI-id}
 
 
 
-# Vistas de Arquitectura Mi Mutual
+# Doc. 2. Vistas de Arquitectura Mi Mutual
 * [Mi Mutual Central](#mi-mutual-central)
 	* [MiMutual. 1. Contexto](#mimutual.-1.-contexto)
 	* [MiMutual. 2. Contenedores](#mimutual.-2.-contenedores)
 	* [MiMutual. 3. Dominios](#mimutual.-3.-dominios)
 	* [MiMutual. 4. Aplicación](#mimutual.-4.-aplicación)
 	* [MiMutual. 4a3. Dependencias](#mimutual.-4a3.-dependencias)
-	* [MiMutual. 5. Físico (despliegue)](#mimutual.-5.-físico-despliegue)
+	* [MiMutual. 5. Físico. Despliegue](#mimutual.-5.-físico.-despliegue)
 	* [MiMutual. 6. Infraestructura](#mimutual.-6.-infraestructura)
 	* [MiMutual. 7. Datos. Negocio](#mimutual.-7.-datos.-negocio)
 	* [MiMutual. 7a. Datos. Aplicación](#mimutual.-7a.-datos.-aplicación)
@@ -4615,7 +4615,8 @@ Table: Elementos de la vista. {#tbl:tblelement-Seguridad.3.DatosSUI-id}
 	* [Cotizador. 4. Aplicación](#cotizador.-4.-aplicación)
 	* [Cotizador. 4a. Aplicación. Servicios](#cotizador.-4a.-aplicación.-servicios)
 	* [Cotizador. 4a. Dependencias](#cotizador.-4a.-dependencias)
-	* [upd](#upd)
+	* [Cotizador. 5. Físico. Despliegue](#cotizador.-5.-físico.-despliegue)
+	* [Cotizador. 7a. Modelo Negocio](#cotizador.-7a.-modelo-negocio)
 	* [Cotizador. 7. Datos. Negocio](#cotizador.-7.-datos.-negocio)
 
 
@@ -4624,7 +4625,7 @@ Table: Elementos de la vista. {#tbl:tblelement-Seguridad.3.DatosSUI-id}
 
 # Mi Mutual Central
 ## MiMutual. 1. Contexto
-![Diagram: MiMutual. 1. Contexto](images/MiMutual.1.Contexto.png){#fig:MiMutual.1.Contexto width=}
+![Vista. MiMutual. 1. Contexto](images/MiMutual.1.Contexto.png){#fig:MiMutual.1.Contexto width=}
 
 ## Contexto Mi Mutual Central
 El sistema principal de fondo Mi Mutual Central es la composición de las funciones de negocio de la Unidad de Solidaridad de Coomeva. Las funciones de negocio referidas, como Gestión Beneficiarios, Certificados, Gestión Beneficiarios, aparecen dentro del componente principal en la imagen.
@@ -4635,7 +4636,7 @@ Las librerías Spring Boot Security y Spring Boot Oauth2 proveen característica
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
 |**Administración facturación y recaudo**|application-function|Administración de la facturación y recaudo diario de los productos<br>||
@@ -4647,7 +4648,7 @@ Las librerías Spring Boot Security y Spring Boot Oauth2 proveen característica
 |**Gestión Usuarios**|application-function|Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.<br>||
 |**Gestión fondo mutual y auxilio funerario**|application-function|Gestión de productos del fondo mutual y auxilio funerario que involucran a sus coberturas<br>||
 |**Interoperabilidad entre sistemas Coomeva**|application-function|Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.<br>||
-|**Seguridad**|application-function|||
+|**Seguridad**|application-function|Software base. ||
 |**Simuladores**|application-function|Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.<br>||
 |**Autorizaciones**|application-service|Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones usando el servicio del flujo de procesos.<br>||
 |**Certificados**|application-service|Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.<br>||
@@ -4665,7 +4666,7 @@ Las librerías Spring Boot Security y Spring Boot Oauth2 proveen característica
 <br>
 
 ## MiMutual. 2. Contenedores
-![Diagram: MiMutual. 2. Contenedores](images/MiMutual.2.Contenedores.png){#fig:MiMutual.2.Contenedores width=}
+![Vista. MiMutual. 2. Contenedores](images/MiMutual.2.Contenedores.png){#fig:MiMutual.2.Contenedores width=}
 
 La organización de componentes utilizada Mi Mutual, impulsada por Spring Web, antepone como interfaz de uso un API REST. La interfaz se articula con tres componentes utilitarios: Controller, Service y Repository, los cuales están mediados por el componente misional, Mi Mutual, en la imagen. 
 
@@ -4673,7 +4674,7 @@ Esta decisión de organización de los componentes de Mi Mutual, incluyendo al m
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**Controlador Mi Mutual**|application-component|Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.|*modulo:* mimutual<br>|
 |**Registro Servicios: eureka**|application-component|Eureka: Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.<br>|*modulo:* mimutual<br>|
@@ -4687,37 +4688,43 @@ Esta decisión de organización de los componentes de Mi Mutual, incluyendo al m
 <br>
 
 ## MiMutual. 3. Dominios
-![Diagram: MiMutual. 3. Dominios](images/MiMutual.3.Dominios.png){#fig:MiMutual.3.Dominios width=}
+![Vista. MiMutual. 3. Dominios](images/MiMutual.3.Dominios.png){#fig:MiMutual.3.Dominios width=}
 
 La división por dominios busca facilitar la administración los servicios de la plataforma Mi Mutual que son comunes entre aplicaciones de Mi Mutual, tales como Asociados, Reclamaciones, Protecciones y otros servicios trasversales como Utilidades, Reglas de negocio, Procesos de negocio (BPM), Auditoria, Flujos de trabajo:flowable.
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
-|**Flujo Trabajo: flowable**|application-component|Contiene todas las funcionalidades relacionadas con el motor de BPM Flowable, como gestión de tareas, instancias de nuevas procesos y asignación de tareas.|*modulo:* mimutual<br>|
-|**Integración**|application-component|Contiene todas las funcionalidades relacionadas con integraciones a otros servicios y otras bases de datos.|*modulo:* mimutual<br>|
+|**Flujo Trabajo: flowable**|application-component|Contiene todas las funcionalidades relacionadas con el motor de BPM Flowable, como gestión de tareas, instancias de nuevas procesos y asignación de tareas.<br>|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
+|**Integración**|application-component|Contiene todas las funcionalidades relacionadas con integraciones a otros servicios y otras bases de datos.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
+|**Operación**|application-component|||
 |**Procesos negocio**|application-component|Contiene todas las funcionalidades relacionadas con los flujos de JBPM, actualmente se hace solo para acceso a datos de la base de datos de JBPM.|*modulo:* mimutual<br>|
 |**Reglas negocio**|application-component|Contiene todas las funcionalidades relacionadas con la validación de reglas usadas en otros microservicios.|*modulo:* mimutual<br>|
 |**SISPRO**|application-component|Contiene todas las funcionalidades relacionadas con la autenticación y autorización al sistema Mi mutual (Este componente se adopta a la arquitectura de microservicios de MiMutual)|*modulo:* mimutual<br>|
-|**Utilidades**|application-component|Contiene todas las funcionalidades útiles y trasversales a los microservicios, como envió de correos, generación de archivos Excel, PDF desde Jasper y consulta de parámetros.|*modulo:* mimutual<br>|
+|**Traductor**|application-component|||
+|**Utilidades**|application-component|Contiene todas las funcionalidades útiles y trasversales a los microservicios, como envío de correos, generación de archivos XSLX, PDF (Jasper) y consulta de parámetros.|*modulo:* mimutual<br>|
 |**app: Asociados**|application-component|Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.|*modulo:* mimutual<br>|
 |**app: Auditoria**|application-component|Contiene todas las funcionalidades relacionadas con el almacenamiento de la auditoria de las peticiones de la aplicación.|*modulo:* mimutual<br>|
-|**app: Eureka admin**|application-component|Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.|*modulo:* mimutual<br>|
-|**app: Gateway**|application-component|Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.|*modulo:* mimutual<br>|
-|**app: Identidades**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de los archivos de propiedades de los microservicios (Esta en construcción y no se ha integrado).|*modulo:* mimutual<br>|
+|**app: Eureka admin**|application-component|Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
+|**app: Gateway**|application-component|Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
+|**app: Identidades**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de los archivos de propiedades de los microservicios (Esta en construcción y no se ha integrado).|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
 |**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
 |**app: Protecciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.|*modulo:* mimutual<br>|
 |**app: Reclamaciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos.|*modulo:* mimutual<br>|
-|**app: Secuencias: zipkin**|application-component|Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs.|*modulo:* mimutual<br>|
+|**app: Secuencias: zipkin**|application-component|Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
 
 <br>
 
 ## MiMutual. 4. Aplicación
-![Diagram: MiMutual. 4. Aplicación](images/MiMutual.4.Aplicación.png){#fig:MiMutual.4.Aplicación width=}
+![Vista. MiMutual. 4. Aplicación](images/MiMutual.4.Aplicación.png){#fig:MiMutual.4.Aplicación width=}
+
+Componentes
+
+
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**Controlador Mi Mutual**|application-component|Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.|*modulo:* mimutual<br>|
 |**Mi Mutual Presentación**|application-component|||
@@ -4770,10 +4777,10 @@ La división por dominios busca facilitar la administración los servicios de la
 <br>
 
 ## MiMutual. 4a3. Dependencias
-![Diagram: MiMutual. 4a3. Dependencias](images/MiMutual.4a3.Dependencias.png){#fig:MiMutual.4a3.Dependencias width=}
+![Vista. MiMutual. 4a3. Dependencias](images/MiMutual.4a3.Dependencias.png){#fig:MiMutual.4a3.Dependencias width=}
 
 ### Paquetes y Dependencias Mi Mutual
-La estructura está basada en spring boot y lenguaje de programación JAVA 8, conformada por componentes de aplicación y administración del ciclo de vida de los objetos.
+La estructura está basada en Spring Boot y lenguaje de programación Java 8 (JSE, JDK 8), conformada por componentes de aplicación y administración del ciclo de vida de los objetos.
 
 Nombrado de paquetes para los servicios
 
@@ -4800,7 +4807,7 @@ El código fuente está alojado en un repositorio de Coomeva.
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
 |**pkg: Config**|application-component|config: Almacenan todas las clases para la configuración del proyecto Spring.||
@@ -4818,48 +4825,67 @@ El código fuente está alojado en un repositorio de Coomeva.
 
 <br>
 
-## MiMutual. 5. Físico (despliegue)
-![Diagram: MiMutual. 5. Físico (despliegue)](images/MiMutual.5.Físico(despliegue).png){#fig:MiMutual.5.Físico(despliegue) width=}
+## MiMutual. 5. Físico. Despliegue
+![Vista. MiMutual. 5. Físico. Despliegue](images/MiMutual.5.Físico.Despliegue.png){#fig:MiMutual.5.Físico.Despliegue width=}
 
 Especificaciones de despliegue Mi Mutual, 2023, componente central.
 
 * Estándares para el manejo de servicios REST sobre HTTP 1.1
-* Tecnologías para el backend: Java 8 con Spring Boot2.1.4
+* Tecnologías para el backend: Java 8 con Spring Boot 2.1.4
 * Acceso a Datos: Spring Data 2.1.4
 * Seguridad de las API: Spring Security + Oauth2.0
-* Plataforma de despliegue Backend: Tomcat Spring boot
-* Tecnologías para el frontend: Angular 12
-* Librería de Estilos: Bootstrap 4
-* Servidor web (HTTP 1.1): Apache 2.X
+* Plataforma de despliegue Backend: Tomcat Spring Boot
+* Tecnologías para el frontend Mi Mutual Central: Angular 9
+* Tecnologías para el frontend Cotizador Web: Angular 14
+* Entorno de ejecución Javascript: nodejs 14.2.0
+* Librería de Estilos Bootstrap 4.x
+* Servidor web (HTTP 1.1): Apache 2.x
+* Servidor BPM, Flowable, versión 6.5.0 con JRE 8
+* Spring Cloud, versión Greenwich SR2
+* Querydsl, version 4.2.1
+* Bases de datos IBM DB2, AS400
 
+<br>
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
+|**Flujo Trabajo: flowable**|application-component|Contiene todas las funcionalidades relacionadas con el motor de BPM Flowable, como gestión de tareas, instancias de nuevas procesos y asignación de tareas.<br>|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
+|**Integración**|application-component|Contiene todas las funcionalidades relacionadas con integraciones a otros servicios y otras bases de datos.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
 |**app: Asociados**|application-component|Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.|*modulo:* mimutual<br>|
-|**app: Eureka admin**|application-component|Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.|*modulo:* mimutual<br>|
-|**app: Gateway**|application-component|Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.|*modulo:* mimutual<br>|
-|**app: Identidades**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de los archivos de propiedades de los microservicios (Esta en construcción y no se ha integrado).|*modulo:* mimutual<br>|
+|**app: Eureka admin**|application-component|Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
+|**app: Gateway**|application-component|Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
+|**app: Identidades**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de los archivos de propiedades de los microservicios (Esta en construcción y no se ha integrado).|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
 |**app: Implementación de Servicios**|application-component|Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br>|*modulo:* mimutual<br>|
 |**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
 |**app: Protecciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.|*modulo:* mimutual<br>|
 |**app: Reclamaciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos.|*modulo:* mimutual<br>|
-|**app: Secuencias: zipkin**|application-component|Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs.|*modulo:* mimutual<br>|
-|**Directorio: eureka: tomcat**|system-software|||
-|**Entorno Java: JRE 1.8**|system-software|||
-|**Gateway: tomcat**|system-software|||
-|**Identidad: spring cloud security**|system-software|||
-|**Secuencias: zipking: tomcat**|system-software|||
-|**Servicios: tomcat**|system-software||*modulo:* mimutual<br>|
+|**app: Secuencias: zipkin**|application-component|Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
+|**Conexión: jdbc**|artifact||*modulo:* cotizador<br>|
+|**Spring Boot 2.1.4**|artifact|Librerías backend Spring Boot 2.1.4 para Java 8.<br>|*brecha:* 30<br>|
+|**Spring Data 2.1.4**|artifact|Librerías backend Spring Boot 2.1.4 para Java 8.<br>|*brecha:* 30<br>|
+|**IBM DB2 iSerie**|node||*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>*brecha:* 60<br>|
+|**BPM: JRE**|system-software|Entorno de ejecución BPM. <br>* java.version: 1.8<br>* flowable.version: 6.5.0<br>* spring-cloud.version: Greenwich.SR2<br>* querydsl.version: 4.2.1<br><br><br>|*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>*brecha:* 30<br>|
+|**DDSEGUROS**|system-software||*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>|
+|**Directorio: eureka: tomcat**|system-software||*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>|
+|**ESB/WS**|system-software|* java.version: 1.8<br>* spring-cloud.version: Greenwich.SR2<br><br><br>|*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>|
+|**Entorno Java: JRE 1.8**|system-software||*brecha:* 30<br>*:* <br>|
+|**Gateway: tomcat**|system-software||*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>|
+|**Identidad: spring cloud security**|system-software||*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>|
+|**MiMutual DB**|system-software||*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>|
+|**Repositorio: db2 iSerie**|system-software||*modulo:* cotizador<br>|
+|**SIPASDB**|system-software||*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>|
+|**Secuencias: zipking: tomcat**|system-software||*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>|
+|**mimutual Servicios: tomcat**|system-software||*modulo:* mimutual<br>|
 
 <br>
 
 ## MiMutual. 6. Infraestructura
-![Diagram: MiMutual. 6. Infraestructura](images/MiMutual.6.Infraestructura.png){#fig:MiMutual.6.Infraestructura width=}
+![Vista. MiMutual. 6. Infraestructura](images/MiMutual.6.Infraestructura.png){#fig:MiMutual.6.Infraestructura width=}
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
 |**Spring cloud security**|node|Se implementará Spring Boot Security y Spring Boot Oauth2 las cuales proveen una capa básica de seguridad entre Vista (Angular 2) y Controlador, obligando a que únicamente permita el acceso si se está autenticado si lo requiere, además para realizar el proceso de autenticación se utilizara la aplicación SISPRO (Coomeva) la cual funciona como un servidor de autenticación.<br>La validación de roles se realizará a nivel de peticiones en el api rest según corresponda, siempre y cuando sea necesario, también se tendrán en cuenta otras validaciones como:<br>• Las credenciales que proporcionó no son válidas.<br>• El usuario esta deshabilitado.<br>• Las credenciales de usuario han caducado.<br>• La cuenta de usuario ha caducado.<br>• La cuenta de usuario está bloqueada.||
@@ -4873,7 +4899,7 @@ Especificaciones de despliegue Mi Mutual, 2023, componente central.
 <br>
 
 ## MiMutual. 7. Datos. Negocio
-![Diagram: MiMutual. 7. Datos. Negocio](images/MiMutual.7.Datos.Negocio.png){#fig:MiMutual.7.Datos.Negocio width=}
+![Vista. MiMutual. 7. Datos. Negocio](images/MiMutual.7.Datos.Negocio.png){#fig:MiMutual.7.Datos.Negocio width=}
 
 ### Entidades de Negocio Mi Mutual
 Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.
@@ -4889,7 +4915,7 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**DAT00. Reclamación**|business-object|Reclamacion es cuando el asociado desea que le paguen una cobertura, Ejemplo cumplio perseverancia ya tiene 60 años y cobra.<br>||
 |**DAT00.Asociado**|business-object|||
@@ -4908,7 +4934,7 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 <br>
 
 ## MiMutual. 7a. Datos. Aplicación
-![Diagram: MiMutual. 7a. Datos. Aplicación](images/MiMutual.7a.Datos.Aplicación.png){#fig:MiMutual.7a.Datos.Aplicación width=}
+![Vista. MiMutual. 7a. Datos. Aplicación](images/MiMutual.7a.Datos.Aplicación.png){#fig:MiMutual.7a.Datos.Aplicación width=}
 
 Estructuras de datos específicas a la plataforma. Modelo de negocio para las aplicaciones. 
 
@@ -4916,7 +4942,7 @@ Modelo físico facilitadas por Coomeva, corte del 2 de mayo de 2022. Contiene la
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**DAT01.ADICIONAL PLAN COBERTURA**|data-object|||
 |**DAT01.ASISTENCIA PLAN COBERTURA**|data-object|||
@@ -5015,7 +5041,7 @@ Modelo físico facilitadas por Coomeva, corte del 2 de mayo de 2022. Contiene la
 <br>
 
 ## MiMutual. 7b. Datos. Relaciones
-![Diagram: MiMutual. 7b. Datos. Relaciones](images/MiMutual.7b.Datos.Relaciones.png){#fig:MiMutual.7b.Datos.Relaciones width=}
+![Vista. MiMutual. 7b. Datos. Relaciones](images/MiMutual.7b.Datos.Relaciones.png){#fig:MiMutual.7b.Datos.Relaciones width=}
 
 ### Entidades de Negocio Mi Mutual
 
@@ -5030,7 +5056,7 @@ Modelo físico facilitadas por Coomeva, corte del 2 de mayo de 2022. Contiene la
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**DAT00.Asociado**|business-object|||
 |**DAT00.Beneficiario**|business-object|||
@@ -5069,7 +5095,7 @@ Modelo físico facilitadas por Coomeva, corte del 2 de mayo de 2022. Contiene la
 
 # Cotizador Web
 ## Cotizador. 1. Contexto
-![Diagram: Cotizador. 1. Contexto](images/Cotizador.1.Contexto.png){#fig:Cotizador.1.Contexto width=}
+![Vista. Cotizador. 1. Contexto](images/Cotizador.1.Contexto.png){#fig:Cotizador.1.Contexto width=}
 
 ### Contexto Mi Mutual Web
 La aplicación Cotizador Web hace parte de los módulos de interfaz web de Mi Mutual Central, representado por API Mi Mutual en el diagrama. Realizar cotizaciones de los planes de protección luego de la vinculación del asociado.
@@ -5108,7 +5134,7 @@ Los módulos externos son todas y cada una de las herramientas que se utilizan p
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**Controlador Mi Mutual**|application-component|Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.|*modulo:* mimutual<br>|
 |**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
@@ -5134,10 +5160,10 @@ Los módulos externos son todas y cada una de las herramientas que se utilizan p
 <br>
 
 ## Cotizador. 2. Contenedores
-![Diagram: Cotizador. 2. Contenedores](images/Cotizador.2.Contenedores.png){#fig:Cotizador.2.Contenedores width=}
+![Vista. Cotizador. 2. Contenedores](images/Cotizador.2.Contenedores.png){#fig:Cotizador.2.Contenedores width=}
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**Repositorio Mi Mutual**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br>|*modulo:* mimutual<br>|
 |**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
@@ -5150,13 +5176,13 @@ Los módulos externos son todas y cada una de las herramientas que se utilizan p
 <br>
 
 ## Cotizador. 4. Aplicación
-![Diagram: Cotizador. 4. Aplicación](images/Cotizador.4.Aplicación.png){#fig:Cotizador.4.Aplicación width=}
+![Vista. Cotizador. 4. Aplicación](images/Cotizador.4.Aplicación.png){#fig:Cotizador.4.Aplicación width=}
 
 La organización de la aplicación Cotizador Web Mi Mutual, como capa de presentación y servicios, plantea una estructura basada en la referencia de aplicaciones Angular 12. Las características de esta estructura (referida por Angular) está orientada al crecimiento (tamaño) de la aplicación, la escalabilidad y al rendimiento. La aplicación web Cotizador está diseñada (modulos) para manejar la carga por demanda del contenido.
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**Controlador Mi Mutual**|application-component|Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.|*modulo:* mimutual<br>|
 |**MOD0.JwtModule**|application-component| Manejo de token. Documentación: https://github.com/auth0/angular2-jwt||
@@ -5200,13 +5226,14 @@ La organización de la aplicación Cotizador Web Mi Mutual, como capa de present
 <br>
 
 ## Cotizador. 4a. Aplicación. Servicios
-![Diagram: Cotizador. 4a. Aplicación. Servicios](images/Cotizador.4a.Aplicación.Servicios.png){#fig:Cotizador.4a.Aplicación.Servicios width=}
+![Vista. Cotizador. 4a. Aplicación. Servicios](images/Cotizador.4a.Aplicación.Servicios.png){#fig:Cotizador.4a.Aplicación.Servicios width=}
 
-Composición interna de los servivios de Mi Mutual Central, Mi Mutual Web, Cotizador Web. 
+Composición interna de los servivios de Mi Mutual Central, Mi Mutual Web, Cotizador Web. La vista muestra el patron de diseño con el que están implementados los servicios de la aplicación.
+
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**Controlador**|application-component|Controlador interno del servicio. Punto de entrada a la lógica de expuesta.||
 |**Interfaz**|application-component|Interfaz de inversión de dependencia a las clases del servicio.<br>||
@@ -5221,7 +5248,7 @@ Composición interna de los servivios de Mi Mutual Central, Mi Mutual Web, Cotiz
 <br>
 
 ## Cotizador. 4a. Dependencias
-![Diagram: Cotizador. 4a. Dependencias](images/Cotizador.4a.Dependencias.png){#fig:Cotizador.4a.Dependencias width=}
+![Vista. Cotizador. 4a. Dependencias](images/Cotizador.4a.Dependencias.png){#fig:Cotizador.4a.Dependencias width=}
 
 ### Paquetes y Dependencias Cotizador Web
 Módulos y componentes que hacen parte de la estructura de la aplicación Cotizador Web (basado en Angular 12 [^1]).
@@ -5233,7 +5260,7 @@ La estructura por módulos actual apunta a la escalabilidad y mantenimiento del 
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
 |**pkg: admin**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
@@ -5268,15 +5295,35 @@ La estructura por módulos actual apunta a la escalabilidad y mantenimiento del 
 
 <br>
 
-## upd
-![Diagram: upd](images/upd.png){#fig:upd width=}
+## Cotizador. 5. Físico. Despliegue
+![Vista. Cotizador. 5. Físico. Despliegue](images/Cotizador.5.Físico.Despliegue.png){#fig:Cotizador.5.Físico.Despliegue width=}
 
 ### Especificaciones de Despliegue Cotizador Web
-Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local (2022).
+Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo servidor y local (2022), librerías de desarrollo (frameworks), lenguajes, instalaciones y sus versiones.
 
-#### Recursos Requeridos
+Especificaciones de despliegue Mi Mutual, 2023, Componente Central y Cotizador Web.
+
+* Estándares para el manejo de servicios REST sobre HTTP 1.1
+* Tecnologías para el backend: Java 8 con Spring Boot 2.1.4
+* Acceso a Datos: Spring Data 2.1.4
+* Seguridad de las API: Spring Security + Oauth2.0
+* Plataforma de despliegue Backend: Tomcat Spring Boot
+* Tecnologías para el frontend Mi Mutual Central: Angular 9
+* Tecnologías para el frontend Cotizador Web: Angular 14
+* Entorno de ejecución Javascript: nodejs 14.2.0
+* Librería de Estilos Bootstrap 4.x
+* Servidor web (HTTP 1.1): Apache 2.x
+* Servidor BPM, Flowable, versión 6.5.0 con JRE 8
+* Spring Cloud, versión Greenwich SR2
+* Querydsl, version 4.2.1
+* Bases de datos IBM DB2, AS400
+
+<br>
+
+
+#### Recursos y Herramientas Requeridas
 * Git. Se debe instalar git para poder realizar la clonación de cada uno de los proyectos mas adelante.
-* Instalación SmartGit. Se debe instalar Smartgit para poder realizar la clonación de cada uno de los proyectos mas adelante, este es opcional ya que es una interfaz gráfica de git mas amigable para el usuario en caso que no desee trabajar con la consola.
+* SmartGit. Se debe instalar Smartgit para poder realizar la clonación de cada uno de los proyectos mas adelante, este es opcional ya que es una interfaz gráfica de git mas amigable para el usuario en caso que no desee trabajar con la consola.
 * DBeaver. Se debe instalar DBeaver para poder acceder a la base de datos. 
 * Instalación Maven. Se debe instalar maven para poder compilar los proyectos, nos debemos asegurar de instalar la versión 3.6.3, en caso que no se encuentra en la página oficial copiar la carpeta que esta en el repositorio a archivo de programas. 
 * Java 8. Se debe instalar Java para poder desplegar los proyectos mas adelante, nos debemos asegurar de instalar la versión 8. 
@@ -5285,7 +5332,7 @@ Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local
 * Postman. Se debe instalar el postman para poder consumir los servicios del backend mas adelante cuando ya se hayan desplegado.
 * Node Js. Se debe instalar Node Js para configurar el proyecto front mas adelante, nos debemos asegurar de instalar la versión v14.2.0.
 * Visual Studio Code. Se debe instalar el IDE para realizar modificaciones al proyecto front mas adelante en este caso Visual Studio code. 
-* Angular 14.
+* Librería para desarrollo frontend Cotizador Web: Angular 14
 
 <br>
 
@@ -5295,7 +5342,7 @@ Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local
 
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**app: Asociados**|application-component|Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.|*modulo:* mimutual<br>|
 |**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
@@ -5320,15 +5367,79 @@ Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local
 |**pkg: reportes**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: utilidades**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
 |**Conexión: jdbc**|artifact||*modulo:* cotizador<br>|
+|**Spring Boot 2.1.4**|artifact|Librerías backend Spring Boot 2.1.4 para Java 8.<br>|*brecha:* 30<br>|
+|**Spring Data 2.1.4**|artifact|Librerías backend Spring Boot 2.1.4 para Java 8.<br>|*brecha:* 30<br>|
 |**Entorno Angular: ng 14.0.0**|system-software||*modulo:* cotizador<br>|
-|**Entorno JS: node 14.2.0**|system-software||*modulo:* cotizador<br>|
+|**Entorno Java: JRE 1.8**|system-software||*brecha:* 30<br>*:* <br>|
 |**Repositorio: db2 iSerie**|system-software||*modulo:* cotizador<br>|
-|**Servicios: tomcat**|system-software||*modulo:* mimutual<br>|
+|**cotizador Entorno JS: node 14.2.0**|system-software||*modulo:* cotizador<br>|
+|**mimutual Servicios: tomcat**|system-software||*modulo:* mimutual<br>|
+
+<br>
+
+## Cotizador. 7a. Modelo Negocio
+![Vista. Cotizador. 7a. Modelo Negocio](images/Cotizador.7a.ModeloNegocio.png){#fig:Cotizador.7a.ModeloNegocio width=}
+
+Modelo de negocio (lógico) de Mi Mutual, Mi Mutual Web, extensible a sus demás módulos, como el Cotizador Web y otros. El modelo de negocio Mi Mutual contiene los conceptos de negocio que se encuentran implementados en el sofware, reglas y funciones de negocio, y el modelo(s) de datos del sistema.
+
+
+### Conceptos Principales
+
+1. Venta
+1. Cotización
+1. Configuración
+1. Vinculación
+1. Factura
+1. Cobertura
+1. Configuración
+1. Plan de producto
+
+
+### Orden Operativo
+
+1. Configuración
+1. Vinculación
+1. Venta o Cotización
+1. Factura
+
+<br>
+
+### Relación Negocio Datos
+La relación entre los conceptos de negocio y el modelo de datos se encuentra en la vista Cotizador. 7. Datos. Negocio.
+
+
+
+### Catálogo de Elementos
+| Nombre| Tipo| Descripción| Prop.
+|:--------|:--------|:--------|:--------|
+|**Auditoría Médica**|business-object|Cuando se glosa una solicitus es porque el auditor medico necesita mas informacion y la reasigna.<br>||
+|**DAT00. Cobertura**|business-object|||
+|**DAT00. Glosa**|business-object|Cuando se glosa una solicitus es porque el auditor medico necesita mas informacion y la reasigna.<br>||
+|**DAT00.Asociado**|business-object|||
+|**DAT00.Auxilio Funerario**|business-object|||
+|**DAT00.Beneficiario**|business-object|||
+|**DAT00.Canal (medios del tomador/asociado)**|business-object|||
+|**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
+|**DAT00.Cotización**|business-object|||
+|**DAT00.Facturación**|business-object|Factura la genera COOMEVA.<br>||
+|**DAT00.Plan - Cobertura**|business-object|||
+|**DAT00.Plan configuración**|business-object|Plan de configuración: producto pólizas seguros.<br>||
+|**DAT00.Plan de Pagos**|business-object|||
+|**DAT00.Planes**|business-object|||
+|**DAT00.Producto**|business-object|||
+|**DAT00.Solicitud**|business-object|Caracterización de productos, planes, parámetros<br>||
+|**DAT00.Venta**|business-object|||
+|**DAT00.Vinculación**|business-object|||
+|**Fondo Solidaridad**|business-object|||
 
 <br>
 
 ## Cotizador. 7. Datos. Negocio
-![Diagram: Cotizador. 7. Datos. Negocio](images/Cotizador.7.Datos.Negocio.png){#fig:Cotizador.7.Datos.Negocio width=}
+![Vista. Cotizador. 7. Datos. Negocio](images/Cotizador.7.Datos.Negocio.png){#fig:Cotizador.7.Datos.Negocio width=}
+
+La relación del modelo de negocio Mi Mutual con el modelo de datos del Cotizador Web orienta la navegación en el modelo de datos en aquellas historias de usuario que impliquen a alguna de estas entidades.
+
+Este modelo de relación negocio-datos es evolutivo: irá cambiando en la medida de que el negocio o el modelo de datos cambien.
 
 ### Entidades de Negocio Mi Mutual
 Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.
@@ -5342,9 +5453,11 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 * Facturación
 * Beneficiario
 
+<br>
+
 
 ### Catálogo de Elementos
-| Name| Type| Description| Properties
+| Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**DAT00. Cobertura**|business-object|||
 |**DAT00.Asegurado**|business-object|||
@@ -5423,7 +5536,7 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 <br>
 
 
-``Generated on: Tue Nov 07 2023 10:24:20 GMT-0500 (COT)``
+``Generated on: Wed Nov 22 2023 07:01:55 GMT-0500 (COT)``
 
 # Requerimientos de Administración
 1. Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
