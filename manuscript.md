@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-22" />
   <meta name="citation_publication_date" content="2023-11-22" />
   <meta property="article:published_time" content="2023-11-22" />
-  <meta name="dc.modified" content="2023-11-22T22:08:33+00:00" />
-  <meta property="article:modified_time" content="2023-11-22T22:08:33+00:00" />
+  <meta name="dc.modified" content="2023-11-22T22:11:08+00:00" />
+  <meta property="article:modified_time" content="2023-11-22T22:11:08+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/85ecd04c489d47285988337e72791e689163d9e4/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/85ecd04c489d47285988337e72791e689163d9e4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/85ecd04c489d47285988337e72791e689163d9e4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/9d25185a6e6603ef3ce899323514e791f25e2d83/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/9d25185a6e6603ef3ce899323514e791f25e2d83/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/9d25185a6e6603ef3ce899323514e791f25e2d83/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.85ecd04 de 22 Nov 2023
+| **Versión** del producto 1.9d25185 de 22 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/85ecd04c489d47285988337e72791e689163d9e4/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/9d25185a6e6603ef3ce899323514e791f25e2d83/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@85ecd04](http://stefanini.sharepoint.com)
+[Sharepoint STEF@9d25185](http://stefanini.sharepoint.com)
 del November 22, 2023.
 </em></small>
 
@@ -143,6 +143,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.9d25185 | 2023-11-22. migración4 |
 | 1.85ecd04 | 2023-11-22. migración2 |
 | 1.84a7d85 | 2023-11-22. migración |
 | 1.f0a4f72 | 2023-11-22. modelo negocio |
@@ -152,7 +153,6 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | 1.e0bde5c | 2023-11-07. purg |
 | 1.48030a3 | 2023-11-07. variables |
 | 1.8470759 | 2023-11-07. modneg |
-| 1.00ee68d | 2023-11-07. upd |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -1319,38 +1319,6 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 
 # MiMutual. 5.a1. Físico. Tecnologías
 
-* [Introduction](#introduction)
-* [mimutual Servicios: tomcat (System Software)](#mimutual-servicios:-tomcat-system-software)
-  * [app: Implementación de Servicios (Application Component)](#app:-implementación-de-servicios-application-component)
-  * [Entorno Java: JRE 1.8 (System Software)](#entorno-java:-jre-1.8-system-software)
-    * [app: Asociados (Application Component)](#app:-asociados-application-component)
-    * [app: Reclamaciones (Application Component)](#app:-reclamaciones-application-component)
-    * [app: Protecciones (Application Component)](#app:-protecciones-application-component)
-  * [Spring Boot 2.1.4 (Artifact)](#spring-boot-2.1.4-artifact)
-  * [Spring Data 2.1.4 (Artifact)](#spring-data-2.1.4-artifact)
-* [Gateway: tomcat (System Software)](#gateway:-tomcat-system-software)
-  * [app: Gateway (Application Component)](#app:-gateway-application-component)
-* [Directorio: eureka: tomcat (System Software)](#directorio:-eureka:-tomcat-system-software)
-  * [app: Eureka admin (Application Component)](#app:-eureka-admin-application-component)
-* [Secuencias: zipking: tomcat (System Software)](#secuencias:-zipking:-tomcat-system-software)
-  * [app: Secuencias: zipkin (Application Component)](#app:-secuencias:-zipkin-application-component)
-* [Identidad: spring cloud security (System Software)](#identidad:-spring-cloud-security-system-software)
-  * [app: Identidades (Application Component)](#app:-identidades-application-component)
-* [app: Mi Mutual Central (Application Component)](#app:-mi-mutual-central-application-component)
-* [IBM DB2 iSerie (Node)](#ibm-db2-iserie-node)
-  * [MiMutual DB (System Software)](#mimutual-db-system-software)
-  * [SIPASDB (System Software)](#sipasdb-system-software)
-  * [DDSEGUROS (System Software)](#ddseguros-system-software)
-* [BPM: JRE (System Software)](#bpm:-jre-system-software)
-  * [Flujo Trabajo: flowable (Application Component)](#flujo-trabajo:-flowable-application-component)
-* [ESB/WS (System Software)](#esbws-system-software)
-  * [Integración (Application Component)](#integración-application-component)
-* [mimutual Entorno JS: node 10.x (System Software)](#mimutual-entorno-js:-node-10.x-system-software)
-  * [Entorno Angular: ng 9.0.x (System Software)](#entorno-angular:-ng-9.0.x-system-software)
-  * [TypeScript 3.x (Artifact)](#typescript-3.x-artifact)
-
-## Introducción
-
 ![MiMutual. 5.a1. Físico. Tecnologías][embedView]
 
 Análisis de estado de tecnologías Mi Mutual, 2023. Listado de las tecnologías actuales de Mi Mutual. Coomeva, 2023. Especificaciones de tecnologías e ítems de arquitectura asociados al estado actual de la tecnología.
@@ -1386,36 +1354,6 @@ Contiene todas las funcionalidades relacionadas con la gestión y configuración
 
 
 # Arquitectura. 4. Tecnologías. Hoja Ruta
-
-* [Introduction](#introduction)
-* [Versión actual arquitectura Mi Mutual, 1.0 (Grouping)](#versión-actual-arquitectura-mi-mutual,-1.0-grouping)
-  * [Spring Data 2.1.4 (Artifact)](#spring-data-2.1.4-artifact)
-  * [Entorno Java: JRE 1.8 (System Software)](#entorno-java:-jre-1.8-system-software)
-    * [app: Asociados (Application Component)](#app:-asociados-application-component)
-    * [app: Reclamaciones (Application Component)](#app:-reclamaciones-application-component)
-    * [app: Protecciones (Application Component)](#app:-protecciones-application-component)
-  * [mimutual Entorno JS: node 10.x (System Software)](#mimutual-entorno-js:-node-10.x-system-software)
-    * [Entorno Angular: ng 9.0.x (System Software)](#entorno-angular:-ng-9.0.x-system-software)
-    * [TypeScript 3.x (Artifact)](#typescript-3.x-artifact)
-  * [Spring Boot 2.1.4 (Artifact)](#spring-boot-2.1.4-artifact)
-* [Migración Entorno Java: JDK/JRE 8 a 11 (Work Package)](#migración-entorno-java:-jdkjre-8-a-11-work-package)
-* [Versión actual arquitectura Mi Mutual, 1.0 (Plateau)](#versión-actual-arquitectura-mi-mutual,-1.0-plateau)
-* [Versión arquitectura Mi Mutual, 1.1 (Plateau)](#versión-arquitectura-mi-mutual,-1.1-plateau)
-* [Versión arquitectura Mi Mutual, 1.1 (Grouping)](#versión-arquitectura-mi-mutual,-1.1-grouping)
-  * [Spring Data compatible Java 11 (Artifact)](#spring-data-compatible-java-11-artifact)
-  * [Entorno Java: JRE 11 (System Software)](#entorno-java:-jre-11-system-software)
-    * [app: Asociados (Application Component) 2](#app:-asociados-application-component-2)
-    * [app: Reclamaciones (Application Component) 2](#app:-reclamaciones-application-component-2)
-    * [app: Protecciones (Application Component) 2](#app:-protecciones-application-component-2)
-  * [Spring Boot compatible Java 11 (Artifact)](#spring-boot-compatible-java-11-artifact)
-* [Migración Entorno Angular compatible Java 11 (Work Package)](#migración-entorno-angular-compatible-java-11-work-package)
-* [Versión arquitectura Mi Mutual, 1.2 (Grouping)](#versión-arquitectura-mi-mutual,-1.2-grouping)
-  * [mimutual Entorno JS: node compatible Java 11 (System Software)](#mimutual-entorno-js:-node-compatible-java-11-system-software)
-    * [Entorno Angular: ng compatible Java 11 (System Software)](#entorno-angular:-ng-compatible-java-11-system-software)
-    * [TypeScript &gt; 3 (Artifact)](#typescript-gt-3-artifact)
-* [Versión arquitectura Mi Mutual, 1.2 (Plateau)](#versión-arquitectura-mi-mutual,-1.2-plateau)
-
-## Introducción
 
 ![Arquitectura. 4. Tecnologías. Hoja Ruta][embedView]
 
