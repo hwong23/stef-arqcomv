@@ -5,7 +5,7 @@ keywords:
 - gobierno
 - Coomeva
 lang: en-US
-date-meta: '2023-11-22'
+date-meta: '2023-11-23'
 author-meta:
 - Equipo arquitectura STEF-COOMV.
 header-includes: |
@@ -15,11 +15,11 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-11-22" />
-  <meta name="citation_publication_date" content="2023-11-22" />
-  <meta property="article:published_time" content="2023-11-22" />
-  <meta name="dc.modified" content="2023-11-22T22:11:08+00:00" />
-  <meta property="article:modified_time" content="2023-11-22T22:11:08+00:00" />
+  <meta name="dc.date" content="2023-11-23" />
+  <meta name="citation_publication_date" content="2023-11-23" />
+  <meta property="article:published_time" content="2023-11-23" />
+  <meta name="dc.modified" content="2023-11-23T02:39:08+00:00" />
+  <meta property="article:modified_time" content="2023-11-23T02:39:08+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/9d25185a6e6603ef3ce899323514e791f25e2d83/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/9d25185a6e6603ef3ce899323514e791f25e2d83/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/9d25185a6e6603ef3ce899323514e791f25e2d83/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/cae7d1c0b1419d80418ae69799b5d1876d4891aa/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/cae7d1c0b1419d80418ae69799b5d1876d4891aa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/cae7d1c0b1419d80418ae69799b5d1876d4891aa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.9d25185 de 22 Nov 2023
+| **Versión** del producto 1.cae7d1c de 23 Nov 2023
 
 | **Presentado a**
 
@@ -87,7 +87,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 22 Nov 2023
+| 23 Nov 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -95,10 +95,10 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/9d25185a6e6603ef3ce899323514e791f25e2d83/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/cae7d1c0b1419d80418ae69799b5d1876d4891aa/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@9d25185](http://stefanini.sharepoint.com)
-del November 22, 2023.
+[Sharepoint STEF@cae7d1c](http://stefanini.sharepoint.com)
+del November 23, 2023.
 </em></small>
 
 
@@ -143,6 +143,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.cae7d1c | 2023-11-22. migracion |
 | 1.9d25185 | 2023-11-22. migración4 |
 | 1.85ecd04 | 2023-11-22. migración2 |
 | 1.84a7d85 | 2023-11-22. migración |
@@ -152,7 +153,6 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | 1.07c4190 | 2023-11-21. abstrc |
 | 1.e0bde5c | 2023-11-07. purg |
 | 1.48030a3 | 2023-11-07. variables |
-| 1.8470759 | 2023-11-07. modneg |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -274,296 +274,22 @@ Table: Requisito no. 3, Desarrollo Mi Mutual, Flexibilidad. {#tbl:requisito3-id}
 \newpage
 
 
-# Doc. 1. Vistas de Arquitectura Mi Mutual
-* [Mi Mutual Central](#mi-mutual-central)
-	* [MiMutual. 1. Contexto](#mimutual.-1.-contexto)
-	* [MiMutual. 2. Contenedores](#mimutual.-2.-contenedores)
-	* [MiMutual. 3. Dominios](#mimutual.-3.-dominios)
-	* [Arquitectura. 3. Modelo Negocio](#arquitectura.-3.-modelo-negocio)
-	* [MiMutual. 4. Aplicación](#mimutual.-4.-aplicación)
-	* [MiMutual. 4a3. Dependencias](#mimutual.-4a3.-dependencias)
-	* [MiMutual. 5. Físico. Despliegue](#mimutual.-5.-físico.-despliegue)
-	* [MiMutual. 6. Infraestructura](#mimutual.-6.-infraestructura)
-	* [MiMutual. 7. Datos. Negocio](#mimutual.-7.-datos.-negocio)
-	* [MiMutual. 7a. Datos. Aplicación](#mimutual.-7a.-datos.-aplicación)
-	* [MiMutual. 7b. Datos. Relaciones](#mimutual.-7b.-datos.-relaciones)
-* [Cotizador Web](#cotizador-web)
-	* [Cotizador. 1. Contexto](#cotizador.-1.-contexto)
-	* [Cotizador. 2. Contenedores](#cotizador.-2.-contenedores)
-	* [Cotizador. 4. Aplicación](#cotizador.-4.-aplicación)
-	* [Cotizador. 4a. Aplicación. Servicios](#cotizador.-4a.-aplicación.-servicios)
-	* [Cotizador. 4a. Dependencias](#cotizador.-4a.-dependencias)
-	* [Cotizador. 5. Físico. Despliegue](#cotizador.-5.-físico.-despliegue)
-	* [Cotizador. 7a. Modelo Negocio](#cotizador.-7a.-modelo-negocio)
-	* [Cotizador. 7. Datos. Negocio](#cotizador.-7.-datos.-negocio)
+# Doc. 4. Vistas de Arquitectura Cotizador. Manua
+* [Análisis de Tecnologías Mi Mutual. Acciones de Migración](#análisis-de-tecnologías-mi-mutual.-acciones-de-migración)
+	* [MiMutual. 5.a1. Físico. Tecnologías](#mimutual.-5.a1.-físico.-tecnologías)
+	* [Arquitectura. 4. Tecnologías. Hoja Ruta](#arquitectura.-4.-tecnologías.-hoja-ruta)
 
 
 <div style="page-break-before: always;"></div>
 \newpage
 
-# Mi Mutual Central
-## MiMutual. 1. Contexto
-![Vista. MiMutual. 1. Contexto](images/MiMutual.1.Contexto.png){#fig:MiMutual.1.Contexto width=}
+# Análisis de Tecnologías Mi Mutual. Acciones de Migración
+## MiMutual. 5.a1. Físico. Tecnologías
+![Vista. MiMutual. 5.a1. Físico. Tecnologías](images/MiMutual.5.a1.Físico.Tecnologías.png){#fig:MiMutual.5.a1.Físico.Tecnologías width=}
 
-## Contexto Mi Mutual Central
-El sistema principal de fondo Mi Mutual Central es la composición de las funciones de negocio de la Unidad de Solidaridad de Coomeva. Las funciones de negocio referidas, como Gestión Beneficiarios, Certificados, Gestión Beneficiarios, aparecen dentro del componente principal en la imagen.
+Análisis de estado de tecnologías Mi Mutual, 2023. Listado de las tecnologías actuales de Mi Mutual. Coomeva, 2023. Especificaciones de tecnologías e ítems de arquitectura asociados al estado actual de la tecnología.
 
-Este entregable documenta los diferentes módulos y componentes que hacen parte de la estructura de una aplicación en Angular 12 y como es su interacción para conformar una arquitectura robusta y escalable para aplicaciones de gran tamaño.
-
-Las librerías Spring Boot Security y Spring Boot Oauth2 proveen características de seguridad entre Vista (Angular 2) y Controlador. Estas son responsables de que únicamente permita el acceso si se está autenticado. Además, para realizar el proceso de autenticación se delega a la aplicación SISPRO (Coomeva) que funciona como un servidor de autenticación.
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
-|**Administración facturación y recaudo**|application-function|Administración de la facturación y recaudo diario de los productos<br>||
-|**Autorizaciones**|application-function|Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones mediante el servicio del flujo de procesos||
-|**Certificados**|application-function|Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.<br>||
-|**Configuración factores cálculos, contribuciones**|application-function|1. Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br>||
-|**Gestión Beneficiarios**|application-function|Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación.<br>||
-|**Gestión Reclamaciones**|application-function|Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado.<br>||
-|**Gestión Usuarios**|application-function|Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.<br>||
-|**Gestión fondo mutual y auxilio funerario**|application-function|Gestión de productos del fondo mutual y auxilio funerario que involucran a sus coberturas<br>||
-|**Interoperabilidad entre sistemas Coomeva**|application-function|Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.<br>||
-|**Seguridad**|application-function|Software base. ||
-|**Simuladores**|application-function|Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.<br>||
-|**Autorizaciones**|application-service|Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones usando el servicio del flujo de procesos.<br>||
-|**Certificados**|application-service|Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.<br>||
-|**Configuración**|application-service|Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br>||
-|**Facturación y Recaudo**|application-service|Administración de la facturación y recaudo diario de los productos.<br>||
-|**Gestión de Beneficiarios**|application-service|Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación.<br>||
-|**Gestión de Productos**|application-service|Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.<br>||
-|**Gestión de Reclamos**|application-service|Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado||
-|**Gestión de Usuarios**|application-service|Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.<br>||
-|**Simuladores**|application-service|Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.<br>||
-|**Unidad de Solidaridad y Seguros**|business-function|Unidad de Solidaridad y Seguros de la Cooperativa||
-|**Restricciones de Arquitectura**|constraint|## Restricciones de Arquitectura (Atributos)<br>1. Disponibilidad. Se requiere que el sistema esté disponible 7 X 24, el servicio prestado al cliente no se limita a horarios de oficina pues las compras pueden darse en cualquier momento<br>1. Escalabilidad. Se requiere que el sistema pueda llegar a atender hasta 1.000 clientes, para esto se requiere que el sistema se pueda extender horizontalmente de tal manera que pueda tener instalado en varios servidores para atender esta cantidad de usuarios. Todas las aplicaciones desarrolladas podrán ser escaladas horizontalmente para atender la demanda relacionada con el crecimiento de la empresa.<br>1. Reutilización. Se requiere que el sistema permita reutilizar sus componentes para prestar el mismo servicio a otras aplicaciones de la compañía. Para esto se va a desarrollar la aplicación utilizando servicios, separados y con asignación de responsabilidades, propias, de tal manera de que, si se requiere exponer servicios web sobre estas funcionalidades, no requiere cambios en la aplicación.<br>1. Autenticación. Autenticación es el proceso para determinar que alguien o un sistema es quien dice ser. Uso de estándar Oauth2 y JSON Web Token – JWT, para gestión de autenticación de servicios de la aplicación.<br>1. Autorización. Autorización se refiere a la validación que realiza un sistema para determinar si un usuario puede usar cierta funcionalidad. Uso de API de seguridad de Spring (spring-security) + Oauth2<br>1. Interoperabilidad – Movilidad. Interoperabilidad se refiere a la habilidad de un sistema de interactuar y comunicarse con sistemas heterogéneos a través de interfaces completamente definidas. Uso de estándar de web services REST + JSON.<br>1. Facilidad de Uso. Se refiere a la facilidad con que las personas pueden utilizar el sistema porque facilitan la lectura de los textos, descargan rápidamente la información y presentan funciones y menús sencillos, por lo que el usuario encuentra satisfechas sus consultas y cómodo su uso.<br>1. Verificación (QA). Es la capacidad del producto software que hace posible que el software modificado sea probado.<br>||
-|**Características Funcionales**|requirement|## Características Funcionales Mi Mutual<br>1. Gestión de productos del fondo mutual y auxilio funerario que involucran a sus coberturas<br>1. Administración de la facturación y recaudo diario de los productos<br>1. Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado.<br>1. Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación.<br>1. Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.<br>1. Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.<br>1. Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br>||
-
-<br>
-
-## MiMutual. 2. Contenedores
-![Vista. MiMutual. 2. Contenedores](images/MiMutual.2.Contenedores.png){#fig:MiMutual.2.Contenedores width=}
-
-La organización de componentes utilizada Mi Mutual, impulsada por Spring Web, antepone como interfaz de uso un API REST. La interfaz se articula con tres componentes utilitarios: Controller, Service y Repository, los cuales están mediados por el componente misional, Mi Mutual, en la imagen. 
-
-Esta decisión de organización de los componentes de Mi Mutual, incluyendo al misional del mismo nomnbre, permite estructurar la aplicación de una manera ordenada y, en línea con las restricciones de arquitectura exigidas al sistema, facilita la efectividad de las extensiones y el mantenimiento.
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**Controlador Mi Mutual**|application-component|Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.|*modulo:* mimutual<br>|
-|**Registro Servicios: eureka**|application-component|Eureka: Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.<br>|*modulo:* mimutual<br>|
-|**Repositorio Mi Mutual**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br>|*modulo:* mimutual<br>|
-|**Ruteador (proxy): gateway**|application-component|Gateway: Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.<br>|*modulo:* mimutual<br>|
-|**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
-|**app: Implementación de Servicios**|application-component|Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br>|*modulo:* mimutual<br>|
-|**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
-|**API Mi Mutual**|application-interface||*modulo:* mimutual<br>|
-
-<br>
-
-## MiMutual. 3. Dominios
-![Vista. MiMutual. 3. Dominios](images/MiMutual.3.Dominios.png){#fig:MiMutual.3.Dominios width=}
-
-La división por dominios busca facilitar la administración los servicios de la plataforma Mi Mutual que son comunes entre aplicaciones de Mi Mutual, tales como Asociados, Reclamaciones, Protecciones y otros servicios trasversales como Utilidades, Reglas de negocio, Procesos de negocio (BPM), Auditoria, Flujos de trabajo:flowable.
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**Flujo Trabajo: flowable**|application-component|Contiene todas las funcionalidades relacionadas con el motor de BPM Flowable, como gestión de tareas, instancias de nuevas procesos y asignación de tareas.<br>|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
-|**Integración**|application-component|Contiene todas las funcionalidades relacionadas con integraciones a otros servicios y otras bases de datos.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
-|**Operación**|application-component|||
-|**Procesos negocio**|application-component|Contiene todas las funcionalidades relacionadas con los flujos de JBPM, actualmente se hace solo para acceso a datos de la base de datos de JBPM.|*modulo:* mimutual<br>|
-|**Reglas negocio**|application-component|Contiene todas las funcionalidades relacionadas con la validación de reglas usadas en otros microservicios.|*modulo:* mimutual<br>|
-|**SISPRO**|application-component|Contiene todas las funcionalidades relacionadas con la autenticación y autorización al sistema Mi mutual (Este componente se adopta a la arquitectura de microservicios de MiMutual)|*modulo:* mimutual<br>|
-|**Traductor**|application-component|||
-|**Utilidades**|application-component|Contiene todas las funcionalidades útiles y trasversales a los microservicios, como envío de correos, generación de archivos XSLX, PDF (Jasper) y consulta de parámetros.|*modulo:* mimutual<br>|
-|**app: Asociados**|application-component|Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.|*modulo:* mimutual<br>|
-|**app: Auditoria**|application-component|Contiene todas las funcionalidades relacionadas con el almacenamiento de la auditoria de las peticiones de la aplicación.|*modulo:* mimutual<br>|
-|**app: Eureka admin**|application-component|Contiene todas las funcionalidades relacionadas con registrar y localizar microservicios existentes, informar de su localización, su estado y datos relevantes de cada uno de ellos.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
-|**app: Gateway**|application-component|Contiene todas las funcionalidades relacionadas con un proxy inverso que reenvía las llamadas relevantes a otros servicios.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
-|**app: Identidades**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de los archivos de propiedades de los microservicios (Esta en construcción y no se ha integrado).|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
-|**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
-|**app: Protecciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.|*modulo:* mimutual<br>|
-|**app: Reclamaciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos.|*modulo:* mimutual<br>|
-|**app: Secuencias: zipkin**|application-component|Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
-
-<br>
-
-## Arquitectura. 3. Modelo Negocio
-![Vista. Arquitectura. 3. Modelo Negocio](images/Arquitectura.3.ModeloNegocio.png){#fig:Arquitectura.3.ModeloNegocio width=}
-
-### Conceptos Principales
-
-1. Configuración
-1. Vinculación
-1. Venta
-1. Cotización
-1. Factura
-1. Cobertura
-1. Configuración
-1. Plan de producto
-
-
-### Orden Operativo
-
-1. Configuración
-1. Vinculación
-1. Venta o Cotización
-1. Factura
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**Auditoría Médica**|business-object|Cuando se glosa una solicitus es porque el auditor medico necesita mas informacion y la reasigna.<br>||
-|**DAT00. Cobertura**|business-object|||
-|**DAT00. Glosa**|business-object|Cuando se glosa una solicitus es porque el auditor medico necesita mas informacion y la reasigna.<br>||
-|**DAT00. Reclamación**|business-object|Reclamacion es cuando el asociado desea que le paguen una cobertura, Ejemplo cumplio perseverancia ya tiene 60 años y cobra.<br>||
-|**DAT00. Rescate**|business-object|Rescate es cuado el asociado se retira y viene a reclamar los valores ahorrados a los que tiene derecho.<br>||
-|**DAT00.Asegurado**|business-object|||
-|**DAT00.Asociado**|business-object|||
-|**DAT00.Auxilio Funerario**|business-object|||
-|**DAT00.Beneficiario**|business-object|||
-|**DAT00.Canal (medios del tomador/asociado)**|business-object|||
-|**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
-|**DAT00.Cotización**|business-object|||
-|**DAT00.Cúmulo**|business-object|||
-|**DAT00.Declaración de Salud**|business-object|Rescate es cuado el asociado se retira y viene a reclamar los valores ahorrados a los que tiene derecho.<br>||
-|**DAT00.Facturación**|business-object|Factura la genera COOMEVA.<br>||
-|**DAT00.Mesa de Control**|business-object|Rescate es cuado el asociado se retira y viene a reclamar los valores ahorrados a los que tiene derecho.<br>||
-|**DAT00.Operaciones**|business-object|||
-|**DAT00.Parametros globales (catálogos)**|business-object|||
-|**DAT00.Perseverancia**|business-object|Rescate es cuado el asociado se retira y viene a reclamar los valores ahorrados a los que tiene derecho.<br>||
-|**DAT00.Plan - Cobertura**|business-object|||
-|**DAT00.Plan configuración**|business-object|Plan de configuración: producto pólizas seguros.<br>||
-|**DAT00.Plan de Pagos**|business-object|||
-|**DAT00.Planes**|business-object|||
-|**DAT00.Producto**|business-object|||
-|**DAT00.Solicitud**|business-object|Caracterización de productos, planes, parámetros<br>||
-|**DAT00.Venta**|business-object|||
-|**DAT00.Vinculación**|business-object|||
-|**Fondo Solidaridad**|business-object|||
-
-<br>
-
-## MiMutual. 4. Aplicación
-![Vista. MiMutual. 4. Aplicación](images/MiMutual.4.Aplicación.png){#fig:MiMutual.4.Aplicación width=}
-
-Componentes
-
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**Controlador Mi Mutual**|application-component|Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.|*modulo:* mimutual<br>|
-|**Mi Mutual Presentación**|application-component|||
-|**Repositorio Mi Mutual**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br>|*modulo:* mimutual<br>|
-|**Simulador**|application-component|||
-|**Vinculación**|application-component|||
-|**app: Cotización y Ventas**|application-component|||
-|**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
-|**app: Implementación de Servicios**|application-component|Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br>|*modulo:* mimutual<br>|
-|**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
-|**Interfaz transporte**|application-interface|Feign Client.<br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.||
-|**Autorizaciones**|application-service|Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones usando el servicio del flujo de procesos.<br>||
-|**Certificados**|application-service|Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.<br>||
-|**Configuración**|application-service|Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br>||
-|**Facturación y Recaudo**|application-service|Administración de la facturación y recaudo diario de los productos.<br>||
-|**Gestión de Beneficiarios**|application-service|Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación.<br>||
-|**Gestión de Productos**|application-service|Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.<br>||
-|**Gestión de Reclamos**|application-service|Gestión de Reclamaciones (Indemnización): Permite realizar la gestión, seguimiento y pago o negación de las diferentes reclamaciones de acuerdo a las coberturas y los productos que se encuentren dentro del portafolio del Asociado||
-|**Gestión de Usuarios**|application-service|Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.<br>||
-|**SS02.acumulados - portafolio**|application-service|||
-|**SS02.aportes - estatutarios**|application-service|||
-|**SS02.distribuciones**|application-service|||
-|**SS02.notas - aclaratorias**|application-service|||
-|**SS02.porcentaje - cuota**|application-service|||
-|**SS02.protecciones - mim - actuaria**|application-service|Servicios de aplicación central que el Cotizador Web usa. Protección.||
-|**SS02.protecciones- desmemebracion - accidente**|application-service|Servicios de aplicación central que el Cotizador Web usa. Protección.||
-|**SS02.proveedor**|application-service|||
-|**SS02.proyeccion**|application-service|||
-|**SS02.proyeccion**|application-service|||
-|**SS02.proyecto - vida**|application-service|||
-|**SS02.proyecto - vida**|application-service|||
-|**SS02.relacion - planes**|application-service|||
-|**SS02.relacion - planes**|application-service|||
-|**SS02.reporte - cotizacion**|application-service|Servicios de aplicación central que el Cotizador Web usa. Reportes.||
-|**SS02.reporte - estado - cotizacion**|application-service|Servicios de aplicación central que el Cotizador Web usa. Cotización.<br>||
-|**SS02.tipo - plan**|application-service|||
-|**SS02.util - archivos**|application-service|||
-|**SS02.util - municipios**|application-service|||
-|**Simuladores**|application-service|Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.<br>||
-|**Analistas**|business-role|Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.||
-|**Asesores**|business-role|Asesores integrales||
-|**Auxiliares servicio**|business-role|Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.||
-|**Fidelización**|business-role|Ejecutivos de Fidelización||
-|**Profundización**|business-role|Ejecutivos de Profundización||
-|**Unidad de Solidaridad y Seguros**|grouping|La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad)||
-|**Servicio de Almacenamiento de Datos**|technology-service|||
-|**Servicio de Red**|technology-service|||
-|**Servicio de archivos**|technology-service|||
-
-<br>
-
-## MiMutual. 4a3. Dependencias
-![Vista. MiMutual. 4a3. Dependencias](images/MiMutual.4a3.Dependencias.png){#fig:MiMutual.4a3.Dependencias width=}
-
-### Paquetes y Dependencias Mi Mutual
-La estructura está basada en Spring Boot y lenguaje de programación Java 8 (JSE, JDK 8), conformada por componentes de aplicación y administración del ciclo de vida de los objetos.
-
-Nombrado de paquetes para los servicios
-
-* MiMutualWeb
-* MiMutualProtecciones
-* MiMutualReclamaciones 
-* MiMutualAsociados
-* MiMutualUtilidades
-* MiMutualBPM
-* MiMutualReglas
-* MiMutualIntegraciones
-* MiMutualAuditoria
-* Mi<utualFLowable
-* MiMutualSpringCloud
-
-<br>
-
-### Entorno de Desarrollo
-Para la etapa de desarrollo la aplicación estará configurada para levantar un servidor Tomcat embebido el cual se encuentra configurado el pom.xml y el cual permite trabajar de forma mucho más ágil.
-
-Para el despliegue entre ambientes se manejará maven profiles con el fin de agregar las configuraciones de cada uno de estos.
-
-El código fuente está alojado en un repositorio de Coomeva.
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
-|**pkg: Config**|application-component|config: Almacenan todas las clases para la configuración del proyecto Spring.||
-|**pkg: Controller**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.||
-|**pkg: DTO**|application-component|dto: Almacenan todas las clases (pojos) para manejo de datos.||
-|**pkg: Model**|application-component|model: Almacenan todas las clases (entities) que constituyen el modelo de datos.<br>||
-|**pkg: Reglas**|application-component|dto: Almacenan todas las clases (pojos) para manejo de datos.||
-|**pkg: Repository**|application-component|repository: Almacenan todas las interfaces y clases que constituyen el acceso a<br>datos.<br>||
-|**pkg: Security**|application-component|security: Almacenan todas las clases que permiten la configuración de seguridad de la aplicación.<br>||
-|**pkg: Service**|application-component|service: Almacenan todas las interfaces que constituyen la lógica de negocio.||
-|**pkg: Service Impl**|application-component|service.impl: Almacenan todas las clases que implementan la funcionalidad de las interfaces de service que constituyen la lógica de negocio.||
-|**pkg: Spring Cloud**|application-component|dto: Almacenan todas las clases (pojos) para manejo de datos.||
-|**pkg: Util**|application-component|util: Almacenan todas las clases de utilería para la aplicación.||
-|**pkg: Web**|application-component|dto: Almacenan todas las clases (pojos) para manejo de datos.||
-
-<br>
-
-## MiMutual. 5. Físico. Despliegue
-![Vista. MiMutual. 5. Físico. Despliegue](images/MiMutual.5.Físico.Despliegue.png){#fig:MiMutual.5.Físico.Despliegue width=}
-
-Especificaciones de despliegue Mi Mutual, 2023, componente central.
+## Especificaciones de Despliegue Mi Mutual, 2023, Componente Central
 
 * Estándares para el manejo de servicios REST sobre HTTP 1.1
 * Tecnologías para el backend: Java 8 con Spring Boot 2.1.4
@@ -572,7 +298,9 @@ Especificaciones de despliegue Mi Mutual, 2023, componente central.
 * Plataforma de despliegue Backend: Tomcat Spring Boot
 * Tecnologías para el frontend Mi Mutual Central: Angular 9
 * Tecnologías para el frontend Cotizador Web: Angular 14
+* Entorno de ejecución Javascript: nodejs 10.x
 * Entorno de ejecución Javascript: nodejs 14.2.0
+* Motor de ejecución Javascript: TypeScript, versión 3.x
 * Librería de Estilos Bootstrap 4.x
 * Servidor web (HTTP 1.1): Apache 2.x
 * Servidor BPM, Flowable, versión 6.5.0 con JRE 8
@@ -582,6 +310,10 @@ Especificaciones de despliegue Mi Mutual, 2023, componente central.
 
 <br>
 
+## Resultados del Análisis
+
+En el diagrama: color azul del diagrama las tecnologías en riesgo de soporte (LTS) fabricante; en color verde, las tecnologías que podrían sustituirse por economía de costos y modernización de entregas.
+
 
 ### Catálogo de Elementos
 | Nombre| Tipo| Descripción| Prop.
@@ -597,681 +329,76 @@ Especificaciones de despliegue Mi Mutual, 2023, componente central.
 |**app: Protecciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.|*modulo:* mimutual<br>|
 |**app: Reclamaciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos.|*modulo:* mimutual<br>|
 |**app: Secuencias: zipkin**|application-component|Contiene todas las funcionalidades relacionadas con la generación de IDs para la trazabilidad de los logs.|*modulo:* mimutual<br>*alcanseSOA:* Fase 1.1<br>|
-|**Conexión: jdbc**|artifact||*modulo:* cotizador<br>|
 |**Spring Boot 2.1.4**|artifact|Librerías backend Spring Boot 2.1.4 para Java 8.<br>|*brecha:* 30<br>|
 |**Spring Data 2.1.4**|artifact|Librerías backend Spring Boot 2.1.4 para Java 8.<br>|*brecha:* 30<br>|
+|**TypeScript 3.x**|artifact|Librerías backend Spring Boot 2.1.4 para Java 8.<br>|*brecha:* 30<br>*modulo:* mimutual<br>|
 |**IBM DB2 iSerie**|node||*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>*brecha:* 60<br>|
 |**BPM: JRE**|system-software|Entorno de ejecución BPM. <br>* java.version: 1.8<br>* flowable.version: 6.5.0<br>* spring-cloud.version: Greenwich.SR2<br>* querydsl.version: 4.2.1<br><br><br>|*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>*brecha:* 30<br>|
 |**DDSEGUROS**|system-software||*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>|
 |**Directorio: eureka: tomcat**|system-software||*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>|
 |**ESB/WS**|system-software|* java.version: 1.8<br>* spring-cloud.version: Greenwich.SR2<br><br><br>|*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>|
+|**Entorno Angular: ng 9.0.x**|system-software||*modulo:* mimutual<br>*brecha:* 30<br>|
 |**Entorno Java: JRE 1.8**|system-software||*brecha:* 30<br>*:* <br>|
 |**Gateway: tomcat**|system-software||*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>|
 |**Identidad: spring cloud security**|system-software||*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>|
 |**MiMutual DB**|system-software||*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>|
-|**Repositorio: db2 iSerie**|system-software||*modulo:* cotizador<br>|
 |**SIPASDB**|system-software||*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>|
 |**Secuencias: zipking: tomcat**|system-software||*alcanseSOA:* Fase 1.1<br>*modulo:* mimutual<br>|
+|**mimutual Entorno JS: node 10.x**|system-software||*modulo:* mimutual<br>*brecha:* 30<br>|
 |**mimutual Servicios: tomcat**|system-software||*modulo:* mimutual<br>|
 
 <br>
 
-## MiMutual. 6. Infraestructura
-![Vista. MiMutual. 6. Infraestructura](images/MiMutual.6.Infraestructura.png){#fig:MiMutual.6.Infraestructura width=}
+## Arquitectura. 4. Tecnologías. Hoja Ruta
+![Vista. Arquitectura. 4. Tecnologías. Hoja Ruta](images/Arquitectura.4.Tecnologías.HojaRuta.png){#fig:Arquitectura.4.Tecnologías.HojaRuta width=}
 
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
-|**Spring cloud security**|node|Se implementará Spring Boot Security y Spring Boot Oauth2 las cuales proveen una capa básica de seguridad entre Vista (Angular 2) y Controlador, obligando a que únicamente permita el acceso si se está autenticado si lo requiere, además para realizar el proceso de autenticación se utilizara la aplicación SISPRO (Coomeva) la cual funciona como un servidor de autenticación.<br>La validación de roles se realizará a nivel de peticiones en el api rest según corresponda, siempre y cuando sea necesario, también se tendrán en cuenta otras validaciones como:<br>• Las credenciales que proporcionó no son válidas.<br>• El usuario esta deshabilitado.<br>• Las credenciales de usuario han caducado.<br>• La cuenta de usuario ha caducado.<br>• La cuenta de usuario está bloqueada.||
-|**DB2 AS400: SIPASDB**|system-software|Las bases de datos a utilizar son: * DB2 AS400: SIPASDB, * Sql Server (...), * Oracle (...)||
-|**Oracle DB: (...)**|system-software|Las bases de datos a utilizar son: * DB2 AS400: SIPASDB, * SQL Server (...), * Oracle (...)||
-|**SQL Server: (...)**|system-software|Las bases de datos a utilizar son: * DB2 AS400: SIPASDB, * SQL Server (...), * Oracle (...)||
-|**Servicio de Almacenamiento de Datos**|technology-service|||
-|**Servicio de Red**|technology-service|||
-|**Servicio de archivos**|technology-service|||
+## Introducción 
+Los ítems de arquitectura impactados por el análisis de estado de tecnologías Mi Mutual, 2023 deben ser migrados (actualizados) mediante trabajos de estabilización de arquitectura con el fin de evitar principalmente los riesgos de soporte y actualización del fabricante. 
 
-<br>
+En el siguiente tema presentamos una hoja de ruta propuesta y la estimación del plazo de ejecución de la migración del componente central Mi Mutual, Java 8. 
 
-## MiMutual. 7. Datos. Negocio
-![Vista. MiMutual. 7. Datos. Negocio](images/MiMutual.7.Datos.Negocio.png){#fig:MiMutual.7.Datos.Negocio width=}
+## Hoja de Ruta de Arquitectura Requerida por la Actualización 
+La hoja de ruta resultante plantea dos espacios de trabajo, cada uno con su alcance específico, respecto de la actualización tecnológica de Mi Mutual basado en los términos de análisis de estado de tecnologías Mi Mutual presentado antes. Los espacios de trabajo requeridos, Migración Entorno Java: JDK/JRE 8 a 11 y Migración Entorno Angular compatible Java 11, como se muestran en la imagen impactan y generan a su vez versiones nuevas de la arquitectura Mi Mutual, versión 1.1 y 1.2, respectivamente. 
 
-### Entidades de Negocio Mi Mutual
-Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.
+La versión 1.1 de la arquitectura, resultado del espacio de trabajo no. 1, Migración Entorno Java: JDK/JRE 8 a 11 toma (aprox.) 5 semanas de trabajo, en razón de los ítems de arquitectura acotados en su alcance denotado por el primer recuadro celeste en la imagen. 
 
-* Configuración (caracterización de productos, plan)
-* Plan (producto pólizas seguros)
-* Canal (medios del tomador/asociado)
-* Parametros globales (catálogos)
-* Portafolio de asociado
-* Asociado
-* Facturación
-* Beneficiario
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**DAT00. Reclamación**|business-object|Reclamacion es cuando el asociado desea que le paguen una cobertura, Ejemplo cumplio perseverancia ya tiene 60 años y cobra.<br>||
-|**DAT00.Asociado**|business-object|||
-|**DAT00.Beneficiario**|business-object|||
-|**DAT00.Canal (medios del tomador/asociado)**|business-object|||
-|**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
-|**DAT00.Cotización**|business-object|||
-|**DAT00.Facturación**|business-object|Factura la genera COOMEVA.<br>||
-|**DAT00.Operaciones**|business-object|||
-|**DAT00.Parametros globales (catálogos)**|business-object|||
-|**DAT00.Plan configuración**|business-object|Plan de configuración: producto pólizas seguros.<br>||
-|**DAT00.Portafolios de asociados**|business-object|||
-|**DAT00.Venta**|business-object|||
-|**DAT00.Vinculación**|business-object|||
-
-<br>
-
-## MiMutual. 7a. Datos. Aplicación
-![Vista. MiMutual. 7a. Datos. Aplicación](images/MiMutual.7a.Datos.Aplicación.png){#fig:MiMutual.7a.Datos.Aplicación width=}
-
-Estructuras de datos específicas a la plataforma. Modelo de negocio para las aplicaciones. 
-
-Modelo físico facilitadas por Coomeva, corte del 2 de mayo de 2022. Contiene las estructuras de configuración de fondo, cliente, planes, cobertura y planes de coberturas.
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**DAT01.ADICIONAL PLAN COBERTURA**|data-object|||
-|**DAT01.ASISTENCIA PLAN COBERTURA**|data-object|||
-|**DAT01.ASISTENCIA PLAN COBERTURA DETALLE**|data-object|||
-|**DAT01.BENEFICIARIO ASISTENCIA**|data-object|||
-|**DAT01.BENEFICIO PREEXISTENCIA**|data-object|||
-|**DAT01.CAMPANA RELACION PLAN COBERTURA**|data-object|||
-|**DAT01.CANAL**|data-object|||
-|**DAT01.CANAL EVENTO**|data-object|||
-|**DAT01.CANAL VENTA EXCLUSION**|data-object|||
-|**DAT01.CANAL VENTA EXCLUSION COBERTURA**|data-object|||
-|**DAT01.CICLO FACTURACION CONFIG MOV**|data-object|||
-|**DAT01.CLIENTE**|data-object|||
-|**DAT01.COBERTURA**|data-object|||
-|**DAT01.COBERTURA BENEFICIARIO COBERTURA**|data-object|||
-|**DAT01.COBERTURA BENEFICIARIO PAGO**|data-object|||
-|**DAT01.CONDICION PAGO ANTIGUEDAD**|data-object|||
-|**DAT01.CONDICION PAGO EVENTO**|data-object|||
-|**DAT01.CONDICION PLAN**|data-object|||
-|**DAT01.CONDICION VENTA**|data-object|||
-|**DAT01.CONDICIONES**|data-object|||
-|**DAT01.CONFIGURACION DIAGNOSTICOS**|data-object|||
-|**DAT01.CONFIGURACION MOV DETALLE**|data-object|||
-|**DAT01.CONFIGURACION MOVIMIENTO**|data-object|||
-|**DAT01.CONTROL ARE TECNICA**|data-object|||
-|**DAT01.CONTROL CUMULO**|data-object|||
-|**DAT01.CUMULO**|data-object|||
-|**DAT01.CUMULOS COBERTURA**|data-object|||
-|**DAT01.CUMULOS PLAN COBERTURA**|data-object|||
-|**DAT01.DEDUCIBLE**|data-object|||
-|**DAT01.DESMEMBRACION ACCIDENTE**|data-object|||
-|**DAT01.DESMEMBRACION ACCIDENTE PLAN COBERTURA**|data-object|||
-|**DAT01.DOCUMENTO REQUISITO**|data-object|||
-|**DAT01.DOCUMENTOS SOLICITUD EVENTO**|data-object|||
-|**DAT01.ENFERMEDAD GRAVE**|data-object|||
-|**DAT01.ENFERMEDAD GRAVE PLAN COBERTURA**|data-object|||
-|**DAT01.ESTADO ASOCIADO**|data-object|||
-|**DAT01.EVENTO COBERTURA**|data-object|||
-|**DAT01.EXCLUSION**|data-object|||
-|**DAT01.EXCLUSION COBERTURA**|data-object|||
-|**DAT01.EXCLUSION PLAN COBERTURA**|data-object|||
-|**DAT01.EXCLUSION PLAN COBERTURA DETALLE**|data-object|||
-|**DAT01.FAC CONCEPTO PLAN**|data-object|||
-|**DAT01.FONDO**|data-object|||
-|**DAT01.FORMULA PLAN**|data-object|||
-|**DAT01.GENERO REQUISITO**|data-object|||
-|**DAT01.LIQUIDACION**|data-object|||
-|**DAT01.LIQUIDACION DETALLE**|data-object|||
-|**DAT01.NIVEL RIESGO COBERTURA**|data-object|||
-|**DAT01.NIVEL RIESGO CONFIG MOV**|data-object|||
-|**DAT01.NIVELES NOTAS PLAN COBERTURA**|data-object|||
-|**DAT01.NOTA ACLARATORIA PLAN**|data-object|||
-|**DAT01.NOTIFICACION EVENTO**|data-object|||
-|**DAT01.ORIGEN COBERTURA COBERTURA**|data-object|||
-|**DAT01.PERIODO CARENCIA**|data-object|||
-|**DAT01.PERSONA**|data-object|||
-|**DAT01.PLAN**|data-object|||
-|**DAT01.PLAN CANAL VENTA**|data-object|||
-|**DAT01.PLAN COBERTURA**|data-object|||
-|**DAT01.PLAN COBERTURA DEPENDIENTE**|data-object|||
-|**DAT01.PLAN COBERTURA EDAD**|data-object|||
-|**DAT01.PLAN COBERTURA REQUISITO**|data-object|||
-|**DAT01.PLAN FRECUENCIA FACTURACION**|data-object|||
-|**DAT01.PLAN MEDIO FACTURACION**|data-object|||
-|**DAT01.PLAN NIVEL RIESGO**|data-object|||
-|**DAT01.PLAN OBLIGATORIO**|data-object|||
-|**DAT01.PLAN PARENTESCO**|data-object|||
-|**DAT01.PLAN PERSEVERANTE**|data-object|||
-|**DAT01.PORCENTAJE CUOTA**|data-object|||
-|**DAT01.PRODUCTO COBERTURA**|data-object|||
-|**DAT01.PRODUCTO EXCLUYENTE**|data-object|||
-|**DAT01.PROMOCION CANAL**|data-object|||
-|**DAT01.PROMOCION CONDICION**|data-object|||
-|**DAT01.PROMOCION PLAN COBERTURA**|data-object|||
-|**DAT01.PROMOTOR CANAL**|data-object|||
-|**DAT01.RECONOCIMIENTO POR PERMANENCIA**|data-object|||
-|**DAT01.REGLAS EXCEPCIONES**|data-object|||
-|**DAT01.REQUISITO CONTROL MEDICO**|data-object|||
-|**DAT01.RESPONSABLE PERSONA**|data-object|||
-|**DAT01.SOLICITUD EVENT**|data-object|||
-|**DAT01.SOLICITUD EVENTO DETALLE**|data-object|||
-|**DAT01.SUBLIMITE COBERTURA**|data-object|||
-|**DAT01.SUBSISTENTE PLAN COBERTURA**|data-object|||
-|**DAT01.SUBSISTENTE PLAN COBERTURA DETALLE**|data-object|||
-|**DAT01.TIPO MOVIMIENTO**|data-object|||
-|**DAT01.TIPO PROCESO CUMULO**|data-object|||
-|**DAT01.TRANSACCION EXCLUSION**|data-object|||
-|**DAT01.TRANSACCION EXCLUSION COBERTURA**|data-object|||
-|**DAT01.TRANSACCION REQUISITO **|data-object|||
-|**DAT01.VALOR ASEGURADO**|data-object|||
-|**DAT01.VALOR ASEGURADO PLAN COBERTURA**|data-object|||
-|**DAT01.VALOR ASEGURADO TOPE**|data-object|||
-|**DAT01.VALOR CUOTA PLAN COBERTURA**|data-object|||
-|**DAT01.VALOR RESCATE**|data-object|||
-
-<br>
-
-## MiMutual. 7b. Datos. Relaciones
-![Vista. MiMutual. 7b. Datos. Relaciones](images/MiMutual.7b.Datos.Relaciones.png){#fig:MiMutual.7b.Datos.Relaciones width=}
-
-### Entidades de Negocio Mi Mutual
-
-* Configuración (caracterización de productos, plan)
-* Plan (producto pólizas seguros)
-* Canal (medios del tomador/asociado)
-* Parametros globales (catálogos)
-* Portafolio de asociado
-* Asociado
-* Facturación
-* Beneficiario
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**DAT00.Asociado**|business-object|||
-|**DAT00.Beneficiario**|business-object|||
-|**DAT00.Canal (medios del tomador/asociado)**|business-object|||
-|**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
-|**DAT00.Facturación**|business-object|Factura la genera COOMEVA.<br>||
-|**DAT00.Parametros globales (catálogos)**|business-object|||
-|**DAT00.Plan configuración**|business-object|Plan de configuración: producto pólizas seguros.<br>||
-|**DAT00.Portafolios de asociados**|business-object|||
-|**DAT01.ADICIONAL PLAN COBERTURA**|data-object|||
-|**DAT01.ASISTENCIA PLAN COBERTURA**|data-object|||
-|**DAT01.ASISTENCIA PLAN COBERTURA DETALLE**|data-object|||
-|**DAT01.CAMPANA RELACION PLAN COBERTURA**|data-object|||
-|**DAT01.CANAL**|data-object|||
-|**DAT01.CANAL EVENTO**|data-object|||
-|**DAT01.CANAL VENTA EXCLUSION**|data-object|||
-|**DAT01.CUMULOS PLAN COBERTURA**|data-object|||
-|**DAT01.DEDUCIBLE**|data-object|||
-|**DAT01.DESMEMBRACION ACCIDENTE**|data-object|||
-|**DAT01.DESMEMBRACION ACCIDENTE PLAN COBERTURA**|data-object|||
-|**DAT01.DOCUMENTO REQUISITO**|data-object|||
-|**DAT01.ENFERMEDAD GRAVE**|data-object|||
-|**DAT01.ENFERMEDAD GRAVE PLAN COBERTURA**|data-object|||
-|**DAT01.ESTADO ASOCIADO**|data-object|||
-|**DAT01.PERSONA**|data-object|||
-|**DAT01.PERSONA**|data-object|||
-|**DAT01.PERSONA**|data-object|||
-|**DAT01.SUBLIMITE COBERTURA**|data-object|||
-|**DAT01.TIPO MOVIMIENTO**|data-object|||
-|**DAT01.TIPO PROCESO CUMULO**|data-object|||
-
-<br>
-
-<div style="page-break-before: always;"></div>
-\newpage
-
-# Cotizador Web
-## Cotizador. 1. Contexto
-![Vista. Cotizador. 1. Contexto](images/Cotizador.1.Contexto.png){#fig:Cotizador.1.Contexto width=}
-
-### Contexto Mi Mutual Web
-La aplicación Cotizador Web hace parte de los módulos de interfaz web de Mi Mutual Central, representado por API Mi Mutual en el diagrama. Realizar cotizaciones de los planes de protección luego de la vinculación del asociado.
-
-La estructura por módulos permite realizar aplicaciones escalables y robustas ya que permite organizar las partes de la aplicación, la organización en bloques, extender la aplicación con funcionalidades de libreras externas, proporcionar un entorno de resolución de plantillas y además permite especificar la forma de la carga de cada uno de los componentes y servicios que conforman un módulo.
-
-### Módulos Externos
-Los módulos externos son todas y cada una de las herramientas que se utilizan para complementar con funcionalidades ya desarrolladas y tomadas desde un repositorio externo (NPM).
-
-* TranslateModule: Manejo de internacionalización. Documentación: https://github.com/ngx-translate/core
-* NgxMaskModule: Manejo de máscaras de input text. Documentación: https://github.com/JsDaddy/ngx-mask
-* JwtModule: Manejo de token. Documentación: https://github.com/auth0/angular2-jwt
-* sweetalert2: Manejo de alertas de mensajes. Documentación: https://sweetalert2.github.io/
-* ngx-ui-loader: Manejo de Spinner para control de peticiones asíncronas. Documentación: https://github.com/t-ho/ngx-ui-loader
-* Ngprime: Manejo de componentes visuales Documentación: https://www.primefaces.org/primeng/#/
-* chart.js: componente utilizado para el manejo de graficas Documentación: https://www.chartjs.org/docs/latest/
-* classlist.js: componete para el manejo de listas de datos en las gráficas Documentación: https://www.chartjs.org/docs/latest/
-* cronstrue: componente para traducir una expresión cron a palabras Documentación: https://github.com/bradymholt/cronstrue
-* file-saver: componente para descargar un archivo desde los bytes Documentación: https://github.com/eligrey/FileSaver.js#readme
-* ngx-tinymce: Editor html para generación de plantillas para cartas Documentación: https://cipchk.github.io/ngx-tinymce/#/
-* quill: componente para editor html Documentación: https://quilljs.com/
-
-<br>
-
-### Servicios Transversales 
-
-* AuthGuard: Validación de existencia de autenticación
-* DeaciveGuard: Validación de salida de un componente
-* ErrorInterceptor: Interceptor de Errores del back
-* JwtInterceptor: Interceptor para inyectar el token
-* AutenticationService: Métodos para completar la autenticación
-* TypesService: Consumo de servicios de parametrización
-* IdleTimeoutService: Verificación de timeout del token
-
-<br>
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**Controlador Mi Mutual**|application-component|Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.|*modulo:* mimutual<br>|
-|**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
-|**(web) Cotizador**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
-|**(web) Proveedores**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
-|**(web) Reportes**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
-|**(web) admin Páginas**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
-|**Aplicativo**|application-function|Grupo de funcionalidades y entidades (datos) específicas del Cotizador Web.<br>|*modulo:* cotizador<br>|
-|**Asociados**|application-function|Grupo de funcionalidad (servicios) de Asociados del Cotizador Web.<br>|*modulo:* cotizador<br>|
-|**Cliente**|application-function|Grupo de funcionalidad (servicios) de Asociados del Cotizador Web.|*modulo:* cotizador<br>|
-|**Configuracn.**|application-function|Grupo de funcionalidad (servicios) de Planes de Configuración del Cotizador Web.|*modulo:* cotizador<br>|
-|**Cotizaciones**|application-function|Grupo de funcionalidad (servicios) de Cotización de la aplicación.|*modulo:* cotizador<br>|
-|**Interfaz gráfica**|application-function|Módulo interno (carpeta de proyecto) contenedor de las plantiilas de páginas web del Cotizador.<br>|*modulo:* cotizador<br>|
-|**Módulos Compartidos**|application-function|Librerías de software base que el Cotizador Web requiere. Dependencias a paquetes de software de base, distintas a los módulos de negocio, necesarios para la ejecución de tareas utilitarias del Cotizador, tales como comunicación, políticas de seguridad, especificación de objetos globales de interfaz, transporte, transformación, entre otras.<br>|*modulo:* cotizador<br>|
-|**Util**|application-function|En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br>|*modulo:* cotizador<br>|
-|**admin Servicios**|application-function||*modulo:* cotizador<br>|
-|**API Mi Mutual**|application-interface||*modulo:* mimutual<br>|
-|**Autenticación: authgard**|application-service|||
-|**Interceptor: errorinterceptor**|application-service|||
-|**Parametrización: typeservice**|application-service|||
-|**Sesión admin: idletimeout**|application-service|||
-
-<br>
-
-## Cotizador. 2. Contenedores
-![Vista. Cotizador. 2. Contenedores](images/Cotizador.2.Contenedores.png){#fig:Cotizador.2.Contenedores width=}
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**Repositorio Mi Mutual**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br>|*modulo:* mimutual<br>|
-|**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
-|**Control**|application-function|||
-|**Ruteos**|application-function|||
-|**Servicios**|application-function|||
-|**API Mi Mutual**|application-interface||*modulo:* mimutual<br>|
-|**Cliente HTTP / HTTPS**|application-interface|||
-
-<br>
-
-## Cotizador. 4. Aplicación
-![Vista. Cotizador. 4. Aplicación](images/Cotizador.4.Aplicación.png){#fig:Cotizador.4.Aplicación width=}
-
-La organización de la aplicación Cotizador Web Mi Mutual, como capa de presentación y servicios, plantea una estructura basada en la referencia de aplicaciones Angular 12. Las características de esta estructura (referida por Angular) está orientada al crecimiento (tamaño) de la aplicación, la escalabilidad y al rendimiento. La aplicación web Cotizador está diseñada (modulos) para manejar la carga por demanda del contenido.
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**Controlador Mi Mutual**|application-component|Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.|*modulo:* mimutual<br>|
-|**MOD0.JwtModule**|application-component| Manejo de token. Documentación: https://github.com/auth0/angular2-jwt||
-|**MOD0.Ngprime**|application-component| Manejo de componentes visuales Documentación: https://www.primefaces.org/primeng/#/||
-|**MOD0.NgxMaskModule**|application-component| Manejo de máscaras de input text. Documentación: https://github.com/JsDaddy/ngx-mask||
-|**MOD0.TranslateModule**|application-component| Manejo de internacionalización. Documentación: https://github.com/ngx-translate/core||
-|**MOD0.chart.js**|application-component| Componente utilizado para el manejo de graficas Documentación: https://www.chartjs.org/docs/latest/||
-|**MOD0.classlist.js**|application-component|Componete para el manejo de listas de datos en las gráficas Documentación: https://www.chartjs.org/docs/latest/||
-|**MOD0.cronstrue**|application-component| Componente para traducir una expresión cron a palabras Documentación: https://github.com/bradymholt/cronstrue||
-|**MOD0.file-saver**|application-component| Componente para descargar un archivo desde los bytes Documentación: https://github.com/eligrey/FileSaver.js#readme||
-|**MOD0.ngx-tinymce**|application-component|Editor html para generación de plantillas para cartas Documentación: https://cipchk.github.io/ngx-tinymce/#/||
-|**MOD0.ngx-ui-loader**|application-component|Manejo de Spinner para control de peticiones asíncronas. Documentación: https://github.com/t-ho/ngx-ui-loader||
-|**MOD0.quill**|application-component|Ccomponente para editor html Documentación: https://quilljs.com/||
-|**MOD0.sweetalert2**|application-component|Manejo de alertas de mensajes. Documentación: https://sweetalert2.github.io/||
-|**Repositorio Mi Mutual**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.<br>Para el manejo de la persistencia de datos se utilizará Spring Data el cual se apoya en la especificación de JPA y en la implementación de HIBERNATE además de complementar esta capa de persistencia con nuevas funcionalidades que facilitan el acceso a datos.<br>|*modulo:* mimutual<br>|
-|**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
-|**app: Implementación de Servicios**|application-component|Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br>|*modulo:* mimutual<br>|
-|**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
-|**Interfaz transporte**|application-interface|Feign Client.<br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.||
-|**Administración**|application-service|Servicios de aplicación central que el Cotizador Web usa. Administración.<br>||
-|**Application Service**|application-service|Otros servicios del contexto de Mi Mutual Central.<br>||
-|**Cliente**|application-service|Servicios de aplicación central que el Cotizador Web usa. Operaciones sobre Clientes.<br>||
-|**Configuración**|application-service|Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br>||
-|**Gestión de Productos**|application-service|Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.<br>||
-|**Gestión de Usuarios**|application-service|Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.<br>||
-|**Multiactiva**|application-service|Servicios de aplicación central que el Cotizador Web usa. Multiactiva.<br>||
-|**SS02.protecciones - mim - actuaria**|application-service|Servicios de aplicación central que el Cotizador Web usa. Protección.||
-|**SS02.protecciones- desmemebracion - accidente**|application-service|Servicios de aplicación central que el Cotizador Web usa. Protección.||
-|**SS02.reporte - cotizacion**|application-service|Servicios de aplicación central que el Cotizador Web usa. Reportes.||
-|**SS02.reporte - estado - cotizacion**|application-service|Servicios de aplicación central que el Cotizador Web usa. Cotización.<br>||
-|**Simuladores**|application-service|Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.<br>||
-|**Analistas**|business-role|Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.||
-|**Asesores**|business-role|Asesores integrales||
-|**Auxiliares servicio**|business-role|Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.||
-|**Módulos Externos**|grouping|||
-|**Unidad de Solidaridad y Seguros**|grouping|La Unidad de Solidaridad y Seguros cuenta con un software integrado para su core de negocio denominado SIPAS (Sistema de Previsión, Asistencia y Solidaridad)||
-|**Servicio de Almacenamiento de Datos**|technology-service|||
-|**Servicio de Red**|technology-service|||
-|**Servicio de archivos**|technology-service|||
-
-<br>
-
-## Cotizador. 4a. Aplicación. Servicios
-![Vista. Cotizador. 4a. Aplicación. Servicios](images/Cotizador.4a.Aplicación.Servicios.png){#fig:Cotizador.4a.Aplicación.Servicios width=}
-
-Composición interna de los servivios de Mi Mutual Central, Mi Mutual Web, Cotizador Web. La vista muestra el patron de diseño con el que están implementados los servicios de la aplicación.
-
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**Controlador**|application-component|Controlador interno del servicio. Punto de entrada a la lógica de expuesta.||
-|**Interfaz**|application-component|Interfaz de inversión de dependencia a las clases del servicio.<br>||
-|**Interfaz datos**|application-component|Acceso a datos del modelo del contexto de Mi Mutual Central.<br>||
-|**Operación**|application-component|||
-|**Servicio**|application-component|Exposición de componentes de negocio.<br>||
-|**Interfaz transporte**|application-interface|Feign Client.<br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.||
-|**Application Service**|application-service|Otros servicios del contexto de Mi Mutual Central.<br>||
-|**Gestión de Productos**|application-service|Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.<br>||
-|**Integración**|application-service|||
-
-<br>
-
-## Cotizador. 4a. Dependencias
-![Vista. Cotizador. 4a. Dependencias](images/Cotizador.4a.Dependencias.png){#fig:Cotizador.4a.Dependencias width=}
-
-### Paquetes y Dependencias Cotizador Web
-Módulos y componentes que hacen parte de la estructura de la aplicación Cotizador Web (basado en Angular 12 [^1]).
-
-[^1]: Angular 2 tiene una arquitectura Modelo Vista Controlador (MVC) con el fin de facilitar el desarrollo gestionado.
-
-### Módulos Cotizador Web
-La estructura por módulos actual apunta a la escalabilidad y mantenimiento del Cotizador en términos de: organizar las partes de la aplicación, organización los bloques, extender la aplicación con libreras externas, proporcionar un entorno de resolución de plantillas y además, distribuir las cargas de los componentes y servicios que usa la aplicación.
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
-|**pkg: admin**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: administración**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: asociados**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: auth**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: cliente**|application-component|controladores web de cliente. Reúne las clases que constituyen el modelo de entrada/salida de la interfaz gráfica de Clientes. Distinto al paquete admin controlador Clientes (pkg: web.clientes).<br>|*modulo:* cotizador<br>|
-|**pkg: clientes**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación. Disitnto al paquete web de Cliente (pkg: admin.cliente).|*modulo:* cotizador<br>|
-|**pkg: componentes**|application-component|controller: contiene las clases que constituyen los llamados a librerías compartidas de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: config**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: cotizaciones**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: cotización**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: directivas**|application-component|controller: contiene las clases que constituyen los llamados a librerías compartidas de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: home**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: interfaces**|application-component|controller: contiene las clases que constituyen los llamados a librerías compartidas de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: modelos**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: multiactiva**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: protecciones**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: proveedores**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: reporte**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: reportes**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: transporte**|application-component|controller: contiene las clases que constituyen los llamados a librerías compartidas de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: util**|application-component|controller: contiene las clases que constituyen los llamados a librerías compartidas de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: utilidades**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**(web) Cotizador**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
-|**(web) admin Páginas**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
-|**Aplicativo**|application-function|Grupo de funcionalidades y entidades (datos) específicas del Cotizador Web.<br>|*modulo:* cotizador<br>|
-|**Interfaz gráfica**|application-function|Módulo interno (carpeta de proyecto) contenedor de las plantiilas de páginas web del Cotizador.<br>|*modulo:* cotizador<br>|
-|**Módulos Compartidos**|application-function|Librerías de software base que el Cotizador Web requiere. Dependencias a paquetes de software de base, distintas a los módulos de negocio, necesarios para la ejecución de tareas utilitarias del Cotizador, tales como comunicación, políticas de seguridad, especificación de objetos globales de interfaz, transporte, transformación, entre otras.<br>|*modulo:* cotizador<br>|
-|**Util**|application-function|En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br>|*modulo:* cotizador<br>|
-|**admin Servicios**|application-function||*modulo:* cotizador<br>|
-
-<br>
-
-## Cotizador. 5. Físico. Despliegue
-![Vista. Cotizador. 5. Físico. Despliegue](images/Cotizador.5.Físico.Despliegue.png){#fig:Cotizador.5.Físico.Despliegue width=}
-
-### Especificaciones de Despliegue Cotizador Web
-Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo servidor y local (2022), librerías de desarrollo (frameworks), lenguajes, instalaciones y sus versiones.
-
-Especificaciones de despliegue Mi Mutual, 2023, Componente Central y Cotizador Web.
-
-* Estándares para el manejo de servicios REST sobre HTTP 1.1
-* Tecnologías para el backend: Java 8 con Spring Boot 2.1.4
-* Acceso a Datos: Spring Data 2.1.4
-* Seguridad de las API: Spring Security + Oauth2.0
-* Plataforma de despliegue Backend: Tomcat Spring Boot
-* Tecnologías para el frontend Mi Mutual Central: Angular 9
-* Tecnologías para el frontend Cotizador Web: Angular 14
-* Entorno de ejecución Javascript: nodejs 14.2.0
-* Librería de Estilos Bootstrap 4.x
-* Servidor web (HTTP 1.1): Apache 2.x
-* Servidor BPM, Flowable, versión 6.5.0 con JRE 8
-* Spring Cloud, versión Greenwich SR2
-* Querydsl, version 4.2.1
-* Bases de datos IBM DB2, AS400
-
-<br>
-
-
-#### Recursos y Herramientas Requeridas
-* Git. Se debe instalar git para poder realizar la clonación de cada uno de los proyectos mas adelante.
-* SmartGit. Se debe instalar Smartgit para poder realizar la clonación de cada uno de los proyectos mas adelante, este es opcional ya que es una interfaz gráfica de git mas amigable para el usuario en caso que no desee trabajar con la consola.
-* DBeaver. Se debe instalar DBeaver para poder acceder a la base de datos. 
-* Instalación Maven. Se debe instalar maven para poder compilar los proyectos, nos debemos asegurar de instalar la versión 3.6.3, en caso que no se encuentra en la página oficial copiar la carpeta que esta en el repositorio a archivo de programas. 
-* Java 8. Se debe instalar Java para poder desplegar los proyectos mas adelante, nos debemos asegurar de instalar la versión 8. 
-* STS. Se debe instalar el IDE para realizar modificaciones a los proyectos back mas adelante en este caso Spring Tools 4 for Eclipse. La carpeta que genera el instalador la copiamos a archivos de programa. 
-* Instalación Lombok. Se debe instalar el lombok seleccionando el IDE que acabamos de instarlar en este caso el STS.
-* Postman. Se debe instalar el postman para poder consumir los servicios del backend mas adelante cuando ya se hayan desplegado.
-* Node Js. Se debe instalar Node Js para configurar el proyecto front mas adelante, nos debemos asegurar de instalar la versión v14.2.0.
-* Visual Studio Code. Se debe instalar el IDE para realizar modificaciones al proyecto front mas adelante en este caso Visual Studio code. 
-* Librería para desarrollo frontend Cotizador Web: Angular 14
-
-<br>
-
-| Nota: los paquetes con el mismo nombre, como pkg: cliente, y pkg: clientes que aparecen arriba en el diagrama corresponden a espacio de nombres distintos. Por ejemplo, para el caso de estos dos paquetes, pkg: cliente pertenece el espacio de nombre (web) Cotizador; en cambio, pkg: clientes pertenece al espacio de nombres (web) admin Páginas.
-
-<br>
+La versión 1.2 de la arquitectura, resultado del trabajo no. 2, Migración Entorno Angular compatible Java 11, toma por su parte 4 semanas en razón de los ítems de arquitectura acotados en su alcance presentado en el segundo recuadro celeste. 
 
 
 ### Catálogo de Elementos
 | Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
 |**app: Asociados**|application-component|Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.|*modulo:* mimutual<br>|
-|**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
-|**app: Implementación de Servicios**|application-component|Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br>|*modulo:* mimutual<br>|
+|**app: Asociados**|application-component|Contiene todas las funcionalidades relacionadas con consulta y creación de asociados y beneficiarios.|*modulo:* mimutual<br>|
+|**app: Protecciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.|*modulo:* mimutual<br>|
 |**app: Protecciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.|*modulo:* mimutual<br>|
 |**app: Reclamaciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos.|*modulo:* mimutual<br>|
-|**pkg: admin**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: administración**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: asociados**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: auth**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: cliente**|application-component|controladores web de cliente. Reúne las clases que constituyen el modelo de entrada/salida de la interfaz gráfica de Clientes. Distinto al paquete admin controlador Clientes (pkg: web.clientes).<br>|*modulo:* cotizador<br>|
-|**pkg: clientes**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación. Disitnto al paquete web de Cliente (pkg: admin.cliente).|*modulo:* cotizador<br>|
-|**pkg: config**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: cotizaciones**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: cotización**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: home**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: modelos**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: multiactiva**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: protecciones**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: proveedores**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: reporte**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: reportes**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: utilidades**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**Conexión: jdbc**|artifact||*modulo:* cotizador<br>|
+|**app: Reclamaciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos.|*modulo:* mimutual<br>|
 |**Spring Boot 2.1.4**|artifact|Librerías backend Spring Boot 2.1.4 para Java 8.<br>|*brecha:* 30<br>|
+|**Spring Boot compatible Java 11**|artifact|Librerías backend Spring Boot 2.1.4 para Java 8.<br>|*brecha:* 30<br>|
 |**Spring Data 2.1.4**|artifact|Librerías backend Spring Boot 2.1.4 para Java 8.<br>|*brecha:* 30<br>|
-|**Entorno Angular: ng 14.0.0**|system-software||*modulo:* cotizador<br>|
+|**Spring Data compatible Java 11**|artifact|Librerías backend Spring Boot 2.1.4 para Java 8.<br>|*brecha:* 30<br>|
+|**TypeScript 3.x**|artifact|Librerías backend Spring Boot 2.1.4 para Java 8.<br>|*brecha:* 30<br>*modulo:* mimutual<br>|
+|**TypeScript > 3**|artifact|Librerías backend Spring Boot 2.1.4 para Java 8.<br>|*brecha:* 30<br>*modulo:* mimutual<br>|
+|**Versión actual arquitectura Mi Mutual, 1.0**|grouping|||
+|**Versión arquitectura Mi Mutual, 1.1**|grouping|||
+|**Versión arquitectura Mi Mutual, 1.2**|grouping|||
+|**Versión actual arquitectura Mi Mutual, 1.0**|plateau|||
+|**Versión arquitectura Mi Mutual, 1.1**|plateau|||
+|**Versión arquitectura Mi Mutual, 1.2**|plateau|||
+|**Entorno Angular: ng 9.0.x**|system-software||*modulo:* mimutual<br>*brecha:* 30<br>|
+|**Entorno Angular: ng compatible Java 11**|system-software||*modulo:* mimutual<br>*brecha:* 30<br>|
 |**Entorno Java: JRE 1.8**|system-software||*brecha:* 30<br>*:* <br>|
-|**Repositorio: db2 iSerie**|system-software||*modulo:* cotizador<br>|
-|**cotizador Entorno JS: node 14.2.0**|system-software||*modulo:* cotizador<br>|
-|**mimutual Servicios: tomcat**|system-software||*modulo:* mimutual<br>|
-
-<br>
-
-## Cotizador. 7a. Modelo Negocio
-![Vista. Cotizador. 7a. Modelo Negocio](images/Cotizador.7a.ModeloNegocio.png){#fig:Cotizador.7a.ModeloNegocio width=}
-
-Modelo de negocio (lógico) de Mi Mutual, Mi Mutual Web, extensible a sus demás módulos, como el Cotizador Web y otros. El modelo de negocio Mi Mutual contiene los conceptos de negocio que se encuentran implementados en el sofware, reglas y funciones de negocio, y el modelo(s) de datos del sistema.
-
-
-### Conceptos Principales
-
-1. Venta
-1. Cotización
-1. Configuración
-1. Vinculación
-1. Factura
-1. Cobertura
-1. Configuración
-1. Plan de producto
-
-
-### Orden Operativo
-
-1. Configuración
-1. Vinculación
-1. Venta o Cotización
-1. Factura
-
-<br>
-
-### Relación Negocio Datos
-La relación entre los conceptos de negocio y el modelo de datos se encuentra en la vista Cotizador. 7. Datos. Negocio.
-
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**Auditoría Médica**|business-object|Cuando se glosa una solicitus es porque el auditor medico necesita mas informacion y la reasigna.<br>||
-|**DAT00. Cobertura**|business-object|||
-|**DAT00. Glosa**|business-object|Cuando se glosa una solicitus es porque el auditor medico necesita mas informacion y la reasigna.<br>||
-|**DAT00.Asociado**|business-object|||
-|**DAT00.Auxilio Funerario**|business-object|||
-|**DAT00.Beneficiario**|business-object|||
-|**DAT00.Canal (medios del tomador/asociado)**|business-object|||
-|**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
-|**DAT00.Cotización**|business-object|||
-|**DAT00.Facturación**|business-object|Factura la genera COOMEVA.<br>||
-|**DAT00.Plan - Cobertura**|business-object|||
-|**DAT00.Plan configuración**|business-object|Plan de configuración: producto pólizas seguros.<br>||
-|**DAT00.Plan de Pagos**|business-object|||
-|**DAT00.Planes**|business-object|||
-|**DAT00.Producto**|business-object|||
-|**DAT00.Solicitud**|business-object|Caracterización de productos, planes, parámetros<br>||
-|**DAT00.Venta**|business-object|||
-|**DAT00.Vinculación**|business-object|||
-|**Fondo Solidaridad**|business-object|||
-
-<br>
-
-## Cotizador. 7. Datos. Negocio
-![Vista. Cotizador. 7. Datos. Negocio](images/Cotizador.7.Datos.Negocio.png){#fig:Cotizador.7.Datos.Negocio width=}
-
-La relación del modelo de negocio Mi Mutual con el modelo de datos del Cotizador Web orienta la navegación en el modelo de datos en aquellas historias de usuario que impliquen a alguna de estas entidades.
-
-Este modelo de relación negocio-datos es evolutivo: irá cambiando en la medida de que el negocio o el modelo de datos cambien.
-
-### Entidades de Negocio Mi Mutual
-Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.
-
-* Configuración (caracterización de productos, plan)
-* Plan (producto pólizas seguros)
-* Canal (medios del tomador/asociado)
-* Parametros globales (catálogos)
-* Portafolio de asociado
-* Asociado
-* Facturación
-* Beneficiario
+|**Entorno Java: JRE 11**|system-software||*brecha:* 30<br>*:* <br>|
+|**mimutual Entorno JS: node 10.x**|system-software||*modulo:* mimutual<br>*brecha:* 30<br>|
+|**mimutual Entorno JS: node compatible Java 11**|system-software||*modulo:* mimutual<br>*brecha:* 30<br>|
+|**Migración Entorno Angular compatible Java 11**|work-package|### Actividades de la Migración a Angular 14<br>Nota Importante. La presente estimación es un concepto de alto nivel. La ejecución de los trabajos indicados por esta migración debe hacerse una fase de siete (7) días en las que concretará al detalle los cambios de la migración. <br>|                                                                                      | Estimación T. (hrs)  |<br>|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|<br>| Preparativos para la recompilación progresiva Angular 10...Angular 14                                                                                                                                   | 20                   |<br>| Diseño de pruebas de regresión                                                                                                                                                                          | 200                  |<br>| Creación de cadenas de integración, pruebas y despliegue                                                                                                                                                | 60                   |<br>| Plan de recompilación de la línea principal (main) de código fuente en Angular 14.x: módulos, paquetes, y clases base (dependencias)                                                                    | 200                  |<br>| Plan de recompilación de la línea principal (main) de código fuente en Angular 14.x: módulos, paquetes, y clases comunes (dependencias)                                                                 | 200                  |<br>| Plan de recompilación de la línea principal (main) de código fuente en Angular 14.x: módulos, paquetes, y clases de dominio (dependientes)                                                              | 480                  |<br>| Plan de actualización de librerías de desarrollo (Node 12, TypeScript 4.2), librerías de terceros, herramientas de desarrollo (IDE) y manejadores de proyecto Java (maven) y resolución de dependencias | 200                  |<br>| Plan de sustitución de librerías de desarrollo (opt-in, webpacks), librerías de terceros, herramientas de desarrollo (IDE) y manejadores de proyecto Java (maven) y resolución de dependencias          | 100                  |<br>| Elaboración de escenarios de certificación tecnológica/funcional                                                                                                                                        | 20                   |<br>### Plazo de Ejecución Estimado<br>La distribución del esfuerzo estimado arriba puede ejecutarse en un plazo de diez (10) meses con un equipo de tres recursos/desarrolladores, o de seis (6) meses con un equipo de seis recursos/desarrolladores. <br>La siguiente tabla resumen los plazos de ejecución según el tamaño de los equipos.<br>|                           | Equipo 1 (x3) | Equipo 2 (x4) | Equipo 3 (x6) |<br>|---------------------------|---------------|---------------|---------------|<br>| Estimación Total en meses | 10            | 9             | 6             |<br><br><br>**Nota Importante**. La presente estimación es un concepto de alto nivel. La ejecución de los trabajos indicados por esta migración debe hacerse una fase de siete (7) días en las que concretará al detalle los cambios de la migración.<br>||
+|**Migración Entorno Java: JDK/JRE 8 a 11**|work-package|### Actividades de la Migración a JDK/JRE 11<br>Nota Importante. La presente estimación es un concepto de alto nivel. La ejecución de los trabajos indicados por esta migración debe hacerse una fase de siete (7) días en las que concretará al detalle los cambios de la migración. <br>|                                                                                                                                                               | Estimación T. (hrs) |<br>|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--|<br>| Preparativos para la recompilación OpenJDK 11.x: modularidad Java 11                                                                                                                       | 20   |<br>| Diseño de pruebas de regresión                                                                                                                                                             | 200  |<br>| Creación de cadenas de integración, pruebas y despliegue                                                                                                                                   | 60   |<br>| Plan de recompilación de la línea principal (main) de código fuente en OpenJDK 11.x: módulos, paquetes, y   clases base (dependencias)                                                     | 200  |<br>| Plan de recompilación de la línea principal (main) de código fuente en OpenJDK 11.x: módulos, paquetes, y   clases comunes (dependencias)                                                  | 200  |<br>| Plan de recompilación de la línea principal (main) de código fuente en OpenJDK 11.x: módulos, paquetes, y   clases de dominio (dependientes)                                               | 200  |<br>| Plan de actualización de librerías de desarrollo (Spring), librerías de terceros, herramientas de   desarrollo (IDE) y manejadores de proyecto Java (maven) y resolución de   dependencias | 200  |<br>| Plan de sustitución de librerías de desarrollo (JavaFX), librerías de terceros, herramientas de   desarrollo (IDE) y manejadores de proyecto Java (maven) y resolución de   dependencias   | 100  |<br>| Elaboración de escenarios de certificación tecnológica/funcional                                                                                                                           | 20   |<br>| Ejecución de planes de compilación / pruebas certificación                                                                                                                                 | 1440 |<br>| Evaluación de resultados / retroalimentación del plan/ nuevo plan de compilación                                                                                                           | 20   |<br>| Finalización de certificación migración tecnológica                                                                                                                                        | 20   |<br>| Integración líneas de código: Mi Mutual certificación y Mi Mutual desarrollo                                                                                                               | 720  |<br>### Plazo de Ejecución Estimado<br>La distribución del esfuerzo estimado arriba puede ejecutarse en un plazo de ocho (8) meses con un equipo de tres recursos/desarrolladores, o de cuatro (4) meses con un equipo de seis recursos/desarrolladores.<br>La siguiente tabla resumen los plazos de ejecución según el tamaño de los equipos.<br>|                           | Equipo 1 (x3) | Equipo 2 (x4) | Equipo 3 (x6) |<br>|---------------------------|---------------|---------------|---------------|<br>| Estimación Total en meses | 8             | 7             | 4             |<br><br><br>**Nota Importante**. La presente estimación es un concepto de alto nivel. La ejecución de los trabajos indicados por esta migración debe hacerse una fase de siete (7) días en las que concretará al detalle los cambios de la migración.<br>||
 
 <br>
 
 
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**DAT00. Cobertura**|business-object|||
-|**DAT00.Asegurado**|business-object|||
-|**DAT00.Asociado**|business-object|||
-|**DAT00.Beneficiario**|business-object|||
-|**DAT00.Canal (medios del tomador/asociado)**|business-object|||
-|**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
-|**DAT00.Cotización**|business-object|||
-|**DAT00.Facturación**|business-object|Factura la genera COOMEVA.<br>||
-|**DAT00.Plan - Cobertura**|business-object|||
-|**DAT00.Plan configuración**|business-object|Plan de configuración: producto pólizas seguros.<br>||
-|**DAT00.Plan de Pagos**|business-object|||
-|**DAT00.Planes**|business-object|||
-|**DAT00.Producto**|business-object|||
-|**DAT00.Venta**|business-object|||
-|**DAT00.Vinculación**|business-object|||
-|**DAT01.CANAL_CONFIG_MOV**|data-object|||
-|**DAT01.CANAL_EVENTO**|data-object|||
-|**DAT01.CANAL_VENTA_EXCLUSION**|data-object|||
-|**DAT01.CANAL_VENTA_EXCLUSION_COBERTURA**|data-object|||
-|**DAT01.CICLO_FACTURACION**|data-object|||
-|**DAT01.COBERTURA**|data-object|||
-|**DAT01.COTIZACION_APORTE_ESTATUTARIO_ASEGURADO**|data-object|||
-|**DAT01.COTIZACION_ASEGURADO_TEMP**|data-object|||
-|**DAT01.COTIZACION_ASEGURADO_TEMP**|data-object|||
-|**DAT01.COTIZACION_DETALLE_TEMP**|data-object|||
-|**DAT01.COTIZACION_DETALLE_TEMP**|data-object|||
-|**DAT01.COTIZACION_PLAN_TEMP**|data-object|||
-|**DAT01.COTIZACION_PLAN_TEMP**|data-object|||
-|**DAT01.COTIZACION_TEMP**|data-object|||
-|**DAT01.COTIZACION_TEMP**|data-object|||
-|**DAT01.ESTADO_COTIZACION**|data-object|||
-|**DAT01.ESTADO_VENTA**|data-object|||
-|**DAT01.FRECUENCIA_FACTURACION**|data-object|||
-|**DAT01.FRECUENCIA_FACTURACION**|data-object|||
-|**DAT01.MEDIO_FACTURACION**|data-object|||
-|**DAT01.MEDIO_FACTURACION**|data-object|||
-|**DAT01.MIM_COTIZACION_APORTE_ESTATUTARIO_ASEGURADO**|data-object|||
-|**DAT01.MOVIMIENTO_PLAN_CANAL**|data-object|||
-|**DAT01.PERSONA**|data-object|||
-|**DAT01.PERSONA**|data-object|||
-|**DAT01.PERSONA**|data-object|||
-|**DAT01.PERSONA**|data-object|||
-|**DAT01.PLAN**|data-object|||
-|**DAT01.PLAN_CANAL_VENTA**|data-object|||
-|**DAT01.PLAN_CANAL_VENTA**|data-object|||
-|**DAT01.PLAN_COBERTURA**|data-object|||
-|**DAT01.PLAN_COBERTURA_DEPENDIENTE**|data-object|||
-|**DAT01.PLAN_COBERTURA_EDAD**|data-object|||
-|**DAT01.PLAN_COBERTURA_TIPO_COBERTURA**|data-object|||
-|**DAT01.PLAN_FRECUENCIA_FACTURACION**|data-object|||
-|**DAT01.PLAN_FRECUENCIA_FACTURACION**|data-object|||
-|**DAT01.PLAN_MEDIO_FACTURACION**|data-object|||
-|**DAT01.PLAN_MEDIO_FACTURACION**|data-object|||
-|**DAT01.PLAN_NIVEL_RIESGO**|data-object|||
-|**DAT01.PLAN_OBLIGATORIO**|data-object|||
-|**DAT01.PLAN_PARENTESCO**|data-object|||
-|**DAT01.PLAN_PERSEVERANTE**|data-object|||
-|**DAT01.PRE_VENTA**|data-object|||
-|**DAT01.PRODUCTO_COBERTURA**|data-object|||
-|**DAT01.PROMOTOR_CANAL**|data-object|||
-|**DAT01.PROSPECTO_ASOCIADO_COTIZACION**|data-object|||
-|**DAT01.RESPONSABLE_PERSONA**|data-object|||
-|**DAT01.RESPONSABLE_PERSONA**|data-object|||
-|**DAT01.SIP_PRODUCTOS**|data-object|||
-|**DAT01.SIP_PRODUCTOS_TIPO**|data-object|||
-|**DAT01.TIPO_COTIZACION**|data-object|||
-|**DAT01.TIPO_VENTA**|data-object|||
-|**DAT01.VENTA**|data-object|||
-|**DAT01.VENTAS_PREGUNTAS**|data-object|||
-|**DAT01.VENTA_ASEGURADO**|data-object|||
-|**DAT01.VENTA_DETALLE**|data-object|||
-|**DAT01.VENTA_PLAN**|data-object|||
-|**DAT10.COBERTURA_BENEFICIARIO**|data-object|||
-
-<br>
-
-
-``Generated on: Wed Nov 22 2023 12:05:47 GMT-0500 (COT)``
+``Generated on: Wed Nov 22 2023 21:34:48 GMT-0500 (COT)``
 
 # Requerimientos de Administración
 1. Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
@@ -1315,129 +442,6 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 1. Debe cumplir con todos los lineamientos de desarrollo seguro establecidos en The OWASP Foundation recomendados en la “Guía de desarrollo OWASP” y “OWAS Cheat Sheet”. 
 
 <br>
-
-
-# MiMutual. 5.a1. Físico. Tecnologías
-
-![MiMutual. 5.a1. Físico. Tecnologías][embedView]
-
-Análisis de estado de tecnologías Mi Mutual, 2023. Listado de las tecnologías actuales de Mi Mutual. Coomeva, 2023. Especificaciones de tecnologías e ítems de arquitectura asociados al estado actual de la tecnología.
-
-## Especificaciones de Despliegue Mi Mutual, 2023, Componente Central
-
-* Estándares para el manejo de servicios REST sobre HTTP 1.1
-* Tecnologías para el backend: Java 8 con Spring Boot 2.1.4
-* Acceso a Datos: Spring Data 2.1.4
-* Seguridad de las API: Spring Security + Oauth2.0
-* Plataforma de despliegue Backend: Tomcat Spring Boot
-* Tecnologías para el frontend Mi Mutual Central: Angular 9
-* Tecnologías para el frontend Cotizador Web: Angular 14
-* Entorno de ejecución Javascript: nodejs 10.x
-* Entorno de ejecución Javascript: nodejs 14.2.0
-* Motor de ejecución Javascript: TypeScript, versión 3.x
-* Librería de Estilos Bootstrap 4.x
-* Servidor web (HTTP 1.1): Apache 2.x
-* Servidor BPM, Flowable, versión 6.5.0 con JRE 8
-* Spring Cloud, versión Greenwich SR2
-* Querydsl, version 4.2.1
-* Bases de datos IBM DB2, AS400
-
-<br>
-
-## Resultados del Análisis
-
-En el diagrama: color azul del diagrama las tecnologías en riesgo de soporte (LTS) fabricante; en color verde, las tecnologías que podrían sustituirse por economía de costos y modernización de entregas.
-
-
-Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.
-
-
-
-# Arquitectura. 4. Tecnologías. Hoja Ruta
-
-![Arquitectura. 4. Tecnologías. Hoja Ruta][embedView]
-
-## Introducción 
-Los ítems de arquitectura impactados por el análisis de estado de tecnologías Mi Mutual, 2023 deben ser migrados (actualizados) mediante trabajos de estabilización de arquitectura con el fin de evitar principalmente los riesgos de soporte y actualización del fabricante. 
-
-En el siguiente tema presentamos una hoja de ruta propuesta y la estimación del plazo de ejecución de la migración del componente central Mi Mutual, Java 8. 
-
-## Hoja de Ruta de Arquitectura Requerida por la Actualización 
-La hoja de ruta resultante plantea dos espacios de trabajo, cada uno con su alcance específico, respecto de la actualización tecnológica de Mi Mutual basado en los términos de análisis de estado de tecnologías Mi Mutual presentado antes. Los espacios de trabajo requeridos, Migración Entorno Java: JDK/JRE 8 a 11 y Migración Entorno Angular compatible Java 11, como se muestran en la imagen impactan y generan a su vez versiones nuevas de la arquitectura Mi Mutual, versión 1.1 y 1.2, respectivamente. 
-
-La versión 1.1 de la arquitectura, resultado del espacio de trabajo no. 1, Migración Entorno Java: JDK/JRE 8 a 11 toma (aprox.) 5 semanas de trabajo, en razón de los ítems de arquitectura acotados en su alcance denotado por el primer recuadro celeste en la imagen. 
-
-La versión 1.2 de la arquitectura, resultado del trabajo no. 2, Migración Entorno Angular compatible Java 11, toma por su parte 4 semanas en razón de los ítems de arquitectura acotados en su alcance presentado en el segundo recuadro celeste. 
-
-
-## Migración Entorno Java: JDK/JRE 8 a 11 (Work Package)
-
-### Actividades de la Migración a JDK/JRE 11
-Nota Importante. La presente estimación es un concepto de alto nivel. La ejecución de los trabajos indicados por esta migración debe hacerse una fase de siete (7) días en las que concretará al detalle los cambios de la migración. 
-
-|                                                                                                                                                               | Estimación T. (hrs) |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--|
-| Preparativos para la recompilación OpenJDK 11.x: modularidad Java 11                                                                                                                       | 20   |
-| Diseño de pruebas de regresión                                                                                                                                                             | 200  |
-| Creación de cadenas de integración, pruebas y despliegue                                                                                                                                   | 60   |
-| Plan de recompilación de la línea principal (main) de código fuente en OpenJDK 11.x: módulos, paquetes, y   clases base (dependencias)                                                     | 200  |
-| Plan de recompilación de la línea principal (main) de código fuente en OpenJDK 11.x: módulos, paquetes, y   clases comunes (dependencias)                                                  | 200  |
-| Plan de recompilación de la línea principal (main) de código fuente en OpenJDK 11.x: módulos, paquetes, y   clases de dominio (dependientes)                                               | 200  |
-| Plan de actualización de librerías de desarrollo (Spring), librerías de terceros, herramientas de   desarrollo (IDE) y manejadores de proyecto Java (maven) y resolución de   dependencias | 200  |
-| Plan de sustitución de librerías de desarrollo (JavaFX), librerías de terceros, herramientas de   desarrollo (IDE) y manejadores de proyecto Java (maven) y resolución de   dependencias   | 100  |
-| Elaboración de escenarios de certificación tecnológica/funcional                                                                                                                           | 20   |
-| Ejecución de planes de compilación / pruebas certificación                                                                                                                                 | 1440 |
-| Evaluación de resultados / retroalimentación del plan/ nuevo plan de compilación                                                                                                           | 20   |
-| Finalización de certificación migración tecnológica                                                                                                                                        | 20   |
-| Integración líneas de código: Mi Mutual certificación y Mi Mutual desarrollo                                                                                                               | 720  |
-
-
-### Plazo de Ejecución Estimado
-La distribución del esfuerzo estimado arriba puede ejecutarse en un plazo de ocho (8) meses con un equipo de tres recursos/desarrolladores, o de cuatro (4) meses con un equipo de seis recursos/desarrolladores.
-
-La siguiente tabla resumen los plazos de ejecución según el tamaño de los equipos.
-
-|                           | Equipo 1 (x3) | Equipo 2 (x4) | Equipo 3 (x6) |
-|---------------------------|---------------|---------------|---------------|
-| Estimación Total en meses | 8             | 7             | 4             |
-
-&lt;br&gt;
-
-**Nota Importante**. La presente estimación es un concepto de alto nivel. La ejecución de los trabajos indicados por esta migración debe hacerse una fase de siete (7) días en las que concretará al detalle los cambios de la migración.
-
-
-## Migración Entorno Angular compatible Java 11 (Work Package)
-
-### Actividades de la Migración a Angular 14
-Nota Importante. La presente estimación es un concepto de alto nivel. La ejecución de los trabajos indicados por esta migración debe hacerse una fase de siete (7) días en las que concretará al detalle los cambios de la migración. 
-
-|                                                                                      | Estimación T. (hrs)  |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
-| Preparativos para la recompilación progresiva Angular 10...Angular 14                                                                                                                                   | 20                   |
-| Diseño de pruebas de regresión                                                                                                                                                                          | 200                  |
-| Creación de cadenas de integración, pruebas y despliegue                                                                                                                                                | 60                   |
-| Plan de recompilación de la línea principal (main) de código fuente en Angular 14.x: módulos, paquetes, y clases base (dependencias)                                                                    | 200                  |
-| Plan de recompilación de la línea principal (main) de código fuente en Angular 14.x: módulos, paquetes, y clases comunes (dependencias)                                                                 | 200                  |
-| Plan de recompilación de la línea principal (main) de código fuente en Angular 14.x: módulos, paquetes, y clases de dominio (dependientes)                                                              | 480                  |
-| Plan de actualización de librerías de desarrollo (Node 12, TypeScript 4.2), librerías de terceros, herramientas de desarrollo (IDE) y manejadores de proyecto Java (maven) y resolución de dependencias | 200                  |
-| Plan de sustitución de librerías de desarrollo (opt-in, webpacks), librerías de terceros, herramientas de desarrollo (IDE) y manejadores de proyecto Java (maven) y resolución de dependencias          | 100                  |
-| Elaboración de escenarios de certificación tecnológica/funcional                                                                                                                                        | 20                   |
-
-
-### Plazo de Ejecución Estimado
-La distribución del esfuerzo estimado arriba puede ejecutarse en un plazo de diez (10) meses con un equipo de tres recursos/desarrolladores, o de seis (6) meses con un equipo de seis recursos/desarrolladores. 
-
-La siguiente tabla resumen los plazos de ejecución según el tamaño de los equipos.
-
-|                           | Equipo 1 (x3) | Equipo 2 (x4) | Equipo 3 (x6) |
-|---------------------------|---------------|---------------|---------------|
-| Estimación Total en meses | 10            | 9             | 6             |
-
-&lt;br&gt;
-
-**Nota Importante**. La presente estimación es un concepto de alto nivel. La ejecución de los trabajos indicados por esta migración debe hacerse una fase de siete (7) días en las que concretará al detalle los cambios de la migración.
-
-[embedView]: images/STEF-CMMV-Arquitectura.%204.%20Tecnologías.%20Hoja%20Ruta.png
 
 
 <div style="page-break-before: always;"></div>
