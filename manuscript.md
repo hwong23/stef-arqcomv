@@ -5,7 +5,7 @@ keywords:
 - gobierno
 - Coomeva
 lang: en-US
-date-meta: '2023-11-23'
+date-meta: '2023-11-30'
 author-meta:
 - Equipo arquitectura STEF-COOMV.
 header-includes: |
@@ -15,11 +15,11 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-11-23" />
-  <meta name="citation_publication_date" content="2023-11-23" />
-  <meta property="article:published_time" content="2023-11-23" />
-  <meta name="dc.modified" content="2023-11-23T03:28:55+00:00" />
-  <meta property="article:modified_time" content="2023-11-23T03:28:55+00:00" />
+  <meta name="dc.date" content="2023-11-30" />
+  <meta name="citation_publication_date" content="2023-11-30" />
+  <meta property="article:published_time" content="2023-11-30" />
+  <meta name="dc.modified" content="2023-11-30T15:37:41+00:00" />
+  <meta property="article:modified_time" content="2023-11-30T15:37:41+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-arqcomv/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-arqcomv/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/49e3a5409f7aeb4339e3bf46a9e2dfcedf9e6989/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/49e3a5409f7aeb4339e3bf46a9e2dfcedf9e6989/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/49e3a5409f7aeb4339e3bf46a9e2dfcedf9e6989/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-arqcomv/v/9f2e0ffba18e3fcc853f6767b0587c2e240016f1/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/9f2e0ffba18e3fcc853f6767b0587c2e240016f1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-arqcomv/v/9f2e0ffba18e3fcc853f6767b0587c2e240016f1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.49e3a54 de 23 Nov 2023
+| **Versión** del producto 1.9f2e0ff de 30 Nov 2023
 
 | **Presentado a**
 
@@ -87,7 +87,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 23 Nov 2023
+| 30 Nov 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -95,10 +95,10 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-arqcomv/v/49e3a5409f7aeb4339e3bf46a9e2dfcedf9e6989/))
+([Web](https://hwong23.github.io/stef-arqcomv/v/9f2e0ffba18e3fcc853f6767b0587c2e240016f1/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@49e3a54](http://stefanini.sharepoint.com)
-del November 23, 2023.
+[Sharepoint STEF@9f2e0ff](http://stefanini.sharepoint.com)
+del November 30, 2023.
 </em></small>
 
 
@@ -143,6 +143,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Autor          |                            |
 | Fuente         |                            |
 | **Versión**    |                            |
+| 1.9f2e0ff | 2023-11-30. html |
 | 1.49e3a54 | 2023-11-22. crrcn--entrega3 |
 | 1.cae7d1c | 2023-11-22. migracion |
 | 1.9d25185 | 2023-11-22. migración4 |
@@ -152,7 +153,6 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | 1.efedd6a | 2023-11-22. modelo negocio |
 | 1.ff9e742 | 2023-11-22. abstrc |
 | 1.07c4190 | 2023-11-21. abstrc |
-| 1.e0bde5c | 2023-11-07. purg |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -284,9 +284,8 @@ Table: Requisito no. 3, Desarrollo Mi Mutual, Flexibilidad. {#tbl:requisito3-id}
 	* [MiMutual. 4a3. Dependencias](#mimutual.-4a3.-dependencias)
 	* [MiMutual. 5. Físico. Despliegue](#mimutual.-5.-físico.-despliegue)
 	* [MiMutual. 6. Infraestructura](#mimutual.-6.-infraestructura)
-	* [MiMutual. 7. Datos. Negocio](#mimutual.-7.-datos.-negocio)
 	* [MiMutual. 7a. Datos. Aplicación](#mimutual.-7a.-datos.-aplicación)
-	* [MiMutual. 7b. Datos. Relaciones](#mimutual.-7b.-datos.-relaciones)
+	* [MiMutual. 7b. Datos. Negocio](#mimutual.-7b.-datos.-negocio)
 * [Cotizador Web](#cotizador-web)
 	* [Cotizador. 1. Contexto](#cotizador.-1.-contexto)
 	* [Cotizador. 2. Contenedores](#cotizador.-2.-contenedores)
@@ -633,41 +632,6 @@ Especificaciones de despliegue Mi Mutual, 2023, componente central.
 
 <br>
 
-## MiMutual. 7. Datos. Negocio
-![Vista. MiMutual. 7. Datos. Negocio](images/MiMutual.7.Datos.Negocio.png){#fig:MiMutual.7.Datos.Negocio width=}
-
-### Entidades de Negocio Mi Mutual
-Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.
-
-* Configuración (caracterización de productos, plan)
-* Plan (producto pólizas seguros)
-* Canal (medios del tomador/asociado)
-* Parametros globales (catálogos)
-* Portafolio de asociado
-* Asociado
-* Facturación
-* Beneficiario
-
-
-### Catálogo de Elementos
-| Nombre| Tipo| Descripción| Prop.
-|:--------|:--------|:--------|:--------|
-|**DAT00. Reclamación**|business-object|Reclamacion es cuando el asociado desea que le paguen una cobertura, Ejemplo cumplio perseverancia ya tiene 60 años y cobra.<br>||
-|**DAT00.Asociado**|business-object|||
-|**DAT00.Beneficiario**|business-object|||
-|**DAT00.Canal (medios del tomador/asociado)**|business-object|||
-|**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
-|**DAT00.Cotización**|business-object|||
-|**DAT00.Facturación**|business-object|Factura la genera COOMEVA.<br>||
-|**DAT00.Operaciones**|business-object|||
-|**DAT00.Parametros globales (catálogos)**|business-object|||
-|**DAT00.Plan configuración**|business-object|Plan de configuración: producto pólizas seguros.<br>||
-|**DAT00.Portafolios de asociados**|business-object|||
-|**DAT00.Venta**|business-object|||
-|**DAT00.Vinculación**|business-object|||
-
-<br>
-
 ## MiMutual. 7a. Datos. Aplicación
 ![Vista. MiMutual. 7a. Datos. Aplicación](images/MiMutual.7a.Datos.Aplicación.png){#fig:MiMutual.7a.Datos.Aplicación width=}
 
@@ -775,8 +739,8 @@ Modelo físico facilitadas por Coomeva, corte del 2 de mayo de 2022. Contiene la
 
 <br>
 
-## MiMutual. 7b. Datos. Relaciones
-![Vista. MiMutual. 7b. Datos. Relaciones](images/MiMutual.7b.Datos.Relaciones.png){#fig:MiMutual.7b.Datos.Relaciones width=}
+## MiMutual. 7b. Datos. Negocio
+![Vista. MiMutual. 7b. Datos. Negocio](images/MiMutual.7b.Datos.Negocio.png){#fig:MiMutual.7b.Datos.Negocio width=}
 
 ### Entidades de Negocio Mi Mutual
 
@@ -793,35 +757,111 @@ Modelo físico facilitadas por Coomeva, corte del 2 de mayo de 2022. Contiene la
 ### Catálogo de Elementos
 | Nombre| Tipo| Descripción| Prop.
 |:--------|:--------|:--------|:--------|
+|**DAT00. Reclamación**|business-object|Reclamacion es cuando el asociado desea que le paguen una cobertura, Ejemplo cumplio perseverancia ya tiene 60 años y cobra.<br>||
+|**DAT00.Asegurado**|business-object|||
 |**DAT00.Asociado**|business-object|||
 |**DAT00.Beneficiario**|business-object|||
 |**DAT00.Canal (medios del tomador/asociado)**|business-object|||
 |**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
+|**DAT00.Declaración de Salud**|business-object|Rescate es cuado el asociado se retira y viene a reclamar los valores ahorrados a los que tiene derecho.<br>||
 |**DAT00.Facturación**|business-object|Factura la genera COOMEVA.<br>||
 |**DAT00.Parametros globales (catálogos)**|business-object|||
 |**DAT00.Plan configuración**|business-object|Plan de configuración: producto pólizas seguros.<br>||
 |**DAT00.Portafolios de asociados**|business-object|||
+|**DAT00.Solicitud**|business-object|Caracterización de productos, planes, parámetros<br>||
+|**Fondo Solidaridad**|business-object|||
 |**DAT01.ADICIONAL PLAN COBERTURA**|data-object|||
+|**DAT01.ADICIONAL_PLAN_COBERTURA**|data-object|||
+|**DAT01.APORTE_ESTATUTARIO**|data-object|||
 |**DAT01.ASISTENCIA PLAN COBERTURA**|data-object|||
 |**DAT01.ASISTENCIA PLAN COBERTURA DETALLE**|data-object|||
 |**DAT01.CAMPANA RELACION PLAN COBERTURA**|data-object|||
+|**DAT01.CAMPANA_RELACION**|data-object|||
+|**DAT01.CAMPANA_RELACION_PLAN_COBERTURA**|data-object|||
+|**DAT01.CAMPANA_RELACION_VALOR_FIJO_FONDO_GARANTIA**|data-object|||
 |**DAT01.CANAL**|data-object|||
 |**DAT01.CANAL EVENTO**|data-object|||
 |**DAT01.CANAL VENTA EXCLUSION**|data-object|||
+|**DAT01.CARGUES**|data-object|||
+|**DAT01.CLIENTE**|data-object|||
+|**DAT01.CLIENTE**|data-object|||
+|**DAT01.COBERTURA BENEFICIARIO COBERTURA**|data-object|||
+|**DAT01.COBERTURA BENEFICIARIO PAGO**|data-object|||
+|**DAT01.COBERTURA_BENEFICIARIO**|data-object|||
+|**DAT01.CONTROL_ARE_TECNICA**|data-object|||
+|**DAT01.CONTROL_CUMULO**|data-object|||
+|**DAT01.COTIZACION_TEMP**|data-object|||
+|**DAT01.CUESTIONARIO**|data-object|||
+|**DAT01.CUMULO**|data-object|||
 |**DAT01.CUMULOS PLAN COBERTURA**|data-object|||
+|**DAT01.CUMULOS_COBERTURA**|data-object|||
+|**DAT01.CUMULOS_PLAN_COBERTURA**|data-object|||
 |**DAT01.DEDUCIBLE**|data-object|||
 |**DAT01.DESMEMBRACION ACCIDENTE**|data-object|||
 |**DAT01.DESMEMBRACION ACCIDENTE PLAN COBERTURA**|data-object|||
+|**DAT01.DESMEMBRACION_ACCIDENTE**|data-object|||
 |**DAT01.DOCUMENTO REQUISITO**|data-object|||
+|**DAT01.DOCUMENTO_REQUISITO**|data-object|||
 |**DAT01.ENFERMEDAD GRAVE**|data-object|||
 |**DAT01.ENFERMEDAD GRAVE PLAN COBERTURA**|data-object|||
+|**DAT01.ENFERMEDAD_GRAVE**|data-object|||
 |**DAT01.ESTADO ASOCIADO**|data-object|||
+|**DAT01.ESTADO ASOCIADO**|data-object|||
+|**DAT01.ESTADO_PROTECCION_CUMULO**|data-object|||
+|**DAT01.ESTADO_RECLAMACION**|data-object|||
+|**DAT01.EXCLUSION**|data-object|||
+|**DAT01.EXCLUSION COBERTURA**|data-object|||
+|**DAT01.FAC_CONCEPTO_PLAN**|data-object|||
+|**DAT01.FASE_RECLAMACION**|data-object|||
+|**DAT01.FONDO**|data-object|||
+|**DAT01.FONDO**|data-object|||
+|**DAT01.FONDO**|data-object|||
+|**DAT01.FORMULA_PLAN**|data-object|||
+|**DAT01.FRECUENCIA_FACTURACION**|data-object|||
+|**DAT01.LOG_REGLAS_RECLAMACIONES**|data-object|||
+|**DAT01.MOVIMIENTO_PLAN_CANAL**|data-object|||
+|**DAT01.NIVELES_NOTAS_PLAN_COBERTURA**|data-object|||
+|**DAT01.NOTA_ACLARATORIA**|data-object|||
+|**DAT01.NOTA_ACLARATORIA_PLAN**|data-object|||
+|**DAT01.ORIGEN_REGISTRO_RECLAMACION**|data-object|||
+|**DAT01.OTROS_PARAMETROS**|data-object|||
+|**DAT01.PARAMETROS_VALIDACIONES**|data-object|||
 |**DAT01.PERSONA**|data-object|||
 |**DAT01.PERSONA**|data-object|||
 |**DAT01.PERSONA**|data-object|||
+|**DAT01.PERSONA**|data-object|||
+|**DAT01.PLAN**|data-object|||
+|**DAT01.PLAN CANAL VENTA**|data-object|||
+|**DAT01.PLAN COBERTURA**|data-object|||
+|**DAT01.PLAN NIVEL RIESGO**|data-object|||
+|**DAT01.PLAN_COBERTURA_DEPENDIENTE**|data-object|||
+|**DAT01.PLAN_MEDIO_FACTURACION**|data-object|||
+|**DAT01.PLAN_OBLIGATORIO**|data-object|||
+|**DAT01.PLAN_PARENTESCO**|data-object|||
+|**DAT01.PLAN_PERSEVERANTE**|data-object|||
+|**DAT01.PORCENTAJE_CUOTA**|data-object|||
+|**DAT01.PREGUNTA**|data-object|||
+|**DAT01.PRODUCTO_COBERTURA**|data-object|||
+|**DAT01.PROMOTOR**|data-object|||
+|**DAT01.PROMOTOR_CANAL**|data-object|||
+|**DAT01.PROMOTOR_TIPO_MOVIMIENTO**|data-object|||
+|**DAT01.PROMOTOR_TIPO_SOLICITUD**|data-object|||
+|**DAT01.RAZON_NEGACION_RECLAMACION**|data-object|||
+|**DAT01.RECLAMACION**|data-object|||
+|**DAT01.RECLAMACION**|data-object|||
+|**DAT01.REFLAS_RECLAMACIONES**|data-object|||
+|**DAT01.RESPONSABLE PERSONA**|data-object|||
+|**DAT01.RESPUESTA**|data-object|||
 |**DAT01.SUBLIMITE COBERTURA**|data-object|||
+|**DAT01.SUBPROCESO_RECLAMACION**|data-object|||
+|**DAT01.TASA_VALOR_RESCATE_PERSEVERANCIA**|data-object|||
 |**DAT01.TIPO MOVIMIENTO**|data-object|||
 |**DAT01.TIPO PROCESO CUMULO**|data-object|||
+|**DAT01.TIPO_PROCESO_CUMULO**|data-object|||
+|**DAT01.TIPO_RESPUESTA**|data-object|||
+|**DAT01.TIPO_TOPE**|data-object|||
+|**DAT01.VENTA**|data-object|||
+|**DAT01.VENTA_ASEGURADO**|data-object|||
 
 <br>
 
@@ -1213,8 +1253,10 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 |**DAT01.CANAL_EVENTO**|data-object|||
 |**DAT01.CANAL_VENTA_EXCLUSION**|data-object|||
 |**DAT01.CANAL_VENTA_EXCLUSION_COBERTURA**|data-object|||
+|**DAT01.CICLO FACTURACION CONFIG MOV**|data-object|||
 |**DAT01.CICLO_FACTURACION**|data-object|||
 |**DAT01.COBERTURA**|data-object|||
+|**DAT01.COBERTURA_BENEFICIARIO**|data-object|||
 |**DAT01.COTIZACION_APORTE_ESTATUTARIO_ASEGURADO**|data-object|||
 |**DAT01.COTIZACION_ASEGURADO_TEMP**|data-object|||
 |**DAT01.COTIZACION_ASEGURADO_TEMP**|data-object|||
@@ -1237,6 +1279,7 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 |**DAT01.PERSONA**|data-object|||
 |**DAT01.PERSONA**|data-object|||
 |**DAT01.PLAN**|data-object|||
+|**DAT01.PLAN NIVEL RIESGO**|data-object|||
 |**DAT01.PLAN_CANAL_VENTA**|data-object|||
 |**DAT01.PLAN_CANAL_VENTA**|data-object|||
 |**DAT01.PLAN_COBERTURA**|data-object|||
@@ -1247,7 +1290,6 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 |**DAT01.PLAN_FRECUENCIA_FACTURACION**|data-object|||
 |**DAT01.PLAN_MEDIO_FACTURACION**|data-object|||
 |**DAT01.PLAN_MEDIO_FACTURACION**|data-object|||
-|**DAT01.PLAN_NIVEL_RIESGO**|data-object|||
 |**DAT01.PLAN_OBLIGATORIO**|data-object|||
 |**DAT01.PLAN_PARENTESCO**|data-object|||
 |**DAT01.PLAN_PERSEVERANTE**|data-object|||
@@ -1255,8 +1297,8 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 |**DAT01.PRODUCTO_COBERTURA**|data-object|||
 |**DAT01.PROMOTOR_CANAL**|data-object|||
 |**DAT01.PROSPECTO_ASOCIADO_COTIZACION**|data-object|||
-|**DAT01.RESPONSABLE_PERSONA**|data-object|||
-|**DAT01.RESPONSABLE_PERSONA**|data-object|||
+|**DAT01.RESPONSABLE PERSONA**|data-object|||
+|**DAT01.RESPONSABLE PERSONA**|data-object|||
 |**DAT01.SIP_PRODUCTOS**|data-object|||
 |**DAT01.SIP_PRODUCTOS_TIPO**|data-object|||
 |**DAT01.TIPO_COTIZACION**|data-object|||
@@ -1266,12 +1308,11 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 |**DAT01.VENTA_ASEGURADO**|data-object|||
 |**DAT01.VENTA_DETALLE**|data-object|||
 |**DAT01.VENTA_PLAN**|data-object|||
-|**DAT10.COBERTURA_BENEFICIARIO**|data-object|||
 
 <br>
 
 
-``Generated on: Wed Nov 22 2023 22:26:39 GMT-0500 (COT)``
+``Generated on: Thu Nov 30 2023 10:35:05 GMT-0500 (COT)``
 
 # Requerimientos de Administración
 1. Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
